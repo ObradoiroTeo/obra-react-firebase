@@ -17,7 +17,7 @@ const Routes = () => (
       <Cultura path="/cultura" />
       <Deporte path="/deporte" />
       <Avisos path="/avisos" />
-      <InfoTeo path="/infoTeo" />
+      <InfoTeo path="/infoteo" />
       <Admin path="/admin" />
       <Salvapantallas path="/salvapantallas" />
     </App>
