@@ -1,8 +1,13 @@
 import React from "react";
+import SectionTitle from "./SectionTitle";
 
 class Cultura extends React.Component {
   render() {
-    return <h1>Cultura</h1>;
+    return (
+      <div>
+        <SectionTitle />
+      </div>
+    );
   }
 }
 
