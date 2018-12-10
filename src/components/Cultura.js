@@ -1,11 +1,12 @@
 import React from "react";
+
 import SectionTitle from "./SectionTitle";
 
 class Cultura extends React.Component {
   render() {
     return (
       <div>
-        <SectionTitle />
+        <SectionTitle title={this.props.cultureEvents.title} />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React from "react";
+
 import PropTypes from "prop-types";
 
 class SectionTitle extends React.Component {
@@ -7,7 +8,11 @@ class SectionTitle extends React.Component {
   };
 
   render() {
-    return <h1>{""}</h1>;
+    return (
+      <div>
+        <h1>{this.props.title}</h1>
+      </div>
+    );
   }
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
-
 import PropTypes from "prop-types";
+
+import SectionTitle from "./SectionTitle";
 
 class Deporte extends React.Component {
   static propTypes = {
@@ -12,7 +13,7 @@ class Deporte extends React.Component {
   render() {
     return (
       <div>
-        <h2>{this.props.sportEvents.title}</h2>
+        <SectionTitle title={this.props.sportEvents.title} />
       </div>
     );
   }

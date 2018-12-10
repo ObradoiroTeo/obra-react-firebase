@@ -1,8 +1,14 @@
 import React from "react";
 
+import SectionTitle from "./SectionTitle";
+
 class Avisos extends React.Component {
   render() {
-    return <h1>Avisos</h1>;
+    return (
+      <div>
+        <SectionTitle title={this.props.notifications.title} />
+      </div>
+    );
   }
 }
 
