@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import SectionTitle from "./SectionTitle";
 import Buttons from "./Buttons";
-import PropTypes from "prop-types";
 
 class Deporte extends React.Component {
   static propTypes = {
@@ -13,9 +12,6 @@ class Deporte extends React.Component {
     meses: PropTypes.object.isRequired
   };
 
-   
-    
-  };
   render() {
     return (
       <div>

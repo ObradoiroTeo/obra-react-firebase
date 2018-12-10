@@ -9,16 +9,42 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 
-import Deporte from "./Deporte";
-import Cultura from "./Cultura";
-import Avisos from "./Avisos";
-
 class App extends React.Component {
   state = {
     deporte: { title: "Deporte" },
     cultura: { title: "Cultura" },
     avisos: { title: "Listado de Avisos e Notificacions" },
-    meses: { mes1: "Enero", mes2: "Febrero", mes3: "Marzo" }
+    meses: { mes1: "Enero", mes2: "Febrero", mes3: "Marzo" },
+    eventos: {
+      eventoUno: {
+        name: "Evento 1",
+        image: {},
+        fecha: "10/12/18",
+        desc:
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+      },
+      eventoDos: {
+        name: "Evento 2",
+        image: {},
+        fecha: "15/12/18",
+        desc:
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+      },
+      eventoTres: {
+        name: "Evento 3",
+        image: {},
+        fecha: "20/12/18",
+        desc:
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+      },
+      eventoCuatro: {
+        name: "Evento 4",
+        image: {},
+        fecha: "25/12/18",
+        desc:
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+      }
+    }
   };
 
   render() {
