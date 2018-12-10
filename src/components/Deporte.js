@@ -3,14 +3,19 @@ import PropTypes from "prop-types";
 
 import SectionTitle from "./SectionTitle";
 import Buttons from "./Buttons";
+import PropTypes from "prop-types";
 
 class Deporte extends React.Component {
   static propTypes = {
     sportEvents: PropTypes.shape({
       title: PropTypes.string.isRequired
-    }).isRequired
+    }).isRequired,
+    meses: PropTypes.object.isRequired
   };
 
+   
+    
+  };
   render() {
     return (
       <div>
