@@ -7,7 +7,7 @@ class EventsSection extends React.Component {
     return (
       <ul className="eventos">
         {Object.keys(this.props.events).map(eventKey => (
-          <Evento key={eventKey} eventos={this.props.events[eventKey]} />
+          <Evento key={eventKey} events={this.props.events} />
         ))}
       </ul>
     );
