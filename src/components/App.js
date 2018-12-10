@@ -14,7 +14,7 @@ class App extends React.Component {
     deporte: { title: "Deporte" },
     cultura: { title: "Cultura" },
     avisos: { title: "Listado de Avisos e Notificacions" },
-    meses: { mes1: "Enero", mes2: "Febrero", mes3: "Marzo" },
+    meses: { mes1: "Xaneiro", mes2: "Febreiro", mes3: "Marzo" },
     eventos: {
       eventoUno: {
         name: "Evento 1",

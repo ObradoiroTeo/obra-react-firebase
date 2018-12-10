@@ -1,14 +1,15 @@
 import React from "react";
 
+import Evento from "./Evento";
+
 class EventsSection extends React.Component {
   render() {
     return (
-      <div>
-        <p>{this.props.events.eventoUno.name}</p>
-        <img src="" alt="" />
-        <p>{this.props.events.eventoUno.fecha}</p>
-        <p>{this.props.events.eventoUno.desc}</p>
-      </div>
+      <ul className="eventos">
+        {Object.keys(this.props.events).map(eventKey => (
+          <Evento key={eventKey} eventos={this.props.events[eventKey]} />
+        ))}
+      </ul>
     );
   }
 }
