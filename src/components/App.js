@@ -17,7 +17,8 @@ class App extends React.Component {
   state = {
     deporte: { title: "Deporte" },
     cultura: { title: "Cultura" },
-    avisos: { title: "Listado de Avisos e Notificacions" }
+    avisos: { title: "Listado de Avisos e Notificacions" },
+    meses: { mes1: "Enero", mes2: "Febrero", mes3: "Marzo" }
   };
 
   render() {
@@ -27,9 +28,21 @@ class App extends React.Component {
         <h1>App</h1>
         <Router>
           <Home path="/" />
-          <Cultura path="/cultura" cultureEvents={this.state.cultura} />
-          <Deporte path="/deporte" sportEvents={this.state.deporte} />
-          <Avisos path="/avisos" notifications={this.state.avisos} />
+          <Cultura
+            path="/cultura"
+            cultureEvents={this.state.cultura}
+            months={this.state.meses}
+          />
+          <Deporte
+            path="/deporte"
+            sportEvents={this.state.deporte}
+            months={this.state.meses}
+          />
+          <Avisos
+            path="/avisos"
+            notifications={this.state.avisos}
+            months={this.state.meses}
+          />
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
