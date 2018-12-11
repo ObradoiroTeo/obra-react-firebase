@@ -22,6 +22,7 @@
 
 1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
 2. [How to `fetch` a Pull Request](#how-to-fetch-a-pull-request)
+3. [Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)](#sync-local-pull-request-branch-with-latest-changes-from-upstream)
 
 ### D. Additional Info
 
@@ -183,6 +184,28 @@ Example data:
 ❯ git checkout master
 ❯ git fetch upstream refs/pull/3/head:review-pull-request/3
 ❯ git checkout review-pull-request/3
+```
+
+## <a id="sync-local-pull-request-branch-with-latest-changes-from-upstream">3. Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)</a>
+
+You need to be in your `pull-request/<WHATEVER>` branch.
+
+Fetch changes
+
+```
+❯ git fetch upstream
+```
+
+(a) Merge...
+
+```
+❯ git merge --ff-only
+```
+
+(b) ...or, rebase if necessary
+
+```
+❯ git rebase master
 ```
 
 ## D. Additional Info
