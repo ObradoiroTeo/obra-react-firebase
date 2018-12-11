@@ -21,6 +21,7 @@
 ### C. Tips and Tricks
 
 1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
+2. [How to `fetch` a Pull Request](#how-to-fetch-a-pull-request)
 
 ### D. Additional Info
 
@@ -163,6 +164,25 @@ Check out commits in local repository
 f79c894 Add CHANGES.md and CONTRIBUTING.md guidelines (David G Chaves, 7 days ago)
 2aa4aba Change favicon.ico (David G Chaves, 7 days ago)
 41a2e12 Initial commit from Create React App (David G Chaves, 7 days ago)
+```
+
+## <a id="how-to-fetch-a-pull-request">2. How to `fetch` a Pull Request</a>
+
+You need to know the Pull Request Number (`<PR_NUMBER>`) and the name of the local branch where you want to `fetch` the Pull Request (`<LOCAL_BRANCH>`)
+
+```
+❯ git fetch upstream refs/pull/<PR_NUMBER>/head:<LOCAL_BRANCH>
+```
+
+Example data:
+
+- `<PR_NUMBER>`: 3.
+- `<LOCAL_BRANCH>`: review-pull-request/3
+
+```
+❯ git checkout master
+❯ git fetch upstream refs/pull/3/head:review-pull-request/3
+❯ git checkout review-pull-request/3
 ```
 
 ## D. Additional Info
