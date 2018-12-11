@@ -8,8 +8,7 @@ class Avisos extends React.Component {
   static propTypes = {
     notifications: PropTypes.shape({
       title: PropTypes.string.isRequired
-    }).isRequired,
-    months: PropTypes.object.isRequired
+    }).isRequired
   };
   render() {
     return (

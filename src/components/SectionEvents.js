@@ -1,13 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Evento from "./Evento";
 
 class SectionEvents extends React.Component {
-  static propTypes = {
-    eventsDetails: PropTypes.string.isRequired
-  };
-
   render() {
     return (
       <ul className="events">

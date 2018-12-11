@@ -9,15 +9,14 @@ class Deporte extends React.Component {
   static propTypes = {
     sportEvents: PropTypes.shape({
       title: PropTypes.string.isRequired
-    }).isRequired,
-    meses: PropTypes.object.isRequired
+    }).isRequired
   };
 
   render() {
     return (
       <div>
         <SectionTitle title={this.props.sportEvents.title} />
-        <Buttons months={this.props.months} />
+        <Buttons />
         <SectionEvents events={this.props.sportEvents.events} />
       </div>
     );

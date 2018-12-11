@@ -9,14 +9,13 @@ class Cultura extends React.Component {
   static propTypes = {
     cultureEvents: PropTypes.shape({
       title: PropTypes.string.isRequired
-    }).isRequired,
-    months: PropTypes.object.isRequired
+    }).isRequired
   };
   render() {
     return (
       <div>
         <SectionTitle title={this.props.cultureEvents.title} />
-        <Buttons months={this.props.months} />
+        <Buttons />
         <SectionEvents events={this.props.cultureEvents.events} />
       </div>
     );

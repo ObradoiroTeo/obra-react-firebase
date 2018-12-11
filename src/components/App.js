@@ -109,8 +109,7 @@ class App extends React.Component {
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         }
       }
-    },
-    months: { month1: "Xaneiro", month2: "Febreiro", month3: "Marzo" }
+    }
   };
 
   render() {
@@ -119,21 +118,9 @@ class App extends React.Component {
         <h1>App</h1>
         <Router>
           <Home path="/" />
-          <Cultura
-            path="/cultura"
-            cultureEvents={this.state.culture}
-            months={this.state.months}
-          />
-          <Deporte
-            path="/deporte"
-            sportEvents={this.state.sport}
-            months={this.state.months}
-          />
-          <Avisos
-            path="/avisos"
-            notifications={this.state.notifications}
-            months={this.state.months}
-          />
+          <Cultura path="/cultura" cultureEvents={this.state.culture} />
+          <Deporte path="/deporte" sportEvents={this.state.sport} />
+          <Avisos path="/avisos" notifications={this.state.notifications} />
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
