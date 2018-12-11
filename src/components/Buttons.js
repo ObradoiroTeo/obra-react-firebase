@@ -1,11 +1,6 @@
 import React from "react";
-import Proptypes from "prop-types";
 
 class Buttons extends React.Component {
-  static proptypes = {
-    mes: Proptypes.string.isRequired
-  };
-
   months = [
     "Enero",
     "Febrero",
