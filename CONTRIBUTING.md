@@ -22,7 +22,7 @@
 
 1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
 2. [How to `fetch` a Pull Request](#how-to-fetch-a-pull-request)
-3. [Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)](#sync-local-pull-request-branch-with-latest-changes-from-upstream)
+3. [How to update local `pull-request/...` branch with latest changes from `upstream`'s `master` (`ObradoiroTeo`)](#how-to-update-local-pull-request-branch-with-latest-changes-from-upstream)
 
 ### D. Additional Info
 
@@ -36,8 +36,6 @@
 Simply click github's `fork` button.
 
 ## <a id="clone-locally">2. `clone` locally</a>
-
-##
 
 Clone your `fork`ed copy, **NOT** the original.
 
@@ -186,23 +184,28 @@ Example data:
 ❯ git checkout review-pull-request/3
 ```
 
-## <a id="sync-local-pull-request-branch-with-latest-changes-from-upstream">3. Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)</a>
+## <a id="how-to-update-local-pull-request-branch-with-latest-changes-from-upstream">3. How to update local `pull-request/...` branch with latest changes from `upstream`'s `master` (`ObradoiroTeo`)</a>
 
-You need to be in your `pull-request/<WHATEVER>` branch.
+Change to `master` branch
 
-Fetch changes
+```
+❯ git checkout master
+```
+
+Fetch changes and merge into `master`
 
 ```
 ❯ git fetch upstream
-```
-
-(a) Merge...
-
-```
 ❯ git merge --ff-only
 ```
 
-(b) ...or, rebase if necessary
+Change to `pull-request/<WHATEVER>` branch
+
+```
+❯ git checkout pull-request/<WHATEVER>
+```
+
+Rebase against `master`
 
 ```
 ❯ git rebase master
