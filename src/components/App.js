@@ -11,44 +11,109 @@ import Salvapantallas from "./Salvapantallas";
 
 class App extends React.Component {
   state = {
-    deporte: { title: "Deporte" },
-    cultura: { title: "Cultura" },
-    avisos: { title: "Listado de Avisos e Notificacions" },
-    meses: { mes1: "Xaneiro", mes2: "Febreiro", mes3: "Marzo" },
-    eventos: {
-      eventoUno: {
-        name: "Evento 1",
-        image: {},
-        fecha: "10/12/18",
-        desc:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
-      },
-      eventoDos: {
-        name: "Evento 2",
-        image: {},
-        fecha: "15/12/18",
-        desc:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
-      },
-      eventoTres: {
-        name: "Evento 3",
-        image: {},
-        fecha: "20/12/18",
-        desc:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
-      },
-      eventoCuatro: {
-        name: "Evento 4",
-        image: {},
-        fecha: "25/12/18",
-        desc:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+    sport: {
+      title: "Deporte",
+      events: {
+        event1: {
+          name: "sportEvento 1",
+          image: {},
+          date: "10/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event2: {
+          name: "sportEvento  2",
+          image: {},
+          date: "15/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event3: {
+          name: "sportEvento  3",
+          image: {},
+          date: "20/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event4: {
+          name: "sportEvento  4",
+          image: {},
+          date: "25/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        }
       }
-    }
+    },
+    culture: {
+      title: "Cultura",
+      events: {
+        event1: {
+          name: "cultureEvento 1",
+          image: {},
+          date: "10/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event2: {
+          name: "cultureEvento 2",
+          image: {},
+          date: "15/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event3: {
+          name: "cultureEvento 3",
+          image: {},
+          date: "20/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event4: {
+          name: "cultureEvento 4",
+          image: {},
+          date: "25/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        }
+      }
+    },
+    notifications: {
+      title: "Listado de Avisos e Notificacions",
+      events: {
+        event1: {
+          name: "notification 1",
+          image: {},
+          date: "10/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event2: {
+          name: "notification 2",
+          image: {},
+          date: "15/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event3: {
+          name: "notification 3",
+          image: {},
+          date: "20/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        },
+        event4: {
+          name: "notification 4",
+          image: {},
+          date: "25/12/18",
+          desc:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        }
+      }
+    },
+    months: { month1: "Xaneiro", month2: "Febreiro", month3: "Marzo" }
   };
 
   render() {
-    console.log(this.props.children);
     return (
       <>
         <h1>App</h1>
@@ -56,18 +121,18 @@ class App extends React.Component {
           <Home path="/" />
           <Cultura
             path="/cultura"
-            cultureEvents={this.state.cultura}
-            months={this.state.meses}
+            cultureEvents={this.state.culture}
+            months={this.state.months}
           />
           <Deporte
             path="/deporte"
-            sportEvents={this.state.deporte}
-            months={this.state.meses}
+            sportEvents={this.state.sport}
+            months={this.state.months}
           />
           <Avisos
             path="/avisos"
-            notifications={this.state.avisos}
-            months={this.state.meses}
+            notifications={this.state.notifications}
+            months={this.state.months}
           />
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />

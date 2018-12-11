@@ -3,6 +3,7 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import Buttons from "./Buttons";
 import PropTypes from "prop-types";
+import SectionEvents from "./SectionEvents";
 
 class Cultura extends React.Component {
   static propTypes = {
@@ -16,6 +17,7 @@ class Cultura extends React.Component {
       <div>
         <SectionTitle title={this.props.cultureEvents.title} />
         <Buttons months={this.props.months} />
+        <SectionEvents events={this.props.cultureEvents.events} />
       </div>
     );
   }

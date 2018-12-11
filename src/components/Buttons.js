@@ -9,9 +9,9 @@ class Buttons extends React.Component {
   render() {
     return (
       <div>
-        <button>{this.props.months.mes1}</button>
-        <button>{this.props.months.mes2}</button>
-        <button>{this.props.months.mes3}</button>
+        <button>{this.props.months.month1}</button>
+        <button>{this.props.months.month2}</button>
+        <button>{this.props.months.month3}</button>
       </div>
     );
   }

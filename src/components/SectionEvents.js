@@ -3,14 +3,14 @@ import PropTypes from "prop-types";
 
 import Evento from "./Evento";
 
-class EventsSection extends React.Component {
+class SectionEvents extends React.Component {
   static propTypes = {
-    eventosDetails: PropTypes.string.isRequired
+    eventsDetails: PropTypes.string.isRequired
   };
 
   render() {
     return (
-      <ul className="eventos">
+      <ul className="events">
         {Object.keys(this.props.events).map(eventKey => (
           <Evento key={eventKey} eventDetails={this.props.events[eventKey]} />
         ))}
@@ -19,4 +19,4 @@ class EventsSection extends React.Component {
   }
 }
 
-export default EventsSection;
+export default SectionEvents;

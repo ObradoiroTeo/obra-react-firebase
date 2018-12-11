@@ -1,8 +1,8 @@
 import React from "react";
 
 import SectionTitle from "./SectionTitle";
-import Buttons from "./Buttons";
 import PropTypes from "prop-types";
+import SectionEvents from "./SectionEvents";
 
 class Avisos extends React.Component {
   static propTypes = {
@@ -15,7 +15,7 @@ class Avisos extends React.Component {
     return (
       <div>
         <SectionTitle title={this.props.notifications.title} />
-        <Buttons months={this.state.months} />
+        <SectionEvents events={this.props.notifications.events} />
       </div>
     );
   }
