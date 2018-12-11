@@ -18,7 +18,13 @@
 6. [`rebase upstream/master` for a cleaner history and `f`orce `push`](#rebase-upstream-master-for-a-cleaner-history-and-force-push)
 7. [`squash` `commit`s and `f`orce `push`](#squash-commits-and-force-update)
 
-### C. Additional Info
+### C. Tips and Tricks
+
+1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
+2. [How to `fetch` a Pull Request](#how-to-fetch-a-pull-request)
+3. [Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)](#sync-local-pull-request-branch-with-latest-changes-from-upstream)
+
+### D. Additional Info
 
 1. [Notes](#notes)
 2. [Links](#links)
@@ -123,7 +129,86 @@ Apply:
 ❯ git push -f
 ```
 
-## C. Additional Info
+## C. Tips and Tricks
+
+## <a id="sync-local-data-from-upstream">1. Sync local data from `upstream` (`ObradoiroTeo`)</a>
+
+Change to `master` branch
+
+```
+❯ git checkout master
+```
+
+Check out commits in local repository
+
+```
+❯ git log
+4940c1b Creadas todas las rutas necesarias para la obra (SaraMiri, 6 days ago)
+f79c894 Add CHANGES.md and CONTRIBUTING.md guidelines (David G Chaves, 7 days ago)
+2aa4aba Change favicon.ico (David G Chaves, 7 days ago)
+41a2e12 Initial commit from Create React App (David G Chaves, 7 days ago)
+```
+
+Fetch changes and merge them
+
+```
+❯ git fetch upstream
+❯ git merge --ff-only
+```
+
+Check out commits in local repository
+
+```
+❯ git log
+2211d59 Fix problem with Routes (#3) (davidgchaves, 20 hours ago)
+4940c1b Creadas todas las rutas necesarias para la obra (SaraMiri, 6 days ago)
+f79c894 Add CHANGES.md and CONTRIBUTING.md guidelines (David G Chaves, 7 days ago)
+2aa4aba Change favicon.ico (David G Chaves, 7 days ago)
+41a2e12 Initial commit from Create React App (David G Chaves, 7 days ago)
+```
+
+## <a id="how-to-fetch-a-pull-request">2. How to `fetch` a Pull Request</a>
+
+You need to know the Pull Request Number (`<PR_NUMBER>`) and the name of the local branch where you want to `fetch` the Pull Request (`<LOCAL_BRANCH>`)
+
+```
+❯ git fetch upstream refs/pull/<PR_NUMBER>/head:<LOCAL_BRANCH>
+```
+
+Example data:
+
+- `<PR_NUMBER>`: 3.
+- `<LOCAL_BRANCH>`: review-pull-request/3
+
+```
+❯ git checkout master
+❯ git fetch upstream refs/pull/3/head:review-pull-request/3
+❯ git checkout review-pull-request/3
+```
+
+## <a id="sync-local-pull-request-branch-with-latest-changes-from-upstream">3. Sync local `pull-request/...` branch with latest changes from `upstream` (`ObradoiroTeo`)</a>
+
+You need to be in your `pull-request/<WHATEVER>` branch.
+
+Fetch changes
+
+```
+❯ git fetch upstream
+```
+
+(a) Merge...
+
+```
+❯ git merge --ff-only
+```
+
+(b) ...or, rebase if necessary
+
+```
+❯ git rebase master
+```
+
+## D. Additional Info
 
 ## <a id="notes">1. Notes</a>
 
