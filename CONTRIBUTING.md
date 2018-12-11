@@ -18,7 +18,11 @@
 6. [`rebase upstream/master` for a cleaner history and `f`orce `push`](#rebase-upstream-master-for-a-cleaner-history-and-force-push)
 7. [`squash` `commit`s and `f`orce `push`](#squash-commits-and-force-update)
 
-### C. Additional Info
+### C. Tips and Tricks
+
+1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
+
+### D. Additional Info
 
 1. [Notes](#notes)
 2. [Links](#links)
@@ -123,7 +127,45 @@ Apply:
 ❯ git push -f
 ```
 
-## C. Additional Info
+## C. Tips and Tricks
+
+## <a id="sync-local-data-from-upstream">1. Sync local data from `upstream` (`ObradoiroTeo`)</a>
+
+Change to `master` branch
+
+```
+❯ git checkout master
+```
+
+Check out commits in local repository
+
+```
+❯ git log
+4940c1b Creadas todas las rutas necesarias para la obra (SaraMiri, 6 days ago)
+f79c894 Add CHANGES.md and CONTRIBUTING.md guidelines (David G Chaves, 7 days ago)
+2aa4aba Change favicon.ico (David G Chaves, 7 days ago)
+41a2e12 Initial commit from Create React App (David G Chaves, 7 days ago)
+```
+
+Fetch changes and merge them
+
+```
+❯ git fetch upstream
+❯ git merge --ff-only
+```
+
+Check out commits in local repository
+
+```
+❯ git log
+2211d59 Fix problem with Routes (#3) (davidgchaves, 20 hours ago)
+4940c1b Creadas todas las rutas necesarias para la obra (SaraMiri, 6 days ago)
+f79c894 Add CHANGES.md and CONTRIBUTING.md guidelines (David G Chaves, 7 days ago)
+2aa4aba Change favicon.ico (David G Chaves, 7 days ago)
+41a2e12 Initial commit from Create React App (David G Chaves, 7 days ago)
+```
+
+## D. Additional Info
 
 ## <a id="notes">1. Notes</a>
 
