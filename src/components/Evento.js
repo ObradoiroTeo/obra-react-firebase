@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 const Evento = props => (
   <div>
-    <p>{this.props.eventDetails.name}</p>
+    <p>{props.eventDetails.name}</p>
     <img src="" alt="" />
-    <p>{this.props.eventDetails.date}</p>
-    <p>{this.props.eventDetails.desc}</p>
+    <p>{props.eventDetails.date}</p>
+    <p>{props.eventDetails.desc}</p>
   </div>
 );
 
