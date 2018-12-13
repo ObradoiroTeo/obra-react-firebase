@@ -8,6 +8,7 @@ import Avisos from "./Avisos";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
+import NotFound from "./NotFound";
 
 class App extends React.Component {
   state = {
@@ -166,6 +167,7 @@ class App extends React.Component {
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
+          <NotFound default />
         </Router>
       </>
     );
