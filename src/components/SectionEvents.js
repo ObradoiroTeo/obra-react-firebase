@@ -11,7 +11,6 @@ const SectionEvents = props => (
 );
 
 SectionEvents.propTypes = {
-  title: PropTypes.string.isRequired,
   events: PropTypes.object.isRequired
 };
 
