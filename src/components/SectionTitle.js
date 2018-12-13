@@ -1,18 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class SectionTitle extends React.Component {
-  static propTypes = {
-    title: PropTypes.string.isRequired
-  };
+const SectionTitle = props => (
+  <div>
+    <h1>{props.title}</h1>
+  </div>
+);
 
-  render() {
-    return (
-      <div>
-        <h1>{this.props.title}</h1>
-      </div>
-    );
-  }
-}
+SectionTitle.propTypes = {
+  title: PropTypes.string.isRequired
+};
 
 export default SectionTitle;
