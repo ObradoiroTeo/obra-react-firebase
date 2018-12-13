@@ -15,8 +15,7 @@
 3. [`push` changes to the original project](#push-changes-to-the-original-project)
 4. [Create your Pull Request on the Original Project](#create-your-pull-request-on-the-original-project)
 5. [Make some new changes locally](#make-some-new-changes-locally)
-6. [`rebase upstream/master` for a cleaner history and `f`orce `push`](#rebase-upstream-master-for-a-cleaner-history-and-force-push)
-7. [`squash` `commit`s and `f`orce `push`](#squash-commits-and-force-update)
+6. [Delete local and remote branches](#delete-local-and-remote-branches)
 
 ### C. Tips and Tricks
 
@@ -106,25 +105,18 @@ Hard way:
 ❯ git commit -m "WIP: Is it done?"
 ```
 
-## <a id="rebase-upstream-master-for-a-cleaner-history-and-force-push">6. `rebase upstream/master` for a cleaner history and `f`orce `push`</a>
+## <a id="delete-local-and-remote-branches">6. Delete local and remote branches</a>
 
-Apply:
+Once you are done you can delete your local branch...
 
-1. original `upstream/master` commits first,
-2. our `fork`ed `pull-request/<MY_PR_BRANCH>` `commit`s on top.
-
-```console
-❯ git fetch upstream
-❯ git rebase upstream/master
-❯ git push -f
+```
+❯ git branch -d pull-request/<MY_PR_BRANCH>
 ```
 
-## <a id="squash-commits-and-force-update">7. `squash` `commit`s and `f`orce `push`</a>
+...and the remote one
 
-```console
-❯ git rebase -i <SHA_OF_THE_LATEST_COMMIT_FROM_MASTER>
-  (SQUASH THE COMMITS, NOW!)
-❯ git push -f
+```
+❯ git push origin --delete pull-request/<MY_PR_BRANCH>
 ```
 
 ## C. Tips and Tricks
