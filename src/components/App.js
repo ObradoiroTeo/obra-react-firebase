@@ -162,7 +162,7 @@ class App extends React.Component {
           <Home path="/" />
           <Cultura path="/cultura" />
           <Deporte path="/deporte" sportEvents={this.state.sport} />
-          <Avisos path="/avisos" />
+          <Avisos path="/avisos" notifications={this.state.notifications} />
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
