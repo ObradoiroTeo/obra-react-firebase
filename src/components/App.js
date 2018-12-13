@@ -160,7 +160,7 @@ class App extends React.Component {
         <h1>App</h1>
         <Router>
           <Home path="/" />
-          <Cultura path="/cultura" />
+          <Cultura path="/cultura" cultureEvents={this.state.culture} />
           <Deporte path="/deporte" sportEvents={this.state.sport} />
           <Avisos path="/avisos" />
           <InfoTeo path="/infoteo" />
