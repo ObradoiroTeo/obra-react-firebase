@@ -1,4 +1,5 @@
 import React from "react";
+
 import PropTypes from "prop-types";
 
 class Deporte extends React.Component {
@@ -11,7 +12,7 @@ class Deporte extends React.Component {
   render() {
     return (
       <div>
-       <h2>{this.props.sportEvents.title}</h2>
+        <h2>{this.props.sportEvents.title}</h2>
       </div>
     );
   }
