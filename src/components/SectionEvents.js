@@ -3,8 +3,8 @@ import Evento from "./Evento";
 import PropTypes from "prop-types";
 class SectionEvents extends React.Component {
   static propTypes = {
-    events: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired,
+    events: PropTypes.object.isRequired
   };
 
   render() {
