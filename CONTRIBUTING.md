@@ -107,7 +107,14 @@ Hard way:
 
 ## <a id="delete-local-and-remote-branches">6. Delete local and remote branches</a>
 
-Once you are done you can delete your local branch...
+Once you are done, head back to `master` and verify which `branch`es are in your system
+
+```
+❯ git checkout master
+❯ git branch
+```
+
+Delete your local branch...
 
 ```
 ❯ git branch -d pull-request/<MY_PR_BRANCH>
@@ -117,6 +124,12 @@ Once you are done you can delete your local branch...
 
 ```
 ❯ git push origin --delete pull-request/<MY_PR_BRANCH>
+```
+
+Check again which `branch`es are in your system
+
+```
+❯ git branch
 ```
 
 ## C. Tips and Tricks
