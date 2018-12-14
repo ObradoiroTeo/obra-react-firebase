@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +15,59 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
+  background-size: auto auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin: -8px -10px 20px -10px;
+  padding-top: 5px;
+}
+
+.logo {
+  flex: 25%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.menu {
+  flex: 50%;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #448aff;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.vacio {
+  flex: 25%;
+}
+
+.anchor:hover {
+  color: white;
+  background-color: #669eff;
+  border: solid medium white;
+}
+
+.anchor:active {
+  color: white;
+  background-color: #1a6eff;
 }

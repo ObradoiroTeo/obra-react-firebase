@@ -1,5 +1,6 @@
 import React from "react";
 import { Router } from "@reach/router";
+import "../index.css";
 
 import Home from "./Home";
 import Cultura from "./Cultura";
@@ -157,7 +158,6 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <h1>App</h1>
         <Router>
           <Home path="/" />
           <Cultura path="/cultura" />
