@@ -52,9 +52,11 @@ code {
   font-weight: 500;
   font-size: 20px;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: white;
   margin: 10px 10px 10px 10px;
+  border-bottom: solid 5px #b3b3b3;
+  border-right: solid 5px #cccccc;
 }
 
 .vacio {
@@ -62,12 +64,16 @@ code {
 }
 
 .anchor:hover {
-  color: white;
-  background-color: #669eff;
-  border: solid medium white;
+  color: #448aff;
+  background-color: #f2f2f2;
 }
 
 .anchor:active {
-  color: white;
-  background-color: #1a6eff;
+  color: #1a6eff;
+  background-color: #d9d9d9;
+  content: none;
+  -ms-transform: translate(3px, 3px);
+  -webkit-transform: translate(3px, 3px);
+  border-right: none;
+  border-bottom: none;
 }
