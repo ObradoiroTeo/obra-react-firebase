@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 import PropTypes from "prop-types";
 
@@ -12,6 +13,7 @@ class Deporte extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <h2>{this.props.sportEvents.title}</h2>
       </div>
     );

@@ -1,8 +1,14 @@
 import React from "react";
+import Header from "./Header";
 
 class InfoTeo extends React.Component {
   render() {
-    return <h1>InfoTeo</h1>;
+    return (
+      <div>
+        <Header />
+        <h1>Informa Teo</h1>
+      </div>
+    );
   }
 }
 

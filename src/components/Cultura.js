@@ -1,8 +1,14 @@
 import React from "react";
+import Header from "./Header";
 
 class Cultura extends React.Component {
   render() {
-    return <h1>Cultura</h1>;
+    return (
+      <div>
+        <Header />
+        <h1>Cultura</h1>
+      </div>
+    );
   }
 }
 
