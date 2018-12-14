@@ -5,9 +5,10 @@ import PropTypes from "prop-types";
 const SectionEvents = props => (
   <ul className="events">
     {Object.keys(props.events)
-    .map(eventKey => (
-      <Evento key={eventKey} eventDetails={props.events[eventKey]} />
-    ))}
+      .filter(eventKey => props.events[eventKey].visible)
+      .map(eventKey => (
+        <Evento key={eventKey} eventDetails={props.events[eventKey]} />
+      ))}
   </ul>
 );
 
