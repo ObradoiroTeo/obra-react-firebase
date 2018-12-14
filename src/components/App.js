@@ -18,42 +18,48 @@ class App extends React.Component {
         event1: {
           name: "sportEvento 1",
           image: {},
-          date: "15/11/18",
+          date: "18/11/15",
+          visible: false,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "sportEvento 2",
           image: {},
-          date: "22/12/18",
+          date: "18/11/22",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event3: {
           name: "sportEvento 3",
           image: {},
-          date: "29/12/18",
+          date: "18/11/29",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event4: {
           name: "sportEvento 4",
           image: {},
-          date: "30/01/19",
+          date: "19/01/30",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event5: {
           name: "sportEvento 5",
           image: {},
-          date: "31/01/19",
+          date: "19/01/31",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event6: {
           name: "sportEvento 6",
           image: {},
-          date: "26/02/19",
+          date: "19/02/26",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         }
@@ -65,42 +71,48 @@ class App extends React.Component {
         event1: {
           name: "cultureEvento 1",
           image: {},
-          date: "15/11/18",
+          date: "18/11/15",
+          visible: false,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "cultureEvento 2",
           image: {},
-          date: "22/12/18",
+          date: "18/11/22",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event3: {
           name: "cultureEvento 3",
           image: {},
-          date: "29/12/18",
+          date: "18/11/29",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event4: {
           name: "cultureEvento 4",
           image: {},
-          date: "30/01/19",
+          date: "19/01/30",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event5: {
           name: "cultureEvento 5",
           image: {},
-          date: "31/01/19",
+          date: "19/01/31",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event6: {
           name: "cultureEvento 6",
           image: {},
-          date: "26/02/19",
+          date: "19/02/26",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         }
@@ -112,42 +124,48 @@ class App extends React.Component {
         event1: {
           name: "notificationsEvento 1",
           image: {},
-          date: "15/11/18",
+          date: "18/11/15",
+          visible: false,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "notificationsEvento 2",
           image: {},
-          date: "22/12/18",
+          date: "18/11/22",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event3: {
           name: "notificationsEvento 3",
           image: {},
-          date: "29/12/18",
+          date: "18/11/29",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event4: {
           name: "notificationsEvento 4",
           image: {},
-          date: "30/01/19",
+          date: "19/01/30",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event5: {
           name: "notificationsEvento 5",
           image: {},
-          date: "31/01/19",
+          date: "19/01/31",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event6: {
           name: "notificationsEvento 6",
           image: {},
-          date: "26/02/19",
+          date: "19/02/26",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         }

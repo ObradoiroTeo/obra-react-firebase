@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 
 const SectionEvents = props => (
   <ul className="events">
-    {Object.keys(props.events).map(eventKey => (
+    {Object.keys(props.events)
+    .map(eventKey => (
       <Evento key={eventKey} eventDetails={props.events[eventKey]} />
     ))}
   </ul>
