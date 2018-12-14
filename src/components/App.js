@@ -18,15 +18,15 @@ class App extends React.Component {
         event1: {
           name: "sportEvento 1",
           image: {},
-          date: "18/11/15",
-          visible: false,
+          date: "2018-11-15",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "sportEvento 2",
           image: {},
-          date: "18/11/22",
+          date: "2018-12-22",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -34,7 +34,7 @@ class App extends React.Component {
         event3: {
           name: "sportEvento 3",
           image: {},
-          date: "18/11/29",
+          date: "2018-12-29",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -42,7 +42,7 @@ class App extends React.Component {
         event4: {
           name: "sportEvento 4",
           image: {},
-          date: "19/01/30",
+          date: "2019-01-30",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -50,7 +50,7 @@ class App extends React.Component {
         event5: {
           name: "sportEvento 5",
           image: {},
-          date: "19/01/31",
+          date: "2019-01-31",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -58,7 +58,7 @@ class App extends React.Component {
         event6: {
           name: "sportEvento 6",
           image: {},
-          date: "19/02/26",
+          date: "2019-02-26",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -71,15 +71,15 @@ class App extends React.Component {
         event1: {
           name: "cultureEvento 1",
           image: {},
-          date: "18/11/15",
-          visible: false,
+          date: "2018-11-15",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "cultureEvento 2",
           image: {},
-          date: "18/11/22",
+          date: "2018-12-22",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -87,7 +87,7 @@ class App extends React.Component {
         event3: {
           name: "cultureEvento 3",
           image: {},
-          date: "18/11/29",
+          date: "2018-12-29",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -95,7 +95,7 @@ class App extends React.Component {
         event4: {
           name: "cultureEvento 4",
           image: {},
-          date: "19/01/30",
+          date: "2019-01-30",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -103,7 +103,7 @@ class App extends React.Component {
         event5: {
           name: "cultureEvento 5",
           image: {},
-          date: "19/01/31",
+          date: "2019-01-31",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -111,7 +111,7 @@ class App extends React.Component {
         event6: {
           name: "cultureEvento 6",
           image: {},
-          date: "19/02/26",
+          date: "2019-02-26",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -124,15 +124,15 @@ class App extends React.Component {
         event1: {
           name: "notificationsEvento 1",
           image: {},
-          date: "18/11/15",
-          visible: false,
+          date: "2018-11-15",
+          visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event2: {
           name: "notificationsEvento 2",
           image: {},
-          date: "18/11/22",
+          date: "2018-12-22",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -140,7 +140,7 @@ class App extends React.Component {
         event3: {
           name: "notificationsEvento 3",
           image: {},
-          date: "18/11/29",
+          date: "2018-12-29",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -148,7 +148,7 @@ class App extends React.Component {
         event4: {
           name: "notificationsEvento 4",
           image: {},
-          date: "19/01/30",
+          date: "2019-01-30",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -156,7 +156,7 @@ class App extends React.Component {
         event5: {
           name: "notificationsEvento 5",
           image: {},
-          date: "19/01/31",
+          date: "2019-01-31",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -164,7 +164,7 @@ class App extends React.Component {
         event6: {
           name: "notificationsEvento 6",
           image: {},
-          date: "19/02/26",
+          date: "2019-02-26",
           visible: true,
           desc:
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
@@ -174,6 +174,27 @@ class App extends React.Component {
   };
 
   render() {
+    //1. Obtener la fecha actual ✔
+    //2. Obtener la fecha del evento
+    //3. Comparar las dos fechas
+    //4. Si la fecha del evento es menor -> cambiar visible a `false`
+
+    const cambiaVisibilidadEventos = events => {
+      const cambiaVisibilidadEvento = eventKey => {
+        const eventDate = new Date(events[eventKey].date);
+        if (actualDate > eventDate) {
+          events[eventKey].visible = false;
+        }
+        return events[eventKey];
+      };
+
+      const actualDate = new Date();
+
+      const newEvents = Object.keys(events).map(cambiaVisibilidadEvento);
+
+      return newEvents;
+    };
+
     return (
       <>
         <h1>App</h1>
