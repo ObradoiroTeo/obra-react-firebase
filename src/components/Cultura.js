@@ -11,7 +11,12 @@ class Cultura extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.cultureEvents.title} />
-        <Buttons />
+        <Buttons
+          handleFilteringNextMonthEvents={
+            this.props.handleFilteringNextMonthEvents
+          }
+          eventsKey={this.props.eventsKey}
+        />
         <SectionEvents events={this.props.cultureEvents.events} />
       </div>
     );

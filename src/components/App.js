@@ -174,13 +174,52 @@ class App extends React.Component {
     }
   };
 
+  getNextMonth = actualMonth => {
+    let nextMonth = actualMonth + 1;
+    if (nextMonth > 11) {
+      nextMonth = nextMonth - 12;
+    }
+    return nextMonth;
+  };
+
+  handleFilteringNextMonthEvents = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+    const nextMonth = this.getNextMonth(actualMonth);
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventMonth = actualEventDate.getMonth();
+      console.log(actualEventMonth);
+      if (nextMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+    console.log(filteredEvents);
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
   render() {
     return (
       <>
         <Router>
           <Home path="/" />
-          <Cultura path="/cultura" cultureEvents={this.state.culture} />
-          <Deporte path="/deporte" sportEvents={this.state.sport} />
+          <Cultura
+            path="/cultura"
+            cultureEvents={this.state.culture}
+            handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
+            eventsKey="culture"
+          />
+          <Deporte
+            path="/deporte"
+            sportEvents={this.state.sport}
+            handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
+            eventsKey="sport"
+          />
           <Avisos path="/avisos" notifications={this.state.notifications} />
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
@@ -193,3 +232,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+// EventsKey y manejaFiltradoMesSiguiente a cultura
