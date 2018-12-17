@@ -9,8 +9,11 @@ import SectionEvents from "./SectionEvents";
 class Deporte extends React.Component {
   static propTypes = {
     sportEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired
-    }).isRequired
+      title: PropTypes.string.isRequired,
+      events: PropTypes.object.isRequired
+    }).isRequired,
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    eventsKey: PropTypes.string.isRequired
   };
 
   render() {
@@ -18,7 +21,12 @@ class Deporte extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.sportEvents.title} />
-        <Buttons />
+        <Buttons
+          handleFilteringNextMonthEvents={
+            this.props.handleFilteringNextMonthEvents
+          }
+          eventsKey={this.props.eventsKey}
+        />
         <SectionEvents events={this.props.sportEvents.events} />
       </div>
     );

@@ -1,6 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class Buttons extends React.Component {
+  static propTypes = {
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    eventsKey: PropTypes.string.isRequired
+  };
+
   months = [
     "Xaneiro",
     "Febreiro",
@@ -24,6 +30,10 @@ class Buttons extends React.Component {
     return nextMonth;
   };
 
+  handleNextMonthClick = event => {
+    this.props.handleFilteringNextMonthEvents(this.props.eventsKey);
+  };
+
   render() {
     const date = new Date();
 
@@ -34,7 +44,9 @@ class Buttons extends React.Component {
     return (
       <div>
         <button>{this.months[month1]}</button>
-        <button>{this.months[month2]}</button>
+        <button onClick={this.handleNextMonthClick}>
+          {this.months[month2]}
+        </button>
         <button>{this.months[month3]}</button>
       </div>
     );
