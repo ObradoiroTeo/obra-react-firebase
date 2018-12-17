@@ -32,11 +32,11 @@ code {
 }
 
 .logo {
-  text-align: left;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex: 25%;
+  text-align: left;
   padding: 10px 25px;
 }
 
