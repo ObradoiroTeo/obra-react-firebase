@@ -8,7 +8,6 @@ const SectionEvents = props => (
       .filter(eventKey => {
         const actualDate = new Date();
         const eventDate = new Date(props.events[eventKey].date);
-        console.log(actualDate, eventDate, actualDate < eventDate);
         return actualDate < eventDate;
       })
       .filter(eventKey => props.events[eventKey].visible)
@@ -23,6 +22,3 @@ SectionEvents.propTypes = {
 };
 
 export default SectionEvents;
-
-// filtrar los eventos nada mas entrar (por la fecha)return
-// NO mostrar lo que ya pasaron

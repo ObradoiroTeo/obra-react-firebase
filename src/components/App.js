@@ -174,27 +174,6 @@ class App extends React.Component {
   };
 
   render() {
-    //1. Obtener la fecha actual ✔
-    //2. Obtener la fecha del evento
-    //3. Comparar las dos fechas
-    //4. Si la fecha del evento es menor -> cambiar visible a `false`
-
-    const cambiaVisibilidadEventos = events => {
-      const cambiaVisibilidadEvento = eventKey => {
-        const eventDate = new Date(events[eventKey].date);
-        if (actualDate > eventDate) {
-          events[eventKey].visible = false;
-        }
-        return events[eventKey];
-      };
-
-      const actualDate = new Date();
-
-      const newEvents = Object.keys(events).map(cambiaVisibilidadEvento);
-
-      return newEvents;
-    };
-
     return (
       <>
         <h1>App</h1>
