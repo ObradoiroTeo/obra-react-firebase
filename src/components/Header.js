@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <header className="header-container">
         <div className="quarter">
-          <img src={concelloTeo} className="logo" alt="logo-teo" />
+          <img src={concelloTeo} className="logo-container" alt="logo-teo" />
         </div>
         <div className="menu">
           <button className="menu-item">Inicio</button>

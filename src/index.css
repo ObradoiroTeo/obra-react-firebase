@@ -17,7 +17,7 @@ code {
     monospace;
 }
 
-/*HEADER*/
+/*HEADER START*/
 
 .header-container {
   display: flex;
@@ -31,7 +31,7 @@ code {
   padding-top: 5px;
 }
 
-.logo {
+.logo-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,7 +52,7 @@ code {
   padding: 5px 10px;
   border-radius: 3px;
   background-color: white;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   border-bottom: solid 5px #b3b3b3;
   border-right: solid 5px #cccccc;
 }
@@ -73,3 +73,4 @@ code {
   border-right: none;
   border-bottom: none;
 }
+/*HEADER END*/
