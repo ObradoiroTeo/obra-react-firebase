@@ -75,10 +75,22 @@ Start working in your `pull-request/<MY_PR_BRANCH>` and try to make at least a `
 
 ## <a id="push-changes-to-the-original-project">3. `push` changes to the original project</a>
 
+Get latest changes and `rebase` from `upstream/master`:
+
+```console
+❯ git rebase upstream/master
+```
+
 Specify the `upstream` for our `pull-request/<MY_PR_BRANCH>` and then `push`:
 
 ```console
 ❯ git push --set-upstream origin pull-request/<MY_PR_BRANCH>
+```
+
+From now on, when you want to `push` just 👇
+
+```console
+❯ git rebase upstream/master
 ❯ git push
 ```
 
