@@ -1,6 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class Buttons extends React.Component {
+  static propTypes = {
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    eventsKey: PropTypes.string.isRequired
+  };
+
   months = [
     "Xaneiro",
     "Febreiro",

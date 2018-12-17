@@ -10,7 +10,9 @@ class Deporte extends React.Component {
   static propTypes = {
     sportEvents: PropTypes.shape({
       title: PropTypes.string.isRequired
-    }).isRequired
+    }).isRequired,
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    eventsKey: PropTypes.string.isRequired
   };
 
   render() {

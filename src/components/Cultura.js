@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
@@ -6,6 +7,14 @@ import Buttons from "./Buttons";
 import SectionEvents from "./SectionEvents";
 
 class Cultura extends React.Component {
+  static propTypes = {
+    cultureEvents: PropTypes.shape({
+      title: PropTypes.string.isRequired
+    }).isRequired,
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    eventsKey: PropTypes.string.isRequired
+  };
+
   render() {
     return (
       <div>

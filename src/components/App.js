@@ -191,7 +191,6 @@ class App extends React.Component {
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
       const actualEventDate = new Date(eventsToFilter[eventKey].date);
       const actualEventMonth = actualEventDate.getMonth();
-      console.log(actualEventMonth);
       if (nextMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
       } else {
@@ -199,7 +198,6 @@ class App extends React.Component {
       }
       return eventsToFilter[eventKey];
     });
-    console.log(filteredEvents);
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
@@ -232,5 +230,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// EventsKey y manejaFiltradoMesSiguiente a cultura
