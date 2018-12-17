@@ -9,7 +9,8 @@ import SectionEvents from "./SectionEvents";
 class Cultura extends React.Component {
   static propTypes = {
     cultureEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired
+      title: PropTypes.string.isRequired,
+      events: PropTypes.object.isRequired
     }).isRequired,
     handleFilteringNextMonthEvents: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired
