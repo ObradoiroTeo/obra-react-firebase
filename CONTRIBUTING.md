@@ -19,9 +19,9 @@
 
 ### C. Tips and Tricks
 
-1. [Sync local data from `upstream` (`ObradoiroTeo`)](#sync-local-data-from-upstream)
+1. [How to `fetch` changes from `upstream/master` into local `master`](#fetch-changes-from-upstream-into-local-master)
 2. [How to `fetch` a Pull Request](#how-to-fetch-a-pull-request)
-3. [How to update local `pull-request/...` branch with latest changes from `upstream`'s `master` (`ObradoiroTeo`)](#how-to-update-local-pull-request-branch-with-latest-changes-from-upstream)
+3. [How to `fetch` changes from `upstream/master` and `rebase` into local `master`](#fetch-changes-from-upstream-and-rebase)
 
 ### D. Additional Info
 
@@ -78,6 +78,7 @@ Start working in your `pull-request/<MY_PR_BRANCH>` and try to make at least a `
 Get latest changes and `rebase` from `upstream/master`:
 
 ```console
+❯ git fetch upstream
 ❯ git rebase upstream/master
 ```
 
@@ -90,6 +91,7 @@ Specify the `upstream` for our `pull-request/<MY_PR_BRANCH>` and then `push`:
 From now on, when you want to `push` just 👇
 
 ```console
+❯ git fetch upstream
 ❯ git rebase upstream/master
 ❯ git push
 ```
@@ -146,7 +148,7 @@ Check again which `branch`es are in your system
 
 ## C. Tips and Tricks
 
-## <a id="sync-local-data-from-upstream">1. Sync local data from `upstream` (`ObradoiroTeo`)</a>
+## <a id="fetch-changes-from-upstream-into-local-master">1. How to `fetch` changes from `upstream/master` into local `master`</a>
 
 Change to `master` branch
 
@@ -201,31 +203,13 @@ Example data:
 ❯ git checkout review-pull-request/3
 ```
 
-## <a id="how-to-update-local-pull-request-branch-with-latest-changes-from-upstream">3. How to update local `pull-request/...` branch with latest changes from `upstream`'s `master` (`ObradoiroTeo`)</a>
+## <a id="fetch-changes-from-upstream-and-rebase">3. How to `fetch` changes from `upstream/master` and `rebase` into local `master`</a>
 
-Change to `master` branch
-
-```
-❯ git checkout master
-```
-
-Fetch changes and merge into `master`
+From `pull-request/<WHATEVER>` branch
 
 ```
 ❯ git fetch upstream
-❯ git merge --ff-only
-```
-
-Change to `pull-request/<WHATEVER>` branch
-
-```
-❯ git checkout pull-request/<WHATEVER>
-```
-
-Rebase against `master`
-
-```
-❯ git rebase master
+❯ git rebase upstream/master
 ```
 
 ## D. Additional Info
