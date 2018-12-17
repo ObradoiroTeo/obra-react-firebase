@@ -19,14 +19,12 @@ code {
 
 /*HEADER*/
 
-.header {
+.header-container {
   display: flex;
-  box-sizing: border-box;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
   background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
-  background-size: auto auto;
   color: white;
   font-family: "Roboto", sans-serif;
   margin: -8px -10px 20px -10px;
@@ -34,11 +32,11 @@ code {
 }
 
 .logo {
-  flex: 25%;
   text-align: left;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex: 25%;
   padding: 10px 25px;
 }
 
@@ -46,7 +44,7 @@ code {
   flex: 50%;
 }
 
-.anchor {
+.menu-item {
   text-decoration: none;
   color: #448aff;
   font-weight: 500;
@@ -59,21 +57,19 @@ code {
   border-right: solid 5px #cccccc;
 }
 
-.vacio {
+.quarter {
   flex: 25%;
 }
 
-.anchor:hover {
+.menu-item:hover {
   color: #448aff;
   background-color: #f2f2f2;
 }
 
-.anchor:active {
+.menu-item:active {
   color: #1a6eff;
   background-color: #d9d9d9;
-  content: none;
-  -ms-transform: translate(3px, 3px);
-  -webkit-transform: translate(3px, 3px);
+  transform: translate(3px, 3px);
   border-right: none;
   border-bottom: none;
 }

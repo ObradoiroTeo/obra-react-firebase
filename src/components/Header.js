@@ -4,19 +4,19 @@ import concelloTeo from "../images/logo_pequeno.png";
 class Header extends React.Component {
   render() {
     return (
-      <div className="header">
-        <div className="vacio">
+      <header className="header-container">
+        <div className="quarter">
           <img src={concelloTeo} className="logo" alt="logo-teo" />
         </div>
         <div className="menu">
-          <button className="anchor">Inicio</button>
-          <button className="anchor">Cultura</button>
-          <button className="anchor">Deporte</button>
-          <button className="anchor">Avisos</button>
-          <button className="anchor">InfoTeo</button>
+          <button className="menu-item">Inicio</button>
+          <button className="menu-item">Cultura</button>
+          <button className="menu-item">Deporte</button>
+          <button className="menu-item">Avisos</button>
+          <button className="menu-item">InfoTeo</button>
         </div>
-        <div className="vacio" />
-      </div>
+        <div className="quarter" />
+      </header>
     );
   }
 }
