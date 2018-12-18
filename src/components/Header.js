@@ -1,5 +1,6 @@
 import React from "react";
 import concelloTeo from "../images/logo_pequeno.png";
+import { Link } from "@reach/router";
 
 class Header extends React.Component {
   render() {
@@ -8,13 +9,24 @@ class Header extends React.Component {
         <div className="quarter">
           <img src={concelloTeo} className="logo-container" alt="logo-teo" />
         </div>
-        <div className="menu">
-          <button className="menu-item">Inicio</button>
-          <button className="menu-item">Cultura</button>
-          <button className="menu-item">Deporte</button>
-          <button className="menu-item">Avisos</button>
-          <button className="menu-item">InfoTeo</button>
-        </div>
+
+        <nav className="menu">
+          <Link to="/" className="menu-item">
+            Inicio
+          </Link>
+          <Link to="/cultura" className="menu-item">
+            Cultura
+          </Link>
+          <Link to="/deporte" className="menu-item">
+            Deporte
+          </Link>
+          <Link to="/avisos" className="menu-item">
+            Avisos
+          </Link>
+          <Link to="/infoteo" className="menu-item">
+            InfoTeo
+          </Link>
+        </nav>
         <div className="quarter" />
       </header>
     );
