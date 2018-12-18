@@ -197,6 +197,7 @@ class App extends React.Component {
       }
       return eventsToFilter[eventKey];
     });
+
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
@@ -216,6 +217,7 @@ class App extends React.Component {
       }
       return eventsToFilter[eventKey];
     });
+
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
