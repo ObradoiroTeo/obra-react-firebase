@@ -182,6 +182,25 @@ class App extends React.Component {
     return nextMonth;
   };
 
+  handleFilteringActualMonthEvents = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventMonth = actualEventDate.getMonth();
+      if (actualMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
   handleFilteringNextMonthEvents = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -198,6 +217,7 @@ class App extends React.Component {
       }
       return eventsToFilter[eventKey];
     });
+
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
@@ -209,12 +229,18 @@ class App extends React.Component {
           <Cultura
             path="/cultura"
             cultureEvents={this.state.culture}
+            handleFilteringActualMonthEvents={
+              this.handleFilteringActualMonthEvents
+            }
             handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
             eventsKey="culture"
           />
           <Deporte
             path="/deporte"
             sportEvents={this.state.sport}
+            handleFilteringActualMonthEvents={
+              this.handleFilteringActualMonthEvents
+            }
             handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
             eventsKey="sport"
           />

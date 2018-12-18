@@ -30,6 +30,10 @@ class Buttons extends React.Component {
     return nextMonth;
   };
 
+  handleActualMonthClick = event => {
+    this.props.handleFilteringActualMonthEvents(this.props.eventsKey);
+  };
+
   handleNextMonthClick = event => {
     this.props.handleFilteringNextMonthEvents(this.props.eventsKey);
   };
@@ -43,7 +47,9 @@ class Buttons extends React.Component {
 
     return (
       <div>
-        <button>{this.months[month1]}</button>
+        <button onClick={this.handleActualMonthClick}>
+          {this.months[month1]}
+        </button>
         <button onClick={this.handleNextMonthClick}>
           {this.months[month2]}
         </button>

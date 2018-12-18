@@ -22,6 +22,9 @@ class Cultura extends React.Component {
         <Header />
         <SectionTitle title={this.props.cultureEvents.title} />
         <Buttons
+          handleFilteringActualMonthEvents={
+            this.props.handleFilteringActualMonthEvents
+          }
           handleFilteringNextMonthEvents={
             this.props.handleFilteringNextMonthEvents
           }
