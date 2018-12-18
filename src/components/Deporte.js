@@ -28,6 +28,9 @@ class Deporte extends React.Component {
           handleFilteringNextMonthEvents={
             this.props.handleFilteringNextMonthEvents
           }
+          handleFilteringThirdMonthEvents={
+            this.props.handleFilteringThirdMonthEvents
+          }
           eventsKey={this.props.eventsKey}
         />
         <SectionEvents events={this.props.sportEvents.events} />
