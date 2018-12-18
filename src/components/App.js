@@ -221,6 +221,27 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
+  handleFilteringThirdMonthEvents = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+    const nextMonth = this.getNextMonth(actualMonth);
+    const thirdMonth = this.getNextMonth(nextMonth);
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventMonth = actualEventDate.getMonth();
+      if (thirdMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
   render() {
     return (
       <>
@@ -233,6 +254,9 @@ class App extends React.Component {
               this.handleFilteringActualMonthEvents
             }
             handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
+            handleFilteringThirdMonthEvents={
+              this.handleFilteringThirdMonthEvents
+            }
             eventsKey="culture"
           />
           <Deporte
@@ -242,6 +266,9 @@ class App extends React.Component {
               this.handleFilteringActualMonthEvents
             }
             handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
+            handleFilteringThirdMonthEvents={
+              this.handleFilteringThirdMonthEvents
+            }
             eventsKey="sport"
           />
           <Avisos path="/avisos" notifications={this.state.notifications} />

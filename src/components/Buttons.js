@@ -38,6 +38,10 @@ class Buttons extends React.Component {
     this.props.handleFilteringNextMonthEvents(this.props.eventsKey);
   };
 
+  handleThirdMonthClick = event => {
+    this.props.handleFilteringThirdMonthEvents(this.props.eventsKey);
+  };
+
   render() {
     const date = new Date();
 
@@ -53,7 +57,9 @@ class Buttons extends React.Component {
         <button onClick={this.handleNextMonthClick}>
           {this.months[month2]}
         </button>
-        <button>{this.months[month3]}</button>
+        <button onClick={this.handleThirdMonthClick}>
+          {this.months[month3]}
+        </button>
       </div>
     );
   }
