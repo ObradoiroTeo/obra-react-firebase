@@ -22,6 +22,9 @@ class Deporte extends React.Component {
         <Header />
         <SectionTitle title={this.props.sportEvents.title} />
         <Buttons
+          handleFilteringActualMonthEvents={
+            this.props.handleFilteringActualMonthEvents
+          }
           handleFilteringNextMonthEvents={
             this.props.handleFilteringNextMonthEvents
           }
