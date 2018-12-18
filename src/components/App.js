@@ -1,5 +1,6 @@
 import React from "react";
 import { Router } from "@reach/router";
+
 import "../index.css";
 
 import Home from "./Home";
@@ -120,7 +121,7 @@ class App extends React.Component {
       }
     },
     notifications: {
-      title: "Listado de Avisos e Notificacions",
+      title: "Listado de Avisos e Notificacións",
       events: {
         event1: {
           name: "notificationsEvento 1",
