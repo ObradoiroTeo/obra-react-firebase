@@ -2,20 +2,20 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 
-const EventDetail = props => (
+const EventDetails = props => (
   <div>
     <Header />
-    <p>{props.eventDetail.name}</p>
+    <p>{props.eventDetails.name}</p>
     <img src="" alt="" />
-    <p>{props.eventDetail.date}</p>
-    <p>{props.eventDetail.desc}</p>
+    <p>{props.eventDetails.date}</p>
+    <p>{props.eventDetails.desc}</p>
   </div>
 );
 
-EventDetail.PropTypes = {
+EventDetails.PropTypes = {
   name: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired
 };
 
-export default EventDetail;
+export default EventDetails;
