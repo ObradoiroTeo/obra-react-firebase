@@ -257,8 +257,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
-        <Router className="body-background">
+      <div className="body-background">
+        <Router>
           <Home path="/" />
           <Cultura
             path="/cultura"
@@ -292,7 +292,7 @@ class App extends React.Component {
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
         </Router>
-      </>
+      </div>
     );
   }
 }

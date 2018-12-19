@@ -101,11 +101,11 @@ code {
 
 /* <Month-buttons> START*/
 
-.month-buttons-container {
+.month-button-container {
   display: flex;
   justify-content: center;
 }
-.month-buttons {
+.month-button {
   font-size: 17px;
   margin: 10px 20px 40px 20px;
   display: inline-block;
@@ -119,7 +119,7 @@ code {
   border-bottom: solid 3px #999999;
   font-weight: bold;
 }
-.month-buttons:active {
+.month-button:active {
   -ms-transform: translateY(4px);
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -202,26 +202,24 @@ code {
   border-top: solid 1px #448aff;
 }
 .logo-ue {
-  display: flex;
   width: 13%;
   height: 13%;
 }
+
 .logo-stgo {
-  display: flex;
   width: 6%;
   height: 6%;
 }
+
 .logo-teo {
-  display: flex;
   width: 7%;
   height: 7%;
 }
+
 .logo-xunta {
-  display: flex;
   width: 9%;
   height: 9%;
 }
-
 /* <Footer> END */
 /* <BODY> END*/
 /* FIN HACK*/
