@@ -1,10 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import petroglifo from "../images/petroglifo.png";
 
 const SectionTitle = props => (
-  <div>
-    <h1>{props.title}</h1>
-  </div>
+  <section>
+    <img src={petroglifo} className="background-title" alt="background-petr" />
+
+    <div>
+      <h1 className="title-container">{props.title}</h1>
+    </div>
+  </section>
 );
 
 SectionTitle.propTypes = {

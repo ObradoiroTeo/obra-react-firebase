@@ -258,7 +258,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Router>
+        <Router className="body-background">
           <Home path="/" />
           <Cultura
             path="/cultura"

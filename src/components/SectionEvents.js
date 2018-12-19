@@ -3,7 +3,7 @@ import Evento from "./Evento";
 import PropTypes from "prop-types";
 
 const SectionEvents = props => (
-  <ul className="events">
+  <ul className="events-container">
     {Object.keys(props.events)
       .filter(eventKey => {
         const actualDate = new Date();

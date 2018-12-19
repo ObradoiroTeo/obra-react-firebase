@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
 import SectionEvents from "./SectionEvents";
+import Footer from "./Footer";
 
 class Avisos extends React.Component {
   static propTypes = {
@@ -19,6 +20,7 @@ class Avisos extends React.Component {
         <Header />
         <SectionTitle title={this.props.notifications.title} />
         <SectionEvents events={this.props.notifications.events} />
+        <Footer />
       </div>
     );
   }

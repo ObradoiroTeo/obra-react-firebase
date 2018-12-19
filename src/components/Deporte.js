@@ -5,6 +5,7 @@ import Header from "./Header";
 import SectionTitle from "./SectionTitle";
 import Buttons from "./Buttons";
 import SectionEvents from "./SectionEvents";
+import Footer from "./Footer";
 
 class Deporte extends React.Component {
   static propTypes = {
@@ -39,6 +40,7 @@ class Deporte extends React.Component {
           eventsKey={this.props.eventsKey}
         />
         <SectionEvents events={this.props.sportEvents.events} />
+        <Footer />
       </div>
     );
   }
