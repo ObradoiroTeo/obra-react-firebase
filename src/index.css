@@ -135,6 +135,7 @@ code {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .event-reduced {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
   margin: 5px 10px 50px 10px;
@@ -145,8 +146,15 @@ code {
   height: 300px;
   font-family: "Roboto", sans-serif;
 }
+.event-reduced:active {
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 6px 6px 15px -5px rgba(0, 0, 0, 0.68);
+}
 .event-image {
-  margin-right: 20px;
+  margin-left: -10px;
+  margin-top: -2px;
   width: 350px;
   height: 300px;
   z-index: -1;
@@ -159,7 +167,8 @@ code {
   color: white;
   background-color: rgba(68, 138, 255, 0.7);
   width: 350px;
-  margin-top: -35px;
+  margin-top: -36px;
+  margin-left: -10px;
   padding: 5px;
 }
 .event-date {
@@ -167,6 +176,7 @@ code {
   background-color: rgba(68, 138, 255, 0.8);
   color: white;
   padding: 5px 5px 5px 10px;
+  margin-left: -10px;
   margin-top: -290px;
 }
 .event-desc {
