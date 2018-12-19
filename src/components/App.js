@@ -11,6 +11,7 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
+import EventDetails from "./EventDetails";
 
 class App extends React.Component {
   state = {
@@ -291,6 +292,10 @@ class App extends React.Component {
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
+          <EventDetails
+            path="/eventdetails"
+            eventDetails={this.state.culture.events.event3}
+          />
         </Router>
       </>
     );
