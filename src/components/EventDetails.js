@@ -12,10 +12,12 @@ const EventDetails = props => (
   </div>
 );
 
-EventDetails.PropTypes = {
-  name: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  desc: PropTypes.string.isRequired
+EventDetails.propTypes = {
+  eventDetails: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default EventDetails;

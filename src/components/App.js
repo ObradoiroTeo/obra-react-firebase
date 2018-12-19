@@ -293,7 +293,7 @@ class App extends React.Component {
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
           <EventDetails
-            path="/eventdetail"
+            path="/eventdetails"
             eventDetails={this.state.culture.events.event3}
           />
         </Router>
