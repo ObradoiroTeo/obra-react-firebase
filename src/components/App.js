@@ -294,7 +294,7 @@ class App extends React.Component {
           <NotFound default />
           <EventDetail
             path="/eventdetail"
-            eventDetail3={this.state.culture.events.event3}
+            eventDetail={this.state.culture.events.event3}
           />
         </Router>
       </>
