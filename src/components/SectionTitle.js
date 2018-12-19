@@ -7,7 +7,7 @@ const SectionTitle = props => (
     <img src={petroglifo} className="background-title" alt="background-petr" />
 
     <div>
-      <h1 className="title-container">{props.title}</h1>
+      <h1 className="title">{props.title}</h1>
     </div>
   </section>
 );
