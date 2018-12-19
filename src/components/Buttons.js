@@ -50,7 +50,7 @@ class Buttons extends React.Component {
     const month3 = this.getNextMonth(month2);
 
     return (
-      <div className="month-button-container">
+      <div className="month-buttons-container">
         <button className="month-button" onClick={this.handleActualMonthClick}>
           {this.months[month1]}
         </button>

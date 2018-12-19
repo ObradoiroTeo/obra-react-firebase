@@ -101,7 +101,7 @@ code {
 
 /* <Month-buttons> START*/
 
-.month-button-container {
+.month-buttons-container {
   display: flex;
   justify-content: center;
 }
