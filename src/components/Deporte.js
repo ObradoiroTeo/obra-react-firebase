@@ -16,6 +16,10 @@ class Deporte extends React.Component {
     eventsKey: PropTypes.string.isRequired
   };
 
+  componentWillUnmount() {
+    this.props.resetVisibility(this.props.eventsKey);
+  }
+
   render() {
     return (
       <div>

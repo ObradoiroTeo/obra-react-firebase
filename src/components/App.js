@@ -243,6 +243,18 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
+  resetVisibility = eventsKey => {
+    const eventsToReset = { ...this.state[eventsKey].events };
+    const resetedEvents = Object.keys(eventsToReset).map(eventKey => {
+      if (eventsToReset[eventKey].visible === false) {
+        eventsToReset[eventKey].visible = true;
+      }
+      return eventsToReset[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: resetedEvents });
+  };
+
   render() {
     return (
       <>
@@ -258,6 +270,7 @@ class App extends React.Component {
             handleFilteringThirdMonthEvents={
               this.handleFilteringThirdMonthEvents
             }
+            resetVisibility={this.resetVisibility}
             eventsKey="culture"
           />
           <Deporte
@@ -270,6 +283,7 @@ class App extends React.Component {
             handleFilteringThirdMonthEvents={
               this.handleFilteringThirdMonthEvents
             }
+            resetVisibility={this.resetVisibility}
             eventsKey="sport"
           />
           <Avisos path="/avisos" notifications={this.state.notifications} />
