@@ -13,8 +13,13 @@ class Deporte extends React.Component {
       events: PropTypes.object.isRequired
     }).isRequired,
     handleFilteringNextMonthEvents: PropTypes.func.isRequired,
-    eventsKey: PropTypes.string.isRequired
+    eventsKey: PropTypes.string.isRequired,
+    resetVisibility: PropTypes.func.isRequired
   };
+
+  componentWillUnmount() {
+    this.props.resetVisibility(this.props.eventsKey);
+  }
 
   render() {
     return (
