@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import magosto from "../images/magosto.jpg";
 
 const Evento = props => (
-  <div>
-    <p>{props.eventDetails.name}</p>
-    <img src="" alt="" />
-    <p>{props.eventDetails.date}</p>
-    <p>{props.eventDetails.desc}</p>
-  </div>
+  <button className="event-reduced">
+    <img className="event-image" src={magosto} alt="imagen" />
+    <p className="event-date">{props.eventDetails.date}</p>
+
+    <p className="event-name">{props.eventDetails.name}</p>
+  </button>
 );
 
 Evento.propTypes = {

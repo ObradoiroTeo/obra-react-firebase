@@ -45,6 +45,7 @@ code {
 }
 
 .menu-item {
+  display: inline-block;
   text-decoration: none;
   color: #448aff;
   font-weight: 500;
@@ -60,7 +61,6 @@ code {
 .quarter {
   flex: 25%;
 }
-
 .menu-item:hover {
   color: #448aff;
   background-color: #f2f2f2;
@@ -69,8 +69,151 @@ code {
 .menu-item:active {
   color: #1a6eff;
   background-color: #d9d9d9;
-  transform: translate(3px, 3px);
-  border-right: none;
+
+  transform: translateY(4px);
   border-bottom: none;
 }
 /* <Header> END */
+
+/* <BODY> START*/
+.body-background {
+  background-color: #eff0f4;
+}
+
+/*INICIO HACK*/
+
+/* <Eventos> START */
+.title {
+  text-align: left;
+  color: white;
+  padding: 5px 0px;
+  margin: -55px 10px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.background-title {
+  display: block;
+  width: 100%;
+  margin-top: -20px;
+}
+/* <Eventos> END */
+
+/* <Month-buttons> START*/
+
+.month-buttons-container {
+  display: flex;
+  justify-content: center;
+}
+.month-button {
+  font-size: 17px;
+  margin: 10px 20px 40px 20px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+}
+.month-button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+/* <Month-buttons> END*/
+
+/* <Events> START*/
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.event-reduced {
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
+  margin: 5px 10px 50px 10px;
+  /* padding: 5px 10px;*/
+  background-color: white;
+  color: #003899;
+  width: 350px;
+  height: 300px;
+  font-family: "Roboto", sans-serif;
+}
+.event-reduced:active {
+  transform: translateY(4px);
+  box-shadow: 6px 6px 15px -5px rgba(0, 0, 0, 0.68);
+}
+.event-image {
+  margin-left: -10px;
+  margin-top: -2px;
+  width: 350px;
+  height: 300px;
+  z-index: -1;
+}
+.event-name {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(68, 138, 255, 0.7);
+  width: 350px;
+  margin-top: -36px;
+  margin-left: -10px;
+  padding: 5px;
+}
+.event-date {
+  position: absolute;
+  background-color: rgba(68, 138, 255, 0.8);
+  color: white;
+  padding: 5px 5px 5px 10px;
+  margin-left: -10px;
+  margin-top: -290px;
+}
+.event-desc {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 350px;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-top: -45px;
+}
+/* <Events> END*/
+
+/* <Footer> START */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: -10px;
+  border-top: solid 1px #448aff;
+}
+.logo-ue {
+  width: 13%;
+  height: 13%;
+}
+
+.logo-stgo {
+  width: 6%;
+  height: 6%;
+}
+
+.logo-teo {
+  width: 7%;
+  height: 7%;
+}
+
+.logo-xunta {
+  width: 9%;
+  height: 9%;
+}
+/* <Footer> END */
+/* <BODY> END*/
+/* FIN HACK*/

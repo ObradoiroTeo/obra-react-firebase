@@ -258,7 +258,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="body-background">
         <Router>
           <Home path="/" />
           <Cultura
@@ -297,7 +297,7 @@ class App extends React.Component {
             eventDetails={this.state.culture.events.event3}
           />
         </Router>
-      </>
+      </div>
     );
   }
 }
