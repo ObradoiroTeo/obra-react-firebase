@@ -93,7 +93,7 @@ class App extends React.Component {
           date: "2018-12-29",
           visible: true,
           desc:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
         },
         event4: {
           name: "cultureEvento 4",
