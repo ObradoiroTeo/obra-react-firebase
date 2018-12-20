@@ -260,4 +260,48 @@ code {
 }
 /* <Footer> END */
 /* <BODY> END*/
+/* <Not Found> START*/
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nf-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-top: solid #003899 1px;
+  border-bottom: solid #003899 1px;
+  padding: 5px 30px;
+}
+.return-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 22px;
+  color: #ffffff;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px 600px 50px 600px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
+}
+.link-container {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.return-home:active {
+  transform: translateY(4px);
+  box-shadow: 6px 6px 15px -5px rgba(0, 0, 0, 0.68);
+}
+.emptywhite-hack {
+  background-color: white;
+  height: 100px;
+}
+
+/* <Not Found> END*/
 /* FIN HACK*/
