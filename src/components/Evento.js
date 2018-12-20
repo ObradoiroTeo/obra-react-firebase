@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import magosto from "../images/magosto.jpg";
 import { navigate } from "@reach/router";
 
 class Evento extends React.Component {
@@ -17,7 +16,11 @@ class Evento extends React.Component {
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
-        <img className="event-image" src={magosto} alt="imagen" />
+        <img
+          className="event-image"
+          src={this.props.eventDetails.image}
+          alt="imagen"
+        />
         <p className="event-date">{this.props.eventDetails.date}</p>
 
         <p className="event-name">{this.props.eventDetails.name}</p>
