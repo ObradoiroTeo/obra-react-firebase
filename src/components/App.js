@@ -274,6 +274,7 @@ class App extends React.Component {
             resetVisibility={this.resetVisibility}
             eventsKey="culture"
           />
+
           <Deporte
             path="/deporte"
             sportEvents={this.state.sport}
@@ -293,7 +294,7 @@ class App extends React.Component {
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
           <EventDetails
-            path="/eventdetails"
+            path="/culture/eventdetails"
             eventDetails={this.state.culture.events.event3}
           />
         </Router>
