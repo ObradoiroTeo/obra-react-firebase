@@ -39,7 +39,10 @@ class Deporte extends React.Component {
           }
           eventsKey={this.props.eventsKey}
         />
-        <SectionEvents events={this.props.sportEvents.events} />
+        <SectionEvents
+          eventsKey={this.props.eventsKey}
+          events={this.props.sportEvents.events}
+        />
         <Footer />
       </div>
     );

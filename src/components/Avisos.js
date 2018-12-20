@@ -19,7 +19,10 @@ class Avisos extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.notifications.title} />
-        <SectionEvents events={this.props.notifications.events} />
+        <SectionEvents
+          eventsKey={this.props.eventsKey}
+          events={this.props.notifications.events}
+        />
         <Footer />
       </div>
     );

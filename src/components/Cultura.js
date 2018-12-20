@@ -39,7 +39,10 @@ class Cultura extends React.Component {
           }
           eventsKey={this.props.eventsKey}
         />
-        <SectionEvents events={this.props.cultureEvents.events} />
+        <SectionEvents
+          eventsKey={this.props.eventsKey}
+          events={this.props.cultureEvents.events}
+        />
         <Footer />
       </div>
     );

@@ -12,7 +12,11 @@ const SectionEvents = props => (
       })
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
-        <Evento key={eventKey} eventDetails={props.events[eventKey]} />
+        <Evento
+          key={eventKey}
+          eventsKey={props.eventsKey}
+          eventDetails={props.events[eventKey]}
+        />
       ))}
   </ul>
 );
