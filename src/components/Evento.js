@@ -10,9 +10,11 @@ class Evento extends React.Component {
       desc: PropTypes.string.isRequired
     }).isRequired
   };
+
   goToEventDetails = event => {
     navigate(`/cultura/${this.props.eventDetails.name}`);
   };
+
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
