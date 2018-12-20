@@ -1,5 +1,4 @@
 import React from "react";
-import concelloTeo from "../images/logo_pequeno.png";
 import { Link } from "@reach/router";
 
 class Header extends React.Component {
@@ -7,7 +6,11 @@ class Header extends React.Component {
     return (
       <header className="header-container">
         <div className="quarter">
-          <img src={concelloTeo} className="logo-container" alt="logo-teo" />
+          <img
+            src={"/images/logo_pequeno.png"}
+            className="logo-container"
+            alt="logo-teo"
+          />
         </div>
 
         <nav className="menu">
