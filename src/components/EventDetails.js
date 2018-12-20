@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
-import magosto from "../images/magosto.jpg";
 
 const EventDetails = props => (
   <div>
@@ -11,11 +10,11 @@ const EventDetails = props => (
       <p className="details-name">{props.eventDetails.name}</p>
       <p className="details-date">{props.eventDetails.date}</p>
       <div className="details-container">
-        <img src={magosto} alt="img" className="details-img" />
+        <img src={props.eventDetails.image} alt="img" className="details-img" />
         <p className="details-desc">{props.eventDetails.desc}</p>
       </div>
     </div>
-    <div className="empty" />
+    <div className="empty-hack" />
     <Footer />
   </div>
 );
