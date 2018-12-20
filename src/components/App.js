@@ -292,11 +292,11 @@ class App extends React.Component {
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
-          <NotFound default />
           <EventDetails
-            path="/culture/eventdetails"
+            path="/cultura/:eventdetails"
             eventDetails={this.state.culture.events.event3}
           />
+          <NotFound default />
         </Router>
       </div>
     );
