@@ -20,7 +20,7 @@ class App extends React.Component {
       events: {
         event1: {
           name: "sportEvento 1",
-          image: {},
+          image: "/images/sportEvent1.jpg",
           date: "2018-11-15",
           visible: true,
           desc:
@@ -28,7 +28,7 @@ class App extends React.Component {
         },
         event2: {
           name: "sportEvento 2",
-          image: {},
+          image: "/images/sportEvent2.jpg",
           date: "2018-12-22",
           visible: true,
           desc:
@@ -36,7 +36,7 @@ class App extends React.Component {
         },
         event3: {
           name: "sportEvento 3",
-          image: {},
+          image: "/images/sportEvent3.jpg",
           date: "2018-12-29",
           visible: true,
           desc:
@@ -44,7 +44,7 @@ class App extends React.Component {
         },
         event4: {
           name: "sportEvento 4",
-          image: {},
+          image: "/images/sportEvent4.jpg",
           date: "2019-01-30",
           visible: true,
           desc:
@@ -52,7 +52,7 @@ class App extends React.Component {
         },
         event5: {
           name: "sportEvento 5",
-          image: {},
+          image: "/images/sportEvent5.jpg",
           date: "2019-01-31",
           visible: true,
           desc:
@@ -60,7 +60,7 @@ class App extends React.Component {
         },
         event6: {
           name: "sportEvento 6",
-          image: {},
+          image: "/images/sportEvent6.jpg",
           date: "2019-02-26",
           visible: true,
           desc:
@@ -73,7 +73,7 @@ class App extends React.Component {
       events: {
         event1: {
           name: "cultureEvento 1",
-          image: {},
+          image: "/images/cultureEvent1.jpg",
           date: "2018-11-15",
           visible: true,
           desc:
@@ -81,7 +81,7 @@ class App extends React.Component {
         },
         event2: {
           name: "cultureEvento 2",
-          image: {},
+          image: "/images/cultureEvent2.jpg",
           date: "2018-12-22",
           visible: true,
           desc:
@@ -89,7 +89,7 @@ class App extends React.Component {
         },
         event3: {
           name: "cultureEvento 3",
-          image: {},
+          image: "/images/cultureEvent1.jpg",
           date: "2018-12-29",
           visible: true,
           desc:
@@ -97,7 +97,7 @@ class App extends React.Component {
         },
         event4: {
           name: "cultureEvento 4",
-          image: {},
+          image: "/images/cultureEvent4.jpg",
           date: "2019-01-30",
           visible: true,
           desc:
@@ -105,7 +105,7 @@ class App extends React.Component {
         },
         event5: {
           name: "cultureEvento 5",
-          image: {},
+          image: "/images/cultureEvent5.jpg",
           date: "2019-01-31",
           visible: true,
           desc:
@@ -113,7 +113,7 @@ class App extends React.Component {
         },
         event6: {
           name: "cultureEvento 6",
-          image: {},
+          image: "/images/cultureEvent6.jpg",
           date: "2019-02-26",
           visible: true,
           desc:
@@ -126,7 +126,7 @@ class App extends React.Component {
       events: {
         event1: {
           name: "notificationsEvento 1",
-          image: {},
+          image: "/images/avisosEvent1.jpg",
           date: "2018-11-15",
           visible: true,
           desc:
@@ -134,7 +134,7 @@ class App extends React.Component {
         },
         event2: {
           name: "notificationsEvento 2",
-          image: {},
+          image: "/images/avisosEvent2.jpg",
           date: "2018-12-22",
           visible: true,
           desc:
@@ -142,7 +142,7 @@ class App extends React.Component {
         },
         event3: {
           name: "notificationsEvento 3",
-          image: {},
+          image: "/images/avisosEvent3.jpg",
           date: "2018-12-29",
           visible: true,
           desc:
@@ -150,7 +150,7 @@ class App extends React.Component {
         },
         event4: {
           name: "notificationsEvento 4",
-          image: {},
+          image: "/images/avisosEvent4.jpg",
           date: "2019-01-30",
           visible: true,
           desc:
@@ -158,7 +158,7 @@ class App extends React.Component {
         },
         event5: {
           name: "notificationsEvento 5",
-          image: {},
+          image: "/images/avisosEvent5.jpg",
           date: "2019-01-31",
           visible: true,
           desc:
@@ -166,7 +166,7 @@ class App extends React.Component {
         },
         event6: {
           name: "notificationsEvento 6",
-          image: {},
+          image: "/images/avisosEvent6.jpg",
           date: "2019-02-26",
           visible: true,
           desc:
