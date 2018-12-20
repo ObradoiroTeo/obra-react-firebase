@@ -6,11 +6,13 @@ class Header extends React.Component {
     return (
       <header className="header-container">
         <div className="quarter">
-          <img
-            src={"/images/logo_pequeno.png"}
-            className="logo-container"
-            alt="logo-teo"
-          />
+          <Link to="/iframeconcello" className="menu-item">
+            <img
+              src={"/images/logo_pequeno.png"}
+              className="logo-container"
+              alt="logo-teo"
+            />
+          </Link>
         </div>
 
         <nav className="menu">

@@ -12,6 +12,7 @@ import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
+import IFrameConcello from "./IFrameConcello";
 
 class App extends React.Component {
   state = {
@@ -291,6 +292,7 @@ class App extends React.Component {
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
+          <IFrameConcello path="/iframeconcello" />
           <NotFound default />
           <EventDetails
             path="/eventdetails"
