@@ -12,7 +12,7 @@ import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
-import IframeConcelloTeo from "./IFrameConcelloTeo";
+import IFrameConcelloTeo from "./IFrameConcelloTeo";
 
 class App extends React.Component {
   state = {
@@ -297,7 +297,7 @@ class App extends React.Component {
             path="/eventdetails"
             eventDetails={this.state.culture.events.event3}
           />
-          <IframeConcelloTeo path="/concelloteo" />
+          <IFrameConcelloTeo path="/concelloteo" />
         </Router>
       </div>
     );

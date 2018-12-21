@@ -1,5 +1,5 @@
 import React from "react";
-import Iframe from "react-iframe";
+import IFrame from "react-iframe";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -9,7 +9,7 @@ class IframeConcelloTeo extends React.Component {
     return (
       <div>
         <Header />
-        <Iframe
+        <IFrame
           url="http://ver.movistarplus.es/"
           width="100%"
           height="800px"
