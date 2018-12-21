@@ -30,7 +30,7 @@ class Header extends React.Component {
             InfoTeo
           </Link>
           <Link to="/concelloteo" className="menu-item">
-            Concello de Teo
+            <img src="images/logo_pequeno.png" alt="logo" />
           </Link>
         </nav>
         <div className="quarter" />
