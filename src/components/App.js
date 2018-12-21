@@ -12,6 +12,7 @@ import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
+import IFrameSomosTeo from "./IFrameSomosTeo";
 
 class App extends React.Component {
   state = {
@@ -291,11 +292,13 @@ class App extends React.Component {
           <InfoTeo path="/infoteo" />
           <Admin path="/admin" />
           <Salvapantallas path="/salvapantallas" />
-          <NotFound default />
+
           <EventDetails
             path="/eventdetails"
             eventDetails={this.state.culture.events.event3}
           />
+          <IFrameSomosTeo path="/iframesomosteo" />
+          <NotFound default />
         </Router>
       </div>
     );
