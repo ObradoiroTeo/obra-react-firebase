@@ -29,10 +29,10 @@ class Header extends React.Component {
           <Link to="/infoteo" className="menu-item">
             InfoTeo
           </Link>
-          <Link to="iframesomosteo" className="menu-item">
+          <Link to="/iframesomosteo" className="menu-item">
             <img
               src={"/images/somosteo.png"}
-              className="logo-container"
+              className="somos-teo"
               alt="logo-somosteo"
             />
           </Link>
