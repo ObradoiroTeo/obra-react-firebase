@@ -2,6 +2,7 @@ import React from "react";
 import Iframe from "react-iframe";
 
 import Header from "./Header";
+import Footer from "./Footer";
 
 const IFrameSomosTeo = props => (
   <div>
@@ -15,6 +16,7 @@ const IFrameSomosTeo = props => (
       position="relative"
       allowFullScreen
     />
+    <Footer />
   </div>
 );
 
