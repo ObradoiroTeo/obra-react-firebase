@@ -6,11 +6,9 @@ class Header extends React.Component {
     return (
       <header className="header-container">
         <div className="quarter">
-          <img
-            src={"/images/logo_pequeno.png"}
-            className="logo-container"
-            alt="logo-teo"
-          />
+          <Link to="/concelloteo" className="menu-item">
+            <img src="images/logo_pequeno.png" alt="logo" />
+          </Link>
         </div>
 
         <nav className="menu">
@@ -28,9 +26,6 @@ class Header extends React.Component {
           </Link>
           <Link to="/infoteo" className="menu-item">
             InfoTeo
-          </Link>
-          <Link to="/concelloteo" className="menu-item">
-            <img src="images/logo_pequeno.png" alt="logo" />
           </Link>
         </nav>
         <div className="quarter" />

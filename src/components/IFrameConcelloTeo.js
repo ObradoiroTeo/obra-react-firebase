@@ -1,17 +1,17 @@
 import React from "react";
-
 import Iframe from "react-iframe";
+
 import Header from "./Header";
 
-class IFrame extends React.Component {
+class IframeConcelloTeo extends React.Component {
   render() {
     return (
       <div>
         <Header />
         <Iframe
-          url="https://onedrive.live.com/about/es-es/signin/"
+          url="http://ver.movistarplus.es/"
           width="100%"
-          height="90%"
+          height="800px"
           id="myId"
           className="myClassname"
           display="initial"
@@ -23,4 +23,4 @@ class IFrame extends React.Component {
   }
 }
 
-export default IFrame;
+export default IframeConcelloTeo;
