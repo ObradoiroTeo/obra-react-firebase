@@ -2,7 +2,6 @@ import React from "react";
 
 import Iframe from "react-iframe";
 import Header from "./Header";
-import SectionEvents from "./SectionEvents";
 
 class IFrame extends React.Component {
   render() {
@@ -10,7 +9,7 @@ class IFrame extends React.Component {
       <div>
         <Header />
         <Iframe
-          url="https://www.youtube.com/embed/ixkoVwKQaJg"
+          url="https://onedrive.live.com/about/es-es/signin/"
           width="100%"
           height="90%"
           id="myId"
