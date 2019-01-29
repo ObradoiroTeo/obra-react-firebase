@@ -12,6 +12,7 @@ import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
+import base from "../base";
 
 class App extends React.Component {
   state = {
