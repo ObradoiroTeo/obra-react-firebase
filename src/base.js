@@ -1,14 +1,16 @@
 import Rebase from "re-base";
-import firebase from "firebase/app";
+import firebase from "firebase";
 
-const config = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL
-};
+const firebaseApp = firebase.initializeApp({
+  apiKey: "AIzaSyD-F6IiBPI4S93Y1QACl7mmSJPFZPsVU4g",
+  authDomain: "obra-400f4.firebaseapp.com",
+  databaseURL: "https://obra-400f4.firebaseio.com"
+});
 
-const firebaseApp = firebase.initializeApp(config);
 const base = Rebase.createClass(firebaseApp.database());
 
+// This is a named export
 export { firebaseApp };
+
+// This is a default export
 export default base;
