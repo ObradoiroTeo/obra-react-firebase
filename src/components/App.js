@@ -59,7 +59,7 @@ class App extends React.Component {
     });
   }
 
-  componentWillMount() {
+  componentWillUnMount() {
     base.removeBinding(this.ref);
   }
 
