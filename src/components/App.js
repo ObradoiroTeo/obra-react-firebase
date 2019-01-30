@@ -9,7 +9,7 @@ import Deporte from "./Deporte";
 import Avisos from "./Avisos";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
-import Salvapantallas from "Salvapantallas";
+import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
 
@@ -59,7 +59,7 @@ class App extends React.Component {
     });
   }
 
-  componentWillUnMount() {
+  componentWillUnmount() {
     base.removeBinding(this.ref);
   }
 
