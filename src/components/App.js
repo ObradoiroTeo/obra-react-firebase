@@ -13,17 +13,49 @@ import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
 
-/*import base from "../base";
-import sport from "./sample-deportes";
-import culture from "./sample-cultura";
-import notifications from "./sample-avisos";
-*/
+import base from "../base";
+
+import sampleDeporte from "./sample-deporte";
+import sampleCulture from "./sample-cultura";
+import sampleAvisos from "./sample-avisos";
+
 class App extends React.Component {
   state = {
     sport: {},
     culture: {},
     notifications: {}
   };
+
+  loadSampleDeporte = () => {
+    this.setState({ sport: sampleDeporte });
+  };
+
+  loadSampleCulture = () => {
+    this.setState({ culture: sampleCulture });
+  };
+
+  loadSampleAvisos = () => {
+    this.setState({ notifications: sampleAvisos });
+  };
+
+  componentDidMount() {
+    this.ref = base.syncState(`notifications`, {
+      context: this,
+      state: "notifications"
+    });
+    this.ref = base.syncState(`sport`, {
+      context: this,
+      state: "sport"
+    });
+    this.ref = base.syncState(`culture`, {
+      context: this,
+      state: "culture"
+    });
+  }
+
+  componentWillUnMount() {
+    base.removeBinding(this.ref);
+  }
 
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
@@ -104,9 +136,7 @@ class App extends React.Component {
 
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
-  /*componentWillUnMount() {
-    base.removeBinding(this.ref);
-  }*/
+
   render() {
     return (
       <div className="body-background">
@@ -140,12 +170,17 @@ class App extends React.Component {
           />
           <Avisos path="/avisos" notifications={this.state.notifications} />
           <InfoTeo path="/infoteo" />
-          <Admin path="/admin" />
+          <Admin
+            path="/admin"
+            Avisos={this.loadSampleAvisos}
+            Sport={this.loadSampleDeporte}
+            Culture={this.loadSampleCulture}
+          />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
           <EventDetails
             path="/eventdetails"
-            eventDetails={this.state.culture.events.event3}
+            // eventDetails={this.state.culture.events.event3}
           />
         </Router>
       </div>

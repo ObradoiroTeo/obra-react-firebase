@@ -29,6 +29,9 @@ class Header extends React.Component {
           <Link to="/infoteo" className="menu-item">
             InfoTeo
           </Link>
+          <Link to="/admin" className="menu-item">
+            Admin
+          </Link>
         </nav>
         <div className="quarter" />
       </header>
