@@ -3,8 +3,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 class Admin extends React.Component {
-  cargarArchivosDeporte = event => {};
-
   render() {
     return (
       <h1>
