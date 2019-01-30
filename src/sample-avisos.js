@@ -1,4 +1,4 @@
-const avisos = {
+const notifications = {
   title: "Listado de Avisos e Notificacións",
   events: {
     event1: {
@@ -52,4 +52,4 @@ const avisos = {
   }
 };
 
-export default avisos;
+export default notifications;

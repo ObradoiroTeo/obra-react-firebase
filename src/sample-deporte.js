@@ -1,4 +1,4 @@
-const deporte = {
+const sports = {
   title: "Deporte",
   events: {
     event1: {
@@ -52,4 +52,4 @@ const deporte = {
   }
 };
 
-export default deporte;
+export default sports;

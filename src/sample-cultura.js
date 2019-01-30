@@ -1,4 +1,4 @@
-const cultura = {
+const culture = {
   title: "Cultura",
   events: {
     event1: {
@@ -52,4 +52,4 @@ const cultura = {
   }
 };
 
-export default cultura;
+export default culture;
