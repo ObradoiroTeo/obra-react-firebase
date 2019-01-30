@@ -1,10 +1,11 @@
 import Rebase from "re-base";
-import firebase from "firebase";
+import firebase from "firebase/app";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyD-F6IiBPI4S93Y1QACl7mmSJPFZPsVU4g",
-  authDomain: "obra-400f4.firebaseapp.com",
-  databaseURL: "https://obra-400f4.firebaseio.com"
+  apiKey: "AIzaSyB0GHAGRwWx9J1RBZuoKTH1IO4Jxh0yo9Q",
+  authDomain: "prueba-f7356.firebaseapp.com",
+  databaseURL: "https://prueba-f7356.firebaseio.com",
+  projectId: "prueba-f7356"
 });
 
 const base = Rebase.createClass(firebaseApp.database());
