@@ -11,7 +11,6 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
-import EventDetails from "./EventDetails";
 
 import base from "../base.js";
 import sampleAvisos from "../sample-avisos";
@@ -184,10 +183,6 @@ class App extends React.Component {
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
-          <EventDetails
-            path="/eventdetails"
-            eventDetails={this.state.culture.events.event3}
-          />
         </Router>
       </div>
     );
