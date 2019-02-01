@@ -42,6 +42,10 @@ class Buttons extends React.Component {
     this.props.handleFilteringThirdMonthEvents(this.props.eventsKey);
   };
 
+  resetAllItems = event => {
+    this.props.resetVisibility(this.props.eventsKey);
+  };
+
   render() {
     const date = new Date();
 
@@ -59,6 +63,9 @@ class Buttons extends React.Component {
         </button>
         <button className="month-button" onClick={this.handleThirdMonthClick}>
           {this.months[month3]}
+        </button>
+        <button className="month-button" onClick={this.resetAllItems}>
+          Mostrar todos
         </button>
       </div>
     );
