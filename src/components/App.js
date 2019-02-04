@@ -21,26 +21,7 @@ import base from "../base";
 class App extends React.Component {
   state = {
     sport: {},
-    culture: {
-      events: {
-        event1: {
-          name: "cultureEvento 1",
-          image: "/images/cultureEvent1.jpg",
-          date: "2018-12-15",
-          visible: true,
-          desc:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
-        },
-        event2: {
-          name: "cultureEvento 2",
-          image: "/images/cultureEvent2.jpg",
-          date: "2019-01-22",
-          visible: true,
-          desc:
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
-        }
-      }
-    },
+    culture: {},
     notifications: {}
   };
 
