@@ -12,6 +12,8 @@ import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
+import IFrameConcelloTeo from "./IFrameConcelloTeo";
+import IFrameSomosTeo from "./IFrameSomosTeo";
 
 import sampleAvisos from "../sample-Avisos";
 import sampleSport from "../sample-Deporte";
@@ -181,6 +183,8 @@ class App extends React.Component {
             path="/eventdetails"
             //  eventDetails={this.state.culture.events.event3}
           />
+          <IFrameConcelloTeo path="/concelloteo" />
+          <IFrameSomosTeo path="/somosteo" />
         </Router>
       </div>
     );
