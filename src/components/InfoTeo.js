@@ -20,14 +20,14 @@ class InfoTeo extends React.Component {
   renderPagination = (page, pages) => {
     let previousButton = (
       <li className="month-button" onClick={this.handlePrevious}>
-        <i className="fa fa-arrow-left" /> Previous
+        <i className="fa fa-arrow-left" /> Anterior
       </li>
     );
     if (page === 1) {
       previousButton = (
         <li className="month-button">
           <a href="#pdf">
-            <i className="fa fa-arrow-left" /> Previous
+            <i className="fa fa-arrow-left" /> Anterior
           </a>
         </li>
       );
@@ -35,7 +35,7 @@ class InfoTeo extends React.Component {
     let nextButton = (
       <li className="month-button" onClick={this.handleNext}>
         <a href="#pdf">
-          Next <i className="fa fa-arrow-right" />
+          Siguiente <i className="fa fa-arrow-right" />
         </a>
       </li>
     );
@@ -43,7 +43,7 @@ class InfoTeo extends React.Component {
       nextButton = (
         <li className="month-button">
           <a href="#pdf">
-            Next <i className="fa fa-arrow-right" />
+            Siguiente <i className="fa fa-arrow-right" />
           </a>
         </li>
       );
