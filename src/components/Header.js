@@ -17,14 +17,14 @@ class Header extends React.Component {
           <Link to="/" className="menu-item">
             Inicio
           </Link>
-          <Link to="/cultura" className="menu-item">
-            Cultura
+          <Link to="/axenda" className="menu-item">
+            Axenda
           </Link>
-          <Link to="/deporte" className="menu-item">
-            Deporte
+          <Link to="/novas" className="menu-item">
+            Novas
           </Link>
-          <Link to="/avisos" className="menu-item">
-            Avisos
+          <Link to="/convocatorias" className="menu-item">
+            Convocatorias
           </Link>
           <Link to="/infoteo" className="menu-item">
             InfoTeo

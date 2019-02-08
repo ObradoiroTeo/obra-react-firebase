@@ -4,51 +4,51 @@ import { Router } from "@reach/router";
 import "../index.css";
 
 import Home from "./Home";
-import Cultura from "./Cultura";
-import Deporte from "./Deporte";
-import Avisos from "./Avisos";
+import Axenda from "./Axenda";
+import Novas from "./Novas";
+import Convocatorias from "./Convocatorias";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
 
-import sampleAvisos from "../sample-Avisos";
-import sampleSport from "../sample-Deporte";
-import sampleCulture from "../sample-Cultura";
+import sampleConvocatorias from "../sample-Convocatorias";
+import sampleNovas from "../sample-Novas";
+import sampleAxenda from "../sample-Axenda";
 import base from "../base";
 
 class App extends React.Component {
   state = {
-    sport: {},
-    culture: {},
-    notifications: {}
+    novas: {},
+    axenda: {},
+    convocatorias: {}
   };
 
-  loadSampleAvisos = () => {
-    this.setState({ notifications: sampleAvisos });
+  loadSampleConvocatorias = () => {
+    this.setState({ convocatorias: sampleConvocatorias });
   };
 
-  loadSampleSport = () => {
-    this.setState({ sport: sampleSport });
+  loadSampleNovas = () => {
+    this.setState({ novas: sampleNovas });
   };
 
-  loadSampleCulture = () => {
-    this.setState({ culture: sampleCulture });
+  loadSampleAxenda = () => {
+    this.setState({ axenda: sampleAxenda });
   };
 
   componentDidMount() {
-    this.ref = base.syncState(`notifications`, {
+    this.ref = base.syncState(`convocatorias`, {
       context: this,
-      state: "notifications"
+      state: "convocatorias"
     });
-    this.ref = base.syncState(`sport`, {
+    this.ref = base.syncState(`novas`, {
       context: this,
-      state: "sport"
+      state: "novas"
     });
-    this.ref = base.syncState(`culture`, {
+    this.ref = base.syncState(`axenda`, {
       context: this,
-      state: "culture"
+      state: "axenda"
     });
   }
 
@@ -141,9 +141,9 @@ class App extends React.Component {
       <div className="body-background">
         <Router>
           <Home path="/" />
-          <Cultura
-            path="/cultura"
-            cultureEvents={this.state.culture}
+          <Axenda
+            path="/axenda"
+            axendaEvents={this.state.axenda}
             handleFilteringActualMonthEvents={
               this.handleFilteringActualMonthEvents
             }
@@ -152,11 +152,11 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            eventsKey="culture"
+            eventsKey="axenda"
           />
-          <Deporte
-            path="/deporte"
-            sportEvents={this.state.sport}
+          <Novas
+            path="/novas"
+            novasEvents={this.state.novas}
             handleFilteringActualMonthEvents={
               this.handleFilteringActualMonthEvents
             }
@@ -165,15 +165,18 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            eventsKey="sport"
+            eventsKey="novas"
           />
-          <Avisos path="/avisos" notifications={this.state.notifications} />
+          <Convocatorias
+            path="/convocatorias"
+            convocatorias={this.state.convocatorias}
+          />
           <InfoTeo path="/infoteo" />
           <Admin
             path="/admin"
-            Avisos={this.loadSampleAvisos}
-            Sport={this.loadSampleSport}
-            Culture={this.loadSampleCulture}
+            Convocatorias={this.loadSampleConvocatorias}
+            Novas={this.loadSampleNovas}
+            Axenda={this.loadSampleAxenda}
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
