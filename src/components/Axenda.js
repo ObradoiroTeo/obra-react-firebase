@@ -7,9 +7,9 @@ import Buttons from "./Buttons";
 import SectionEvents from "./SectionEvents";
 import Footer from "./Footer";
 
-class Deporte extends React.Component {
+class Axenda extends React.Component {
   static propTypes = {
-    sportEvents: PropTypes.shape({
+    axendaEvents: PropTypes.shape({
       title: PropTypes.string.isRequired,
       events: PropTypes.object.isRequired
     }).isRequired,
@@ -26,7 +26,7 @@ class Deporte extends React.Component {
     return (
       <div>
         <Header />
-        <SectionTitle title={this.props.sportEvents.title} />
+        <SectionTitle title={this.props.axendaEvents.title} />
         <Buttons
           handleFilteringActualMonthEvents={
             this.props.handleFilteringActualMonthEvents
@@ -40,11 +40,11 @@ class Deporte extends React.Component {
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
         />
-        <SectionEvents events={this.props.sportEvents.events} />
+        <SectionEvents events={this.props.axendaEvents.events} />
         <Footer />
       </div>
     );
   }
 }
 
-export default Deporte;
+export default Axenda;
