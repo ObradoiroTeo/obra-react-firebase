@@ -38,6 +38,7 @@ class Cultura extends React.Component {
             this.props.handleFilteringThirdMonthEvents
           }
           eventsKey={this.props.eventsKey}
+          resetVisibility={this.props.resetVisibility}
         />
         <SectionEvents events={this.props.cultureEvents.events} />
         <Footer />

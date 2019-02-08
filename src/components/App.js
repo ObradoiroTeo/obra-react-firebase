@@ -13,17 +13,26 @@ import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
 
+<<<<<<< HEAD
 import base from "../base";
 
 import sampleDeporte from "./sample-deporte";
 import sampleCulture from "./sample-cultura";
 import sampleAvisos from "./sample-avisos";
 
+=======
+import sampleAvisos from "../sample-Avisos";
+import sampleSport from "../sample-Deporte";
+import sampleCulture from "../sample-Cultura";
+import base from "../base";
+
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
 class App extends React.Component {
   state = {
     sport: {},
     culture: {},
     notifications: {}
+<<<<<<< HEAD
   };
 
   loadSampleDeporte = () => {
@@ -32,12 +41,25 @@ class App extends React.Component {
 
   loadSampleCulture = () => {
     this.setState({ culture: sampleCulture });
+=======
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
   };
 
   loadSampleAvisos = () => {
     this.setState({ notifications: sampleAvisos });
   };
 
+<<<<<<< HEAD
+=======
+  loadSampleSport = () => {
+    this.setState({ sport: sampleSport });
+  };
+
+  loadSampleCulture = () => {
+    this.setState({ culture: sampleCulture });
+  };
+
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
   componentDidMount() {
     this.ref = base.syncState(`notifications`, {
       context: this,
@@ -53,7 +75,11 @@ class App extends React.Component {
     });
   }
 
+<<<<<<< HEAD
   componentWillUnMount() {
+=======
+  componentWillUnmount() {
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
     base.removeBinding(this.ref);
   }
 
@@ -173,14 +199,22 @@ class App extends React.Component {
           <Admin
             path="/admin"
             Avisos={this.loadSampleAvisos}
+<<<<<<< HEAD
             Sport={this.loadSampleDeporte}
+=======
+            Sport={this.loadSampleSport}
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
             Culture={this.loadSampleCulture}
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
           <EventDetails
             path="/eventdetails"
+<<<<<<< HEAD
             // eventDetails={this.state.culture.events.event3}
+=======
+            //  eventDetails={this.state.culture.events.event3}
+>>>>>>> c595fcb324637fc1ccba064546d9ea84b03e13ee
           />
         </Router>
       </div>
