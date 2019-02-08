@@ -7,9 +7,9 @@ import Buttons from "./Buttons";
 import SectionEvents from "./SectionEvents";
 import Footer from "./Footer";
 
-class Cultura extends React.Component {
+class Novas extends React.Component {
   static propTypes = {
-    cultureEvents: PropTypes.shape({
+    novasEvents: PropTypes.shape({
       title: PropTypes.string.isRequired,
       events: PropTypes.object.isRequired
     }).isRequired,
@@ -26,7 +26,7 @@ class Cultura extends React.Component {
     return (
       <div>
         <Header />
-        <SectionTitle title={this.props.cultureEvents.title} />
+        <SectionTitle title={this.props.novasEvents.title} />
         <Buttons
           handleFilteringActualMonthEvents={
             this.props.handleFilteringActualMonthEvents
@@ -40,11 +40,11 @@ class Cultura extends React.Component {
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
         />
-        <SectionEvents events={this.props.cultureEvents.events} />
+        <SectionEvents events={this.props.novasEvents.events} />
         <Footer />
       </div>
     );
   }
 }
 
-export default Cultura;
+export default Novas;

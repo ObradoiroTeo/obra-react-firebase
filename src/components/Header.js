@@ -11,36 +11,26 @@ class Header extends React.Component {
             className="logo-container"
             alt="logo-teo"
           />
-          <Link to="/concelloteo" className="menu-item">
-            <img
-              src={"/images/logo_pequeno.png"}
-              className="logo-container"
-              alt="logo-teo"
-            />
-          </Link>
         </div>
 
         <nav className="menu">
           <Link to="/" className="menu-item">
             Inicio
           </Link>
-          <Link to="/cultura" className="menu-item">
-            Cultura
+          <Link to="/axenda" className="menu-item">
+            Axenda
           </Link>
-          <Link to="/deporte" className="menu-item">
-            Deporte
+          <Link to="/novas" className="menu-item">
+            Novas
           </Link>
-          <Link to="/avisos" className="menu-item">
-            Avisos
+          <Link to="/convocatorias" className="menu-item">
+            Convocatorias
           </Link>
           <Link to="/infoteo" className="menu-item">
             InfoTeo
           </Link>
           <Link to="/admin" className="menu-item">
             Admin
-          </Link>
-          <Link to="/somosteo" className="menu-item">
-            Somos Teo
           </Link>
         </nav>
         <div className="quarter" />

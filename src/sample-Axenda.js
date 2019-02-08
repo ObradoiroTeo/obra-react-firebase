@@ -1,5 +1,5 @@
-const culture = {
-  title: "Cultura",
+const axenda = {
+  title: "Axenda",
   events: {
     event1: {
       name: "cultureEvento 1",
@@ -52,4 +52,4 @@ const culture = {
   }
 };
 
-export default culture;
+export default axenda;

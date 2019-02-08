@@ -4,63 +4,53 @@ import { Router } from "@reach/router";
 import "../index.css";
 
 import Home from "./Home";
-import Cultura from "./Cultura";
-import Deporte from "./Deporte";
-import Avisos from "./Avisos";
+import Axenda from "./Axenda";
+import Novas from "./Novas";
+import Convocatorias from "./Convocatorias";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
-import IFrameConcelloTeo from "./IFrameConcelloTeo";
-import IFrameSomosTeo from "./IFrameSomosTeo";
 
 import base from "../base.js";
-import sampleAvisos from "../sample-avisos";
-import sampleDeporte from "../sample-deporte";
-import sampleCultura from "../sample-cultura";
+import sampleConvocatorias from "../sample-Convocatorias";
+import sampleNovas from "../sample-Novas";
+import sampleAxenda from "../sample-Axenda";
 
 class App extends React.Component {
   state = {
-    sport: {},
-    culture: {},
-    notifications: {}
+    novas: {},
+    axenda: {},
+    convocatorias: {}
   };
 
-  loadSampleAvisos = () => {
-    this.setState({
-      notifications: sampleAvisos
-    });
-  };
-  loadSampleCultura = () => {
-    this.setState({
-      culture: sampleCultura
-    });
+  loadSampleConvocatorias = () => {
+    this.setState({ convocatorias: sampleConvocatorias });
   };
 
-  loadSampleDeporte = () => {
-    this.setState({
-      sport: sampleDeporte
-    });
+  loadSampleNovas = () => {
+    this.setState({ novas: sampleNovas });
+  };
+
+  loadSampleAxenda = () => {
+    this.setState({ axenda: sampleAxenda });
   };
 
   componentDidMount() {
-    this.ref = base.syncState(`notifications`, {
+    this.ref = base.syncState(`convocatorias`, {
       context: this,
-      state: `notifications`
+      state: "convocatorias"
     });
-
-    this.ref = base.syncState(`culture`, {
+    this.ref = base.syncState(`novas`, {
       context: this,
-      state: `culture`
+      state: "novas"
     });
-
-    this.ref = base.syncState(`sport`, {
+    this.ref = base.syncState(`axenda`, {
       context: this,
-      state: `sport`
+      state: "axenda"
     });
   }
-
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
@@ -150,9 +140,9 @@ class App extends React.Component {
       <div className="body-background">
         <Router>
           <Home path="/" />
-          <Cultura
-            path="/cultura"
-            cultureEvents={this.state.culture}
+          <Axenda
+            path="/axenda"
+            axendaEvents={this.state.axenda}
             handleFilteringActualMonthEvents={
               this.handleFilteringActualMonthEvents
             }
@@ -161,11 +151,11 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            eventsKey="culture"
+            eventsKey="axenda"
           />
-          <Deporte
-            path="/deporte"
-            sportEvents={this.state.sport}
+          <Novas
+            path="/novas"
+            novasEvents={this.state.novas}
             handleFilteringActualMonthEvents={
               this.handleFilteringActualMonthEvents
             }
@@ -174,15 +164,18 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            eventsKey="sport"
+            eventsKey="novas"
           />
-          <Avisos path="/avisos" notifications={this.state.notifications} />
+          <Convocatorias
+            path="/convocatorias"
+            convocatorias={this.state.convocatorias}
+          />
           <InfoTeo path="/infoteo" />
           <Admin
             path="/admin"
-            Avisos={this.loadSampleAvisos}
-            Deportes={this.loadSampleDeporte}
-            Cultura={this.loadSampleCultura}
+            Convocatorias={this.loadSampleConvocatorias}
+            Novas={this.loadSampleNovas}
+            Axenda={this.loadSampleAxenda}
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
@@ -190,8 +183,6 @@ class App extends React.Component {
             path="/eventdetails"
             // eventDetails={this.state.culture.events.event3}
           />
-          <IFrameConcelloTeo path="/concelloteo" />
-          <IFrameSomosTeo path="/somosteo" />
         </Router>
       </div>
     );

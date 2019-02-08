@@ -5,11 +5,20 @@ import Footer from "./Footer";
 class Admin extends React.Component {
   render() {
     return (
-      <div className="cargar">
+      <div>
         <Header />
-        <button onClick={this.props.Avisos}>Cargar Avisos</button>
-        <button onClick={this.props.Cultura}>Cargar Cultura</button>
-        <button onClick={this.props.Deportes}>Cargar Deportes</button>
+        <button className="fichero-novas" onClick={this.props.Novas}>
+          Cargar fichero Novas
+        </button>
+        <button className="fichero-axenda" onClick={this.props.Axenda}>
+          Cargar fichero axenda
+        </button>
+        <button
+          className="fichero-convocatorias"
+          onClick={this.props.Convocatorias}
+        >
+          Cargar fichero convocatorias
+        </button>
         <Footer />
       </div>
     );
