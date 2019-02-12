@@ -65,7 +65,6 @@ class InfoTeo extends React.Component {
     return (
       <div>
         <Header />
-        <h1>Informa Teo</h1>
         <PDF
           file="InformaTeo_Novembro_2018.pdf"
           onDocumentComplete={this.onDocumentComplete}
