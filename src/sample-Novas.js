@@ -8,7 +8,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: ""
     },
     event2: {
       name: "sportEvento 2",
@@ -17,7 +18,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: ""
     },
     event3: {
       name: "sportEvento 3",
@@ -26,7 +28,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: ""
     },
     event4: {
       name: "sportEvento 4",
@@ -35,7 +38,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: "Axuda e Subvencións"
     },
     event5: {
       name: "sportEvento 5",
@@ -44,7 +48,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: "Axuda e Subvencións"
     },
     event6: {
       name: "sportEvento 6",
@@ -53,7 +58,8 @@ const novas = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      subtitulo: ""
+      subtitulo: "",
+      tipo: "Cementerio"
     }
   }
 };

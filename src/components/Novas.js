@@ -39,6 +39,7 @@ class Novas extends React.Component {
           }
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
+          handleBotoncitosDelDemonio={this.props.handleBotoncitosDelDemonio}
         />
         <SectionEvents events={this.props.novasEvents.events} />
         <Footer />
