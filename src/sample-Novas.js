@@ -7,7 +7,9 @@ const novas = {
       date: "2018-11-15",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: "",
+      tipo: ""
     },
     event2: {
       name: "sportEvento 2",
@@ -15,7 +17,9 @@ const novas = {
       date: "2018-12-22",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtítulo: "",
+      tipo: ""
     },
     event3: {
       name: "sportEvento 3",
@@ -23,7 +27,9 @@ const novas = {
       date: "2018-12-29",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtítulo: "",
+      tipo: ""
     },
     event4: {
       name: "sportEvento 4",
@@ -31,7 +37,9 @@ const novas = {
       date: "2019-01-30",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtítulo: "",
+      tipo: "Axuda e Subvencións"
     },
     event5: {
       name: "sportEvento 5",
@@ -39,7 +47,9 @@ const novas = {
       date: "2019-01-31",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtítulo: "",
+      tipo: "Axuda e Subvencións"
     },
     event6: {
       name: "sportEvento 6",
@@ -47,7 +57,9 @@ const novas = {
       date: "2019-02-26",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtítulo: "",
+      tipo: "Cementerio"
     }
   }
 };

@@ -135,6 +135,23 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
 
+  handleBotoncitosDelDemonio = eventsKey => {
+    const actualMonth = "Axuda e Subvencións";
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const filtradoPorTipo = eventsToFilter[eventKey].tipo;
+      if (actualMonth === filtradoPorTipo) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
   render() {
     return (
       <div className="body-background">
@@ -151,6 +168,7 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
+            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
             eventsKey="axenda"
           />
           <Novas
@@ -164,11 +182,13 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
+            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
             eventsKey="novas"
           />
           <Convocatorias
             path="/convocatorias"
             convocatorias={this.state.convocatorias}
+            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
           />
           <InfoTeo path="/infoteo" />
           <Admin

@@ -46,6 +46,10 @@ class Buttons extends React.Component {
     this.props.resetVisibility(this.props.eventsKey);
   };
 
+  handleBotoncitosDelDemonioClick = event => {
+    this.props.handleBotoncitosDelDemonio(this.props.eventsKey);
+  };
+
   render() {
     const date = new Date();
 
@@ -67,6 +71,25 @@ class Buttons extends React.Component {
         <button className="month-button" onClick={this.resetAllItems}>
           Mostrar todos
         </button>
+        <div
+          className="month-button"
+          id="categoria"
+          onClick={this.handleBotoncitosDelDemonioClick}
+        >
+          <label for="Categoria"> Categor&iacute;a </label>
+          <select>
+            <option value="Axuda e Subvencións">Axuda e Subvencións</option>
+            <option value="Cementerio">Cementerio</option>
+            <option value="Concursos e Licitacións">
+              Concursos e Licitacións
+            </option>
+            <option value="Ofertas de Emprego Público">
+              Ofertas de Emprego Público
+            </option>
+            <option value="Outras">Outras</option>
+            <option value="Calquera">Calquera</option>
+          </select>
+        </div>
       </div>
     );
   }
