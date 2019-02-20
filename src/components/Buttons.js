@@ -7,6 +7,8 @@ class Buttons extends React.Component {
     eventsKey: PropTypes.string.isRequired
   };
 
+  myInput = React.createRef();
+
   months = [
     "Xaneiro",
     "Febreiro",
@@ -49,7 +51,21 @@ class Buttons extends React.Component {
   handleBotoncitosDelDemonioClick = event => {
     this.props.handleBotoncitosDelDemonio(this.props.eventsKey);
   };
+  // ---------------------------------------------------------------------------------
+  //--------------------------------------------------------------------------------
 
+  myInput = React.createRef();
+
+  goToStore = event => {
+    // 1. Stop the form from submitting
+    event.preventDefault();
+    // 2. get the text from that input
+    const storeName = this.myInput.current.value;
+    console.log(storeName);
+    // 3. Change the page to /store/whatever-they-entered
+  };
+  //-------------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------------
   render() {
     const date = new Date();
 
@@ -71,13 +87,17 @@ class Buttons extends React.Component {
         <button className="month-button" onClick={this.resetAllItems}>
           Mostrar todos
         </button>
+
         <div
           className="month-button"
           id="categoria"
           onClick={this.handleBotoncitosDelDemonioClick}
         >
-          <label for="Categoria"> Categor&iacute;a </label>
-          <select>
+          <label for="Categoria" onSubmit={this.handleMark2}>
+            Categoría
+          </label>
+
+          <select name="solo1" ref={this.myInput}>
             <option value="Axuda e Subvencións">Axuda e Subvencións</option>
             <option value="Cementerio">Cementerio</option>
             <option value="Concursos e Licitacións">
@@ -90,6 +110,9 @@ class Buttons extends React.Component {
             <option value="Calquera">Calquera</option>
           </select>
         </div>
+        <form className="store-selector" onSubmit={this.goToStore}>
+          <button type="submit">Visit Store →</button>
+        </form>
       </div>
     );
   }
