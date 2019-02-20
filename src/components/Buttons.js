@@ -7,8 +7,6 @@ class Buttons extends React.Component {
     eventsKey: PropTypes.string.isRequired
   };
 
-  myInput = React.createRef();
-
   months = [
     "Xaneiro",
     "Febreiro",
@@ -62,8 +60,11 @@ class Buttons extends React.Component {
     // 2. get the text from that input
     const storeName = this.myInput.current.value;
     console.log(storeName);
+    return storeName;
+
     // 3. Change the page to /store/whatever-they-entered
   };
+
   //-------------------------------------------------------------------------------------
   //-------------------------------------------------------------------------------------
   render() {
@@ -93,9 +94,7 @@ class Buttons extends React.Component {
           id="categoria"
           onClick={this.handleBotoncitosDelDemonioClick}
         >
-          <label for="Categoria" onSubmit={this.handleMark2}>
-            Categoría
-          </label>
+          <label for="Categoria">Categoría</label>
 
           <select name="solo1" ref={this.myInput}>
             <option value="Axuda e Subvencións">Axuda e Subvencións</option>
@@ -117,5 +116,5 @@ class Buttons extends React.Component {
     );
   }
 }
-
+export var goToStore, storeName;
 export default Buttons;

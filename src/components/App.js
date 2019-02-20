@@ -17,6 +17,7 @@ import sampleConvocatorias from "../sample-Convocatorias";
 import sampleNovas from "../sample-Novas";
 import sampleAxenda from "../sample-Axenda";
 import base from "../base";
+import button from "./Buttons";
 
 class App extends React.Component {
   state = {
@@ -36,7 +37,6 @@ class App extends React.Component {
   loadSampleAxenda = () => {
     this.setState({ axenda: sampleAxenda });
   };
-
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -137,7 +137,7 @@ class App extends React.Component {
   };
 
   handleBotoncitosDelDemonio = eventsKey => {
-    const actualMonth = "Axuda e Subvencións";
+    const actualMonth = { ...button };
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
