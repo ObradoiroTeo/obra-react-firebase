@@ -6,9 +6,9 @@ import SectionTitle from "./SectionTitle";
 import SectionEvents from "./SectionEvents";
 import Footer from "./Footer";
 
-class Avisos extends React.Component {
+class Convocatorias extends React.Component {
   static propTypes = {
-    notifications: PropTypes.shape({
+    convocatorias: PropTypes.shape({
       title: PropTypes.string.isRequired,
       events: PropTypes.object.isRequired
     }).isRequired
@@ -18,12 +18,12 @@ class Avisos extends React.Component {
     return (
       <div>
         <Header />
-        <SectionTitle title={this.props.notifications.title} />
-        <SectionEvents events={this.props.notifications.events} />
+        <SectionTitle title={this.props.convocatorias.title} />
+        <SectionEvents events={this.props.convocatorias.events} />
         <Footer />
       </div>
     );
   }
 }
 
-export default Avisos;
+export default Convocatorias;

@@ -1,5 +1,5 @@
-const sport = {
-  title: "Deporte",
+const novas = {
+  title: "Novas",
   events: {
     event1: {
       name: "sportEvento 1",
@@ -7,7 +7,8 @@ const sport = {
       date: "2018-12-15",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     },
     event2: {
       name: "sportEvento 2",
@@ -15,7 +16,8 @@ const sport = {
       date: "2019-01-31",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     },
     event3: {
       name: "sportEvento 3",
@@ -23,7 +25,8 @@ const sport = {
       date: "2019-02-18",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     },
     event4: {
       name: "sportEvento 4",
@@ -31,7 +34,8 @@ const sport = {
       date: "2019-02-16",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     },
     event5: {
       name: "sportEvento 5",
@@ -39,7 +43,8 @@ const sport = {
       date: "2019-03-31",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     },
     event6: {
       name: "sportEvento 6",
@@ -47,9 +52,10 @@ const sport = {
       date: "2019-03-26",
       visible: true,
       desc:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?"
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
+      subtitulo: ""
     }
   }
 };
 
-export default sport;
+export default novas;
