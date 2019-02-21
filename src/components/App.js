@@ -171,14 +171,12 @@ class App extends React.Component {
             resetVisibility={this.resetVisibility}
             handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
             eventsKey="axenda"
-          />
           >
-           <EventDetails
-             path="/eventdetails"
+            <EventDetails
+              path="/eventdetails"
               // eventDetails={this.state.axenda.events.events5}
             />
           </Axenda>
-          
           <Novas
             path="/novas"
             novasEvents={this.state.novas}

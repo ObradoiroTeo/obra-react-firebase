@@ -9,12 +9,14 @@ class MeParecioVerUnLindoGatito extends HTMLElement {
     this.shadowRoot.innerHTML = `
     <style>
     .gatito {
-      background: yellow;
+      background: black;
       border-radius: 5px;
       padding: 8px;
+      width: 100%;
+      height: 800px;
     }
     </style>
-    <img class='gatito' src='/images/LindoGatito.jpg' />
+    <embed class='gatito' src='http://ver.movistarplus.es/' />
     `;
   }
 }
