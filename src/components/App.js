@@ -17,6 +17,7 @@ import base from "../base.js";
 import sampleConvocatorias from "../sample-Convocatorias";
 import sampleNovas from "../sample-Novas";
 import sampleAxenda from "../sample-Axenda";
+import button from "./Buttons";
 
 class App extends React.Component {
   state = {
@@ -136,7 +137,7 @@ class App extends React.Component {
   };
 
   handleBotoncitosDelDemonio = eventsKey => {
-    const actualMonth = "Axuda e Subvencións";
+    const actualMonth = { ...button };
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
@@ -171,6 +172,13 @@ class App extends React.Component {
             handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
             eventsKey="axenda"
           />
+          >
+           <EventDetails
+             path="/eventdetails"
+              // eventDetails={this.state.axenda.events.events5}
+            />
+          </Axenda>
+          
           <Novas
             path="/novas"
             novasEvents={this.state.novas}
