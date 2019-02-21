@@ -17,7 +17,7 @@ const convocatorias = {
     event2: {
       name: "notificationsEvento 2",
       image: "/images/avisosEvent2.jpg",
-      date: "2019-02-22",
+      date: "2019-03-22",
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
@@ -30,7 +30,7 @@ const convocatorias = {
     event3: {
       name: "notificationsEvento 3",
       image: "/images/avisosEvent3.jpg",
-      date: "2019-02-29",
+      date: "2019-03-29",
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
@@ -43,7 +43,7 @@ const convocatorias = {
     event4: {
       name: "notificationsEvento 4",
       image: "/images/avisosEvent4.jpg",
-      date: "2019-03-30",
+      date: "2019-04-30",
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
@@ -56,7 +56,7 @@ const convocatorias = {
     event5: {
       name: "notificationsEvento 5",
       image: "/images/avisosEvent5.jpg",
-      date: "2019-03-31",
+      date: "2019-04-30",
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
@@ -69,7 +69,7 @@ const convocatorias = {
     event6: {
       name: "notificationsEvento 6",
       image: "/images/avisosEvent6.jpg",
-      date: "2019-03-26",
+      date: "2019-04-26",
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
