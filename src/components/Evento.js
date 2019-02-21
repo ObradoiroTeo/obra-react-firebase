@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
+
 class Evento extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
@@ -11,7 +12,6 @@ class Evento extends React.Component {
     }).isRequired,
     eventKey: PropTypes.string.isRequired
   };
-
   goToEventDetails = event => {
     navigate(`/convocatorias/${this.props.eventDetails.name}`);
   };
