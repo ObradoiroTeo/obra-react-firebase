@@ -39,7 +39,7 @@ class Axenda extends React.Component {
           }
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
-          handleBotoncitosDelDemonio={this.props.handleBotoncitosDelDemonio}
+          handleFilteringEvents={this.props.handleFilteringEvents}
         />
         <SectionEvents events={this.props.axendaEvents.events} />
         <Footer />

@@ -46,8 +46,8 @@ class Buttons extends React.Component {
     this.props.resetVisibility(this.props.eventsKey);
   };
 
-  handleBotoncitosDelDemonioClick = event => {
-    this.props.handleBotoncitosDelDemonio(this.props.eventsKey);
+  handleFilteringEventsClick = event => {
+    this.props.handleFilteringEvents(this.props.eventsKey);
   };
   // ---------------------------------------------------------------------------------
   //--------------------------------------------------------------------------------
@@ -92,7 +92,7 @@ class Buttons extends React.Component {
         <div
           className="month-button"
           id="categoria"
-          onClick={this.handleBotoncitosDelDemonioClick}
+          onClick={this.handleFilteringEventsClick}
         >
           <label for="Categoria">Categoría</label>
 

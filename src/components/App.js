@@ -135,8 +135,9 @@ class App extends React.Component {
 
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
+  handleBotoncitosDelDemonio;
 
-  handleBotoncitosDelDemonio = eventsKey => {
+  handleFilteringEvents = eventsKey => {
     const actualMonth = { ...button };
 
     const eventsToFilter = { ...this.state[eventsKey].events };
@@ -169,7 +170,7 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
+            handleFilteringEvents={this.handleFilteringEvents}
             eventsKey="axenda"
           />
           <Novas
@@ -183,13 +184,13 @@ class App extends React.Component {
               this.handleFilteringThirdMonthEvents
             }
             resetVisibility={this.resetVisibility}
-            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
+            handleFilteringEvents={this.handleFilteringEvents}
             eventsKey="novas"
           />
           <Convocatorias
             path="/convocatorias"
             convocatorias={this.state.convocatorias}
-            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
+            handleFilteringEvents={this.handleFilteringEvents}
           />
           <InfoTeo path="/infoteo" />
           <Admin
