@@ -8,7 +8,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: ""
     },
     event2: {
       name: "cultureEvento 2",
@@ -17,7 +18,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: ""
     },
     event3: {
       name: "cultureEvento 3",
@@ -26,7 +28,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: ""
     },
     event4: {
       name: "cultureEvento 4",
@@ -35,7 +38,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: "Cementerio"
     },
     event5: {
       name: "cultureEvento 5",
@@ -44,7 +48,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: "Axuda e Subvencións"
     },
     event6: {
       name: "cultureEvento 6",
@@ -53,7 +58,8 @@ const axenda = {
       visible: true,
       desc:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, excepturi?",
-      ubicacion: ""
+      ubicacion: "",
+      tipo: "Cementerio"
     }
   }
 };
