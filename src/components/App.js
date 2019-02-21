@@ -153,7 +153,12 @@ class App extends React.Component {
             }
             resetVisibility={this.resetVisibility}
             eventsKey="axenda"
-          />
+          >
+            <EventDetails
+              path="/eventdetails"
+              // eventDetails={this.state.axenda.events.event5}
+            />
+          </Axenda>
           <Novas
             path="/novas"
             novasEvents={this.state.novas}
@@ -180,10 +185,6 @@ class App extends React.Component {
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
-          <EventDetails
-            path="/eventdetails"
-            //  eventDetails={this.state.culture.events.event3}
-          />
         </Router>
       </div>
     );
