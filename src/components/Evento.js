@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-
 class Evento extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
@@ -12,17 +11,11 @@ class Evento extends React.Component {
     }).isRequired,
     eventKey: PropTypes.string.isRequired
   };
+
   goToEventDetails = event => {
     navigate(`/convocatorias/${this.props.eventDetails.name}`);
   };
 
-Evento.propTypes = {
-  eventDetails: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired
-  }).isRequired
-};
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
