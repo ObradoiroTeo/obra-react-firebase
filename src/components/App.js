@@ -13,11 +13,10 @@ import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetails from "./EventDetails";
 
-import sampleConvocatorias from "../sample-Convocatorias";
-import sampleNovas from "../sample-Novas";
-//import sampleAxenda from "../sample-Axenda";
+import sampleConvocatorias from "../sample-Convocatorias.json";
+import sampleNovas from "../sample-Novas.json";
 import base from "../base";
-import sampleAxenda1 from "../sample-Axenda.json";
+import sampleAxenda from "../sample-Axenda.json";
 
 class App extends React.Component {
   state = {
@@ -35,7 +34,7 @@ class App extends React.Component {
   };
 
   loadSampleAxenda = () => {
-    this.setState({ axenda: sampleAxenda1 });
+    this.setState({ axenda: sampleAxenda });
   };
 
   componentDidMount() {
@@ -71,7 +70,7 @@ class App extends React.Component {
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_event);
       const actualEventMonth = actualEventDate.getMonth();
       if (actualMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -91,7 +90,7 @@ class App extends React.Component {
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_event);
       const actualEventMonth = actualEventDate.getMonth();
       if (nextMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -112,7 +111,67 @@ class App extends React.Component {
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_event);
+      const actualEventMonth = actualEventDate.getMonth();
+      if (thirdMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
+  handleFilteringActualMonthEventsNovas = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventMonth = actualEventDate.getMonth();
+      if (actualMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
+  handleFilteringNextMonthEventsNovas = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+    const nextMonth = this.getNextMonth(actualMonth);
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventMonth = actualEventDate.getMonth();
+      if (nextMonth === actualEventMonth) {
+        eventsToFilter[eventKey].visible = true;
+      } else {
+        eventsToFilter[eventKey].visible = false;
+      }
+      return eventsToFilter[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: filteredEvents });
+  };
+
+  handleFilteringThirdMonthEventsNovas = eventsKey => {
+    const actualDate = new Date();
+    const actualMonth = actualDate.getMonth();
+    const nextMonth = this.getNextMonth(actualMonth);
+    const thirdMonth = this.getNextMonth(nextMonth);
+
+    const eventsToFilter = { ...this.state[eventsKey].events };
+    const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
+      const actualEventDate = new Date(eventsToFilter[eventKey].date);
       const actualEventMonth = actualEventDate.getMonth();
       if (thirdMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -160,14 +219,14 @@ class App extends React.Component {
           <Novas
             path="/novas"
             novasEvents={this.state.novas}
-            handleFilteringActualMonthEventsAxenda={
-              this.handleFilteringActualMonthEventsAxenda
+            handleFilteringActualMonthEventsNovas={
+              this.handleFilteringActualMonthEventsNovas
             }
-            handleFilteringNextMonthEventsAxenda={
-              this.handleFilteringNextMonthEventsAxenda
+            handleFilteringNextMonthEventsNovas={
+              this.handleFilteringNextMonthEventsNovas
             }
-            handleFilteringThirdMonthEventsAxenda={
-              this.handleFilteringThirdMonthEventsAxenda
+            handleFilteringThirdMonthEventsNovas={
+              this.handleFilteringThirdMonthEventsNovas
             }
             resetVisibility={this.resetVisibility}
             eventsKey="novas"
