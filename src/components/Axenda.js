@@ -28,14 +28,14 @@ class Axenda extends React.Component {
         <Header />
         <SectionTitle title={this.props.axendaEvents.title} />
         <Buttons
-          handleFilteringActualMonthEvents={
-            this.props.handleFilteringActualMonthEvents
+          handleFilteringActualMonthEventsAxenda={
+            this.props.handleFilteringActualMonthEventsAxenda
           }
-          handleFilteringNextMonthEvents={
-            this.props.handleFilteringNextMonthEvents
+          handleFilteringNextMonthEventsAxenda={
+            this.props.handleFilteringNextMonthEventsAxenda
           }
-          handleFilteringThirdMonthEvents={
-            this.props.handleFilteringThirdMonthEvents
+          handleFilteringThirdMonthEventsAxenda={
+            this.props.handleFilteringThirdMonthEventsAxenda
           }
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}

@@ -31,15 +31,15 @@ class Buttons extends React.Component {
   };
 
   handleActualMonthClick = event => {
-    this.props.handleFilteringActualMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringActualMonthEventsAxenda(this.props.eventsKey);
   };
 
   handleNextMonthClick = event => {
-    this.props.handleFilteringNextMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringNextMonthEventsAxenda(this.props.eventsKey);
   };
 
   handleThirdMonthClick = event => {
-    this.props.handleFilteringThirdMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringThirdMonthEventsAxenda(this.props.eventsKey);
   };
 
   resetAllItems = event => {

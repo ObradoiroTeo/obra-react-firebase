@@ -15,8 +15,9 @@ import EventDetails from "./EventDetails";
 
 import sampleConvocatorias from "../sample-Convocatorias";
 import sampleNovas from "../sample-Novas";
-import sampleAxenda from "../sample-Axenda";
+//import sampleAxenda from "../sample-Axenda";
 import base from "../base";
+import sampleAxenda1 from "../sample-Axenda.json";
 
 class App extends React.Component {
   state = {
@@ -34,7 +35,7 @@ class App extends React.Component {
   };
 
   loadSampleAxenda = () => {
-    this.setState({ axenda: sampleAxenda });
+    this.setState({ axenda: sampleAxenda1 });
   };
 
   componentDidMount() {
@@ -64,13 +65,13 @@ class App extends React.Component {
     return nextMonth;
   };
 
-  handleFilteringActualMonthEvents = eventsKey => {
+  handleFilteringActualMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
       const actualEventMonth = actualEventDate.getMonth();
       if (actualMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -83,14 +84,14 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  handleFilteringNextMonthEvents = eventsKey => {
+  handleFilteringNextMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
     const nextMonth = this.getNextMonth(actualMonth);
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
       const actualEventMonth = actualEventDate.getMonth();
       if (nextMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -103,7 +104,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  handleFilteringThirdMonthEvents = eventsKey => {
+  handleFilteringThirdMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
     const nextMonth = this.getNextMonth(actualMonth);
@@ -111,7 +112,7 @@ class App extends React.Component {
 
     const eventsToFilter = { ...this.state[eventsKey].events };
     const filteredEvents = Object.keys(eventsToFilter).map(eventKey => {
-      const actualEventDate = new Date(eventsToFilter[eventKey].date);
+      const actualEventDate = new Date(eventsToFilter[eventKey].date_created);
       const actualEventMonth = actualEventDate.getMonth();
       if (thirdMonth === actualEventMonth) {
         eventsToFilter[eventKey].visible = true;
@@ -144,12 +145,14 @@ class App extends React.Component {
           <Axenda
             path="/axenda"
             axendaEvents={this.state.axenda}
-            handleFilteringActualMonthEvents={
-              this.handleFilteringActualMonthEvents
+            handleFilteringActualMonthEventsAxenda={
+              this.handleFilteringActualMonthEventsAxenda
             }
-            handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
-            handleFilteringThirdMonthEvents={
-              this.handleFilteringThirdMonthEvents
+            handleFilteringNextMonthEventsAxenda={
+              this.handleFilteringNextMonthEventsAxenda
+            }
+            handleFilteringThirdMonthEventsAxenda={
+              this.handleFilteringThirdMonthEventsAxenda
             }
             resetVisibility={this.resetVisibility}
             eventsKey="axenda"
@@ -157,12 +160,14 @@ class App extends React.Component {
           <Novas
             path="/novas"
             novasEvents={this.state.novas}
-            handleFilteringActualMonthEvents={
-              this.handleFilteringActualMonthEvents
+            handleFilteringActualMonthEventsAxenda={
+              this.handleFilteringActualMonthEventsAxenda
             }
-            handleFilteringNextMonthEvents={this.handleFilteringNextMonthEvents}
-            handleFilteringThirdMonthEvents={
-              this.handleFilteringThirdMonthEvents
+            handleFilteringNextMonthEventsAxenda={
+              this.handleFilteringNextMonthEventsAxenda
+            }
+            handleFilteringThirdMonthEventsAxenda={
+              this.handleFilteringThirdMonthEventsAxenda
             }
             resetVisibility={this.resetVisibility}
             eventsKey="novas"
