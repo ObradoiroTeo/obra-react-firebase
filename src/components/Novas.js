@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
-import Buttons from "./Buttons";
+import ButtonsNovas from "./ButtonsNovas";
 import SectionEvents from "./SectionEvents";
 import Footer from "./Footer";
 
@@ -27,15 +27,15 @@ class Novas extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.novasEvents.title} />
-        <Buttons
-          handleFilteringActualMonthEvents={
-            this.props.handleFilteringActualMonthEvents
+        <ButtonsNovas
+          handleFilteringActualMonthEventsNovas={
+            this.props.handleFilteringActualMonthEventsNovas
           }
-          handleFilteringNextMonthEvents={
-            this.props.handleFilteringNextMonthEvents
+          handleFilteringNextMonthEventsNovas={
+            this.props.handleFilteringNextMonthEventsNovas
           }
-          handleFilteringThirdMonthEvents={
-            this.props.handleFilteringThirdMonthEvents
+          handleFilteringThirdMonthEventsNovas={
+            this.props.handleFilteringThirdMonthEventsNovas
           }
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}

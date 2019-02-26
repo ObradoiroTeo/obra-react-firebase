@@ -1,0 +1,1845 @@
+{
+  "title": "Axenda",
+  "events": [
+    {
+      "nid": 1635,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas na Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas. O mércores 13 de febreiro o persoal técnico <strong>atenderá no servizo municipal de Urbanismo</strong>.&nbsp;</span></p>\r\n",
+      "date_event": "2019-03-28 T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2019-02-26",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_12.jpg",
+      "ubication": "https://goo.gl/maps/KW2hPqLjDwS2"
+    },
+    {
+      "nid": 1608,
+      "visible": true,
+      "desc": "<p>O domingo 16 celébrase unha nova edición do Cantateo, o encontro de voces corais que este ano reúne no Auditorio as seguintes formacións: Coral A.C. Cruceiro do Monte, Coro de San Miguel de Rariz, Coral San Simón de Cacheiras, Grupo de Canto Aleceia dos Tilos e Coral Polifónica de Luou. Será a partir das 17:30 horas e contaremos coa cantante Loli Nogueira que presentará o acto e cantará varias pezas.</p>\r\n",
+      "date_event": "2019-04-16T16:30:00",
+      "name": "Cantateo na Ramallosa",
+      "date_created": "2019-04-14",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/CARTAZ CORAIS CANTATEO 2018.jpg",
+      "ubication": "https://goo.gl/maps/ibkxohxaAUC2"
+    },
+    {
+      "nid": 1589,
+      "visible": true,
+      "desc": "<p>O sábado 15 de decembro ás 18:30 no Auditorio Constante Liste,<strong>“Contos, Cores e Rock´n´Roll”</strong> chega da man de Pakolas como un espectáculo de pequeno formato onde a interacción coas nenas e nenos, a súa música acompañada por contos e historias, e as cores e debuxos en directo de Laura Romero son o principal atractivo para o público. Esta proposta multidisciplinar crea así unha escena na que non so se pode gozar da música, senón tamén do debuxo e as cores que a rodean. Un espectáculo para todos os sentidos.</p>\r\n\r\n<p><strong>Paco Cerdeira (Pakolas)</strong> guiaranos coa súa forza interpretativa e o seu humor por todo un universo musical, a través da súa voz e tocando a guitarra, e contando nesta ocasión co apoio de <strong>Laura Romero (Ilustradora), </strong>dando unha nova dimensión visual coa creación en directo de debuxos con cores que acompañan ás cancións e contos que nelas se recollen, e axudando así a Pakolas na presentación dos seus protagonistas animais.</p>\r\n\r\n<p>A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2019-03-15T17:30:00",
+      "name": "Concerto infantil con Pakolas no Auditorio Constante Liste",
+      "date_created": "2019-03-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/libros_0.jpg",
+      "ubication": "https://goo.gl/maps/1PhuDUTuLwp"
+    },
+    {
+      "nid": 1588,
+      "visible": true,
+      "desc": "<p>O venres 21 de decembro ás 19:00 horas no Auditorio Constante Liste, concerto punk infantil da man de Peter Punk Pallaso e Brais das Hortas. Un cantante punk e un cantante infantil condenados a compartir escenario, acaban creando un delirio musical chamado Concerto PunkInfantil.</p>\r\n\r\n<p>Para público familiar, a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2019-12-21T18:00:00",
+      "name": "Concerto Punk Infantil no Auditorio Constante Liste",
+      "date_created": "2018-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PETERBRAIS-CUEIROS-CARTOON-1024x1024.jpg",
+      "ubication": "https://goo.gl/maps/1PhuDUTuLwp"
+    },
+    {
+      "nid": 1587,
+      "visible": true,
+      "desc": "<p>O venres 14 de decembro ás 20:00 horas na Mediateca do Grilo, proxectarase a película <em>Sicixia. Paseo polo amor e a Costa da Morte</em> (Ignacio Vilar, 2016). O filme narra como <span>Xiao, enxeñeiro de son, recibe un encargo para gravar os singulares sons de Costa da Morte. Alí coñece a Olalla, unha guía local que recolle algas no océano Atlántico e que lle axudará a mergullarse na idiosincrasia do lugar. A partir de aí, nesa lexendaria Finisterrae, as súas vidas fuxirán ao seu control coma mareas rexidas por unha lei superior.</span></p>\r\n\r\n<p><span>Contará coa presenza de Ignacio Vilar, director da película para presentar a película e un debate posterior.</span></p>\r\n\r\n<p><span>A entrada é de balde ata completar aforo.</span></p>\r\n",
+      "date_event": "2018-12-14T19:00:00",
+      "name": "Proxección do film \"Sicixia\" e coloquio na Biblioteca do Grilo-Cacheiras",
+      "date_created": "2018-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/rodaxe_18.-SICIXIA-600x400.jpg",
+      "ubication": "https://goo.gl/maps/P7n89PZrTQs"
+    },
+    {
+      "nid": 1586,
+      "visible": true,
+      "desc": "<p>O sábado 8 ás 18:30 horas no Auditorio Constante Liste visitaranos Martín Camiña co seu espectáculo \"Laretando nas lareiras\".</p>\r\n\r\n<p>Trátase dun espectáculo máxico-lingüístico, en que mesmo lle piden explicacións a Google pola utilización dos topónimos deturpados e enfeitizan ao público con asombrosas ilusión con cartas, cordas ou efectos de mentalismo.</p>\r\n\r\n<p>A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2019-12-08T17:30:00",
+      "name": "Maxia con Martín Camiña no Auditorio Constante Liste",
+      "date_created": "2018-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Mago-Martin-Camiña.jpg",
+      "ubication": "https://goo.gl/maps/1PhuDUTuLwp"
+    },
+    {
+      "nid": 1585,
+      "visible": true,
+      "desc": "<p>O domingo 2 de decembro, ás 17:30 horas concerto do Coro Diapasón. <span lang=\"GL\">Creado no 2010, efectúa concertos por toda a provincia da Coruña e outros lugares de Galicia, nos que vai mostrando un repertorio que combina música popular e académica, pero toda ela baixo o denominador común de estar creaba por compositores nados principalmente no século XX.</span></p>\r\n\r\n<p>A entrada será de balde ata completar aforo.</p>\r\n",
+      "date_event": "2019-12-02T16:30:00",
+      "name": "Concerto coral no Auditorio Constante Liste",
+      "date_created": "2018-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/índice_0.jpg",
+      "ubication": "https://goo.gl/maps/1PhuDUTuLwp"
+    },
+    {
+      "nid": 1584,
+      "visible": true,
+      "desc": "<p>OS FABULOSOS CLEANERS é un espectáculo de pompas de xabón para todos os públicos. Unha experiencia visual para participar toda a familia.</p>\r\n\r\n<p>Dous operarios da limpeza do teatro, descobren por casualidade as posibilidades que lles ofrecen as súas ferramentas de traballo combinadas con auga e xabón. A partir de aí, os personaxes emprenderán unha excitante viaxe conducidos polas fantásticas pompas e burbullas.</p>\r\n\r\n<p>O público sorprenderase e gozará con estas máxicas burbullas; pompas transparentes, con fume, con vapor, pequeñas, grandes, estáticas ou voando polo escenario. O espectador camiñará da man destes personaxes por un mundo máxico, cheo de cor e de moito, moito humor, e verase sorprendido dentro dun patio de butacas repleto de miles de pompas de xabón.</p>\r\n\r\n<p>Será no Auditorio Constante Liste ás 18:30 horas e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-12-01T17:30:00",
+      "name": "Espectáculo con pompas de xabón no Auditorio Constante Liste-Ramallosa",
+      "date_created": "2018-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/os_fabulosos_cleaners_20171021_1218335380.jpg",
+      "ubication": "https://goo.gl/maps/1PhuDUTuLwp"
+    },
+    {
+      "nid": 1578,
+      "visible": true,
+      "desc": "<p>O domingo 25 ás 18:00 horas a Banda de Música da SR San Xoán de Calo ofrece un concerto no Auditorio Constante Liste.</p>\r\n",
+      "date_event": "2018-11-25T17:00:00",
+      "name": "Concerto da banda de música de Calo",
+      "date_created": "2018-11-21",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/saxofon.jpg",
+      "ubication": "https://goo.gl/maps/i8NYjpUDEjL2"
+    },
+    {
+      "nid": 1577,
+      "visible": true,
+      "desc": "<p>O Concello celebra o acto institucional contra a violencia de xénero o venres 23 de novembro ás 19:30 horas no salón de plenos. Ademais de dar lectura ao manifesto institucional a actriz Iria Pinheiro lerá varios textos e teremos a representación da peza \"Escaparate\" da grupo Salidas de emergencia. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/o-25-n-quere-involucrar-cidadania-contra-violencia-de-xenero\">aquí</a></p>\r\n",
+      "date_event": "2018-11-23T18:30:00",
+      "name": "Acto institucional contra a violencia de xénero",
+      "date_created": "2018-11-21",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/RRSS-ennegro-instagram.png",
+      "ubication": "https://goo.gl/maps/a9m5Az8Zr4y"
+    },
+    {
+      "nid": 1575,
+      "visible": true,
+      "desc": "<p>O Concello Organiza unha charla sobre <em>Violencia de xénero e o novo contexto dixital: abordaxe dende as familias </em>o martes 20 de novembro na Mediateca do Grilo ás 20:00 horas. O acceso é libre e non é preciso anotarse. Actividade organizada polo CIM de Teo dentro da Campaña do 25N contra a violencia de xénero.</p>\r\n",
+      "date_event": "2018-11-20T19:00:00",
+      "name": "Charla sobre violencia de xénero no novo contexto dixital",
+      "date_created": "2018-11-16",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/redessociais.jpg",
+      "ubication": "https://goo.gl/maps/8kibE432WZS2"
+    },
+    {
+      "nid": 1574,
+      "visible": true,
+      "desc": "<p>O 18 de novembro celébrase o Día da bicicleta na explanada do cemiterio de Cacheiras. Trátase dunha proba lúdica non competitiva para todos os públicos na que se fará unha ruta dunha hora en bici. É obrigatorio o uso do casco. Organiza o Club ciclista Teo e colabora o Concello de Teo. A proba comeza ás 11:00 horas.</p>\r\n",
+      "date_event": "2018-11-18T10:00:00",
+      "name": "Día da bicicleta",
+      "date_created": "2018-11-16",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bici.jpg",
+      "ubication": "https://goo.gl/maps/aJztT5A5few"
+    },
+    {
+      "nid": 1571,
+      "visible": false,
+      "desc": "<p>O venres 23 celébrase unha nova sesión da escola de familias ás 20:00 horas na Casa Común dos Tilos. A sesión será sobre a nutrición saudable e contará coa relatora Ana Martínez Lorente. Haberá servizo de conciliación.</p>\r\n",
+      "date_event": "2018-11-23T19:00:00",
+      "name": "Escola de familias",
+      "date_created": "2018-11-14",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cestafroita.jpg",
+      "ubication": "https://goo.gl/maps/y3aaiAeGu3m"
+    },
+    {
+      "nid": 1557,
+      "visible": true,
+      "desc": "<p>Dentro da programación de <a href=\"http://barrigaverde.eu/cms/chega-titiriberia-2018-consulta-o-programa/\">Titiriberia </a>este ano na véspera do San Martiño, o sábado 10, preséntase As varietés do Barriga Verde. Trátase dun espectáculo conducido pola actriz e cantante Iria Pinheiro, con acompañamento dos músicos Alonso Caxade, Joam Casas e Pablo Nogueiras e actuacións de Monicreques de Kukas, Diego Anido, Arturo Nono, Títeres Alakran, Tanxarina Títeres e Mircromina. Comeza ás 21:30 horas e está dirixido a público adulto.&nbsp;</p>\r\n",
+      "date_event": "2018-11-10T20:30:00",
+      "name": "As varietés do Barriga Verde",
+      "date_created": "2018-11-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/IMG_9435.JPG",
+      "ubication": "https://goo.gl/maps/ZrAeJb4B5Ut"
+    },
+    {
+      "nid": 1556,
+      "visible": true,
+      "desc": "<p>O 11 de novembro celébrase na Carballeira de Francos a<a href=\"https://www.teo.gal/gl/actualidade/2018/chega-un-san-martino-cunha-axenda-cargada-de-actividades\"> feira do San Martiño</a>. Unha feira tradicional con cinco séculos de historia na que poderemos desfrutar dunha xornada enogastronómica ademáis da xa clásica compravenda de animais e de numerosos postos de venda de diferentes productos.&nbsp;</p>\r\n",
+      "date_event": "2018-11-11T07:00:00",
+      "name": "Feira do San Martiño",
+      "date_created": "2018-11-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_0160_0.jpg",
+      "ubication": "https://goo.gl/maps/ZrAeJb4B5Ut"
+    },
+    {
+      "nid": 1555,
+      "visible": true,
+      "desc": "<p>Coincidindo coa véspera do <a href=\"https://www.teo.gal/gl/actualidade/2018/chega-un-san-martino-cunha-axenda-cargada-de-actividades\">San Martiño</a>, o sábado 10 de novembro, o Concello de Teo súmase ao auxe das cantarelas populares e convoca a I edición dos Cantos de Taberna de Véspera. Os grupos cantarán entre as nove e as once da noite polas polbeiras instaladas na Carballeira. Na imaxe pódese ver o horario dos grupos anotados. Unha vez rematen os grupos de cantos de taberna comezará una actuación da charanga Os Herdeiros na mesma carballeira.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-11-10T20:00:00",
+      "name": "Cantos de taberna de véspera",
+      "date_created": "2018-11-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cantos de taberna.png",
+      "ubication": "https://goo.gl/maps/te8XBMFEBtm"
+    },
+    {
+      "nid": 1551,
+      "visible": true,
+      "desc": "<p>O venres 23 ás 21:30 no Auditorio Constante Liste, terá lugar a representación da obra Nacidas libres, de Contraproducións baixo a dirección de Cristina Domínguez e arredor dun texto de Cándido Pazó. Nel, catro actrices que atravesan esas idades nas que corren o risco de desaparecer do mundo do espectáculo, fartas de non recibir ofertas de traballo, deciden autoempregarse e montar unha peza, xuntándose nunha aula de cultura, hai anos pechada, dunha entidade bancaria que hai anos cambiou de nome. En vista de que non topan textos para catro mulleres, aventúranse a promovelo elas, encomendándollo a unha xove escritora que vive emigrada, partindo dunha noticia aparecida nos xornais: <em>A policía rescata tres monxas indias retidas</em> <em>contra a súa vontade nun convento de clausura en Santiago</em>. Con esa inspiración van argallando un espectáculo en múltiples planos no que, con rigor e obxectividade, pero con frescura, dinamismo, emoción e pinceladas de humor, entran no entramado argumental do caso, pero tamén en múltiples reflexións e referencias a diversos temas vistos desde a perspectiva de xénero: a desigualdade, a ilusión da liberdade, os condicionantes da muller nas distintas culturas, a emigración..</p>\r\n\r\n<p>A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-11-23T20:30:00",
+      "name": "Nacidas libres, de Contraproducións no Auditorio Constante Liste",
+      "date_created": "2018-10-31",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/nacidaslibres16.jpg",
+      "ubication": "https://goo.gl/maps/vrGPUodAXxz"
+    },
+    {
+      "nid": 1550,
+      "visible": true,
+      "desc": "<p>O sábado 3 de novembro ás 21:30 horas no Auditorio Constante Liste -A Ramallosa , a compañía A Panadaría presenta en colaboración co Centro Dramático Galego&nbsp; \"Elisa e Marcela\" . Gañadora de gran número de premios, entre eles catro María Casares (Mellor Espectáculo, Mellor Dirección, Mellor Texto Orixinal e Mellor Actriz Protagonista), relata a historia de dúas mulleres, Elisa e Marcela, que casaron no 1901 na igrexa de San Xurxo na Coruña converténdose no primeiro matrimonio homosexual de España. &nbsp;Dirixida a un público adulto, a obra aborda en clave de humor o casamento e os posteriores sucesos que envolven a súa historia.</p>\r\n\r\n<p>A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-11-03T20:30:00",
+      "name": "Elisa e Marcela, da Panadaría no Auditorio Constante Liste -A Ramallosa",
+      "date_created": "2018-10-31",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/EeMparaWeb6.jpg",
+      "ubication": "https://goo.gl/maps/vrGPUodAXxz"
+    },
+    {
+      "nid": 1544,
+      "visible": true,
+      "desc": "<p>Rematamos o outubro teatral co novo espectáculo de Xoán Curiel e a Bando do verán, A casa do terror, este mércores 31 de outubro ás 19:30 horas no Auditorio Municipal Constante Liste da Ramallosa. Dende o Departamento de cultura animan a asistir disfrazados/as e tamén indican que a entrada é de balde ata completar aforo. <em>A casa do terror</em> é unha aventura na que un grupo de amigos se ve obrigado a durmir nunha casa encantada e vive aventuras divertidas e terroríficas relacionadas coa música, a amizade e a superación dos propios medos.</p>\r\n",
+      "date_event": "2018-10-31T18:30:00",
+      "name": "A Casa do terror na Ramallosa ",
+      "date_created": "2018-10-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Casa do terror.jpg",
+      "ubication": "https://goo.gl/maps/xf1MsNwZMsF2"
+    },
+    {
+      "nid": 1541,
+      "visible": true,
+      "desc": "<p>O sábado 27 de outubro na Biblioteca dos Tilos teremos unha actividade para bebés. “A alfombra máxica” é un lugar de libre experimentación, unha alfombra táctil, sonora e olfactiva onde a artista plástica convida aos máis pequenos e pequenas a mergullarse nunha viaxe sensorial. Xuntos descobren o pracer de apalpar, manipular, escoitar, ver, saborear…Unha invitación a xogar e experimentar con todo o corpo. Monicreques, música e outras sorpresas viaxarán cos máis pequenos e pequenas por un mundo de emocións e sensacións.</p>\r\n\r\n<p>Pensado para bebé (0 a 3 anos) haberá dúas sesións: a primeira ás 17:30 horas e a segunda ás 18:30 horas. Para participar é preciso inscrición previa no Departamento de Cultura (teléfono 981 815 700).</p>\r\n",
+      "date_event": "2018-10-27T15:30:00",
+      "name": "Actividade con bebés na Biblioteca dos Tilos",
+      "date_created": "2018-10-25",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/alfonbraMaxica.jpg",
+      "ubication": "https://goo.gl/maps/d6K6tNTP4qP2"
+    },
+    {
+      "nid": 1539,
+      "visible": true,
+      "desc": "<p>O venres 26 de outubro ás 18:00 horas na Biblioteca dos Tilos prográmase a sesión de Contacontos \"Contos vivos que fan poesía\" dentro do programa Ler Conta Moito da Rede de Bibliotecas Públicas de Galicia. Trátase dun proxecto de dinamización Lingüística a cargo de Chío Couto onde recrean unha historia do autor homenaxeado co Premio Nacional de Literatura Infantil e Xuvenil Antonio García Teijeiro pola súa obra \"Poemar ao Mar\".Viviremos en primeira persoa as aventuras de personaxes de contos e poemas aos que o autor lle da vida xogando a ser poetas.</p>\r\n\r\n<p>Pensado para público de 3 a 12 anos a entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-10-26T16:00:00",
+      "name": "Contacontos infantil na Biblioteca dos Tilos",
+      "date_created": "2018-10-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/IMG-20181017-WA0000.jpg",
+      "ubication": "https://goo.gl/maps/Um6RucwjSFp"
+    },
+    {
+      "nid": 1537,
+      "visible": true,
+      "desc": "<p>O mércores 24 de outubro ás 18:00 h <em>desfutaremos </em>da man Juste Kamishibai, Papel e Teatro de \"As historias viaxeiras\". trátase dun espectáculo enmarcado dentro das actividades do programa Ler Conta Moito da Rede de Bibliotecas Públicas de Galicia. É una montaxe onde se interpretan contos e lendas de todos os continentes e historias propias que teñen como obxeto, inculcar unha serie de valores relacionados coa cooperación, a igualdade, a concienciación ambiental e o interés pola lectura. Combina a manipulación do kamishibai e técnica lumínica emaki (teatro tradicional xaponés),escenarios despregables pop-up e revisións persoais do teatro de papel.Esta actividade tamén servirá para celebrar o Día das Bibliotecas</p>\r\n\r\n<p>Para nenos e nenas de 4 a 11 anos, a entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-10-24T16:00:00",
+      "name": "Juste Kamishibai, Papel e Teatro na Biblioteca dos Tilos",
+      "date_created": "2018-10-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/kamishibai.jpg",
+      "ubication": "https://goo.gl/maps/Ku1rciuL2wv"
+    },
+    {
+      "nid": 1536,
+      "visible": true,
+      "desc": "<p>O sábado 20 de outubro ás 18:30 h no Auditorio Constante Liste-A Ramallosa representarán o espectáculo <em>Ela</em>, a nova proposta de Caramuxo Teatro para todos os públicos. <em>Ela</em> crea un mundo fantástico a través das cores, a arte e o universo creativo da pintora Maruxa Mallo. Unha mestura de poesía, humor, teatro e danza, onde descubrir o imaxinario desta muller excepcional. Un poema plástico para gozar en familia.</p>\r\n",
+      "date_event": "2018-10-20T16:30:00",
+      "name": "Teatro infantil con Caramuxo Teatro no Auditorio Constante Liste",
+      "date_created": "2018-10-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/ela_caramuxo-teatro.jpg",
+      "ubication": "https://goo.gl/maps/gBn3DsqxG5A2"
+    },
+    {
+      "nid": 1534,
+      "visible": true,
+      "desc": "<p>O venres 19 de outubro ás 18:00 h Os Biosbardos presentan na BPM do Grilo-Cacheiras&nbsp; <em>Como axudo a Antón?</em>, un contacontos sobre o bulling, que se desenrola en dúas partes, unha primeira onde conta a historia, e unha segunda un pequeno debate sobre o tema,onde os nenos califican o comportamento das persoaxes do conto cunhas tarxetas vermellas ou verdes que lles entregan, e entre todos intentan correxir o que consideran que está mal.</p>\r\n\r\n<p>Dentro do programa de animación á lectura Ler Conta Moito da Rede de Bibliotecas Públicas de Galicia, está recomendado para público de 6 a 12 anos. A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-10-19T16:00:00",
+      "name": "Contacontos infantil na Biblioteca do Grilo-Cacheiras",
+      "date_created": "2018-10-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/anton_biosbardos.jpg",
+      "ubication": "https://goo.gl/maps/H3TotrNMCZx"
+    },
+    {
+      "nid": 1533,
+      "visible": true,
+      "desc": "<p>Para celebrar os 10 anos da inauguración da BPM do Grilo-Cacheiras, realizaremos unha charla sobre o proceso de ilustración dun libro que toma como referencia o traballo de Óscar Villán inicialmente, pero tamén o de moitos outros debuxantes, pintores e artistas con estilos e puntos de vista diverxentes... coa intención de mostrar o amplo abano de posibilidades que ofrece o mundo do debuxo, do libro ilustrado e da arte. Tamén haberá recomendación de libros.</p>\r\n\r\n<p>Esta actividade intégrase en Ler Conta Moito, programa de animación á lectura da Rede de Bibliotecas Públicas de Galicia</p>\r\n\r\n<p>Pensada para nenos e nenas de 8 a 12 anos, será ás 18:00 h na BPM do Grilo-Cacheiras e require inscrición previa. Para inscribirse contactar no teléfono 981806400 ou no correo mediateca@teo.gal</p>\r\n",
+      "date_event": "2018-10-15T16:00:00",
+      "name": "Obradoiro de ilustración con Óscar Villán",
+      "date_created": "2018-10-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/obradoiro_oscar.jpg",
+      "ubication": "https://goo.gl/maps/H3TotrNMCZx"
+    },
+    {
+      "nid": 1532,
+      "visible": true,
+      "desc": "<p>O sábado 13 de outubro ás 18:30 horas no Auditorio Constante Liste na Ramallosa, espectáculo infantil a cargo de Baobab Teatro coa obra Pum Pum.&nbsp;É un espectáculo tenro para nenos/as a partir de 5 anos&nbsp; que fala de historias cotiás que lles pasan aos nenos/as destas idades, pero tamén fala dunha mensaxe clara: dende moi pequenos deben saber que ninguén lles pode obrigar a facer cousas que non queren.</p>\r\n",
+      "date_event": "2018-10-13T16:30:00",
+      "name": "Teatro infantil con Babobab no Auditorio Constante Liste",
+      "date_created": "2018-10-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/58dabbd82c-20170328-patxot-baobab-teatro-005.jpg",
+      "ubication": "https://goo.gl/maps/JyQUEWiWw6F2"
+    },
+    {
+      "nid": 1531,
+      "visible": true,
+      "desc": "<p>O xoves 11 de outubro, ás 18:00 h na Biblioteca dos Tilos teremos sesión de títeres da man de Cachirulo Teatro, dentro do programa Ler Conta Moito da Rede de Biblioteca de Galicia.Trátase da adaptación en galego para marionetas da obra de D. Ramón María del Valle-Inclán, “La cabeza del dragón”. O Príncipe Verdemar é desterrado do seu fogar e, coa axuda dun trasgo falcatrueiro, terá que loitar contra bandoleiros e mesmo contra o terrible dragón que ten apresada a filla do Rey Micomicón para poder retornar triunfante a casa.</p>\r\n\r\n<p>Está pensada para público infantil (nenos e nenas de 5 a 11 anos) e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-10-11T16:00:00",
+      "name": "Títeres na Biblioteca dos Tilos",
+      "date_created": "2018-10-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/A-cabeza-do-dragón-2.jpg",
+      "ubication": "https://goo.gl/maps/MXzHFZCzUws"
+    },
+    {
+      "nid": 1527,
+      "visible": true,
+      "desc": "<p>O sábado 6 de outubro no Auditorio Constante Liste da Ramallosa, o grupo de Teatro da Asociación Andaina Pro Saúde Mental presenta a obra \"Full Monty\". Será ás 21:30 h e a entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-10-06T19:30:00",
+      "name": "Teatro para conmemorar o Día Mundial da saúde mental",
+      "date_created": "2018-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/FULL MONTY ANDAINA-NON COMPLETO - copia - copia.jpg",
+      "ubication": "https://goo.gl/maps/tNByHxZp3Ru"
+    },
+    {
+      "nid": 1526,
+      "visible": true,
+      "desc": "<p>O venres 5 de outubro ás 21:30h Sarabela Teatro presenta a obra \"Normas para saber vivir na sociedade actual\" dentro da programación do Outubro Teatral. Escrita en 1.993 por Jean Luc Lagarce, o autor contemporáneo máis representado en Francia, parte dun coñecido manual de boas maneiras escrito no século XIX pola inexistente baronesa de Staffle, quen dunha forma sutil dá instrucións de como debemos comportarnos.</p>\r\n\r\n<p>Baixo a forma dun divertimento irónico, cómico e en apariencia lixeiro escóndese a crítica feroz a unha sociedade que, coas súas normas e a súa hipocresía, fai imposible a sinceridade.</p>\r\n\r\n<p>A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-10-05T19:30:00",
+      "name": "Sarabela Teatro no Auditorio Constante Liste",
+      "date_created": "2018-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/sarabela.jpg",
+      "ubication": "https://goo.gl/maps/tNByHxZp3Ru"
+    },
+    {
+      "nid": 1525,
+      "visible": true,
+      "desc": "<p>O venres 5 de de outubro, dentro das actividades organizadas no programa Ler Conta Moito en colaboración coa Rede de Bibliotecas de Galicia, chega á BPM dos Tilos-Teo Pedro Brandariz con “Os Contos do Grúfalo”. É un espectáculo de narración oral para público infantil protagonizado por un ratiño que vai atopando diferentes animais que viven no bosque e todos o queren papar, pero de todos eles consigue salvarse con moito astucia e recurrindo a un ser imaxinario chamado “Grúfalo”, unha invención da súa cachola que se cadra finalmente non era tal.</p>\r\n\r\n<p>Será ás 19:00 horas e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-10-05T17:00:00",
+      "name": "Pedro Brandariz na Biblioteca dos Tilos",
+      "date_created": "2018-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/grufalo.jpg",
+      "ubication": "https://goo.gl/maps/Cx2dqwAZUT22"
+    },
+    {
+      "nid": 1523,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do técnico Juan Verdes. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas. Cabe destacar que o 8 de outubro remata o prazo para renovar o bono social eléctrico.&nbsp;</span></p>\r\n",
+      "date_event": "2018-10-03T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_10.jpg",
+      "ubication": "https://goo.gl/maps/f1gzJY5XKhL2"
+    },
+    {
+      "nid": 1502,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n",
+      "date_event": "2018-09-29T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA_5.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1501,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n",
+      "date_event": "2018-09-28T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA_4.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1500,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n",
+      "date_event": "2018-09-22T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA_3.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1499,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n",
+      "date_event": "2018-09-21T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA_1.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1498,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n",
+      "date_event": "2018-09-15T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA_0.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1497,
+      "visible": true,
+      "desc": "<p>A ultranoite volve en setembro! Logo dun ano, <a href=\"http://redenasa.tv/es/post/ultra-110-presentacion/\">Chévere </a>presenta no Auditorio Municipal Constante Liste unha nova edición deste cabaré. Haberá seis funcións repartidas en tres fins de semana: 14, 15, 21, 22, 28 e 29 de setembro ás 22:00 horas. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ultranoites-de-chevere-volven-en-setembro-con-seis-representacions\">aquí</a></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-09-14T20:00:00",
+      "name": "Ultranoite na Ramallosa",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/PUBLICO_ULTRA.jpg",
+      "ubication": "https://goo.gl/maps/goUMgcv6GK32"
+    },
+    {
+      "nid": 1494,
+      "visible": true,
+      "desc": "<p>Cultura programa o concerto de Uxía Lambona e a Banda Molona o venres 14 ás 19:00 horas na praza circular cuberta dos Tilos. Trátase dunha actuación musical educativa e lúdica dirixida a un público familiar. A actividade forma parte do programa da Xunta Cultura no Camiño.&nbsp;</p>\r\n",
+      "date_event": "2018-09-14T17:00:00",
+      "name": "Concerto de Uxía Lambona nos Tilos ",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/uxiaalambona.jpg",
+      "ubication": "https://goo.gl/maps/dezLdHaHtbB2"
+    },
+    {
+      "nid": 1493,
+      "visible": true,
+      "desc": "<p>Cultura programa un concerto de Maxín Blanco o xoves 13 de setembro ás 20:30 horas na praza circular cuberta dos Tilos. Trátase dun concerto musical educativo e lúdico para toda a familia. A partir das 22:00 horas terá lugar un concerto para público adulto a cargo de Silvia Penide. As actuación forma parte do programa Vive o Camiño da Xunta de Galicia.</p>\r\n",
+      "date_event": "2018-09-13T18:30:00",
+      "name": "Concerto de Maxín Blanco nos Tilos",
+      "date_created": "2018-09-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/magin.jpg",
+      "ubication": "https://goo.gl/maps/dezLdHaHtbB2"
+    },
+    {
+      "nid": 1474,
+      "visible": true,
+      "desc": "<p><span>O domingo 12 de agosto ás 22:00 horas dende o monte da Agrela en Lampai realízase unha observación astronómica das perséidas. Esta actividade forma parte do programa de divulgación astronómica <a href=\"http://www.usc.es/es/proxectos/todocosmos/index.html\">TodoCosmos</a> no que o Concello de Teo participa dende hai anos. Para asistir a esta observación non é preciso anotarse sendo suficiente estar no lugar da actividade á hora do comezo.&nbsp;AVISO: Dende o programa Todocosmos que coordina a observación prevista para esta noite comentan que en caso de que o ceo estea moi anubado e non permita facer a actividade en condicións esta quedará suspendida ata setembro cando se fixará nova data</span></p>\r\n",
+      "date_event": "2018-08-12T20:00:00",
+      "name": "Observación das perséidas en Lampai",
+      "date_created": "2018-08-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Cartaz_estrelas_2018-01.jpg",
+      "ubication": "https://goo.gl/maps/C4Hwh76svgy"
+    },
+    {
+      "nid": 1473,
+      "visible": true,
+      "desc": "<p><span>O venres 10 de agosto farase unha obradoiro de astronomía cultural e física dende o petróglifo da Pena Bicuda. Farase a simple vista ademais de contar tamén con prismáticos e telescopios e preténdese facer unha observación astronómica en relación co patrimonio arqueolóxico. O punto de encontro dos/as participantes será a carballeira da igrexa de Luou ás 22:00 horas (coordenadas GPS: WGS84: 42º 48´11\"N/ 8º 35´03\" W). A duración da actividade é de entre dúas e tres horas e recoméndase roupa axeitada e algo de para sentarse no chan.</span></p>\r\n\r\n<p><span>Para participar hai que anotarse chamando ao teléfono do Concello, 981.815.700 ou enviando un correo electrónico a cultura@teo.gal. Nese correo electrónico hai que indicar o nome e apelidos, DNI, data de nacemento e teléfono de contacto das persoas que queren participar. Estes datos son necesarios para tramitar o seguro correspondente para a actividade.</span></p>\r\n",
+      "date_event": "2018-08-10T20:00:00",
+      "name": "Observación do ceo nocturno no patrimonio arqueolóxico",
+      "date_created": "2018-08-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/A3-Estrelas-2018.jpg",
+      "ubication": "https://goo.gl/maps/FnHwkNaCnz72"
+    },
+    {
+      "nid": 1458,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha mesa redonda coa plataforma contra a mina de Touro. Será o xoves 5 de xullo ás 20:30 horas no salón de plenos do Concello.</p>\r\n",
+      "date_event": "2018-07-05T18:30:00",
+      "name": "Mesa redonda coa plataforma contra a mina de Touro",
+      "date_created": "2018-07-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cartel_asembleaminatouro.jpg",
+      "ubication": "https://goo.gl/maps/vrTCHKiuMZQ2"
+    },
+    {
+      "nid": 1454,
+      "visible": true,
+      "desc": "<p>O sábado 30 de xuño ás 12:00 horas temos concerto de cuarteto <a href=\"http://www.culturactiva.org/gl/espectaculo/concerto-singular\">Píscore </a>coa Banda da SR de Calo. Será na praza circular dos Tilos coincidindo coa celebración do Mercado do Alimento Labrego.</p>\r\n",
+      "date_event": "2018-06-30T10:00:00",
+      "name": "Concerto de Píscore e a banda da SR de Calo",
+      "date_created": "2018-06-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/piscore.jpg",
+      "ubication": "https://goo.gl/maps/yyzb5jtth6P2"
+    },
+    {
+      "nid": 1449,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do técnico Juan Verdes. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-06-27T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-06-26",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_9.jpg",
+      "ubication": "https://goo.gl/maps/p2DApsSfGCF2"
+    },
+    {
+      "nid": 1448,
+      "visible": true,
+      "desc": "<p><span>O mércores 26 de xuño ás 20:00 horas celébrase o pleno ordinario de xuño no que, entre outros asuntos, se debaterá unha proposta para municipalizar as escolas infantís de Calo, Os Tilos e a Ramallosa. Máis información sobre esta convocatoria de pleno premendo<span>&nbsp;</span></span><a href=\"https://www.teo.gal/gl/actualidade/2018/o-pleno-votara-unha-proposta-para-traballar-na-municipalizacion-das-escolas\">aquí </a></p>\r\n",
+      "date_event": "2018-06-27T18:00:00",
+      "name": "Pleno ordinario do mes de xuño",
+      "date_created": "2018-06-26",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_8312.jpg",
+      "ubication": "https://goo.gl/maps/p2DApsSfGCF2"
+    },
+    {
+      "nid": 1446,
+      "visible": true,
+      "desc": "<p>A Aula de Teatro Municipal de Teo presenta a obra o Cadáver do Sr. García, de Enrique Jardiel Poncela. A función estréase o mércors 27 ás 21:00 horas no Auditorio Municipal Constante Liste na Ramallosa. A entrada é de balde.</p>\r\n",
+      "date_event": "2018-06-27T19:00:00",
+      "name": "A aula de teatro municipal presenta a obra ",
+      "date_created": "2018-06-25",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/aula teatro.jpg",
+      "ubication": "https://goo.gl/maps/UFQee1niF5K2"
+    },
+    {
+      "nid": 1445,
+      "visible": true,
+      "desc": "<p>O Concello convoca unha reunión informativa sobre os Diverteos do verán o mércores 27 de xuño ás 21:00 horas no <strong>soto do Auditorio Municipal Constante Liste, na Ramallosa. </strong></p>\r\n",
+      "date_event": "2018-06-27T19:00:00",
+      "name": "Reunión informativa sobre os Diverteos ",
+      "date_created": "2018-06-25",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/IMG_4688.JPG",
+      "ubication": "https://goo.gl/maps/ZdzZmVVpnQw"
+    },
+    {
+      "nid": 1442,
+      "visible": true,
+      "desc": "<p><span>O Concello de Teo, como entidade pertencente á Rede de Dinamización Lingüística, convídate este sábado 23 de xuño, ás 12 h no Auditorio Constante Liste, a unha nova e divertida aventura dos Bolechas, que servirá, ademais de para pasalo ben, para mostrarlles aos máis pequenos a importancia de coidarmos o monte e a maneira de facelo, iniciándoos na prevención dos incendios forestais. A actividade é de balde ata completar aforo. </span></p>\r\n",
+      "date_event": "2018-06-23T10:00:00",
+      "name": "Os Bolechas chegan a Teo",
+      "date_created": "2018-06-21",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Bolechas.jpg",
+      "ubication": "https://goo.gl/maps/ZwVecMK8ECB2"
+    },
+    {
+      "nid": 1441,
+      "visible": true,
+      "desc": "<p>O venres 22 ás 19:00 horas no Auditorio Municipal Constante Liste na Ramallosa temos concerto de Magín Blanco e a banda das apertas. Trátase dunha actividade indicada para un público familiar. É de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-06-22T17:00:00",
+      "name": "Concerto de Magín Blanco e a banda das apertas",
+      "date_created": "2018-06-21",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/maginblanco.jpg",
+      "ubication": "https://goo.gl/maps/ZwVecMK8ECB2"
+    },
+    {
+      "nid": 1432,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha charla o xoves 14 ás 20:30 horas na Casa do Concello sobre as obrigas dos donos e donas de fincas de monte para previr incendios.</p>\r\n",
+      "date_event": "2018-06-14T18:30:00",
+      "name": "Charla dirixida aos propietarios/as de fincas de monte",
+      "date_created": "2018-06-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/fogueira.jpg",
+      "ubication": "https://goo.gl/maps/7AFEi3zQSN92"
+    },
+    {
+      "nid": 1430,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do técnico Juan Verdes. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-06-13T10:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-06-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_7.jpg",
+      "ubication": "https://goo.gl/maps/7AFEi3zQSN92"
+    },
+    {
+      "nid": 1429,
+      "visible": true,
+      "desc": "<p>Nova asemblea informativa sobre a planta de residuos na Casalonga o luns 11 de xuño ás 20:30 horas no Auditorio Municipal Constante Liste na Ramallosa ás 20:30 horas.</p>\r\n",
+      "date_event": "2018-06-11T18:30:00",
+      "name": "Asemblea informativa sobre a planta de residuos na Casalonga",
+      "date_created": "2018-06-11",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/asemblea_planta_11xunho.jpg",
+      "ubication": "https://goo.gl/maps/R1sMvtUW6sC2"
+    },
+    {
+      "nid": 1425,
+      "visible": true,
+      "desc": "<p>O 10 de xuño celébrase na carballeira de Francos o Festeo e a Feira da Terra. O Festeo chega á terceira edición coa intención de consolidarse coma unha cita festiva para a veciñanza de Teo na que o traballo das asociacións culturais e deportivas ten moito peso. Tamén haberá actuacións como a de Pesdelan ou SES que pechará a xornada cun concerto ás 20:30 horas.</p>\r\n\r\n<p>Máis información sobre o Festeo e a Feira da Terra premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/ses-pechara-xornada-festiva-do-festeo\">aquí</a></p>\r\n",
+      "date_event": "2018-06-10T10:00:00",
+      "name": "Celébrase o Festeo e a Feira da Terra en Francos",
+      "date_created": "2018-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Festa da terra mañán todas baixa resolucion-33.jpg",
+      "ubication": "https://goo.gl/maps/6Vd1hXxciKS2"
+    },
+    {
+      "nid": 1424,
+      "visible": true,
+      "desc": "<p>O xoves 7 ás 20:30 horas no salón de plenos realízase unha reunión informativa sobre os campamentos de verán, infantil e xuvenil que se farán este mes de agosto en Barreiros-Lugo. <span>Consulta aquí a listaxe de admitidos no<span>&nbsp;</span></span><a href=\"https://www.teo.gal/gl/tramites/convocatoria/listaxe-de-solicitudes-admitidas-para-o-campamento-de-veran-xuvenil\">campamento xuvenil<span>&nbsp;</span></a><span>e no<span>&nbsp;</span></span><a href=\"https://www.teo.gal/gl/tramites/convocatoria/listaxe-de-solicitudes-admitidas-para-o-campamento-de-veran-infantil\">campamento infantil</a></p>\r\n",
+      "date_event": "2018-06-07T18:30:00",
+      "name": "Reunión informativa sobre os campamentos de verán",
+      "date_created": "2018-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/campamento2_1.jpg",
+      "ubication": "https://goo.gl/maps/VHzDisBhbos"
+    },
+    {
+      "nid": 1423,
+      "visible": true,
+      "desc": "<p>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os venres no salón de plenos do Concello, agás a última semana de mes que o fai o sábado. Os sábados atende na Aula de Informática, no Auditorio Municipal Constante Liste. Consulta <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí </a>o calendario cos días de atención deste ano. O venres 8 de xuño atende no salón de plenos dende as 09:00 horas.</p>\r\n",
+      "date_event": "2018-06-08T07:00:00",
+      "name": "Servizo de apoio ás xestións catastrais",
+      "date_created": "2018-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/imaxeplano_3.jpg",
+      "ubication": "https://goo.gl/maps/3Ks4pdruRS92"
+    },
+    {
+      "nid": 1416,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-06-06T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-06-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_6.jpg",
+      "ubication": "https://goo.gl/maps/rXmpQSZZoH72"
+    },
+    {
+      "nid": 1415,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha mesa redonda con diversos colectivos sobre as realidades das instalacións de reciclaxe de residuos. Será o mércores 6 de xuño ás 20:30 horas no Restaurante San Martiño. Estarán na mesa Xabier Vázquez Pumariño, consultor medioambiental e representantes da plataforma contra o vertedoiro de Grixoa.</p>\r\n",
+      "date_event": "2018-06-06T18:30:00",
+      "name": "Mesa redonda sobre as instalacións de reciclaxe de residuos",
+      "date_created": "2018-06-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/mapaubicacionplanta.png",
+      "ubication": "https://goo.gl/maps/hnNDmZC34SA2"
+    },
+    {
+      "nid": 1414,
+      "visible": true,
+      "desc": "<p>O 1 de xuño ás 19:00 horas no salón de plenos farase o sorteo de prazas para o campamento xuvenil xa que hai máis solicitudes ca prazas. Máis información desta convocatoria premendo <a href=\"https://www.teo.gal/gl/tramites/convocatoria/listaxe-de-solicitudes-para-o-campamento-de-veran-xuvenil\">aquí</a></p>\r\n",
+      "date_event": "2018-06-01T17:00:00",
+      "name": "Sorteo das prazas do campamento xuvenil",
+      "date_created": "2018-06-01",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/campamento2.jpg",
+      "ubication": "https://goo.gl/maps/e3mCCjF9fkA2"
+    },
+    {
+      "nid": 1413,
+      "visible": true,
+      "desc": "<p>O alumnado da escola de de Altos Estudos Musicais ofrece un concerto de música de cámara no Auditorio Municipal Constante Liste, na Ramallosa, o venres 1 de xuño ás 21:00 horas.</p>\r\n",
+      "date_event": "2018-06-01T19:00:00",
+      "name": "Concerto de música de cámara",
+      "date_created": "2018-06-01",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/musciaclasica_0.jpg",
+      "ubication": "https://goo.gl/maps/aXBLmduZhn82"
+    },
+    {
+      "nid": 1408,
+      "visible": true,
+      "desc": "<p>O mércores 30 de maio ás 20:00 horas celébrase o pleno ordinario de maio no que, entre outros asuntos, se debaterá unha moción sobre o proxecto de instalación dunha planta de residuos na Casalonga-Calo. Máis información sobre esta convocatoria de pleno premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/o-pleno-votara-un-programa-de-subvencions-proxectos-que-favorecen-unha-economia\">aquí </a></p>\r\n",
+      "date_event": "2018-05-30T18:00:00",
+      "name": "Pleno ordinario maio",
+      "date_created": "2018-05-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casaconcello_1.jpg",
+      "ubication": "https://goo.gl/maps/FoGijUEDYxt"
+    },
+    {
+      "nid": 1403,
+      "visible": true,
+      "desc": "<p>O Concello convoca unha nova asemblea informativa sobre o proxecto da empresa Toysal para a instalación dunha planta de reciclaxe de residuos na zona da Casalonga, en Calo. A xuntanza será no restaurante San Martiño o xoves 31 de maio ás 20:30 horas. Para ter máis información sobre este tema e coñecer o proxecto preme <a href=\"https://www.teo.gal/gl/actualidade/2018/o-concello-informa-do-proxecto-presentado-para-instalacion-dunha-planta-de\">aquí</a></p>\r\n",
+      "date_event": "2018-05-31T18:30:00",
+      "name": "Asemblea informativa sobre a planta de residuos na Casalonga",
+      "date_created": "2018-05-24",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Cartel_PlantaReciclaxe_Asemblea.jpg",
+      "ubication": "https://goo.gl/maps/AVk2yrbt5s62"
+    },
+    {
+      "nid": 1402,
+      "visible": true,
+      "desc": "<p>Este venres día 25 de maio poderemos desfrutar no Auditorio Constante Liste da Ramallosa do espectáculo medio camiño entre o teatro e a narración oral : \"Unhas gafas coma as do avó\"a cargo de Gemma Santos Díaz e Felipe Díaz (Caxoto). Enmárcase nas actividades de Cultura no Camiño programadas dende o departamento de Cultura e Educación&nbsp; e coordinadas por Turismo de Galicia e pola Consellería de Cultura, Educación e Ordenación Universitaria a través de Agadic.</p>\r\n\r\n<p>Será ás 19:00 horas e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2018-05-25T17:00:01",
+      "name": "Contacontos en lingua de signos e narración oral no Auditorio Constante Liste",
+      "date_created": "2018-05-24",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Caxoto conto inclusivo.jpg",
+      "ubication": "https://goo.gl/maps/mznvDBS1suq"
+    },
+    {
+      "nid": 1400,
+      "visible": true,
+      "desc": "<p><span>Charla informativa sobre o bono social eléctrico en Reis ás 20:30 horas o venres 25 de maio. A charla será no local da Pontevella. </span></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-05-25T18:30:00",
+      "name": "Charla sobre o bono social eléctrico en Reis",
+      "date_created": "2018-05-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/led.jpg",
+      "ubication": "https://goo.gl/maps/ggkqkp3EvBq"
+    },
+    {
+      "nid": 1399,
+      "visible": true,
+      "desc": "<p><span>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os venres no salón de plenos do Concello, agás a última semana de mes que o fai o sábado. Os sábados atende na Aula de Informática, no Auditorio Municipal Constante Liste.&nbsp;Consulta&nbsp;</span><a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí&nbsp;</a><span>o calendario cos días de atención deste ano. O sábado 26 de maio atende na Aula de informática no Auditorio Municipal Constante Liste dende as 09:00 horas. </span></p>\r\n",
+      "date_event": "2018-05-26T07:00:00",
+      "name": "Servizo de apoio ás xestións catastrais",
+      "date_created": "2018-05-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/imaxeplano_2.jpg",
+      "ubication": "https://goo.gl/maps/QSCfj2qN1i32"
+    },
+    {
+      "nid": 1398,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha charla o 24 de maio sobre a memoria represaliada e resistente a cargo de Luis Bará. Será no Salón de plenos ás 20:00&nbsp; horas. O 24 de maio é o Día internacional das mulleres pola paz e o desarme. Na imaxe Cinta Rey, nai de Víctor Casas, no piñeiro da Caeira no que fusilaron ao seu fillo.</p>\r\n",
+      "date_event": "2018-05-24T18:00:00",
+      "name": "Charla sobre a memoria represaliada e resistente",
+      "date_created": "2018-05-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/0.18.jpg",
+      "ubication": "https://goo.gl/maps/wZJ6TAzgSKz"
+    },
+    {
+      "nid": 1397,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-05-30T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-05-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_5.jpg",
+      "ubication": "https://goo.gl/maps/wZJ6TAzgSKz"
+    },
+    {
+      "nid": 1396,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-05-23T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-05-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_4.jpg",
+      "ubication": "https://goo.gl/maps/wZJ6TAzgSKz"
+    },
+    {
+      "nid": 1393,
+      "visible": true,
+      "desc": "<p>Este venres poderemos celebrar a Semana das Letras co espectáculo María e os ollos alabarados de Xarope Tulú. Un espectáculo para tódolos públicos a partir da obra de María Victoria Moreno na que a través de diversos fragmentos e relatos da súa obra(Mar adiante, Pan con chocolate, Querida avoa, Leonardo e os fontaneiros ou Eu conto, ti cantas)percorreremos o universo da autora:a importancia dos afectos no ámbito educativo, o respeito á natureza ou o amor polos animais. Esta actividade forma parte do programa Ler Conta Moito da Rede de Bibliotecas Públicas de Galicia. A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2018-05-18T16:00:00",
+      "name": "Contacontos na BPM do Grilo-Cacheiras",
+      "date_created": "2018-05-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Deseño sen nome.jpg",
+      "ubication": "https://goo.gl/maps/arfmZebT6gF2"
+    },
+    {
+      "nid": 1388,
+      "visible": true,
+      "desc": "<p>A compañía Redrum teatro presenta a obra <em>Estás aí?</em> o venres 11 no Auditorio Municipal Constante Liste ás 21:00 horas. Está indicada para público adulto. As entradas son a 8 euros e estarán á venda no despacho de billetes o día da función ou de xeito anticipado en www.redrumteatro.wixsite.com/estasai</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-05-11T19:00:00",
+      "name": "Redrum teatro presenta \"Estás aí?\"",
+      "date_created": "2018-05-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/redrumteatroestasai.jpg",
+      "ubication": "https://goo.gl/maps/GoodQFdrPJm"
+    },
+    {
+      "nid": 1387,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-05-16T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-05-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_3.jpg",
+      "ubication": "https://goo.gl/maps/kiJ29uFodKC2"
+    },
+    {
+      "nid": 1359,
+      "visible": true,
+      "desc": "<p><span>O goberno municipal realiza unha reunión informativa na Torre para poder escoitar á cidadanía. Trátase dunha xuntanza á que asistirá o alcalde, Rafael Sisto, e varios/as concelleiros/as na que os/as participantes poderán comentarlle as súas demandas ao goberno. O encontro será o xoves 19 de abril na Casa Común da Torre ás 20:30 horas.</span></p>\r\n",
+      "date_event": "2018-04-19T18:30:00",
+      "name": "Reunión informativa do goberno na Torre",
+      "date_created": "2018-04-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/asemblea Torre.jpg",
+      "ubication": "https://goo.gl/maps/zD6aohX8ryG2"
+    },
+    {
+      "nid": 1346,
+      "visible": true,
+      "desc": "<p>Para conmemorar o Día do Libro (23 de abril), as bibliotecas do Concello de Teo participan na campaña da Deputación da Coruña \"Libros para sermos libres\" cunha solta de libros conxunta en 30 concellos da provincia. En Teo será o 21 de abril entre 11:30 e 13:30 horas diante da Biblioteca dos Tilos.</p>\r\n",
+      "date_event": "2018-04-21T09:30:00",
+      "name": "Solta de libros polo Día do Libro no Parque dos Tilos",
+      "date_created": "2018-04-17",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/libroslibres1_0.jpg",
+      "ubication": "https://goo.gl/maps/i8PL34Upnmy"
+    },
+    {
+      "nid": 1341,
+      "visible": true,
+      "desc": "<p>O 21 de abril celébrase a carreira popular Batalla de Cacheiras. As categorías escolares disputaranse pola mañá no parque dos Tilos mentras que a proba absoluta terá saída en Bamonde e a meta en Montouto. Nesa xornada tamén se fará unha andaina. Para anotarte na carreira preme <a href=\"http://emesports.es/event/batalla-de-cacheiras-2018-carreira/\">aquí</a></p>\r\n\r\n<p>Para anotarde na andaina preme <a href=\"http://emesports.es/event/batalla-de-cacheiras-2018-andaina/\">aquí</a></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-04-21T08:30:00",
+      "name": "Carreira popular Batalla de Cacheiras",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/IMG_8480.JPG",
+      "ubication": "https://goo.gl/maps/2mqQtP7wCzJ2"
+    },
+    {
+      "nid": 1340,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha nova edición do Libreteo. Trátase dunha xornada con diversos obradoiros e actividades sobre coñecemento e cultura libre. Realízase o 28 de abril no Auditorio Municipal Constante Liste e na Casa do Concello, na Ramallosa. Para participar nas diferentes actividades hai que anotarse premendo <a href=\"http://libreteo.gal/\">aquí</a></p>\r\n\r\n<p>Máis información sobre o Librete na páxina do sitio <a href=\"http://libreteo.gal/\">http://libreteo.gal/</a></p>\r\n",
+      "date_event": "2018-04-28T08:00:00",
+      "name": "Celébrase o Libreteo o 28 de abril",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/mans.jpg",
+      "ubication": "https://goo.gl/maps/u1Tf1xTjz3B2"
+    },
+    {
+      "nid": 1339,
+      "visible": true,
+      "desc": "<p><span>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os venres no salón de plenos do Concello, agás a última semana de mes que o fai o sábado. Os sábados atende na Aula de Informática, no Auditorio Municipal Constante Liste.&nbsp;Consulta&nbsp;</span><a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí&nbsp;</a><span>o calendario cos días de atención deste ano. O venres 20 de abril atende no salón de plenos dende as 09:00 horas.&nbsp;</span></p>\r\n",
+      "date_event": "2018-04-20T07:00:00",
+      "name": "Servizo de apoio ás xestións catastrais",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/imaxeplano_1.jpg",
+      "ubication": "https://goo.gl/maps/exkcpFFS7Mt"
+    },
+    {
+      "nid": 1338,
+      "visible": true,
+      "desc": "<p><span>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os venres no salón de plenos do Concello, agás a última semana de mes que o fai o sábado. Os sábados atende na Aula de Informática, no Auditorio Municipal Constante Liste.&nbsp;Consulta&nbsp;</span><a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí&nbsp;</a><span>o calendario cos días de atención deste ano. O venres 13 de abril atende no salón de plenos dende as 09:00 horas.&nbsp;</span></p>\r\n",
+      "date_event": "2018-04-13T07:00:00",
+      "name": "Servizo de apoio ás xestións catastrais",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/imaxeplano_0.jpg",
+      "ubication": "https://goo.gl/maps/exkcpFFS7Mt"
+    },
+    {
+      "nid": 1337,
+      "visible": true,
+      "desc": "<p>O 25 de abril, último mércores de mes, celébrase o pleno ordinario deste mes. Será no salón de plenos ás 20:00 horas.</p>\r\n",
+      "date_event": "2018-04-25T18:00:00",
+      "name": "Pleno ordinario de abril",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casaconcello_0.jpg",
+      "ubication": "https://goo.gl/maps/exkcpFFS7Mt"
+    },
+    {
+      "nid": 1336,
+      "visible": true,
+      "desc": "<p>O goberno municipal realiza unha reunión informativa nos Tilos para poder escoitar á cidadanía. Trátase dunha xuntanza á que asistirá o alcalde, Rafael Sisto, e varios/as concelleiros/as na que os/as asistentes poderán comentarlle as súas demandas ao goberno. O encontro será o xoves 12 de abril na Casa Común dos Tilos ás 20:30 horas.</p>\r\n",
+      "date_event": "2018-04-12T18:30:00",
+      "name": "Reunión informativa do goberno nos Tilos",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_8018.jpg",
+      "ubication": "https://goo.gl/maps/YX22FguFGXk"
+    },
+    {
+      "nid": 1335,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-04-25T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_2.jpg",
+      "ubication": "https://goo.gl/maps/NcEeqGfWBfR2"
+    },
+    {
+      "nid": 1334,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-04-18T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_1.jpg",
+      "ubication": "https://goo.gl/maps/NcEeqGfWBfR2"
+    },
+    {
+      "nid": 1333,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 12:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-04-11T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-04-10",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bombilla_0.jpg",
+      "ubication": "https://goo.gl/maps/NcEeqGfWBfR2"
+    },
+    {
+      "nid": 1312,
+      "visible": true,
+      "desc": "<p>O venres 16 ás 20:00 horascelébrase unha nova sesión da escola de familias na Casa Común de Oza. Nesta ocasión contaremos con profesor Carlos Vilar para falar do papel das familias na consecución do éxito escolar. Haberá servizo de conciliación.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-03-13T13:48:41",
+      "name": "A escola de familias aborda o fracaso escolar",
+      "date_created": "2018-03-13",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/lapicescolores.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Oza/@42.7988084,-8.5271152,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!8m2!3d42.7988084!4d-8.5249265"
+    },
+    {
+      "nid": 1304,
+      "visible": true,
+      "desc": "<p>O 15 de marzo ás 19:30 horas no Salón de plenos da Casa do Concello farase unha charla informativa sobre o proceso de admisión nas escolas infantís municipais de Calo, Os Tilos e A Ramallosa. Esta xuntanza está dirixida ás persoas interesadas en solicitar praza para o vindeiro curso escolar 2018/19. Máis información sobre o acceso ás escolas infantís premendo <a href=\"https://www.teo.gal/gl/actualidade/2018/abrese-o-prazo-de-renovacion-de-prazas-nas-escolas-infantis-municipais\">aquí</a></p>\r\n",
+      "date_event": "2018-03-15T18:30:00",
+      "name": "Charla sobre a admisión nas escolas infantís",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_8325.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952617,-8.5516426,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1303,
+      "visible": true,
+      "desc": "<p>O programa do Día da muller contará <span>co faladoiro <em>Andar cos tempos...ou de como cribar o gran para mañá</em> (venres 9 de marzo ás 19:30 horas no salón de plenos). Será un encontro vinculado á exposición do mesmo nome, coa intención de revisar o baile tradicional galego con perspectiva de xénero, debatendo se a tradición é un concepto estático ou se \"anda cos tempos\" e como se legará á xeración seguinte.&nbsp;</span></p>\r\n",
+      "date_event": "2018-03-09T18:30:00",
+      "name": "Faladoiro \"andar cos tempos... ou de como cribar o gran para mañá\"",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cartel faladoiro teo.png",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1302,
+      "visible": true,
+      "desc": "<p>O sábado 10 de marzo realízase unha charla para apicultores e apicultoras sobre o xeito de actuar ante os ataques da nespra asiática ás colmeas. A charla será no salón de plenos e comeza ás 18.00 horas.</p>\r\n",
+      "date_event": "2018-03-10T17:00:00",
+      "name": "Charla para apicultores sobre a nespra asiática",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/VELUTINA LIBRE DEREITOS_1.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.8030001,-8.5663395,14z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1300,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-03-07T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_11.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.8030001,-8.5663395,14z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1299,
+      "visible": true,
+      "desc": "<p>O mércores 7 realízase o acto institucional do Día da Muller. Ás 19:30 horas farase a lectura do manifesto institucional por parte de Rosa Aneiros, sindicalista, feminista e veciña de Teo. De 19:45 a 21:00 horas proxectarase o documental de Antía Cal <em>A palabra xusta</em>. A actividade farase na Casa do Concello.</p>\r\n",
+      "date_event": "2018-03-07T18:30:00",
+      "name": "Acto institucional do Día da muller",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/apalabraxustadocumental.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.8030001,-8.5663395,14z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1298,
+      "visible": true,
+      "desc": "<p>O día 17 de marzo a partir das 18:00 h., na Casa Común dos Tilos, contacontos de Laura Escuela co nome de \"Animaladas\". É un divertimento para toda a famila no que contará historias e contos con animais como protagonistas. Pensado para público a partir dos tres anos, desenvolverase en castelán e a entrada é de balde ata completar a capacidade da sala.</p>\r\n\r\n<p>Esta actividade pertence ós espectáculos do Festival Atlántica de Narración Oral no que colabora o Concello de Teo.</p>\r\n",
+      "date_event": "2018-03-17T12:11:57",
+      "name": "Contacontos con Laura Escuela na Casa Común dos Tilos",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Laura a-Editar.jpg",
+      "ubication": "https://goo.gl/maps/do9pKAWvN4m"
+    },
+    {
+      "nid": 1297,
+      "visible": true,
+      "desc": "<p>O domingo 11 de marzo ás 17:00 h. no Auditorio Constante Liste, nova edición do Festival de Bandas de Música de Teo. Organizado pola Banda de Música Cultural de Teo en colaboración coa Rede Cultural da Deputación da Coruña e o Concello de Teo. Presentado por&nbsp; Nicolás Camino contará este ano coa participación das Bandas de Música de Santa Cruz de Ribadulla, Castrelo-Cambados e a Cultural de Teo.</p>\r\n\r\n<p>A entrada é de balde</p>\r\n",
+      "date_event": "2018-03-11T16:00:00",
+      "name": "XVIII Festiva de Bandas de Música de Teo",
+      "date_created": "2018-03-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/festival bandas.jpg",
+      "ubication": "https://goo.gl/maps/do9pKAWvN4m"
+    },
+    {
+      "nid": 1286,
+      "visible": true,
+      "desc": "<p>Dentro da programación do día da muller o luns 5 de marzo organízase o obradoiro \"Bailar a canda os tempos\" no Auditorio Municipal Constante Liste ás 19:30 horas. Trátase dunha actividade que promove a reflexión sobre cuestións como qué se transmite coa ensinanza e a práctica do baile tradicional e como se debe transmitir á xente máis nova. O obradoiro está especialmente dirixida a asociacións e profesionais da música e do baile pero tamén a calquera persoa interesada no tema. O obradoiro será impartido por Carme Campo e Chus Caramés. Para anotarse hai que escribir un correo electrónico a cim@teo.gal ou chamar ao 981.809.707.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2018-03-05T18:30:00",
+      "name": "Obradoiro \"Bailar a canda os tempos\"",
+      "date_created": "2018-03-01",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/tambourine-970343_1280.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1283,
+      "visible": true,
+      "desc": "<p><span>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os venres no salón de plenos do Concello, agás a última semana de mes que o fai o sábado. Os sábados atende na Aula de Informática, no Auditorio Municipal Constante Liste. </span><span>Consulta<span>&nbsp;</span></span><a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí<span>&nbsp;</span></a><span>o calendario cos días de atención deste ano.</span></p>\r\n",
+      "date_event": "2018-02-28T08:00:00",
+      "name": "Servizo de apoio ás xestións de catastro",
+      "date_created": "2018-02-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/imaxeplano.jpg",
+      "ubication": "https://www.google.es/maps/place/Teo,+La+Coru%C3%B1a/@42.7946285,-8.632252,12z/data=!3m1!4b1!4m5!3m4!1s0xd2f015d3a08ab57:0x404f58273ca5580!8m2!3d42.8060726!4d-8.5611142"
+    },
+    {
+      "nid": 1278,
+      "visible": true,
+      "desc": "<p>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os últimos sábados de mes de 09:00 a 13:00 horas. Dende xaneiro do 2018 os sábados atenderá na Aula de informática, situada no Auditorio Constante Liste, na Ramallosa. O horario de atención será o mesmo pero pasará de recibir no salón de plenos do Concello a atender no edificio sociocultural que está detrás. Os venres seguirán atendendo no salón de plenos. Consulta <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/D%C3%ADas%20de%20atenci%C3%B3n%20CATASTRO_2018.pdf\">aquí </a>o calendario cos días de atención deste ano.</p>\r\n",
+      "date_event": "2018-02-24T08:00:00",
+      "name": "Servizo de apoio ás xestións do catastro atende na Aula de informática o último sábado de mes",
+      "date_created": "2018-02-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/constanteliste.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1277,
+      "visible": true,
+      "desc": "<p>A terceira sesión da Escola das Familias do Concello de Teo, que terá lugar na Casa Común de Oza o venres 23 de febreiro (20:00 horas) terá como tema principal a prevención do fracaso escolar. O encargado de impartila será Carlos Vila Lago, doutor en psicoloxía, terapeuta familiar, mediador familiar e profesor asociado da USC. O poñente explicará o papel que deben ter as familias na consecución do éxito escolar. Abordará aspectos como as boas relacións co centro e co profesorado, a promoción do éxito escolar desde a casa, as técnicas de estudo ou as dificultades habituais que se producen á hora de estudar. A participación nesta sesión é libre e de balde, sen anotación previa. Contará con servizo de conciliación.</p>\r\n",
+      "date_event": "2018-02-23T19:00:00",
+      "name": "Sesión da escola de familias sobre a prevención do fracaso escolar",
+      "date_created": "2018-02-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/libros.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Oza/@42.7988084,-8.5271152,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!8m2!3d42.7988084!4d-8.5249265"
+    },
+    {
+      "nid": 1252,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha charla sobre o novo bono social eléctrico na Casa Común de Oza o mércores 21 ás 20:30 horas. Durante o encontro falarase do novo bono eléctrico, quen se pode beneficiar, como e onde se pode solicitar e o aforro que pode supoñer na factura.</p>\r\n",
+      "date_event": "2018-02-21T19:30:00",
+      "name": "Charla sobre o bono social eléctrico en Oza",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/light-bulb-1640438_1280.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Oza/@42.7988084,-8.5271152,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!8m2!3d42.7988084!4d-8.5249265"
+    },
+    {
+      "nid": 1251,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-02-28T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_10.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1250,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-02-21T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_9.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1249,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-02-14T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_8.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1248,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-02-07T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_7.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1247,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-01-31T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-30",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_6.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1246,
+      "visible": true,
+      "desc": "<p><span>O Concello inicia unha campaña de información para o control da nespra asiática e durantes os primeiros meses do ano ofreceranse varias charlas nas parroquias para informar sobre esta especie invasora e como evitar os niños por exemplo realizando trampas para eliminar as raíñas na primeira parte do ano. O xoves 1 de marzo ás 20:30 horas será a charla informativa na Casa Común de Oza. A xuntanza é aberta a calquera persoa interesada.</span></p>\r\n",
+      "date_event": "2018-03-01T19:30:00",
+      "name": "Charla sobre a nespra asiática en Solláns",
+      "date_created": "2018-01-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/image001_2.png",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Oza/@42.7988084,-8.5271152,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!8m2!3d42.7988084!4d-8.5249265"
+    },
+    {
+      "nid": 1245,
+      "visible": true,
+      "desc": "<p><span>O Concello inicia unha campaña de información para o control da nespra asiática e durantes os primeiros meses do ano ofreceranse varias charlas nas parroquias para informar sobre esta especie invasora e como evitar os niños por exemplo realizando trampas para eliminar as raíñas na primeira parte do ano. O venres 23 ás 20:30 horas será a charla informativa na Casa Común de Rarís. A xuntanza é aberta a calquera persoa interesada.</span></p>\r\n",
+      "date_event": "2018-02-23T19:30:00",
+      "name": "Charla sobre a nespra asiática en Rarís",
+      "date_created": "2018-01-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/image001_1.png",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Rar%C3%ADs/@42.780511,-8.565517,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f015237cdc211:0x9db42755abbe08c1!8m2!3d42.780511!4d-8.5633283"
+    },
+    {
+      "nid": 1244,
+      "visible": true,
+      "desc": "<p><span>O Concello inicia unha campaña de información para o control da nespra asiática e durantes os primeiros meses do ano ofreceranse varias charlas nas parroquias para informar sobre esta especie invasora e como evitar os niños por exemplo realizando trampas para eliminar as raíñas na primeira parte do ano. O xoves 22 ás 20:30 horas será a charla informativa na Casa Común de Cacheiras. A xuntanza é aberta a calquera persoa interesada.</span></p>\r\n",
+      "date_event": "2018-02-22T19:30:00",
+      "name": "Charla sobre a nespra asiática en Cacheiras",
+      "date_created": "2018-01-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/image001.png",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Cacheiras/@42.7785013,-8.4937114,12z/data=!4m8!1m2!2m1!1scasa+com%C3%BAn+cacheiras!3m4!1s0xd2f0112117a8cc1:0xf6770c34a66b45fd!8m2!3d42.8244796!4d-8.5436377"
+    },
+    {
+      "nid": 1239,
+      "visible": true,
+      "desc": "<p><span>O días 3 e 4 de febreiro celébrase o<span>&nbsp;</span><a href=\"http://xeneraisdaulla.com/index.php/es/\">entroido<span>&nbsp;</span></a>na parroquia de Reis. Os xenerais, correos e comparsas percorrerán as aldeas durante o sábado e o domingo e rematarán as xornadas festivas no campo da festa co tradicional atranque.<span>&nbsp;</span></span><span>As coordenadas de GPS do campo da festa son 42º 46´ 17.9\" / 8º 33´10.1\"</span></p>\r\n",
+      "date_event": "2018-02-04T18:30:00",
+      "name": "Entroido en Reis",
+      "date_created": "2018-01-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/detalle_1.jpg",
+      "ubication": "https://www.google.es/maps/place/Campo+da+Festa+Reis/@42.7713458,-8.5547809,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f06b65ebdc453:0xa74c17f68ca2bd20!8m2!3d42.7713458!4d-8.5525922"
+    },
+    {
+      "nid": 1238,
+      "visible": true,
+      "desc": "<p><span>Os días 3 e 4 de febreiro celébrase o <a href=\"http://xeneraisdaulla.com/index.php/es/\">entroido </a>na parroquia de Reis. Os xenerais, correos e comparsas percorrerán as aldeas durante o sábado e o domingo e rematarán as xornadas festivas no campo da festa co tradicional atranque. </span><span>As coordenadas de GPS do campo da festa son 42º 46´ 17.9\" / 8º 33´10.1\"</span></p>\r\n",
+      "date_event": "2018-02-03T18:30:00",
+      "name": "Entroido en Reis",
+      "date_created": "2018-01-29",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/detalle_0.jpg",
+      "ubication": "https://www.google.es/maps/place/Campo+da+Festa+Reis/@42.7713458,-8.5547809,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f06b65ebdc453:0xa74c17f68ca2bd20!8m2!3d42.7713458!4d-8.5525922"
+    },
+    {
+      "nid": 1233,
+      "visible": true,
+      "desc": "<p>O servizo de apoio ás xestións catastrais que oferta o Concello de Teo atende os últimos sábados de mes de 09:00 a 13:00 horas. Dende xaneiro do 2018 os sábado atenderá na Aula de informática, situada no Auditorio Constante Liste, na Ramallosa. O horario de atención será o mesmo pero pasará de recibir no salón de plenos do Concello a atender no edificio sociocultural que está detrás. Os venres seguirán atendendo no salón de plenos.</p>\r\n",
+      "date_event": "2018-01-27T08:00:00",
+      "name": "O servizo de apoio ás xestións catastrais atenderá na Aula de informática ",
+      "date_created": "2018-01-25",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_8397.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539?hl=es"
+    },
+    {
+      "nid": 1231,
+      "visible": false,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-01-31T09:30:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-25",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_5.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1223,
+      "visible": true,
+      "desc": "<p>O Concello inicia unha campaña de información para o control da nespra asiática e durantes os primeiros meses do ano ofreceranse varias charlas nas parroquias para informar sobre esta especie invasora e como evitar os niños por exemplo realizando trampas para eliminar as raíñas na primeira parte do ano. O venres 19 ás 20:30 horas será a charla informativa na escola de Francos (Calo). A xuntanza é aberta a calquera persoa interesada.</p>\r\n",
+      "date_event": "2018-01-19T19:30:00",
+      "name": "Charla sobre a nespra asiática en Francos",
+      "date_created": "2018-01-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/VELUTINA LIBRE DEREITOS.jpg",
+      "ubication": "https://www.google.es/maps/place/Aldea+Beca,+R%C3%BAa+de+Francos,+A+Coru%C3%B1a/@42.8145371,-8.6234964,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f02e6886e9da7:0xf6b2024cd6360328!8m2!3d42.8145371!4d-8.6213077"
+    },
+    {
+      "nid": 1222,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-01-24T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_4.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1221,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-01-17T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_3.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1219,
+      "visible": true,
+      "desc": "<p>O venres 12 ás 19:00 horas farase unha xuntanza no salón de plenos para organizar o grupo de teatro xuvenil. Esta xuntanza está dirixida a mozos e mozas de entre 14 e 20 anos que teñan interese en facer teatro. No encontro concretaranse horarios dos ensaios, organización, a direccióin e outros aspectos do funcionamento do grupo. O grupo estará dirixido por Clara Gayo. Se non podes asistir á xuntanza pero tes interese na actividade podes escribir a servizosociais@teo.gal ou chamar ao teléfono 981.809.707.</p>\r\n",
+      "date_event": "2018-01-12T17:00:00",
+      "name": "Reunión para organizar o grupo de teatro xuvenil",
+      "date_created": "2018-01-12",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/grupoteatroxuvenil.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1sconcello+de+teo!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951468!4d-8.5489927"
+    },
+    {
+      "nid": 1212,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2018-01-10T09:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2018-01-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/teosostible_2.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1211,
+      "visible": true,
+      "desc": "<p>O Concello inicia unha campaña de prevención da nespra asiática. O sábado 13 de xaneiro ás 19:00 horas no Salón de plenos farase unha charla informativa co entomólogo Lolo Andrade que ademais é experto na loita contra a velutina. Nesta actividade, aberta a calquera veciño/a interesado/a falarase sobre as características e comportamento da nespra asiática e explicaranse as principais medidas prácticas que se poden aplicar para previr a súa expansión.</p>\r\n",
+      "date_event": "2018-01-13T18:00:00",
+      "name": "Charla sobre a prevención da nespra asiática",
+      "date_created": "2018-01-05",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/velutina.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1scasa+do+concello+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1196,
+      "visible": true,
+      "desc": "<p>O sábado 23 de decembro, a partir das 21:00 horas no Auditorio Constante Liste-Ramallosa, concerto solidario a cargo de Los hijos de la pandilla (banda tributo a Fito&amp;Fitipladis), Carlos Torres &amp; Furakao e Parallels. A entrada será 1kg de alimentos ou roupa. A apertura de portas está prevista para as 20:30 horas</p>\r\n",
+      "date_event": "2017-12-23T19:30:00",
+      "name": "I Festival Rock Solidario",
+      "date_created": "2017-12-20",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/festivalsolidario.jpg",
+      "ubication": "https://goo.gl/maps/9qLR2wnHc8u"
+    },
+    {
+      "nid": 1195,
+      "visible": true,
+      "desc": "<p>Charla informativa sobre o bono social eléctrico na Casa Común de Cacheiras ás 20:00 horas o&nbsp; mércores 20 de decembro.</p>\r\n",
+      "date_event": "2017-12-20T19:00:00",
+      "name": "Charla sobre o bono eléctrico en Cacheiras",
+      "date_created": "2017-12-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bono electrico cacheiras.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Cacheiras/@42.8211487,-8.5426447,16z/data=!4m8!1m2!2m1!1scasa+com%C3%BAn+cacheiras!3m4!1s0xd2f0112117a8cc1:0xf6770c34a66b45fd!8m2!3d42.8244796!4d-8.5436377"
+    },
+    {
+      "nid": 1179,
+      "visible": true,
+      "desc": "<p>O día 22 de decembro, concerto de Mamacabra no Auditorio Constante Liste. Será ás 19:30 h e a entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2017-12-22T18:30:00",
+      "name": "Mamacabra en concerto",
+      "date_created": "2017-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/mamacabra-22-12.jpg",
+      "ubication": "https://goo.gl/maps/aWZkhfWfgdE2"
+    },
+    {
+      "nid": 1178,
+      "visible": true,
+      "desc": "<p>O sábado 16 de decembro ás 18:30 h sesión de disco infantil e familiar co Picadiscos de Mariflatri. Será no Auditorio Constante Liste-Lucí e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-12-16T17:00:00",
+      "name": "Sesión disco para toda a familia con Mariflatri",
+      "date_created": "2017-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/marifaltri- 16-12.jpg",
+      "ubication": "https://goo.gl/maps/aWZkhfWfgdE2"
+    },
+    {
+      "nid": 1177,
+      "visible": true,
+      "desc": "<p>A nova xira do Mago Teto ten parada en Teo. Será o día 15 de decembro ás 19:00 h no Auditorio Constante Liste. A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2017-12-15T18:00:00",
+      "name": "Mago Teto e as Novas Tolemaxias",
+      "date_created": "2017-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/MAGO TEO - 15-12.jpg",
+      "ubication": "https://goo.gl/maps/aWZkhfWfgdE2"
+    },
+    {
+      "nid": 1176,
+      "visible": true,
+      "desc": "<p>O sábado 2 de decembro teremos un espectáculo combinando circo e danza a cargo da compañía trasPediante. Será ás 18:30 h no Auditorio Constante Liste-A Ramallosa. A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2017-12-02T17:30:00",
+      "name": "Danza e circo con Up2Down",
+      "date_created": "2017-11-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/up-down- danza 2-12.jpg",
+      "ubication": "https://goo.gl/maps/aWZkhfWfgdE2"
+    },
+    {
+      "nid": 1171,
+      "visible": true,
+      "desc": "<p>O Concello programa unha sesión de maxia familiar o venres 1 de decembro no Auditorio Constante Liste co mago Benxamín que presenta Máxico 2017. O espectáculo comeza ás 19:30 horas e é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-12-01T18:30:00",
+      "name": "Sesión de maxia co mago Benxamín",
+      "date_created": "2017-11-27",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/maxiabenxamin.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1170,
+      "visible": true,
+      "desc": "<p>O venres 24 teremos función a funcióin de Peter Punk Peor imposible que presenta unha proposta onde mestura clown, malabares e humor. Será no Auditorio Municipal Constante Liste na Ramallosa ás 18:00 horas e a entrada é de balde ata completar aforo. Está dirixida a un público familiar.</p>\r\n",
+      "date_event": "2017-11-24T17:00:00",
+      "name": "Clown, malabares e humor na Ramallosa",
+      "date_created": "2017-11-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Peter Punk - Peor Imposible.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1169,
+      "visible": true,
+      "desc": "<p>O Concello programa no Auditorio Constante Liste a obra <em>Bobas &amp; Galegas</em>, da compañía Mofa e Befa o sábado 25 de novembro. A obra está dirixida a un público adulto. A función comeza ás 21:30 horas e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-11-25T20:30:00",
+      "name": "Mofa e Befa presenta Bobas & Galegas ",
+      "date_created": "2017-11-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Bobas&galegas.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1167,
+      "visible": true,
+      "desc": "<p>O 24 de novembro ás 20:00 horas na Casa do Concello terá lugar o acto institucional polo 25 de novembro. Nel contaremos coa participación do grupo musical \"Máis boas cás patacas\" formado por estudantes do IES de Cacheiras que interpretarán o seu tema \"Son muller\". Ademais desta actuación musical farase a lectura do manifesto institucional e teremos a intervención da actriz Clara Gayo.</p>\r\n",
+      "date_event": "2017-11-24T19:00:00",
+      "name": "Acto institucional contra a violencia de xénero",
+      "date_created": "2017-11-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/RRSS-Teo-ennegro-perfil-twitter.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.795623,-8.5510627,17z/data=!4m8!1m2!2m1!1sconcello+de+teo!3m4!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!8m2!3d42.7951472!4d-8.5489929"
+    },
+    {
+      "nid": 1158,
+      "visible": true,
+      "desc": "<p>Dentro dos IX Concertos de Novembro de Bandas de Música de Teo, actuación da&nbsp;Banda de Música da S.R. San Xoán de Calo ás 17:30 h no Auditorio Constante Liste (A Ramallosa-Lucí).</p>\r\n",
+      "date_event": "2017-11-26T16:30:00",
+      "name": "Concerto da Banda de Música da S.R. San Xoán de Calo ",
+      "date_created": "2017-11-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bandas_1.jpg",
+      "ubication": "https://goo.gl/maps/LdhdCkgEZm82"
+    },
+    {
+      "nid": 1157,
+      "visible": true,
+      "desc": "<p>Dentro dos IX Concertos de Novembro de Bandas de Música de Teo, actuación da Banda de Música Cultural de Teo ás 17:30 h no Auditorio Constante Liste (A Ramallosa-Lucí).</p>\r\n",
+      "date_event": "2017-11-19T16:30:00",
+      "name": "Concerto da Banda de Música Cultural de Teo",
+      "date_created": "2017-11-15",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bandas_0.jpg",
+      "ubication": "https://goo.gl/maps/LdhdCkgEZm82"
+    },
+    {
+      "nid": 1149,
+      "visible": true,
+      "desc": "<p>O xoves 9 ás 20:00 horas realízase unha mesa redonda sobre Títeres. O patrimonio esquecido dirixida a un público maior de 16 anos. Será na Mediateca do Grilo e participan no encontro Felipe Garduño, responsable de patrimonio na delegación estatal da Unión Internacional de Marionetistas; a historiadora da arte e dinamizadora cultural Sabela Pato, a especialista en xestión do patrimonio da Universidade da Coruña Elvira Lezcano, Santiago Veloso, coordinador de \"Ponte...nas ondas\" e Pablo Sanmartín, responsable do arquivo municipal do Concello de Teo.</p>\r\n\r\n<p>Esta actividade pertende a Titiriberia. Podes consultar toda a programación do festival premendo <a href=\"http://barrigaverde.eu/cms/titiriberia/edicion-2017/programacion/\">aquí</a></p>\r\n",
+      "date_event": "2017-11-09T19:00:00",
+      "name": "Titiriberia. Mesa redonda Títeres. O patrimonio esquecido. ",
+      "date_created": "2017-11-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/titiriberia2_0.jpg",
+      "ubication": "https://www.google.es/maps/place/Mediateca+do+Grilo/@42.8258385,-8.5473768,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01a35b0e49eb:0xa2e2595e0baf15c4!8m2!3d42.8258346!4d-8.5451881?hl=es"
+    },
+    {
+      "nid": 1148,
+      "visible": true,
+      "desc": "<p>Dentro da programación de <a href=\"http://barrigaverde.eu/cms/titiriberia/edicion-2017/programacion/\">Titiriberia </a>o xoves 9 ás 18:00 horas temos a función de monicreques <em>Z. Las aventuras del zorro</em>, de Eudald Ferré e Luca Ronga dirixido a maiores de 3 anos. Será no Auditorio Municipal Constante Liste na Ramallosa e o acceso é de balde.&nbsp;</p>\r\n\r\n<p><a href=\"http://barrigaverde.eu/cms/titiriberia/edicion-2017/programacion/\">Consulta aquí a programación completa de Titiriberia. </a></p>\r\n",
+      "date_event": "2017-11-09T17:00:00",
+      "name": "Monicreques. Z. Las aventuras del zorro",
+      "date_created": "2017-11-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/titiriberia2.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539?hl=es"
+    },
+    {
+      "nid": 1147,
+      "visible": true,
+      "desc": "<p>Dende o Departamento de Igualdade organízase un curso de defensa persoal para mulleres. Celébrase do 14 ao 20 de novembro de 16:00 a 20:00 horas no Auditorio Constante Liste, na Ramallosa. É de balde e contará con servizo de conciliación. Para inscribirse hai que chamar ao CIM (981.809.707) ou enviar un correo electrónico a cim@teo.gal</p>\r\n",
+      "date_event": "2017-11-14T15:00:00",
+      "name": "Curso de defensa persoal para mulleres",
+      "date_created": "2017-11-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/carteldefensapersoal.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539?hl=es"
+    },
+    {
+      "nid": 1143,
+      "visible": true,
+      "desc": "<p><span>Na véspera do San Martiño actuarán na rúa de Francos as charangas Pola Corda e TNT dende as 22:00 horas. O venres 10 pola noite xa estarán funcionando numerosos postos de polbo e churrasco e seguro que moita xente xa se achegará á carballeira para comezar a celebración.&nbsp;</span></p>\r\n",
+      "date_event": "2017-11-10T21:00:00",
+      "name": "Véspera do San Martiño coas charangas Pola Corda e TNT",
+      "date_created": "2017-11-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_0137.jpg",
+      "ubication": "https://www.google.es/maps/place/Carballeira+de+Francos/@42.8145987,-8.6239488,17z/data=!4m13!1m7!3m6!1s0xd2f02e6886e9da7:0xf6b2024cd6360328!2sAldea+Beca,+R%C3%BAa+de+Francos,+A+Coru%C3%B1a!3b1!8m2!3d42.8145948!4d-8.6217601!3m4!1s0xd2f02fc1940126d:0xd495910a5a46fcf9!8m2!3d42.8150364!4d-8.6219897?hl=es"
+    },
+    {
+      "nid": 1142,
+      "visible": true,
+      "desc": "<p>O Concello organiza a <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/actividadeclausurapicoteo.pdf\">clausura </a>das xornadas enogastronómicas PicoTeo na feira cabalar de Francos o sábado 11 de novembro. As <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/actividadeclausurapicoteo.pdf\">actividades </a>programadas faranse na carpa municipal e para participar nelas hai que anotarse no teléfono 981.815.700. Contaremos cunha cata de queixos, unha cata de viños, un obradoiro de cociña ao vivo e un taller para facer pan. Tamén se realizarán os sorteos do <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/actividadeclausurapicoteo.pdf\">PicoTeo</a>. Consulta o programa de actividades da clausura premendo <a href=\"https://www.teo.gal/sites/default/files/arquivos_axenda/actividadeclausurapicoteo.pdf\">aquí</a></p>\r\n",
+      "date_event": "2017-11-11T10:00:00",
+      "name": "Clausura do PicoTeo no San Martiño",
+      "date_created": "2017-11-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_9908.jpg",
+      "ubication": "https://www.google.es/maps/place/Carballeira+de+Francos/@42.8145987,-8.6239488,17z/data=!4m13!1m7!3m6!1s0xd2f02e6886e9da7:0xf6b2024cd6360328!2sAldea+Beca,+R%C3%BAa+de+Francos,+A+Coru%C3%B1a!3b1!8m2!3d42.8145948!4d-8.6217601!3m4!1s0xd2f02fc1940126d:0xd495910a5a46fcf9!8m2!3d42.8150364!4d-8.6219897?hl=es"
+    },
+    {
+      "nid": 1141,
+      "visible": true,
+      "desc": "<p>O 11 de novembro celébrase en Teo a feira do san Martiño, unha celebración con cinco séculos de historia que cada ano enche a carballeira de Francos de milleiros de persoas. Ademais dos cabalos haberá numerosos postos de venda e este ano farase na carpa municipal a clausura das xornadas enogastronómicas PicoTeo. Tamén haberá un espazo para os títeres a cargo de Titiriberia. Máis información premendo <a href=\"https://www.teo.gal/gl/actualidade/2017/musica-gastronomia-e-titeres-enriquecen-feira-do-san-martino\">aquí </a></p>\r\n",
+      "date_event": "2017-11-11T07:00:00",
+      "name": "Feira do San Martiño",
+      "date_created": "2017-11-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/_MG_0160.jpg",
+      "ubication": "https://www.google.es/maps/place/Carballeira+de+Francos/@42.8145987,-8.6239488,17z/data=!4m13!1m7!3m6!1s0xd2f02e6886e9da7:0xf6b2024cd6360328!2sAldea+Beca,+R%C3%BAa+de+Francos,+A+Coru%C3%B1a!3b1!8m2!3d42.8145948!4d-8.6217601!3m4!1s0xd2f02fc1940126d:0xd495910a5a46fcf9!8m2!3d42.8150364!4d-8.6219897?hl=es"
+    },
+    {
+      "nid": 1138,
+      "visible": true,
+      "desc": "<p>O 5 de novembro, dentro da programación do <a href=\"https://www.teo.gal/gl/actualidade/2017/musica-gastronomia-e-titeres-enriquecen-feira-do-san-martino\">San Martiño 2017</a>, realízase unha andaina polas aldeas que rodean o Castro Lupario. O roteiro sae ás 11:00 horas do cruceiro de Francos e terá unha duración de dúas horas aproximadamente cun percorrido de dificultade media e sete quilómetros de distancia. Esta iniciativa está organizada polo Concello de Teo en colaboración cos Concellos de Brión e Rois.</p>\r\n",
+      "date_event": "2017-11-05T10:00:00",
+      "name": "Roteiro polo entorno do Castro Lupario",
+      "date_created": "2017-11-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/andainafb.png",
+      "ubication": "https://www.google.es/maps/place/Cruceiro+de+R%C3%BAa+de+Francos/@42.8146254,-8.6222328,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f02feec85cecf:0xdac4e17e7b241bd3!8m2!3d42.8146215!4d-8.6200441"
+    },
+    {
+      "nid": 1137,
+      "visible": true,
+      "desc": "<p>A compañía Redrum Teatro presenta a obra A canción do elefante no Auditorio Municipal Constante Liste o sábado 4 de novembro ás 20:30 horas. Máis información sobre a obra premendo <a href=\"https://www.facebook.com/events/1213578362086642/?acontext=%7B%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22page%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22page_upcoming_events_card%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%2C%22has_source%22%3Atrue%7D\">aquí.</a> As entradas para esta función pódense mercar premendo <a href=\"http://redrumteatro.wixsite.com/elefante\">aquí</a></p>\r\n",
+      "date_event": "2017-11-04T19:30:00",
+      "name": "Redrum Teatro presenta A canción do elefante",
+      "date_created": "2017-11-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/acanciondoelefante.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1136,
+      "visible": true,
+      "desc": "<p>Este venres 3 arranca a programación do<a href=\"https://www.teo.gal/gl/actualidade/2017/musica-gastronomia-e-titeres-enriquecen-feira-do-san-martino\"> San Martiño 2017 </a>co concerto das <a href=\"http://seispes.com/tanxugueiras/\"><strong>Tanxugueiras</strong> </a>e <a href=\"http://www.ataqueescampe.org/p/inicio.html\"><strong>Ataque Escampe e Álex Salgueiro</strong> </a>no Auditorio Municipal Constante Liste na Ramallosa. As actuacións comezan ás 22:00 horas e a entrada é de balde ata completar aforo. O concerto, presentado por Monti Castiñeiras, tamén contará coa actuación do grupo de escolares <em>Máis boas cás patacas</em> que interpretarán a súa canción <em>Muller</em>.</p>\r\n",
+      "date_event": "2017-11-03T21:00:00",
+      "name": "Concerto das Tanxugueiras e Ataque Escampe na Ramallosa",
+      "date_created": "2017-11-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Cartel Concerto.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1133,
+      "visible": true,
+      "desc": "<p><span>Convócase unha reunión veciñal en Luou o xoves 9 de novembro ás 20:00 horas no local da asociación cultural A Mámoa. Na xuntanza, á que asisitirán o alcalde e varios/as concelleiros/as falarase de temas de actualidade municipal e dos problemas propios da parroquia de Luou. Estas xuntanzas teñen como propósito falar e escoitar á xente para recoller suxestións e aclarar cuestións de interese.</span></p>\r\n",
+      "date_event": "2017-11-09T19:00:00",
+      "name": "Reunión veciñal en Luou",
+      "date_created": "2017-10-27",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/asemblea luou.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B048'10.3%22N+8%C2%B035'05.9%22W/@42.8030628,-8.5853541,19z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d42.8028522!4d-8.5849786"
+    },
+    {
+      "nid": 1132,
+      "visible": true,
+      "desc": "<p><span>Convócase unha reunión veciñal en Montouto o xoves 2 de novembro ás 20:00 horas na Mediateca do Grilo (Cacheiras). Na xuntanza, á que asisitirán o alcalde e varios/as concelleiros/as falarase de temas de actualidade municipal e dos problemas propios desa zona de Cacheiras. Estas xuntanzas teñen como propósito falar e escoitar á xente para recoller suxestións e aclarar cuestións de interese.</span></p>\r\n",
+      "date_event": "2017-11-02T19:00:00",
+      "name": "Reunión veciñal en Montouto",
+      "date_created": "2017-10-27",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/asemblea Montouto.jpg",
+      "ubication": "https://www.google.es/maps/place/Mediateca+do+Grilo/@42.8258346,-8.5473768,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01a35b0e49eb:0xa2e2595e0baf15c4!8m2!3d42.8258346!4d-8.5451881"
+    },
+    {
+      "nid": 1131,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro Redrum Teatro presenta a obra <a href=\"http://galiciaescenapro.gal/espectaculo-2017/nena-que-queria-navegar-redrum-teatro/\"><em>A nena que quería navegar</em></a>. A función será o sábado 28 no Auditorio Municipal Constante Liste na Ramallosa ás 19:00 horas. A obra está dirixida a un público familiar. A entrada é de balde ata completar aforo. A obra trata un tema moi de actualidade, o acoso escolar. Máis información sobre a montaxe premendo <a href=\"http://galiciaescenapro.gal/espectaculo-2017/nena-que-queria-navegar-redrum-teatro/\">aquí</a></p>\r\n",
+      "date_event": "2017-10-28T17:00:00",
+      "name": "A nena que quería navegar na Ramallosa",
+      "date_created": "2017-10-26",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/anenaquequerianavegar.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!2sConcello+de+Teo!8m2!3d42.7951472!4d-8.5489929!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1129,
+      "visible": false,
+      "desc": "<p>Dentro da programación do Mes do teatro de Teo Talía teatro presenta a súa obra <em>Foucellas</em>. A función, escrita e dirixida por Candido Pazó, será o venres 27 de outubro no Auditorio Municipal Constante Liste, na Ramallosa. Na obra interveñen Toño Casais, Dani Trillo, María Ordóñez e Artur Trillo.&nbsp;A entrada é de balde ata completar aforo.&nbsp;</p>\r\n",
+      "date_event": "2017-10-26T19:00:00",
+      "name": "Foucellas na Ramallosa",
+      "date_created": "2017-10-26",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/foucellas.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952656,-8.5516426,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0xd2f01a389cd8177:0x6e89b9db71704ab1!2sConcello+de+Teo!8m2!3d42.7951472!4d-8.5489929!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1124,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro do Concello de Teo temos a obra Os Foucellas de Talía Teatro o venres 27 de outubro ás 21:00 horas no Auditorio Municipal Constante Liste. <span>A obra está dirixida a público adulto. O acceso é de balde ata completar aforo. O departamento de cultura agradece a colaboración do público co Banco Veciñal de Alimentos cunha achega de produtos non perecedeiros.</span></p>\r\n\r\n<p>Deste obra haberá un pase para o alumnado do IES de Cacheiras o venres 27 ás 12:30 horas no Auditorio Constante Liste.</p>\r\n",
+      "date_event": "2017-10-27T19:00:00",
+      "name": "Os Foucellas de Talía Teatro na Ramallosa",
+      "date_created": "2017-10-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Os foucellas.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1123,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro o martes 24 de outubro temos Contos para bebés, con Pavís Pavós na Mediateca do Grilo en Cacheiras ás 18:00 horas. Este contacontos está dirixido a nenos e nenas de ata tres anos. A actividade é de balde.</p>\r\n",
+      "date_event": "2017-10-24T16:00:00",
+      "name": "Contos para bebés ",
+      "date_created": "2017-10-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Contos-para-bebes.jpg",
+      "ubication": "https://www.google.es/maps/place/Mediateca+do+Grilo/@42.8258385,-8.5473768,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01a35b0e49eb:0xa2e2595e0baf15c4!8m2!3d42.8258346!4d-8.5451881"
+    },
+    {
+      "nid": 1122,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro do Concello de Teo chega ao Auditorio Constante Liste a obra A Cousa de Bernarda Alba, representada pola Asociación Teenses pola Igualdade o sábado 21 de outubro ás 21:00 horas. <span>A obra está dirixida a público adulto. O acceso é de balde ata completar aforo. O departamento de cultura agradece a colaboración do público co Banco Veciñal de Alimentos cunha achega de produtos non perecedeiros.</span></p>\r\n",
+      "date_event": "2017-10-21T19:00:00",
+      "name": "Teenses pola igualdade presenta A cousa de Bernarda Alba ",
+      "date_created": "2017-10-20",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/outonoteatro-01.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1121,
+      "visible": true,
+      "desc": "<p>O grupo de teatro municipal representa a obra <em>Hotel Ramallosa</em> no Auditorio Constante Liste o domingo 22 de outubro ás 19:00 horas. <span>A obra está dirixida a público adulto e forma parte da programación do Mes do teatro en Teo. O acceso é de balde ata completar aforo. O departamento de cultura agradece a colaboración do público co Banco Veciñal de Alimentos cunha achega de produtos non perecedeiros.</span></p>\r\n",
+      "date_event": "2017-10-22T17:00:00",
+      "name": "O grupo de teatro municipal presenta Hotel Ramallosa",
+      "date_created": "2017-10-20",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/hotelRamallosa.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1113,
+      "visible": true,
+      "desc": "<p><span>Convócase unha reunión veciñal en Reis o xoves 19 de outubro ás 21:00 horas na Casa Común de Rarís. Na xuntanza, á que asisitirán o alcalde e varios/as concelleiros/as falarase de temas de actualidade municipal e dos problemas propios da parroquia de Rarís. Estas xuntanzas teñen como propósito falar e escoitar á xente para recoller suxestións e aclarar cuestións de interese.</span></p>\r\n",
+      "date_event": "2017-10-19T19:00:00",
+      "name": "Reunión veciñal en Rarís",
+      "date_created": "2017-10-13",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/asemblea raris_0.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Rar%C3%ADs/@42.7805149,-8.565517,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0xd2f015237cdc211:0x9db42755abbe08c1!2zQ2FzYSBDb23Dum4gZGUgUmFyw61zLCAxNTg4MyBUZW8sIExhIENvcnXDsWE!2m2!1d-8.5633283!2d42.780511!3m4!1s0xd2f015237cdc211:0x9db42755abbe08c1!8m2!3d42.780511!4d-8.5633283"
+    },
+    {
+      "nid": 1105,
+      "visible": true,
+      "desc": "<p><span>O venres 6 ás 20:45 horas temos unha observación astronómica no campo da festa de Bamonde. Para esta actividade cóntase coa colaboración do observatorio da USC a través do programa Todocosmos.</span></p>\r\n",
+      "date_event": "2017-10-06T18:45:00",
+      "name": "Observación astronómica en Bamonde",
+      "date_created": "2017-10-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/estrelas_0.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B047'02.4%22N+8%C2%B030'38.6%22W/@42.784012,-8.5129147,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0xd2f00ce9bfb7125:0x2a060ca46e12553c!2s15886+Bamonde,+La+Coru%C3%B1a!3b1!8m2!3d42.7863523!4d-8.5134088!3m5!1s0x0:0x0!7e2!8m2!3d42.7840116!4d-8.5107264"
+    },
+    {
+      "nid": 1098,
+      "visible": true,
+      "desc": "<p>O martes 10 de outubro ás 20:00 horas inaugúrase o Banco Municipal de Electrónica situada na rúa Ameneiro dos Tilos. Este servizo recollerá doazóns de ordenadores e móbiles que serán preparados para ser usados de novo por usuarios/as sen medios económicos que os precisen. As persoas que queiran colaborar co banco poden chamar ao Departamento de Promoción Económica (981.815.700). O horario de recollida de doazóns é de 17:00 a 20:00 horas, todos os xoves laborais.</p>\r\n",
+      "date_event": "2017-10-10T18:00:00",
+      "name": "Inaugúrase o banco municipal de electrónica",
+      "date_created": "2017-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/ordenadores.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B050'39.6%22N+8%C2%B032'19.7%22W/@42.8443259,-8.5409847,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d42.8443217!4d-8.538796"
+    },
+    {
+      "nid": 1096,
+      "visible": true,
+      "desc": "<p>O 20 de outubro celébrase unha nova sesión da escola de familias sobre coeducación. A ponente será Ana Torres Jack. A sesión é ás 20:00 horas na Casa Común de Oza.</p>\r\n",
+      "date_event": "2017-10-20T18:00:00",
+      "name": "Escola de familias sobre coeducación",
+      "date_created": "2017-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cartaz_escola_familias.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+de+Oza/@42.7988123,-8.5271152,17z/data=!4m12!1m6!3m5!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!2sCasa+Com%C3%BAn+de+Oza!8m2!3d42.7988084!4d-8.5249265!3m4!1s0xd2f00de292c1c1b:0x78fcb906c69483c8!8m2!3d42.7988084!4d-8.5249265"
+    },
+    {
+      "nid": 1095,
+      "visible": true,
+      "desc": "<p>Convócase unha reunión veciñal en Reis o mércores 4 de outubro ás 21:00 horas no local da Pontevella. Na xuntanza, á que asisitirán o alcalde e varios/as concelleiros/as falarase de temas de actualidade municipal e dos problemas propios da parroquia de Reis. Estas xuntanzas teñen como propósito falar e escoitar á xente para recoller suxestións e aclarar cuestións de interese.</p>\r\n",
+      "date_event": "2017-10-04T19:00:00",
+      "name": "Reunión veciñal en Reis",
+      "date_created": "2017-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/FotosConcelloTeo_DSF2807_(C)XaimeCortizo.jpg",
+      "ubication": "https://www.google.es/maps/place/Centro+Cultural+A+Ponte+Vella/@42.7682563,-8.5528039,17z/data=!4m12!1m6!3m5!1s0xd2f06b7f903b951:0xe68aa59549de5b9d!2sCentro+Cultural+A+Ponte+Vella!8m2!3d42.7682524!4d-8.5506152!3m4!1s0xd2f06b7f903b951:0xe68aa59549de5b9d!8m2!3d42.7682524!4d-8.5506152"
+    },
+    {
+      "nid": 1094,
+      "visible": true,
+      "desc": "<p>O domingo 8 ás 11:30 horas realízase un roteiro por Penelas, con visita á poza, aos corgos e aos muíños para coñecer o ciclo de aproveitamento da auga. O itinerario ten un percorrido circular de 2,5 quilómetros e ten dificultade baixa. Non é preciso anotarse. Só hai que estar no <a href=\"https://www.google.es/maps/place/15883+Penelas,+La+Coru%C3%B1a/@42.8284163,-8.5327723,17z/data=!4m5!3m4!1s0xd2f01b288ca0731:0xc224439457f22838!8m2!3d42.8286488!4d-8.5307311\">cruce de Penelas</a> á hora de saída.</p>\r\n",
+      "date_event": "2017-10-08T09:30:00",
+      "name": "Roteiro polos corgos de Penelas",
+      "date_created": "2017-10-02",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Roteiro Corgos-01.jpg",
+      "ubication": "https://www.google.es/maps/place/15883+Penelas,+La+Coru%C3%B1a/@42.8284163,-8.5327723,17z/data=!4m5!3m4!1s0xd2f01b288ca0731:0xc224439457f22838!8m2!3d42.8286488!4d-8.5307311"
+    },
+    {
+      "nid": 1093,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro que se celebra en outubro o sábado 21:00 ás 19:00 horas teremos o contacontos <em>Filipa cos contos</em> indicado para un público infantil e familiar. O acceso é de balde ata completar aforo. O departamento de cultura agradece que os asistentes colaboren cunha aportación ao <a href=\"https://www.teo.gal/gl/servizo/voluntariado\">Banco Veciñal de Alimentos</a> coa entrega de produtos non perecedeiros.</p>\r\n",
+      "date_event": "2017-10-21T17:00:00",
+      "name": "Filipa cos contos nos Tilos",
+      "date_created": "2017-09-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/filipa cos contos.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+dos+Tilos/@42.8443118,-8.5406241,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01cf9cc9890b:0x7ed48865fb1d08ac!8m2!3d42.8443118!4d-8.5384354"
+    },
+    {
+      "nid": 1092,
+      "visible": true,
+      "desc": "<p>Dentro da programación do Mes do teatro que se realiza en outubro o sábado 14 ás 21:00 horas preséntase a funcióin <em>Os límites do frío</em> de Lois Blanco. A obra está dirixida a público adulto. O acceso é de balde ata completar aforo. O departamento de cultura agradece a colaboración do público co Banco Veciñal de Alimentos cunha achega de produtos non perecedeiros.</p>\r\n",
+      "date_event": "2017-10-14T19:00:00",
+      "name": "Os límites do frío na Ramallosa",
+      "date_created": "2017-09-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/oslimitesdofrio.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1090,
+      "visible": true,
+      "desc": "<p>Dentro do Mes do teatro o sábado 7 de outubro ás 21:00 horas a Asociación Cultural O Maxolo presenta <em>O florido pencil</em>. A obra está indicada para público adulto. O acceso é de balde ata completar aforo. O departamento de cultura agradece a colaboración do público co Banco Veciñal de Alimentos coa entrega de produtos non perecedeiros.</p>\r\n",
+      "date_event": "2017-10-07T19:00:00",
+      "name": "O Florido pencil na Ramallosa ",
+      "date_created": "2017-09-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/floridopencil.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 1089,
+      "visible": true,
+      "desc": "<p>O venres 29 ás 21:00 horas temos unha observación astronómica no campo da festa de Bamonde. Para esta actividade cóntase coa colaboración do observatorio da USC a través do programa Todocosmos.</p>\r\n",
+      "date_event": "2017-09-29T19:00:00",
+      "name": "Observación astronómica en Bamonde",
+      "date_created": "2017-09-28",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/estrelasbamonde.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B047'02.4%22N+8%C2%B030'38.6%22W/@42.784012,-8.5129147,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0xd2f00ce9bfb7125:0x2a060ca46e12553c!2s15886+Bamonde,+La+Coru%C3%B1a!3b1!8m2!3d42.7863523!4d-8.5134088!3m5!1s0x0:0x0!7e2!8m2!3d42.7840116!4d-8.5107264"
+    },
+    {
+      "nid": 1086,
+      "visible": true,
+      "desc": "<p>O venres 29 de setembro ás 18:00 horas na Biblioteca dos Tilos temos o concerto de música infantil <a href=\"http://www.brincavai.com/\">Brinca Vai! de aquí para alá</a>, no que Paco Nogueiras fará as delicias non solo dos máis novos da casa. Esta actividade enmárcase dentro das actuacións do programa Ler Conta Moito da <a href=\"http://rbgalicia.xunta.gal/\">Rede de Bibliotecas de Galicia</a>. A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-09-29T16:00:00",
+      "name": "Concerto infantil con Paco Nogueiras. Brinca Vai! de aquí para alá",
+      "date_created": "2017-09-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/paconogueiras.jpg",
+      "ubication": "https://www.google.es/maps/place/Casa+Com%C3%BAn+dos+Tilos/@42.8443157,-8.5406241,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f01cf9cc9890b:0x7ed48865fb1d08ac!8m2!3d42.8443118!4d-8.5384354"
+    },
+    {
+      "nid": 1085,
+      "visible": true,
+      "desc": "<p>Chévere, compañía residente do Concello de Teo, presenta o espectáculo Antoloxía da Ultranoite na Ramallosa. Segundo explican dende a compañía este evento prepárase coincindo cidindo co 30 aniversario de Chévere e o 25 aniversario da apertura da Sala Nasa que se celebran este ano. Máis información sobre a Ultranoite premendo <a href=\"http://redenasa.tv/es/axenda/evento/ultranoite-antoloxia/\">aquí</a></p>\r\n",
+      "date_event": "2017-09-23T20:00:00",
+      "name": "Antoloxía da Ultranoite",
+      "date_created": "2017-09-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/ultranoiteantoloxia_0.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7956527,-8.5510465,17z/data=!4m8!1m2!2m1!1scentro+sociocultural+da+ramallosa,+teo!3m4!1s0x0:0xc0dba7bec0954fa5!8m2!3d42.7952619!4d-8.5494541"
+    },
+    {
+      "nid": 1084,
+      "visible": true,
+      "desc": "<p>Chévere, compañía residente do Concello de Teo, presenta o espectáculo Antoloxía da Ultranoite na Ramallosa. Segundo explican dende a compañía este evento prepárase coincindo cidindo co 30 aniversario de Chévere e o 25 aniversario da apertura da Sala Nasa que se celebran este ano. Máis información sobre a Ultranoite premendo <a href=\"http://redenasa.tv/es/axenda/evento/ultranoite-antoloxia/\">aquí</a></p>\r\n",
+      "date_event": "2017-09-22T20:00:00",
+      "name": "Antoloxía da Ultranoite",
+      "date_created": "2017-09-22",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/ultranoiteantoloxia.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7956527,-8.5510465,17z/data=!4m8!1m2!2m1!1scentro+sociocultural+da+ramallosa,+teo!3m4!1s0x0:0xc0dba7bec0954fa5!8m2!3d42.7952619!4d-8.5494541"
+    },
+    {
+      "nid": 1080,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2017-10-25T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Teosostible_logo_2_8.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1079,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2017-10-18T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Teosostible_logo_2_7.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1078,
+      "visible": true,
+      "desc": "<p><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></p>\r\n",
+      "date_event": "2017-10-11T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Teosostible_logo_2_6.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1077,
+      "visible": true,
+      "desc": "<p><span><span>Todos os mércores, de 10:00 a 11:00 horas no salón de plenos da Casa do Concello, ofrécese un servizo de asesoramento sobre a factura eléctrica de balde. O servizo, dependente do programa Teo Sostible, contará coa presenza do persoal do equipo da profesora da USC, Rosa Regueiro. Para poder aproveitar o servizo é convinte achegarse coas copias das facturas dos últimos meses para poder avalialas.</span></span></p>\r\n",
+      "date_event": "2017-10-04T08:00:00",
+      "name": "Asesoramento sobre a factura eléctrica",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Teosostible_logo_2_5.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1076,
+      "visible": true,
+      "desc": "<p><span>O mércores 28 de febreiro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</span></p>\r\n",
+      "date_event": "2018-02-28T19:00:00",
+      "name": "Pleno ordinario febreiro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_7.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1075,
+      "visible": true,
+      "desc": "<p><span>O mércores 31 de xaneiro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</span></p>\r\n",
+      "date_event": "2018-01-31T19:00:00",
+      "name": "Pleno ordinario xaneiro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_6.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1074,
+      "visible": true,
+      "desc": "<p><span>O mércores 27 de decembro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</span></p>\r\n",
+      "date_event": "2017-12-27T19:00:00",
+      "name": "Pleno ordinario decembro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_5.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1073,
+      "visible": true,
+      "desc": "<p><span>O mércores 29 de novembro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</span></p>\r\n",
+      "date_event": "2017-11-29T19:00:00",
+      "name": "Pleno ordinario novembro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_3.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1072,
+      "visible": true,
+      "desc": "<p>O mércores 25 de outubro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</p>\r\n",
+      "date_event": "2017-10-25T18:00:00",
+      "name": "Pleno ordinario outubro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_2.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1071,
+      "visible": true,
+      "desc": "<p>O mércores 27 de setembro celébrase o pleno ordinario. A sesión realízase ás 20:00 horas para poder facilitar a asistencia da cidadanía.</p>\r\n",
+      "date_event": "2017-09-27T18:00:00",
+      "name": "Pleno ordinario setembro",
+      "date_created": "2017-09-18",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/casadoconcello_1.jpg",
+      "ubication": "https://www.google.es/maps/place/Concello+de+Teo/@42.7952295,-8.5515672,17z/data=!4m8!1m2!2m1!1st+raves%C3%ADa+da+ramallosa,+n%C3%BAmero+38+!3m4!1s0x0:0x6e89b9db71704ab1!8m2!3d42.7951473!4d-8.5489927"
+    },
+    {
+      "nid": 1066,
+      "visible": true,
+      "desc": "<p>O sábado 9 de setembro ás 12:00 horas no Mercado labrego dos Tilos, concerto de música tradicional interpretado polos Carapaus.</p>\r\n",
+      "date_event": "2017-09-09T10:00:00",
+      "name": "Concerto de música tradicional de Os Carapaus",
+      "date_created": "2017-09-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/carapaus carapaus.jpg",
+      "ubication": "https://www.google.es/maps/place/Los+Tilos+Park/@42.8461914,-8.5391269,13z/data=!4m8!1m2!2m1!1sparque+os+tilos!3m4!1s0x0:0xf8c21572eb2245c0!8m2!3d42.8450729!4d-8.5384691?dcr=0"
+    },
+    {
+      "nid": 1065,
+      "visible": true,
+      "desc": "<p>Ó mediodía, actuación da Banda de Música da S.R. San Xoán de Calo na Campo da festa do Carmelo (Ameniro).</p>\r\n",
+      "date_event": "2017-09-09T10:00:00",
+      "name": "Concerto da Banda de Música da S.R. San Xoán de Calo en Ameneiro",
+      "date_created": "2017-09-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bandas de musica_1.JPG",
+      "ubication": "https://goo.gl/maps/gP5ZJn1wtLF2"
+    },
+    {
+      "nid": 1029,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha observación das Perseidas o 10 de agosto ás 22:00 horas no mirador da Pena Escorredía en Montouto (Cacheiras). Para participar non é preciso anotarse. Só achegarse á zona nese horario. Esta actividade forma parte do programa de divulgación astronómica <a href=\"http://www.usc.es/es/proxectos/todocosmos/actividades.html\">Todocosmos </a>impulsado pola USC.</p>\r\n",
+      "date_event": "2017-08-10T20:00:00",
+      "name": "Observación das Perseidas",
+      "date_created": "2017-07-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Cartaz_estrelas2_0.jpg",
+      "ubication": "https://www.google.es/maps/place/Roteiro+da+Batalla+de+Cacheiras/@42.8348372,-8.5443635,17z/data=!4m13!1m7!3m6!1s0xd2f01b91cb2d215:0x8ce8c18cb331d64c!2zUsO6YSBQZW5hIEVzY29ycmVkw61hLCBUZW8sIEEgQ29ydcOxYQ!3b1!8m2!3d42.8348333!4d-8.5421748!3m4!1s0x0:0x90aaa2b31d4d7754!8m2!3d42.8342134!4d-8.5415201"
+    },
+    {
+      "nid": 1028,
+      "visible": true,
+      "desc": "<p>O Concello organiza unha observación de estrelas o 28 de xullo ás 22:00 horas no mirador da Grela en Lampai. Para participar non é preciso anotarse. Só achegarse á zona nese horario. Esta actividade forma parte do programa de divulgación astronómica <a href=\"http://www.usc.es/es/proxectos/todocosmos/actividades.html\">Todocosmos </a>impulsado pola USC.</p>\r\n",
+      "date_event": "2017-07-28T20:00:00",
+      "name": "Observación astronómica en Lampai",
+      "date_created": "2017-07-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Cartaz_estrelas2.jpg",
+      "ubication": "https://www.google.es/maps/place/Monte+da+Grela/@42.7860041,-8.6251058,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f037142042631:0x7ef4320e2d0058af!8m2!3d42.7860002!4d-8.6229171"
+    },
+    {
+      "nid": 1027,
+      "visible": true,
+      "desc": "<p>O Concello organiza un obradoiro de astronomía física e cultural no petróglifo de Pena Bicuda. A observación do ceo farase a simple vista, con prismáticos e telescopios. Este verán realizaranse dúas observacións deste tipo, unha o 14 de xullo ás 22:30 horas e a outra o 11 de agosto ás 22:00 horas. A duración da actividade é de entre dúas e tres horas e recoméndase levar roupa axeitada e algo para sentarse no chan. Para asistir a esta observación astronómica comentada sobre a relación entre as estrelas e o patrimonio relixioso hai que anotarse xa que o número de prazas é limitado. Pode facerse no departamento de Cultura ou chamando ao teléfono 981.815.700.</p>\r\n\r\n<p>O punto de encontro é a carballeira da igrexa de Luou. Coord. WGS84: 42º 48´11\"N/ 8º35´03\"W</p>\r\n",
+      "date_event": "2017-08-11T20:00:00",
+      "name": "Observación do ceo nocturno no patrimonio arqueolóxico",
+      "date_created": "2017-07-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/A3-TEO-2017_1.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B048'10.5%22N+8%C2%B035'03.5%22W/@42.8029089,-8.5865057,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.802905!4d-8.584317"
+    },
+    {
+      "nid": 1026,
+      "visible": true,
+      "desc": "<p>O Concello organiza un obradoiro de astronomía física e cultural no petróglifo de Pena Bicuda. A observación do ceo farase a simple vista, con prismáticos e telescopios. Este verán realizaranse dúas observacións deste tipo, unha o 14 de xullo ás 22:30 horas e a outra o 11 de agosto ás 22:00 horas. A duración da actividade é de entre dúas e tres horas e recoméndase levar roupa axeitada e algo para sentarse no chan. Para asistir a esta observación astronómica comentada sobre a relación entre as estrelas e o patrimonio relixioso hai que anotarse xa que o número de prazas é limitado. Pode facerse no departamento de Cultura ou chamando ao teléfono 981.815.700.</p>\r\n\r\n<p>O punto de encontro é a carballeira da igrexa de Luou. Coord. WGS84: 42º 48´11\"N/ 8º35´03\"W</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "date_event": "2017-07-14T20:00:00",
+      "name": "Observación do ceo nocturno no patrimonio arqueolóxico",
+      "date_created": "2017-07-07",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/A3-TEO-2017_0.jpg",
+      "ubication": "https://www.google.es/maps/place/42%C2%B048'10.5%22N+8%C2%B035'03.5%22W/@42.8029089,-8.5865057,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d42.802905!4d-8.584317"
+    },
+    {
+      "nid": 1019,
+      "visible": true,
+      "desc": "<p>O 12 de agosto finaliza a IV edición da Ruta nocturna polos petróglifos de Teo. Organizada polo <a href=\"www.teo.gal\">Concello de Teo</a> e o <a href=\"https://colectivoarula.wordpress.com/\">Colectivo A Rula</a>, nesta ocasión visitaranse os petróglifos do Monte Piquiño. O punto de encontro será ás 22:00 horas na Carballeira da Igrexa de Luou. A distancia é aproximadamente de 5 kilómetros (estimanse de 2 a 3 horas). Ofertanse 50 prazas por orde de solicitude. A inscripción no departamento de Cultura do Concello (tfno. 981 815 700)</p>\r\n",
+      "date_event": "2017-08-12T20:00:00",
+      "name": "IV Ruta nocturna petróglifos teenses. Monte Piquiño",
+      "date_created": "2017-07-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/2017_IV ruta nocturna petróglifos Teo_ancho_martín_0.jpg",
+      "ubication": "https://goo.gl/maps/57ceEo89d442"
+    },
+    {
+      "nid": 1018,
+      "visible": true,
+      "desc": "<p>O 15 de xullo arrinca a IV edición da Ruta nocturna polos petróglifos de Teo. Organizada polo <a href=\"www.teo.gal\">Concello de Teo</a> e o <a href=\"https://colectivoarula.wordpress.com/\">Colectivo A Rula</a>, nesta primeira visita a ruta irá de Cornide a Regoufe. O punto de encontro será ás 22:00 horas na Capela dos Milagres. A distancia é aproximadamente de 5 kilómetros (estimanse de 2 a 3 horas). Ofertanse 50 prazas por orde de solicitude. A inscripción no departamento de Cultura do Concello (tfno. 981 815 700)</p>\r\n",
+      "date_event": "2017-07-15T20:00:00",
+      "name": "IV Ruta nocturna petróglifos teenses. Cornide-Regoufe",
+      "date_created": "2017-07-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/2017_IV ruta nocturna petróglifos Teo_ancho_martín.jpg",
+      "ubication": "https://goo.gl/maps/qz8sQCuQjdm"
+    },
+    {
+      "nid": 1004,
+      "visible": true,
+      "desc": "<p>O xoves 22 de xuño na Biblioteca dos Tilos, o alumnado de Xoán Curiel ofrecerá un concerto de fin de curso. Será ás 19:00 horas e a entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-06-22T17:00:00",
+      "name": "Concerto de fin de curso do Obradoiro Municipal de guitarra",
+      "date_created": "2017-06-21",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/guitarra.jpg",
+      "ubication": "https://goo.gl/maps/1uPX8kLMBEp"
+    },
+    {
+      "nid": 998,
+      "visible": true,
+      "desc": "<p>Para clausurar o Obradoiro de Teatro Municipal, o grupo 2 presenta Hotel Ramallosa, baixo a dirección de Fran Rei e Fran Campos. Será no Auditorio Constante Liste-Lucí ás 19:00 horas. A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2017-06-25T17:00:00",
+      "name": "Clausura do Obradoiro de Teatro Municipal (Grupo 2) coa obra Hotel Ramallosa",
+      "date_created": "2017-06-14",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/aula2.jpg",
+      "ubication": "https://www.google.es/maps/place/Auditorio+Constante+Liste/@42.7952617,-8.5516426,17z/data=!3m1!4b1!4m5!3m4!1s0xd2f013f84d3ac7d:0xc0dba7bec0954fa5!8m2!3d42.7952617!4d-8.5494539"
+    },
+    {
+      "nid": 996,
+      "visible": true,
+      "desc": "<p>Concerto da Banda de Música Cultural de Teo na Festa de San Xoán de Recesende. Será ó mediodía no Campo da festa.</p>\r\n",
+      "date_event": "2017-06-24T10:00:00",
+      "name": "Concerto da Banda de Música Cultural de Teo en Recesende",
+      "date_created": "2017-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bandas de musica_0.JPG",
+      "ubication": "https://goo.gl/maps/vy4nUWGVtWp"
+    },
+    {
+      "nid": 995,
+      "visible": true,
+      "desc": "<p>Concerto da Banda de Música Cultural de Teo na Festa de Santa María das Cabezas de Raxó. Será ó mediodía no Campo da festa de Raxó (Cacheiras)</p>\r\n",
+      "date_event": "2017-06-11T10:00:00",
+      "name": "Concerto da Banda de Música Cultural de Teo en Raxó",
+      "date_created": "2017-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/bandas de musica.JPG",
+      "ubication": "https://goo.gl/maps/5ikPmw5YJkv"
+    },
+    {
+      "nid": 994,
+      "visible": true,
+      "desc": "<p>O venres 9 de xuño ás 21:00 horas, clausura do Obradoiro de Teatro Municipal (Grupo 1) coa representación da obra Hotel Ramallosa no Auditorio Constante Liste-Lucí. A entrada é de balde ata completar aforo.</p>\r\n",
+      "date_event": "2017-06-09T19:00:00",
+      "name": "Clausura do Obradoiro de Teatro Municipal (Grupo 1) coa obra Hotel Ramallosa",
+      "date_created": "2017-06-06",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/cartel - HOTEL RAMALLOSA I.jpg",
+      "ubication": "https://goo.gl/maps/iHK1EkUU7qr"
+    },
+    {
+      "nid": 981,
+      "visible": true,
+      "desc": "<p>Este venres 26 de maio, ás 18:00 horas, actuación do Pallaso Popín no Auditorio Constante Liste. Espectáculo para público infantil,&nbsp; a entrada é de balde ata completar aforo. Haberá un punto de recollida para o Banco de Alimentos (produtos comestibles no perecedeiros, fundamentalmente leite e conservas).</p>\r\n",
+      "date_event": "2017-05-26T16:00:00",
+      "name": "Popín quere aprender galego no Auditorio Constante Liste",
+      "date_created": "2017-05-23",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Pallaso Popín - Popín quere aprender galego.jpg",
+      "ubication": "https://goo.gl/maps/do9pKAWvN4m"
+    },
+    {
+      "nid": 965,
+      "visible": true,
+      "desc": "<p>O actor e director Pepe Sendón levará á Biblioteca do Grilo o venres 12 de maio ás 20:00 h as súas<em> Liñas&nbsp;paralelas</em>, unha serie de relatos musicados a partir de textos de Carlos Casares. O intérprete estará acompañado ó piano por Suso Alonso. A entrada é de balde ata completar aforo</p>\r\n",
+      "date_event": "2017-05-12T18:00:00",
+      "name": "Relatos musicados de Pepe Sendón na Biblioteca do Grilo ",
+      "date_created": "2017-05-09",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Pepe Sendón.jpg",
+      "ubication": "https://goo.gl/maps/UAKBFsizRPk"
+    },
+    {
+      "nid": 961,
+      "visible": true,
+      "desc": "<p><span><span><span><span>Contos do homenaxeado deste ano no Día das Letras Galegas forman gran parte do repertorio deste Babacontos da man da actriz Larraitz Urruzola. Será o </span></span></span></span><span><span><span><span>venres</span></span></span></span><span><span><span><span> 1</span></span></span></span><span><span><span><span>9</span></span></span></span><span><span><span><span> de maio ás 18:00 horas. Pensado para público infantil e familiar, a entrada é de balde ata completar aforo. Haberá un punto de recollida de para o Banco de Alimentos (produtos comestibles no perecedeiros, fundamentalmente leite e conservas). </span></span></span></span><span><span><span><span>Esta actuación forma parte do programa Ler Conta Moito da Rede de Bibliotecas de Galicia</span></span></span></span><span><span><span><span>.</span></span></span></span></p>\r\n",
+      "date_event": "2017-05-19T16:00:00",
+      "name": "Babacontos con Carlos Casares na Biblioteca do Grilo",
+      "date_created": "2017-05-08",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Larraitz - Público infantil.jpg",
+      "ubication": "https://goo.gl/maps/d1kxNDjUXam"
+    },
+    {
+      "nid": 959,
+      "visible": true,
+      "desc": "<p>Contacontos para público familiar a cargo de Anxo Moure o martes 16 de maio ás 18:00 horas. A entrada é de balde ata completar aforo. Haberá un punto de recollida de para o Banco de Alimentos (produtos comestibles no perecedeiros, fundamentalmente leite e conservas).<span><span><span><span> Esta actuación forma parte do programa Ler Conta Moito da Rede de Bibliotecas de Galicia</span></span></span></span><span><span><span><span>.</span></span></span></span></p>\r\n",
+      "date_event": "2017-05-16T16:00:00",
+      "name": "Titiricleta do Titiricleteiro na Biblioteca dos Tilos",
+      "date_created": "2017-05-08",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/Anxo Moure - Titiricleta.jpg",
+      "ubication": "https://goo.gl/maps/dybvZrbaX1F2"
+    },
+    {
+      "nid": 958,
+      "visible": true,
+      "desc": "<p>Dentro do programa Ler Conta Moito da Rede de Bibliotecas de Galicia, o sábado 13 de maio ás 18:00 horas terá lugar na Biblioteca dos Tilos (Casa Común dos Tilos) a actuación musical \"Contos que saen dos libros\". Actividade para público familiar, a entrada é de balde ata completar aforo.Haberá un punto de recollida para o Banco de Alimentos (produtos comestibles no perecedeiros, fundamentalmente leite e conservas).</p>\r\n",
+      "date_event": "2017-05-13T16:00:00",
+      "name": "Actuación musical de Mamá Cabra na Biblioteca dos Tilos",
+      "date_created": "2017-05-08",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/mamacabra - contos que saen dos libros.jpg",
+      "ubication": "https://goo.gl/maps/dybvZrbaX1F2"
+    },
+    {
+      "nid": 953,
+      "visible": true,
+      "desc": "<p>Ás 21:00 horas, no Auditorio Constante Liste da Ramallosa, <span><span><span><span>concerto de Odaiko na compaña de Vanesa Muela, artista cun importante labor de posta en valor da música tradicional castelá-leonesa. O prezo da entrada será de 8 euros ou 14 euros entrada + cd.</span></span></span></span></p>\r\n",
+      "date_event": "2017-05-05T19:00:00",
+      "name": "Concerto de Odaiko e Vanesa Muela na Auditorio Contante Liste",
+      "date_created": "2017-05-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/odaiko.jpg",
+      "ubication": "https://goo.gl/maps/bLt13Smesrm"
+    },
+    {
+      "nid": 952,
+      "visible": true,
+      "desc": "<p>O venres 5 de maio ás 18:00 horas na Biblioteca dos Tilos (Casa Común dos Tilos),&nbsp;o IES de&nbsp;Cacheiras a través do seu proxecto de alfabetización cinematográfica&nbsp;<a href=\"http://aturuxofilms.wordpress.com/\">ATURUXO FILMS</a>&nbsp;organiza a proxección da película <em>En construcción</em> de José Luís Guerin como unha das actividades do proxecto europeo<a href=\"http://www.cined.es/\">CINED</a> no que participa. O alumnado de Cultura Audiovisual presentará a película e organizará o coloquio posterior co público asistente.</p>\r\n",
+      "date_event": "2017-05-05T16:00:00",
+      "name": "Proxección da película \"En construcción\" de José Luis Guerín na Casa Común dos Tilos",
+      "date_created": "2017-05-04",
+      "image": "https://www.teo.gal/sites/default/files/imaxes_axenda/aturuxo.png",
+      "ubication": "https://goo.gl/maps/kxxAS8KQdsq"
+    }
+  ]
+}

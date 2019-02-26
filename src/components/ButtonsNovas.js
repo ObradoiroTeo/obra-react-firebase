@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class Buttons extends React.Component {
+class ButtonsNovas extends React.Component {
   static propTypes = {
     handleFilteringNextMonthEvents: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired
@@ -31,15 +31,15 @@ class Buttons extends React.Component {
   };
 
   handleActualMonthClick = event => {
-    this.props.handleFilteringActualMonthEventsAxenda(this.props.eventsKey);
+    this.props.handleFilteringActualMonthEventsNovas(this.props.eventsKey);
   };
 
   handleNextMonthClick = event => {
-    this.props.handleFilteringNextMonthEventsAxenda(this.props.eventsKey);
+    this.props.handleFilteringNextMonthEventsNovas(this.props.eventsKey);
   };
 
   handleThirdMonthClick = event => {
-    this.props.handleFilteringThirdMonthEventsAxenda(this.props.eventsKey);
+    this.props.handleFilteringThirdMonthEventsNovas(this.props.eventsKey);
   };
 
   resetAllItems = event => {
@@ -72,4 +72,4 @@ class Buttons extends React.Component {
   }
 }
 
-export default Buttons;
+export default ButtonsNovas;
