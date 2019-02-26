@@ -7,7 +7,7 @@ const SectionEvents = props => (
     {Object.keys(props.events)
       .filter(eventKey => {
         const actualDate = new Date();
-        const eventDate = new Date(props.events[eventKey].date_event);
+        const eventDate = new Date(props.events[eventKey].date);
         return actualDate < eventDate;
       })
       .filter(eventKey => props.events[eventKey].visible)

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
 import Buttons from "./Buttons";
-import SectionEvents from "./SectionEvents";
+import SectionEventsAxenda from "./SectionEventsAxenda";
 import Footer from "./Footer";
 
 class Axenda extends React.Component {
@@ -40,7 +40,7 @@ class Axenda extends React.Component {
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
         />
-        <SectionEvents events={this.props.axendaEvents.events} />
+        <SectionEventsAxenda events={this.props.axendaEvents.events} />
         <Footer />
       </div>
     );
