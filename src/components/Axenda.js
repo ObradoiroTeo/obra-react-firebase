@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
-import Buttons from "./Buttons";
-import SectionEvents from "./SectionEvents";
+import ButtonsAxenda from "./ButtonsAxenda";
+import SectionEventsAxenda from "./SectionEventsAxenda";
 import Footer from "./Footer";
 
 class Axenda extends React.Component {
@@ -27,21 +27,20 @@ class Axenda extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.axendaEvents.title} />
-        <Buttons
-          handleFilteringActualMonthEvents={
-            this.props.handleFilteringActualMonthEvents
+        <ButtonsAxenda
+          handleFilteringActualMonthEventsAxenda={
+            this.props.handleFilteringActualMonthEventsAxenda
           }
-          handleFilteringNextMonthEvents={
-            this.props.handleFilteringNextMonthEvents
+          handleFilteringNextMonthEventsAxenda={
+            this.props.handleFilteringNextMonthEventsAxenda
           }
-          handleFilteringThirdMonthEvents={
-            this.props.handleFilteringThirdMonthEvents
+          handleFilteringThirdMonthEventsAxenda={
+            this.props.handleFilteringThirdMonthEventsAxenda
           }
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
-          handleBotoncitosDelDemonio={this.props.handleBotoncitosDelDemonio}
         />
-        <SectionEvents events={this.props.axendaEvents.events} />
+        <SectionEventsAxenda events={this.props.axendaEvents.events} />
         <Footer />
       </div>
     );

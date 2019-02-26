@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class Buttons extends React.Component {
+class ButtonsNovas extends React.Component {
   static propTypes = {
     handleFilteringNextMonthEvents: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired
@@ -31,23 +31,19 @@ class Buttons extends React.Component {
   };
 
   handleActualMonthClick = event => {
-    this.props.handleFilteringActualMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringActualMonthEventsNovas(this.props.eventsKey);
   };
 
   handleNextMonthClick = event => {
-    this.props.handleFilteringNextMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringNextMonthEventsNovas(this.props.eventsKey);
   };
 
   handleThirdMonthClick = event => {
-    this.props.handleFilteringThirdMonthEvents(this.props.eventsKey);
+    this.props.handleFilteringThirdMonthEventsNovas(this.props.eventsKey);
   };
 
   resetAllItems = event => {
     this.props.resetVisibility(this.props.eventsKey);
-  };
-
-  handleBotoncitosDelDemonioClick = event => {
-    this.props.handleBotoncitosDelDemonio(this.props.eventsKey);
   };
 
   render() {
@@ -71,28 +67,9 @@ class Buttons extends React.Component {
         <button className="month-button" onClick={this.resetAllItems}>
           Mostrar todos
         </button>
-        <div
-          className="month-button"
-          id="categoria"
-          onClick={this.handleBotoncitosDelDemonioClick}
-        >
-          <label for="Categoria"> Categor&iacute;a </label>
-          <select>
-            <option value="Axuda e Subvencións">Axuda e Subvencións</option>
-            <option value="Cementerio">Cementerio</option>
-            <option value="Concursos e Licitacións">
-              Concursos e Licitacións
-            </option>
-            <option value="Ofertas de Emprego Público">
-              Ofertas de Emprego Público
-            </option>
-            <option value="Outras">Outras</option>
-            <option value="Calquera">Calquera</option>
-          </select>
-        </div>
       </div>
     );
   }
 }
 
-export default Buttons;
+export default ButtonsNovas;
