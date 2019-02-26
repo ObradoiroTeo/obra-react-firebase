@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
-import Buttons from "./Buttons";
+import ButtonsAxenda from "./ButtonsAxenda";
 import SectionEventsAxenda from "./SectionEventsAxenda";
 import Footer from "./Footer";
 
@@ -27,7 +27,7 @@ class Axenda extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.axendaEvents.title} />
-        <Buttons
+        <ButtonsAxenda
           handleFilteringActualMonthEventsAxenda={
             this.props.handleFilteringActualMonthEventsAxenda
           }
