@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Item from "./Item";
 
 class EventoConvocatorias extends React.Component {
@@ -9,10 +8,12 @@ class EventoConvocatorias extends React.Component {
       pdfs: this.props.eventDetails.pdfs
     };
   }
+
   render() {
     return (
       <ul>
         <button className="event-reduced">
+          +
           <img
             className="event-image"
             src={this.props.eventDetails.image}
@@ -26,10 +27,10 @@ class EventoConvocatorias extends React.Component {
           <br />
           <br />
           <br />
-          {this.state.pdfs.map(item => (
-            <Item item={item} />
-          ))}
         </button>
+        {this.state.pdfs.map(item => (
+          <Item item={item} />
+        ))}
       </ul>
     );
   }
