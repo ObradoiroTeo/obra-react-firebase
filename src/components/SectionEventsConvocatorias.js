@@ -1,5 +1,5 @@
 import React from "react";
-import Evento from "./Evento";
+import EventoConvocatorias from "./EventoConvocatorias";
 import PropTypes from "prop-types";
 
 const SectionEventsConvocatorias = props => (
@@ -14,7 +14,10 @@ const SectionEventsConvocatorias = props => (
       })
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
-        <Evento key={eventKey} eventDetails={props.events[eventKey]} />
+        <EventoConvocatorias
+          key={eventKey}
+          eventDetails={props.events[eventKey]}
+        />
       ))}
   </ul>
 );
