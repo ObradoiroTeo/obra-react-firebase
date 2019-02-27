@@ -13,7 +13,7 @@ class Axenda extends React.Component {
       title: PropTypes.string.isRequired,
       events: PropTypes.object.isRequired
     }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired,
     resetVisibility: PropTypes.func.isRequired
   };

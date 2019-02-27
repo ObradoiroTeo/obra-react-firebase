@@ -181,6 +181,17 @@ class App extends React.Component {
 
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
+  resetVisibility = eventsKey => {
+    const eventsToReset = { ...this.state[eventsKey].events };
+    const resetedEvents = Object.keys(eventsToReset).map(eventKey => {
+      if (eventsToReset[eventKey].visible === false) {
+        eventsToReset[eventKey].visible = true;
+      }
+      return eventsToReset[eventKey];
+    });
+
+    this.setState({ [`${eventsKey}.events`]: resetedEvents });
+  };
 
   render() {
     return (
@@ -192,6 +203,9 @@ class App extends React.Component {
             axendaEvents={this.state.axenda}
             handleFilteringActualMonthEventsAxenda={
               this.handleFilteringActualMonthEventsAxenda
+            }
+            handleFilteringNextMonthEventsAxenda={
+              this.handleFilteringNextMonthEventsAxenda
             }
             handleFilteringThirdMonthEventsAxenda={
               this.handleFilteringThirdMonthEventsAxenda
@@ -217,7 +231,6 @@ class App extends React.Component {
           <Convocatorias
             path="/convocatorias"
             convocatorias={this.state.convocatorias}
-            handleBotoncitosDelDemonio={this.handleBotoncitosDelDemonio}
           />
           <InfoTeo path="/infoteo" />
           <Admin
