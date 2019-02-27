@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
-import SectionEvents from "./SectionEvents";
+import SectionEventsConvocatorias from "./SectionEventsConvocatorias";
 import Footer from "./Footer";
 
 class Convocatorias extends React.Component {
@@ -19,7 +19,7 @@ class Convocatorias extends React.Component {
       <div>
         <Header />
         <SectionTitle title={this.props.convocatorias.title} />
-        <SectionEvents events={this.props.convocatorias.events} />
+        <SectionEventsConvocatorias events={this.props.convocatorias.events} />
         <Footer />
       </div>
     );
