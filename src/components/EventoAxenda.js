@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Evento = props => (
+const EventoAxenda = props => (
   <button className="event-reduced">
     <img className="event-image" src={props.eventDetails.image} alt="imagen" />
     <p className="event-date">
@@ -12,7 +12,7 @@ const Evento = props => (
   </button>
 );
 
-Evento.propTypes = {
+EventoAxenda.propTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
@@ -20,4 +20,4 @@ Evento.propTypes = {
   }).isRequired
 };
 
-export default Evento;
+export default EventoAxenda;

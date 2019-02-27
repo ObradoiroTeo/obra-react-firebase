@@ -2,7 +2,7 @@ import React from "react";
 import EventoAxenda from "./EventoAxenda";
 import PropTypes from "prop-types";
 
-const SectionEvents = props => (
+const SectionEventsAxenda = props => (
   <ul className="events-container">
     {Object.keys(props.events)
       .filter(eventKey => {
@@ -17,8 +17,8 @@ const SectionEvents = props => (
   </ul>
 );
 
-SectionEvents.propTypes = {
+SectionEventsAxenda.propTypes = {
   events: PropTypes.object.isRequired
 };
 
-export default SectionEvents;
+export default SectionEventsAxenda;
