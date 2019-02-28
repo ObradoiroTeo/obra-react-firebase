@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 class ButtonsAxenda extends React.Component {
   static propTypes = {
-    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
+    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired
   };
 
