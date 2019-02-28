@@ -13,6 +13,7 @@ class EventoConvocatorias extends React.Component {
     return (
       <ul>
         <button className="event-reduced">
+          +
           <img
             className="event-image"
             src={this.props.eventDetails.image}
