@@ -7,6 +7,10 @@ const Evento = props => (
     <p className="event-date">{props.eventDetails.date}</p>
 
     <p className="event-name">{props.eventDetails.name}</p>
+    <p
+      className="desc"
+      dangerouslySetInnerHTML={{ __html: props.eventDetails.desc }}
+    />
   </button>
 );
 

@@ -9,6 +9,10 @@ const EventoAxenda = props => (
     </p>
 
     <p className="event-name">{props.eventDetails.name}</p>
+    <p 
+      className="desc"
+      dangerouslySetInnerHTML={{̣̣ __html:props.eventDetails.desc}}
+    />
   </button>
 );
 
