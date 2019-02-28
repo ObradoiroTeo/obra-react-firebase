@@ -9,9 +9,9 @@ const Evento = props => (
     </p>
 
     <p className="event-name">{props.eventDetails.name}</p>
-    <p 
+    <p
       className="desc"
-      dangerouslySetInnerHTML={{̣̣ __html:props.eventDetails.desc}}
+      dangerouslySetInnerHTML={{ __html: this.props.eventDetails.desc }}
     />
   </button>
 );
