@@ -1,9 +1,7 @@
 import React from "react";
 import { Router } from "@reach/router";
-import { Link } from "@reach/router";
 
 import "../index.css";
-
 import Home from "./Home";
 import Axenda from "./Axenda";
 import Novas from "./Novas";
@@ -12,19 +10,15 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
-import EventDetails from "./EventDetails";
+import EventDetailsAxenda from "./EventDetailsAxenda";
+import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
+import EventDetailsNovas from "./EventDetailsNovas";
 
 import sampleConvocatorias from "../sample-Convocatorias.json";
 import sampleNovas from "../sample-Novas.json";
 import base from "../base";
 import sampleAxenda from "../sample-Axenda.json";
 
-const Child = ({ match }) =>
-  console.log("match", match)(
-    <div>
-      <h3>ID:{match.params.id}</h3>
-    </div>
-  );
 class App extends React.Component {
   state = {
     novas: {},
@@ -251,8 +245,24 @@ class App extends React.Component {
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
-          <EventDetails path="/eventdetails" eventDetails={this.state.novas} />
-          <Link path="/:id" component={Child} />
+          <EventDetailsAxenda
+            exact
+            path="/axenda/*/"
+            //component={EventDetails}
+            eventDetails={this.state.axenda}
+          />
+          <EventDetailsConvocatorias
+            exact
+            path="/convocatorias/*/"
+            //component={EventDetails}
+            eventDetails={this.state.convocatorias}
+          />
+          <EventDetailsNovas
+            exact
+            path="/novas/*/"
+            //component={EventDetails}
+            eventDetails={this.state.novas}
+          />
         </Router>
       </div>
     );
