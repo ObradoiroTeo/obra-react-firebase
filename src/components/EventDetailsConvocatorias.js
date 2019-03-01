@@ -8,13 +8,14 @@ const EventDetails = props => (
     <Header />
     <div className="event-container">
       <p className="details-name">{props.eventDetails.name}</p>
-      <p className="details-date">{props.eventDetails.date}</p>
+      <p className="details-date">{props.eventDetails.date_fin_convocatoria}</p>
       <div className="details-container">
         <img src={props.eventDetails.image} alt="img" className="details-img" />
         <p className="details-desc">{props.eventDetails.desc}</p>
       </div>
     </div>
     <div className="empty-hack" />
+
     <Footer />
   </div>
 );
