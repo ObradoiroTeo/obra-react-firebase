@@ -26,10 +26,6 @@ class EventoConvocatorias extends React.Component {
             {this.props.eventDetails.date_fin_convocatoria.substring(0, 10)}
           </p>
           <p className="event-name">{this.props.eventDetails.name}</p>
-          <p
-            className="desc"
-            dangerouslySetInnerHTML={{ __html: this.props.eventDetails.desc }}
-          />
         </button>
         {this.state.pdfs.map(item => (
           <Item item={item} />
