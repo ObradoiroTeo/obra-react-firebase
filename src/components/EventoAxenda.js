@@ -15,6 +15,7 @@ class EventoAxenda extends React.Component {
     navigate(`/axenda/${this.props.eventDetails.name}`);
   };
 
+
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
