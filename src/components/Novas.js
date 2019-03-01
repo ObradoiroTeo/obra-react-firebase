@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
 import ButtonsNovas from "./ButtonsNovas";
-import SectionEvents from "./SectionEvents";
+import SectionEventsNovas from "./SectionEventsNovas";
 import Footer from "./Footer";
 
 class Novas extends React.Component {
@@ -40,7 +40,7 @@ class Novas extends React.Component {
           eventsKey={this.props.eventsKey}
           resetVisibility={this.props.resetVisibility}
         />
-        <SectionEvents events={this.props.novasEvents.events} />
+        <SectionEventsNovas events={this.props.novasEvents.events} />
         <Footer />
       </div>
     );
