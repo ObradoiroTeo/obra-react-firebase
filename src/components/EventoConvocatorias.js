@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "./Item";
+import { navigate } from "@reach/router";
 
 class EventoConvocatorias extends React.Component {
   constructor(props) {
@@ -8,10 +9,13 @@ class EventoConvocatorias extends React.Component {
       pdfs: this.props.eventDetails.pdfs
     };
   }
+  goToEventDetails = event => {
+    navigate(`/axenda/${this.props.eventDetails.name}`);
+  };
   render() {
     return (
       <ul>
-        <button className="event-reduced">
+        <button className="event-reduced" onClick={this.goToEventDetails}>
           +
           <img
             className="event-image"

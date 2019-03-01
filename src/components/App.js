@@ -11,7 +11,9 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
-import EventDetails from "./EventDetails";
+import EventDetailsAxenda from "./EventDetailsAxenda";
+import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
+import EventDetailsNovas from "./EventDetailsNovas";
 
 import base from "../base";
 import sampleConvocatorias from "../sample-Convocatorias.json";
@@ -241,9 +243,23 @@ class App extends React.Component {
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
-          <EventDetails
-            path="/eventdetails"
-            // eventDetails={this.state.culture.events.event3}
+          <EventDetailsAxenda
+            exact
+            path="/axenda/*/"
+            //component={EventDetails}
+            eventDetails={this.state.axenda}
+          />
+          <EventDetailsConvocatorias
+            exact
+            path="/convocatorias/*/"
+            //component={EventDetails}
+            eventDetails={this.state.convocatorias}
+          />
+          <EventDetailsNovas
+            exact
+            path="/novas/*/"
+            //component={EventDetails}
+            eventDetails={this.state.novas}
           />
         </Router>
       </div>

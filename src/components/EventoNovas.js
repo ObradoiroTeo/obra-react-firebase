@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-class Evento extends React.Component {
-  static propTypes = {
+class EventoNovas extends React.Component {
+  static PropTypes = {
     eventDetails: PropTypes.shape({
       name: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
@@ -11,9 +11,8 @@ class Evento extends React.Component {
     }).isRequired
   };
   goToEventDetails = event => {
-    navigate(`/axenda/${this.props.eventDetails.name}`);
+    navigate(`/novas/${this.props.eventDetails.name}`);
   };
-
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
@@ -22,12 +21,12 @@ class Evento extends React.Component {
           src={this.props.eventDetails.image}
           alt="imagen"
         />
-        <p className="event-date">
-          {this.props.eventDetails.date_event.substring(0, 10)}
-        </p>
+        <p className="event-date">{this.props.eventDetails.date}</p>
+
         <p className="event-name">{this.props.eventDetails.name}</p>
       </button>
     );
   }
 }
-export default Evento;
+
+export default EventoNovas;
