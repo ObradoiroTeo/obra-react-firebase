@@ -1,8 +1,8 @@
 import React from "react";
-import Evento from "./Evento";
+import EventoNovas from "./EventoNovas";
 import PropTypes from "prop-types";
 
-const SectionEvents = props => (
+const SectionEventsNovas = props => (
   <ul className="events-container">
     {Object.keys(props.events)
       .filter(eventKey => {
@@ -12,13 +12,13 @@ const SectionEvents = props => (
       })
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
-        <Evento key={eventKey} eventDetails={props.events[eventKey]} />
+        <EventoNovas key={eventKey} eventDetails={props.events[eventKey]} />
       ))}
   </ul>
 );
 
-SectionEvents.propTypes = {
+SectionEventsNovas.propTypes = {
   events: PropTypes.object.isRequired
 };
 
-export default SectionEvents;
+export default SectionEventsNovas;
