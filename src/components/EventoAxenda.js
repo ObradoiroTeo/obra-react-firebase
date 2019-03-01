@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-class Evento extends React.Component {
+class EventoAxenda extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
       name: PropTypes.string.isRequired,
@@ -11,7 +11,7 @@ class Evento extends React.Component {
     }).isRequired
   };
 
-  goToEventDetails = event => {
+  goToEventDetails = eventKey => {
     navigate(`/axenda/${this.props.eventDetails.name}`);
   };
 
@@ -33,4 +33,4 @@ class Evento extends React.Component {
   }
 }
 
-export default Evento;
+export default EventoAxenda;

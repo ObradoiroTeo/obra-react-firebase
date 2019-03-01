@@ -248,19 +248,16 @@ class App extends React.Component {
           <EventDetailsAxenda
             exact
             path="/axenda/*/"
-            //component={EventDetails}
-            eventDetails={this.state.axenda}
+            eventDetails={this.state.axenda.events}
           />
           <EventDetailsConvocatorias
             exact
             path="/convocatorias/*/"
-            //component={EventDetails}
             eventDetails={this.state.convocatorias}
           />
           <EventDetailsNovas
             exact
             path="/novas/*/"
-            //component={EventDetails}
             eventDetails={this.state.novas}
           />
         </Router>
