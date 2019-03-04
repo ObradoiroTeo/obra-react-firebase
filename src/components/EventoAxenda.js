@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { navigate } from "@reach/router";
+import { navigate, navigation } from "@reach/router";
 
 class EventoAxenda extends React.Component {
   static propTypes = {
@@ -11,7 +11,9 @@ class EventoAxenda extends React.Component {
     }).isRequired
   };
   goToEventDetails = eventKey => {
-    navigate(`/axenda/${this.props.eventDetails.name}`);
+    navigate(`/axenda/${this.props.eventDetails.name}`, {
+      state: { clave: this.props.indice }
+    });
   };
 
   render() {
@@ -22,6 +24,7 @@ class EventoAxenda extends React.Component {
           src={this.props.eventDetails.image}
           alt="imagen"
         />
+        <p>{this.props.nombre}</p>
         <p className="event-date">
           {this.props.eventDetails.date_event.substring(0, 10)}
         </p>

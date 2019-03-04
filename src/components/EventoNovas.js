@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { navigate } from "@reach/router";
+import { navigate, navigation } from "@reach/router";
 
 class EventoNovas extends React.Component {
   static PropTypes = {
@@ -11,7 +11,9 @@ class EventoNovas extends React.Component {
     }).isRequired
   };
   goToEventDetails = event => {
-    navigate(`/novas/${this.props.eventDetails.name}`);
+    navigate(`/novas/${this.props.indice}`, {
+      state: { clave: this.props.indice }
+    });
   };
   render() {
     return (
@@ -21,6 +23,7 @@ class EventoNovas extends React.Component {
           src={this.props.eventDetails.image}
           alt="imagen"
         />
+        <p>{this.props.nombre}</p>
         <p className="event-date">{this.props.eventDetails.date}</p>
 
         <p className="event-name">{this.props.eventDetails.name}</p>

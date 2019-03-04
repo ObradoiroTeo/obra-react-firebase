@@ -15,7 +15,7 @@ const SectionEventsConvocatorias = props => (
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
         <EventoConvocatorias
-          key={eventKey}
+          indice={eventKey}
           eventDetails={props.events[eventKey]}
         />
       ))}
