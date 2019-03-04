@@ -10,8 +10,10 @@ class Evento extends React.Component {
       desc: PropTypes.string.isRequired
     }).isRequired
   };
-  goToEventDetails = event => {
-    navigate(`/novas/${this.props.eventDetails.name}`);
+  goToEventDetails = eventKey => {
+    navigate(`/novas/${this.props.indice}`, {
+      state: { clave: this.props.indice }
+    });
   };
   render() {
     return (

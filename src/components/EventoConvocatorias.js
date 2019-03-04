@@ -9,8 +9,10 @@ class EventoConvocatorias extends React.Component {
       pdfs: this.props.eventDetails.pdfs
     };
   }
-  goToEventDetails = event => {
-    navigate(`/axenda/${this.props.eventDetails.name}`);
+  goToEventDetails = eventKey => {
+    navigate(`/convocatorias/${this.props.indice}`, {
+      state: { clave: this.props.indice }
+    });
   };
   render() {
     return (
