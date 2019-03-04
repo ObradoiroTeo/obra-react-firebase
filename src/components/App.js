@@ -2,7 +2,6 @@ import React from "react";
 import { Router } from "@reach/router";
 
 import "../index.css";
-
 import Home from "./Home";
 import Axenda from "./Axenda";
 import Novas from "./Novas";
@@ -11,7 +10,9 @@ import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
 import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
-import EventDetails from "./EventDetails";
+import EventDetailsAxenda from "./EventDetailsAxenda";
+import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
+import EventDetailsNovas from "./EventDetailsNovas";
 
 import sampleConvocatorias from "../sample-Convocatorias.json";
 import sampleNovas from "../sample-Novas.json";
@@ -267,9 +268,20 @@ class App extends React.Component {
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
-          <EventDetails
-            path="/eventdetails"
-            //  eventDetails={this.state.culture.events.event3}
+          <EventDetailsAxenda
+            exact
+            path="/axenda/*/"
+            eventDetails={this.state.axenda.events}
+          />
+          <EventDetailsConvocatorias
+            exact
+            path="/convocatorias/*/"
+            eventDetails={this.state.convocatorias}
+          />
+          <EventDetailsNovas
+            exact
+            path="/novas/*/"
+            eventDetails={this.state.novas}
           />
         </Router>
       </div>
