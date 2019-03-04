@@ -3,15 +3,31 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const EventDetails = props => (
+const EventDetailsNovas = props => (
   <div>
     <Header />
     <div className="event-container">
-      <p className="details-name">{props.eventDetails.name}</p>
-      <p className="details-date">{props.eventDetails.date}</p>
+      <p className="details-name">
+        {props.eventDetails.events[props.location.state.clave].name}
+      </p>
+      <p className="details-date">
+        {props.eventDetails.events[props.location.state.clave].date.substring(
+          0,
+          10
+        )}
+      </p>
       <div className="details-container">
-        <img src={props.eventDetails.image} alt="img" className="details-img" />
-        <p className="details-desc">{props.eventDetails.desc}</p>
+        <img
+          src={props.eventDetails.events[props.location.state.clave].image}
+          alt="img"
+          className="details-img"
+        />
+        <p
+          className="details-desc"
+          dangerouslySetInnerHTML={{
+            __html: props.eventDetails.events[props.location.state.clave].desc
+          }}
+        />
       </div>
     </div>
     <div className="empty-hack" />
@@ -20,7 +36,7 @@ const EventDetails = props => (
   </div>
 );
 
-EventDetails.propTypes = {
+EventDetailsNovas.propTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
@@ -28,4 +44,4 @@ EventDetails.propTypes = {
   }).isRequired
 };
 
-export default EventDetails;
+export default EventDetailsNovas;

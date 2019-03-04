@@ -12,9 +12,10 @@ class EventoAxenda extends React.Component {
   };
 
   goToEventDetails = eventKey => {
-    navigate(`/axenda/${this.props.eventDetails.name}`);
+    navigate(`/axenda/${this.props.eventDetails.name}`, {
+      state: { clave: this.props.indice }
+    });
   };
-
 
   render() {
     return (
