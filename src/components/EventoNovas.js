@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-class Evento extends React.Component {
+class EventoNovas extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
       name: PropTypes.string.isRequired,
@@ -31,4 +31,4 @@ class Evento extends React.Component {
   }
 }
 
-export default Evento;
+export default EventoNovas;
