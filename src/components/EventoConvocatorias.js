@@ -1,5 +1,4 @@
 import React from "react";
-import Item from "./Item";
 import { navigate } from "@reach/router";
 
 class EventoConvocatorias extends React.Component {
@@ -10,7 +9,7 @@ class EventoConvocatorias extends React.Component {
     };
   }
   goToEventDetails = eventKey => {
-    navigate(`/convocatorias/${this.props.indice}`, {
+    navigate(`/convocatorias/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }
     });
   };
@@ -18,7 +17,6 @@ class EventoConvocatorias extends React.Component {
     return (
       <ul>
         <button className="event-reduced" onClick={this.goToEventDetails}>
-          +
           <img
             className="event-image"
             src={this.props.eventDetails.image}
@@ -29,9 +27,6 @@ class EventoConvocatorias extends React.Component {
           </p>
           <p className="event-name">{this.props.eventDetails.name}</p>
         </button>
-        {this.state.pdfs.map(item => (
-          <Item item={item} />
-        ))}
       </ul>
     );
   }

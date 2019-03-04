@@ -11,10 +11,9 @@ const EventDetailsConvocatorias = props => (
         {props.eventDetails.events[props.location.state.clave].name}
       </p>
       <p className="details-date">
-        {
-          props.eventDetails.events[props.location.state.clave]
-            .date_fin_convocatoria
-        }
+        {props.eventDetails.events[
+          props.location.state.clave
+        ].date_fin_convocatoria.substring(0, 10)}
       </p>
       <div className="details-container">
         <img
@@ -22,13 +21,15 @@ const EventDetailsConvocatorias = props => (
           alt="img"
           className="details-img"
         />
-        <p className="details-desc">
-          {props.eventDetails.events[props.location.state.clave].desc}
-        </p>
+        <p
+          className="details-desc"
+          dangerouslySetInnerHTML={{
+            __html: props.eventDetails.events[props.location.state.clave].desc
+          }}
+        />
       </div>
     </div>
     <div className="empty-hack" />
-
     <Footer />
   </div>
 );
