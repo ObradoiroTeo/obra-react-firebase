@@ -271,7 +271,7 @@ class App extends React.Component {
           <EventDetailsAxenda
             exact
             path="/axenda/*/"
-            eventDetails={this.state.axenda.events}
+            eventDetails={this.state.axenda}
           />
           <EventDetailsConvocatorias
             exact
