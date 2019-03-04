@@ -38,7 +38,30 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.ref = base.syncState(`convocatorias`, {
+    fetch("../sample-Convocatorias.json")
+      .then(response => {
+        return response.json();
+      })
+      .then(convocatorias => {
+        this.setState({ convocatorias: convocatorias });
+      });
+
+    fetch("../sample-Novas.json")
+      .then(response => {
+        return response.json();
+      })
+      .then(Novas => {
+        this.setState({ Novas: Novas });
+      });
+
+    fetch("../sample-Axenda.json")
+      .then(response => {
+        return response.json();
+      })
+      .then(Axenda => {
+        this.setState({ Axenda: Axenda });
+      });
+    /*this.ref = base.syncState(`convocatorias`, {
       context: this,
       state: "convocatorias"
     });
@@ -49,7 +72,7 @@ class App extends React.Component {
     this.ref = base.syncState(`axenda`, {
       context: this,
       state: "axenda"
-    });
+    });*/
   }
 
   componentWillUnmount() {
