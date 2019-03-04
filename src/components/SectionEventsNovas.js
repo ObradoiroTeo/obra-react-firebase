@@ -1,5 +1,5 @@
 import React from "react";
-import Evento from "./Evento";
+import EventoNovas from "./EventoNovas";
 import PropTypes from "prop-types";
 
 const SectionEventsNovas = props => (
@@ -12,7 +12,7 @@ const SectionEventsNovas = props => (
       })
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
-        <Evento indice={eventKey} eventDetails={props.events[eventKey]} />
+        <EventoNovas indice={eventKey} eventDetails={props.events[eventKey]} />
       ))}
   </ul>
 );
