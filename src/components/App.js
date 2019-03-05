@@ -29,15 +29,27 @@ class App extends React.Component {
       axenda: {},
       convocatorias: {}
     };
-  }
+  
   componentDidMount() {
     this.fetchData();
   }
   fetchData() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then(response => response.json())
-      .then(json => console.log(json));
-  }
+      .then(novas => {
+    this.setState({ novas: novas });
+  });
+fetch("https://jsonplaceholder.typicode.com/users")
+  .then(response => response.json())
+  .then(axenda => {
+    this.setState({ axenda: axenda });
+  });
+fetch("https://jsonplaceholder.typicode.com/users")
+  .then(response => response.json())
+  .then(convocatorias => {
+    this.setState({ convocatorias: convocatorias });
+  });
+}
   /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
