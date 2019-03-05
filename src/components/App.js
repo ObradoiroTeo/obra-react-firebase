@@ -21,12 +21,24 @@ import sampleNovas from "../sample-Novas.json";
 import sampleAxenda from "../sample-Axenda.json";
 
 class App extends React.Component {
-  state = {
-    novas: {},
-    axenda: {},
-    convocatorias: {}
-  };
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true,
+      novas: {},
+      axenda: {},
+      convocatorias: {}
+    };
+  }
+  componentDidMount() {
+    this.fetchData();
+  }
+  fetchData() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(json => console.log(json));
+  }
+  /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -53,6 +65,8 @@ class App extends React.Component {
       state: "axenda"
     });
   }
+  */
+
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
