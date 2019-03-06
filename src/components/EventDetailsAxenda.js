@@ -4,7 +4,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 /* Este componente es el que lleva a cada evento de axenda individualmente, una vez clicas en él. Muestra el nombre (name), la fecha (date_event), la imagen (image) y la descripción (desc)*/
-
 const EventDetailsAxenda = props => (
   <div>
     <Header />
