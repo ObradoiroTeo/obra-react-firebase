@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 
+// Componente sencillo que en caso de salir a una url que no esta definida nos muestra una pagina con un boton para volver a la pagina de inicio.
 const NotFound = props => (
   <>
     <div className="emptywhite-hack" />
