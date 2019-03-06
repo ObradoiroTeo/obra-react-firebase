@@ -1,6 +1,7 @@
 import React from "react";
 import { navigate } from "@reach/router";
 
+/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /convocatorias/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
 class EventoConvocatorias extends React.Component {
   constructor(props) {
     super(props);
@@ -13,6 +14,8 @@ class EventoConvocatorias extends React.Component {
       state: { clave: this.props.indice }
     });
   };
+
+  /* En el render hay una imagen, una fecha y un nombre para cada evento. Por último, la función goToEventDetails se pasa a través de un onClick en el botón correspondiente a cada evento, para que al clicar se entre en el detalle */
   render() {
     return (
       <ul>
