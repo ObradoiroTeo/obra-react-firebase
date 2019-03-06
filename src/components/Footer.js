@@ -1,5 +1,6 @@
 import React from "react";
 
+/*En el Footer están los logos de la Unión Europea, del Concello de Santiago y de Teo y el de la Xunta de Galicia */
 class Footer extends React.Component {
   render() {
     return (
