@@ -3,12 +3,6 @@ import { navigate } from "@reach/router";
 
 /* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /convocatorias/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
 class EventoConvocatorias extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pdfs: this.props.eventDetails.pdfs
-    };
-  }
   goToEventDetails = eventKey => {
     navigate(`/convocatorias/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }
