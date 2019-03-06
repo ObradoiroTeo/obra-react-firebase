@@ -20,12 +20,37 @@ import base from "../base";
 import sampleAxenda from "../sample-Axenda.json";
 
 class App extends React.Component {
-  state = {
-    novas: {},
-    axenda: {},
-    convocatorias: {}
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true,
+      novas: {},
+      axenda: {},
+      convocatorias: {}
+    };
+  }
+  componentDidMount() {
+    this.fetchData();
+  }
 
+  fetchData() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(novas => {
+        this.setState({ novas: novas });
+      });
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(axenda => {
+        this.setState({ axenda: axenda });
+      });
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(convocatorias => {
+        this.setState({ convocatorias: convocatorias });
+      });
+  }
+  /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -37,7 +62,7 @@ class App extends React.Component {
   loadSampleAxenda = () => {
     this.setState({ axenda: sampleAxenda });
   };
-
+  
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -52,6 +77,7 @@ class App extends React.Component {
       state: "axenda"
     });
   }
+  */
 
   componentWillUnmount() {
     base.removeBinding(this.ref);
