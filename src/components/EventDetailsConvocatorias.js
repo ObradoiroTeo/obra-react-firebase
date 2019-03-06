@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-/* Este componente es el que lleva a cada evento de axenda individualmente, una vez clicas en él. Muestra el nombre (name), la fecha (date_fin_convocatoria), la imagen (image) y la descripción (desc)*/
+/* Este componente es el que lleva a cada evento de convocatorias individualmente, una vez clicas en él. Muestra el nombre (name), la fecha (date_fin_convocatoria), la imagen (image) y la descripción (desc)*/
 const EventDetailsConvocatorias = props => (
   <div>
     <Header />
