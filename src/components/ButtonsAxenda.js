@@ -22,6 +22,7 @@ class ButtonsAxenda extends React.Component {
     "Decembro"
   ];
 
+  // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
     if (nextMonth > 11) {
@@ -30,22 +31,31 @@ class ButtonsAxenda extends React.Component {
     return nextMonth;
   };
 
+  // Esta funcion es la que muestra el mes actual dentro de los botones de filtrado.
+  // Para utilizarna necesitamos usar -> (handleFilteringActualMonthEventsAxenda) que esta definida y explicada en App.
   handleActualMonthClick = event => {
     this.props.handleFilteringActualMonthEventsAxenda(this.props.eventsKey);
   };
 
+  // Esta funcion es la que muestra el mes siguiente dentro de los botones de filtrado.
+  // Para utilizarna necesitamos usar -> (handleFilteringNextMonthEventsAxenda) que esta definida y explicada en App.
   handleNextMonthClick = event => {
     this.props.handleFilteringNextMonthEventsAxenda(this.props.eventsKey);
   };
 
+  // Esta funcion es la que muestra el tercer mes dentro de los botones de filtrado.
+  // Para utilizarna necesitamos usar -> (handleFilteringThirdMonthEventsAxenda) que esta definida y explicada en App.
   handleThirdMonthClick = event => {
     this.props.handleFilteringThirdMonthEventsAxenda(this.props.eventsKey);
   };
 
+  // Esta funcion resetea el valor de visibilidad.
+  // Para utilizarna necesitamos usar -> (resetVisibility) que esta definida y explicada en App.
   resetAllItems = event => {
     this.props.resetVisibility(this.props.eventsKey);
   };
 
+  // Dentro del render vemos 4 botones: <Mes Actual> <Mes Siguiente> <Tercer Mes> y <Mostrar Todos>
   render() {
     const date = new Date();
 
