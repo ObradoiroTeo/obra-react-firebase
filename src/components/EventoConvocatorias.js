@@ -1,3 +1,8 @@
+/**
+ * Cada evento  va junto una información ,imagen y fecha.
+ * Están conectados a Convocatorias y por ahí se conectan los datos.
+ */
+
 import React from "react";
 import { navigate } from "@reach/router";
 

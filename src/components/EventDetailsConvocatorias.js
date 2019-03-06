@@ -1,3 +1,8 @@
+/**
+ * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase.
+ * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
+ */
+
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
