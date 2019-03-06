@@ -1,3 +1,6 @@
+/**
+ * Componente general que unifica todas las funcionalidades de la aplicación y las conecta entre si.
+ */
 import React from "react";
 import { Router } from "@reach/router";
 
@@ -29,6 +32,7 @@ class App extends React.Component {
       convocatorias: {}
     };
   }
+  /*
   componentDidMount() {
     this.fetchData();
   }
@@ -50,7 +54,7 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
-  /*
+  */
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -62,32 +66,9 @@ class App extends React.Component {
   loadSampleAxenda = () => {
     this.setState({ axenda: sampleAxenda });
   };
-  
+
   componentDidMount() {
-    fetch("../sample-Convocatorias.json")
-      .then(response => {
-        return response.json();
-      })
-      .then(convocatorias => {
-        this.setState({ convocatorias: convocatorias });
-      });
-
-    fetch("../sample-Novas.json")
-      .then(response => {
-        return response.json();
-      })
-      .then(Novas => {
-        this.setState({ Novas: Novas });
-      });
-
-    fetch("../sample-Axenda.json")
-      .then(response => {
-        return response.json();
-      })
-      .then(Axenda => {
-        this.setState({ Axenda: Axenda });
-      });
-    /*this.ref = base.syncState(`convocatorias`, {
+    this.ref = base.syncState(`convocatorias`, {
       context: this,
       state: "convocatorias"
     });
@@ -98,9 +79,8 @@ class App extends React.Component {
     this.ref = base.syncState(`axenda`, {
       context: this,
       state: "axenda"
-    });*/
+    });
   }
-  */
 
   componentWillUnmount() {
     base.removeBinding(this.ref);
