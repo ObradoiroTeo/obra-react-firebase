@@ -2,6 +2,7 @@ import React from "react";
 import { Router } from "@reach/router";
 
 import "../index.css";
+
 import Home from "./Home";
 import Axenda from "./Axenda";
 import Novas from "./Novas";
@@ -14,9 +15,9 @@ import EventDetailsAxenda from "./EventDetailsAxenda";
 import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
 import EventDetailsNovas from "./EventDetailsNovas";
 
+import base from "../base";
 import sampleConvocatorias from "../sample-Convocatorias.json";
 import sampleNovas from "../sample-Novas.json";
-import base from "../base";
 import sampleAxenda from "../sample-Axenda.json";
 
 class App extends React.Component {
@@ -33,7 +34,6 @@ class App extends React.Component {
   componentDidMount() {
     this.fetchData();
   }
-
   fetchData() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then(response => response.json())
@@ -150,7 +150,6 @@ class App extends React.Component {
 
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
-
   handleFilteringActualMonthEventsNovas = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -210,7 +209,6 @@ class App extends React.Component {
 
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
-
   resetVisibility = eventsKey => {
     const eventsToReset = { ...this.state[eventsKey].events };
     const resetedEvents = Object.keys(eventsToReset).map(eventKey => {
@@ -250,7 +248,7 @@ class App extends React.Component {
               this.handleFilteringActualMonthEventsNovas
             }
             handleFilteringNextMonthEventsNovas={
-              this.handleFilteringNextMonthEventsNovas
+              this.handleFilteringNextMonthEventsnovas
             }
             handleFilteringThirdMonthEventsNovas={
               this.handleFilteringThirdMonthEventsNovas

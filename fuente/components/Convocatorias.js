@@ -1,11 +1,3 @@
-/**
- * Informa de citaciones,emplazamientos,avisos,edictos,requerimientos que salen de una base de datos como es Firebase.
- * Está conectada  a la App donde está el JSON con toda la información.
- * A su vez Convocatorias se divide en:
- * -SectionTitleConvocatorias con el título al que se refiera.
- * - SectionEventsConvocatorias  en el cual viene explicado el evento (EventoConvocatorias) junto a links donde se puede encontrar más información(EventDetailsConvocatorias) o escritos para imprimir.
- */
-
 import React from "react";
 import PropTypes from "prop-types";
 

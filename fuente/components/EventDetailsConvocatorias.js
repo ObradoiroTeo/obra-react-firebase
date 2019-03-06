@@ -30,11 +30,12 @@ const EventDetailsConvocatorias = props => (
       </div>
     </div>
     <div className="empty-hack" />
+
     <Footer />
   </div>
 );
 
-EventDetailsConvocatorias.propTypes = {
+EventDetailsConvocatorias.PropTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,

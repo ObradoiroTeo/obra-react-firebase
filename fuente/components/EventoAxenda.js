@@ -10,7 +10,6 @@ class EventoAxenda extends React.Component {
       desc: PropTypes.string.isRequired
     }).isRequired
   };
-
   goToEventDetails = eventKey => {
     navigate(`/axenda/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }
@@ -28,11 +27,9 @@ class EventoAxenda extends React.Component {
         <p className="event-date">
           {this.props.eventDetails.date_event.substring(0, 10)}
         </p>
-
         <p className="event-name">{this.props.eventDetails.name}</p>
       </button>
     );
   }
 }
-
 export default EventoAxenda;

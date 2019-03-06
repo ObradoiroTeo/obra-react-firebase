@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const EventDetailsConvocatorias = props => (
+const EventDetailsAxenda = props => (
   <div>
     <Header />
     <div className="event-container">
@@ -13,8 +13,9 @@ const EventDetailsConvocatorias = props => (
       <p className="details-date">
         {props.eventDetails.events[
           props.location.state.clave
-        ].date_fin_convocatoria.substring(0, 10)}
+        ].date_event.substring(0, 10)}
       </p>
+
       <div className="details-container">
         <img
           src={props.eventDetails.events[props.location.state.clave].image}
@@ -30,16 +31,17 @@ const EventDetailsConvocatorias = props => (
       </div>
     </div>
     <div className="empty-hack" />
+
     <Footer />
   </div>
 );
 
-EventDetailsConvocatorias.propTypes = {
+EventDetailsAxenda.PropTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    date_event: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired
   }).isRequired
 };
 
-export default EventDetailsConvocatorias;
+export default EventDetailsAxenda;

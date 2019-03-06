@@ -31,6 +31,7 @@ const EventDetailsNovas = props => (
       </div>
     </div>
     <div className="empty-hack" />
+
     <Footer />
   </div>
 );

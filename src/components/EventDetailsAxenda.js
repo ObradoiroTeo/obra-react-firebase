@@ -36,7 +36,7 @@ const EventDetailsAxenda = props => (
   </div>
 );
 
-EventDetailsAxenda.PropTypes = {
+EventDetailsAxenda.propTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date_event: PropTypes.string.isRequired,
