@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
+/* Este componente es el que lleva a cada evento de axenda individualmente, una vez clicas en él. Muestra el nombre (name), la fecha (date_event), la imagen (image) y la descripción (desc)*/
+
 const EventDetailsAxenda = props => (
   <div>
     <Header />
@@ -37,7 +39,7 @@ const EventDetailsAxenda = props => (
 );
 
 EventDetailsAxenda.propTypes = {
-  eventDetails: PropTypes.shape({
+  eventDetailsAxenda: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date_event: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired

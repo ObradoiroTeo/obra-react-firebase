@@ -13,11 +13,12 @@ class Novas extends React.Component {
       title: PropTypes.string.isRequired,
       events: PropTypes.object.isRequired
     }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    handleFilteringNextMonthEventsNovas: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired,
     resetVisibility: PropTypes.func.isRequired
   };
 
+  //Aquí se utiliza "resetVisibility", la cual llamamos desde App, para poder mostrar nuevamente los eventos de Novas una vez han sido filtrados
   componentWillUnmount() {
     this.props.resetVisibility(this.props.eventsKey);
   }

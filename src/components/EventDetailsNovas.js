@@ -21,7 +21,7 @@ const EventDetails = props => (
 );
 
 EventDetails.propTypes = {
-  eventDetails: PropTypes.shape({
+  eventDetailsNovas: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired

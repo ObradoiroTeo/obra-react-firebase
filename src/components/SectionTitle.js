@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+//SectionTitle permite mostrar el título de cada sección (Axenda, Novas y Convocatorias)
 const SectionTitle = props => (
   <section>
     <img

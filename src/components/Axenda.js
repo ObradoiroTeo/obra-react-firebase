@@ -9,15 +9,16 @@ import Footer from "./Footer";
 
 class Axenda extends React.Component {
   static propTypes = {
-    axendaEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      events: PropTypes.object.isRequired
-    }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    //axendaEvents: PropTypes.shape({
+    //title: PropTypes.string.isRequired,
+    // events: PropTypes.object.isRequired
+    // }).isRequired,
+    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired,
     resetVisibility: PropTypes.func.isRequired
   };
 
+  //Aquí se utiliza "resetVisibility", la cual llamamos desde App, para poder mostrar nuevamente los eventos de Axenda una vez han sido filtrados
   componentWillUnmount() {
     this.props.resetVisibility(this.props.eventsKey);
   }
