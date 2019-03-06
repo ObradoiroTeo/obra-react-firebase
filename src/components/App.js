@@ -63,7 +63,7 @@ class App extends React.Component {
     this.setState({ axenda: sampleAxenda });
   };
 
-  componentDidMount() {
+  /* componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
       state: "convocatorias"
@@ -77,7 +77,7 @@ class App extends React.Component {
       state: "axenda"
     });
   }
-
+*/
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
