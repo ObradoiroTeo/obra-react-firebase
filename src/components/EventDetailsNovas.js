@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-/* Este componente es el que lleva a cada evento de novas individualmente, una vez clicas en él. Muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc)*/
+/* Este componente muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 
 const EventDetailsNovas = props => (
   <div>
