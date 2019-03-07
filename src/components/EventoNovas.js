@@ -1,3 +1,6 @@
+/**
+ * Componente que define cada elemento (li) de la lista (ul) que esta definida en SeccionEventNovas.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";

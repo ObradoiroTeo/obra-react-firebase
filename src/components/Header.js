@@ -1,3 +1,6 @@
+/**
+ * Componente que contiene y carga el código html correspondiente al header de la aplicación.
+ */
 import React from "react";
 import { Link } from "@reach/router";
 

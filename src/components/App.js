@@ -1,3 +1,6 @@
+/**
+ * Componente general que unifica todas las funcionalidades de la aplicación y las conecta entre si.
+ */
 import React from "react";
 import { Router } from "@reach/router";
 
@@ -29,6 +32,7 @@ class App extends React.Component {
       convocatorias: {}
     };
   }
+  /*
   componentDidMount() {
     this.fetchData();
   }
@@ -50,7 +54,7 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
-  /*
+  */
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -62,7 +66,7 @@ class App extends React.Component {
   loadSampleAxenda = () => {
     this.setState({ axenda: sampleAxenda });
   };
-  
+
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -77,7 +81,6 @@ class App extends React.Component {
       state: "axenda"
     });
   }
-  */
 
   componentWillUnmount() {
     base.removeBinding(this.ref);
