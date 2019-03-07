@@ -1,6 +1,10 @@
-/**
- * Componente en el que se definen los botones de navegación de la sección Convocatorias.
- */
+/*
+Informa de citaciones,emplazamientos,avisos,edictos,requerimientos que salen de una base de datos como es Firebase posteriormente la información saldrá directamente desde una URL , teniendo además a Firebase como soporte.
+Está conectada  a la App donde está el JSON con toda la información.
+De Convocatorias salen SectionTitleConvocatorias y SectionEventsConvocatorias.
+ 
+Componente en el que se definen los botones de navegación de la sección Convocatorias.
+*/
 import React from "react";
 import PropTypes from "prop-types";
 
