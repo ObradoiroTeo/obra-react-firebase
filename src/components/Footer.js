@@ -1,3 +1,6 @@
+/**
+ * Componente que contiene y carga el código html correspondiente al footer de la aplicación.
+ */
 import React from "react";
 
 class Footer extends React.Component {

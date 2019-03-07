@@ -1,3 +1,6 @@
+/**
+ * Componente que contiene y muestra el conjunto de eventos seleccionados en una lista.
+ */
 import React from "react";
 import EventoNovas from "./EventoNovas";
 import PropTypes from "prop-types";

@@ -1,3 +1,6 @@
+/**
+ * Componente general que unifica todas las funcionalidades de la aplicación y las conecta entre si.
+ */
 import React from "react";
 import { Router } from "@reach/router";
 
@@ -21,7 +24,6 @@ import sampleAxenda from "../sample-Axenda.json";
 
 // App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -56,10 +58,12 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
+
 */
 
-  // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
+//  FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
 
+  
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };

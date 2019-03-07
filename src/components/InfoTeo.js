@@ -1,3 +1,7 @@
+/**
+ * Componente que se carga al pulsar el botón de "infoteo" y en el que se renderizan los pdfs que se le pasan.
+ * Es un componente "final", en él está toda la información necesaria para su funcionamiento.
+ */
 import React from "react";
 import PDF from "react-pdf-js";
 import Header from "./Header";

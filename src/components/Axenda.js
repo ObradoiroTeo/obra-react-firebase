@@ -1,3 +1,7 @@
+/**
+ * Compenente conectado directamente a App en el que se conectan todos los
+ * componentes relacionados con el botón Axenda.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 

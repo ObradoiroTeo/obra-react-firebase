@@ -1,3 +1,6 @@
+/**
+ * Componente en el que se definen los botones de navegación de la sección Convocatorias.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 

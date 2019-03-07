@@ -1,3 +1,6 @@
+/**
+ * Componente que se muestra cuando una url dentro del sitio web no existe.
+ */
 import React from "react";
 import { Link } from "@reach/router";
 
