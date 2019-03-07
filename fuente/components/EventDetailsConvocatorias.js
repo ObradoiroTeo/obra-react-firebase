@@ -1,15 +1,9 @@
-/**
- * Componente último que muestra detalladamente y de forma descriptiva cada uno de los eventos.
- *  Al pinchar en el evento cambia la sección eventos por la descripción del evento en sí.
- */
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
-/* Este componente muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
-
-const EventDetailsNovas = props => (
+const EventDetailsConvocatorias = props => (
   <div>
     <Header />
     <div className="event-container">
@@ -17,10 +11,9 @@ const EventDetailsNovas = props => (
         {props.eventDetails.events[props.location.state.clave].name}
       </p>
       <p className="details-date">
-        {props.eventDetails.events[props.location.state.clave].date.substring(
-          0,
-          10
-        )}
+        {props.eventDetails.events[
+          props.location.state.clave
+        ].date_fin_convocatoria.substring(0, 10)}
       </p>
       <div className="details-container">
         <img
@@ -42,7 +35,7 @@ const EventDetailsNovas = props => (
   </div>
 );
 
-EventDetailsNovas.propTypes = {
+EventDetailsConvocatorias.PropTypes = {
   eventDetails: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
@@ -50,4 +43,4 @@ EventDetailsNovas.propTypes = {
   }).isRequired
 };
 
-export default EventDetailsNovas;
+export default EventDetailsConvocatorias;
