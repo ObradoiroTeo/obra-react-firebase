@@ -1,9 +1,12 @@
+/**
+ * Componente en el que se definen los botones de navegación de la sección Axenda.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 
 class ButtonsAxenda extends React.Component {
   static propTypes = {
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired
   };
 

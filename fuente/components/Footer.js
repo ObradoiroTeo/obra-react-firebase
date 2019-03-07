@@ -1,9 +1,5 @@
-/**
- * Componente que contiene y carga el código html correspondiente al footer de la aplicación.
- */
 import React from "react";
 
-/*En el Footer están las imágenes correspondientes a los logos de la Unión Europea, del Concello de Santiago, el de Teo y el de la Xunta de Galicia */
 class Footer extends React.Component {
   render() {
     return (
