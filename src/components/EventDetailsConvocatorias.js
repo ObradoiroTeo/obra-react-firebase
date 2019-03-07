@@ -9,7 +9,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ManejoPdf from "./ManejoPdf";
 
-/*   Este componente muestra el nombre (name), la fecha (date_fin_convocatoria), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 class EventDetailsConvocatorias extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
