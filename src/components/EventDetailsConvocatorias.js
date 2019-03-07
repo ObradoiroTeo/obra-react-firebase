@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
+/* Este componente muestra el nombre (name), la fecha (date_fin_convocatoria), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 const EventDetailsConvocatorias = props => (
   <div>
     <Header />
@@ -35,7 +36,7 @@ const EventDetailsConvocatorias = props => (
 );
 
 EventDetailsConvocatorias.propTypes = {
-  eventDetails: PropTypes.shape({
+  eventDetailsConvocatorias: PropTypes.shape({
     name: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired
