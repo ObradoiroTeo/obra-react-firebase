@@ -37,8 +37,7 @@ class App extends React.Component {
     };
   }
 
-  /*
-  componentDidMount() {
+  /*componentDidMount() {
     this.fetchData();
   }
 
@@ -60,9 +59,11 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
+
 */
 
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
+
 
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
