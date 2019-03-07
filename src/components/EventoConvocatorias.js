@@ -2,12 +2,6 @@ import React from "react";
 import { navigate } from "@reach/router";
 
 class EventoConvocatorias extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pdfs: this.props.eventDetails.pdfs
-    };
-  }
   goToEventDetails = eventKey => {
     navigate(`/convocatorias/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }
