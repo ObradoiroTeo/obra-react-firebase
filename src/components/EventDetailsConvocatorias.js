@@ -40,14 +40,13 @@ class EventDetailsConvocatorias extends React.Component {
             ].date_fin_convocatoria.substring(0, 10)}
           </p>
           <div className="details-container">
-            <img
-              src={
-                this.props.eventDetails.events[this.props.location.state.clave]
-                  .image
-              }
-              alt="img"
-              className="details-img"
-            />
+            <p className="lista-pdf">
+              {this.props.eventDetails.events[
+                this.props.location.state.clave
+              ].pdfs.map(item => (
+                <ManejoPdf item={item} />
+              ))}
+            </p>
             <p
               className="details-desc"
               dangerouslySetInnerHTML={{
@@ -57,13 +56,6 @@ class EventDetailsConvocatorias extends React.Component {
               }}
             />
           </div>
-          <p className="lista-pdf">
-            {this.props.eventDetails.events[
-              this.props.location.state.clave
-            ].pdfs.map(item => (
-              <ManejoPdf item={item} />
-            ))}
-          </p>
         </div>
         <div className="empty-hack" />
         <Footer />
