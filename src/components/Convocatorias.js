@@ -17,10 +17,20 @@ class Convocatorias extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <SectionTitle title={this.props.convocatorias.title} />
-        <SectionEventsConvocatorias events={this.props.convocatorias.events} />
-        <Footer />
+        <div>
+          <Header />
+        </div>
+        <div>
+          <SectionTitle title={this.props.convocatorias.title} />
+        </div>
+        <div>
+          <SectionEventsConvocatorias
+            events={this.props.convocatorias.events}
+          />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }
