@@ -1,6 +1,7 @@
 /**
  * Define de qué va a ser cada evento y que va a informar.
  * Está conectado a Convocatorias para poder obtener la información oportuna.
+ * De SectionEventsConvocatorias sale EventoConvocatorias.
  */
 
 import React from "react";

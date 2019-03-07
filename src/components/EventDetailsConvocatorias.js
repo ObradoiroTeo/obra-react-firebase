@@ -1,5 +1,5 @@
 /**
- * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase.
+ * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase y que posteriormente vendrá dada directamente desde una URL.
  * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
  */
 
