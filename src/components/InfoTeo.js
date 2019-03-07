@@ -7,6 +7,8 @@ import PDF from "react-pdf-js";
 import Header from "./Header";
 import Footer from "./Footer";
 
+// Dento de esta ventana lo que vemos es el documento de InfoTeo en pdf. 👇
+// Para la paginacion usamos (handlePrevious y handleNext) -> (previousButton y nextButton)
 class InfoTeo extends React.Component {
   state = {};
   onDocumentComplete = pages => {
@@ -61,6 +63,8 @@ class InfoTeo extends React.Component {
       </nav>
     );
   };
+
+  // En el render se muestra el propio archivo pdf y la paginacion (botones de anterior y siguiente)
   render() {
     let pagination = null;
     if (this.state.pages) {
