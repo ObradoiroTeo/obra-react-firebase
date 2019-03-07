@@ -3,7 +3,6 @@
  * Están conectados a Convocatorias y por ahí se conectan los datos los cuales están definidos en SectionEventsConvocatorias.
  * De EventoConvocatorias sale EventDetailsConvocatorias.
  */
-
 import React from "react";
 import { navigate } from "@reach/router";
 

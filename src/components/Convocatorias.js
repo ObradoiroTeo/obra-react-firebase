@@ -3,7 +3,6 @@
  * Está conectada  a la App donde está el JSON con toda la información.
  * De Convocatorias salen SectionTitleConvocatorias y SectionEventsConvocatorias.
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 

@@ -3,7 +3,6 @@
  * Está conectado a Convocatorias para poder obtener la información oportuna.
  * De SectionEventsConvocatorias sale EventoConvocatorias.
  */
-
 import React from "react";
 import EventoConvocatorias from "./EventoConvocatorias";
 import PropTypes from "prop-types";

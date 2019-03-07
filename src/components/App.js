@@ -29,7 +29,7 @@ class App extends React.Component {
       convocatorias: {}
     };
   }
-  /*
+  
   componentDidMount() {
     this.fetchData();
   }
@@ -51,7 +51,8 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
-  */
+
+  /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -78,6 +79,7 @@ class App extends React.Component {
       state: "axenda"
     });
   }
+  */
 
   componentWillUnmount() {
     base.removeBinding(this.ref);
