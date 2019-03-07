@@ -1,7 +1,13 @@
+/**
+ * Componente último que muestra detalladamente y de forma descriptiva cada uno de los eventos.
+ *  Al pinchar en el evento cambia la sección eventos por la descripción del evento en sí.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
+
+/* Este componente muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 
 const EventDetailsNovas = props => (
   <div>
