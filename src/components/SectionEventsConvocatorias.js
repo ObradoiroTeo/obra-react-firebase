@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 // Despues hacemos otro filtrado segun el valor de (visible).
 // Por ultimo usamos un (.map) para aplicar las funciones anteriores a todos los eventos que entran en esta pagina.
 const SectionEventsConvocatorias = props => (
-  <ul className="events-container">
+  <ul className="convocatoria-container">
     {Object.keys(props.events)
       .filter(eventKey => {
         const actualDate = new Date();
