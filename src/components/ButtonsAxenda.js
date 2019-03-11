@@ -79,9 +79,11 @@ class ButtonsAxenda extends React.Component {
         <button className="month-button" onClick={this.handleThirdMonthClick}>
           {this.months[month3]}
         </button>
-        <button className="month-button" onClick={this.resetAllItems}>
-          Mostrar todos
-        </button>
+        <div className="show-all-container">
+          <button className="show-all-button" onClick={this.resetAllItems}>
+            Mostrar todos
+          </button>
+        </div>
       </div>
     );
   }

@@ -35,23 +35,31 @@ class Novas extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <SectionTitle title={this.props.novasEvents.title} />
-        <ButtonsNovas
-          handleFilteringActualMonthEventsNovas={
-            this.props.handleFilteringActualMonthEventsNovas
-          }
-          handleFilteringNextMonthEventsNovas={
-            this.props.handleFilteringNextMonthEventsNovas
-          }
-          handleFilteringThirdMonthEventsNovas={
-            this.props.handleFilteringThirdMonthEventsNovas
-          }
-          eventsKey={this.props.eventsKey}
-          resetVisibility={this.props.resetVisibility}
-        />
-        <SectionEventsNovas events={this.props.novasEvents.events} />
-        <Footer />
+        <div>
+          <Header />
+        </div>
+        <div className="title-event-buttons">
+          <SectionTitle title={this.props.novasEvents.title} />
+          <ButtonsNovas
+            handleFilteringActualMonthEventsNovas={
+              this.props.handleFilteringActualMonthEventsNovas
+            }
+            handleFilteringNextMonthEventsNovas={
+              this.props.handleFilteringNextMonthEventsNovas
+            }
+            handleFilteringThirdMonthEventsNovas={
+              this.props.handleFilteringThirdMonthEventsNovas
+            }
+            eventsKey={this.props.eventsKey}
+            resetVisibility={this.props.resetVisibility}
+          />
+        </div>
+        <div>
+          <SectionEventsNovas events={this.props.novasEvents.events} />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }
