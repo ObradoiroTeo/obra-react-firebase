@@ -35,23 +35,31 @@ class Axenda extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <SectionTitle title={this.props.axendaEvents.title} />
-        <ButtonsAxenda
-          handleFilteringActualMonthEventsAxenda={
-            this.props.handleFilteringActualMonthEventsAxenda
-          }
-          handleFilteringNextMonthEventsAxenda={
-            this.props.handleFilteringNextMonthEventsAxenda
-          }
-          handleFilteringThirdMonthEventsAxenda={
-            this.props.handleFilteringThirdMonthEventsAxenda
-          }
-          eventsKey={this.props.eventsKey}
-          resetVisibility={this.props.resetVisibility}
-        />
-        <SectionEventsAxenda events={this.props.axendaEvents.events} />
-        <Footer />
+        <div>
+          <Header />
+        </div>
+        <div className="title-event-buttons">
+          <SectionTitle title={this.props.axendaEvents.title} />
+          <ButtonsAxenda
+            handleFilteringActualMonthEventsAxenda={
+              this.props.handleFilteringActualMonthEventsAxenda
+            }
+            handleFilteringNextMonthEventsAxenda={
+              this.props.handleFilteringNextMonthEventsAxenda
+            }
+            handleFilteringThirdMonthEventsAxenda={
+              this.props.handleFilteringThirdMonthEventsAxenda
+            }
+            eventsKey={this.props.eventsKey}
+            resetVisibility={this.props.resetVisibility}
+          />
+        </div>
+        <div>
+          <SectionEventsAxenda events={this.props.axendaEvents.events} />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }
