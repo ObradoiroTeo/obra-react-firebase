@@ -262,6 +262,59 @@ code {
 
 /* <EventsDetails> END */
 
+/* <Convocatorias> START */
+/*()Página Principal de Convocatorias*/
+.convocatoria-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.convocatoria-reduced {
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
+  margin: 5px 10px 50px 10px;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 350px;
+  height: 150px;
+}
+.convocatoria-reduced:active {
+  transform: translateY(4px);
+  box-shadow: 6px 6px 15px -5px rgba(0, 0, 0, 0.68);
+}
+.convocatoria-date {
+  text-align: left;
+  padding-left: 8px;
+  background-color: #003899;
+  margin-right: 220px;
+}
+/*(Página de la Convocatoria detallada)*/
+.lista-pdf {
+  display: flex;
+  flex-direction: column;
+}
+/*(PARA PODER ELIMINAR EL SUBRAYADO, EL CLASS ESTÁ EN EL <a>)*/
+.convocatoria-enlace {
+  text-decoration: none;
+  color: white;
+}
+.enlace {
+  font-size: 17px;
+  padding: 10px 10px;
+  margin: 15px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+}
+.enlace:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+/* <Convocatorias> END */
 /* <InfoTeo-Buttons> START */
 
 .pager {

@@ -44,7 +44,9 @@ class EventDetailsConvocatorias extends React.Component {
               {this.props.eventDetails.events[
                 this.props.location.state.clave
               ].pdfs.map(item => (
-                <ManejoPdf item={item} />
+                <div className="enlace">
+                  <ManejoPdf item={item} />
+                </div>
               ))}
             </p>
             <p
