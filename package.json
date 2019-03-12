@@ -12,7 +12,6 @@
     "react-pdf": "^4.0.2",
     "react-pdf-js": "^4.0.2",
     "react-scripts": "^2.1.5"
-
   },
   "scripts": {
     "start": "react-scripts start",
