@@ -16,6 +16,8 @@ import NotFound from "./NotFound";
 import EventDetailsAxenda from "./EventDetailsAxenda";
 import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
 import EventDetailsNovas from "./EventDetailsNovas";
+import IFrameConcelloTeo from "./iFrameConcelloTeo";
+import IFrameSomosTeo from "./iFrameSomosTeo";
 
 import sampleConvocatorias from "../sample-Convocatorias.json";
 import sampleNovas from "../sample-Novas.json";
@@ -24,7 +26,6 @@ import sampleAxenda from "../sample-Axenda.json";
 
 // App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
-
 
 class App extends React.Component {
   constructor(props) {
@@ -63,7 +64,6 @@ class App extends React.Component {
 */
 
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
-
 
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
@@ -309,6 +309,8 @@ class App extends React.Component {
             path="/novas/*/"
             eventDetails={this.state.novas}
           />
+          <IFrameConcelloTeo path="/concelloteo" />
+          <IFrameSomosTeo path="/somosteo" />
         </Router>
       </div>
     );
