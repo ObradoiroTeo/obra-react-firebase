@@ -27,19 +27,19 @@ server {
     ## Escucha en el puerto 80 (HTTP)
     listen  8080;
 
-    ## Raíz donde se encuentra la aplicación recuerda que reactcreala carpeta build y angular con ## gulp crea la carpeta dist
+    ## Raíz donde se encuentra la aplicación 
     root /var/www/dominio.com/build;
 
     ## Orden de prioridad de los archivos index
     index index.html index.htm;
 
-    ## dominbre de dominio que se ingresa en el navegador
+    ## nombre de dominio
     server_name dominio.com;
 
     ##ruta principal
     location / {
 
-        ## si nuestra app  usa modo html5 siempre que cargueelindex.html
+        ## si nuestra app  usa modo html5 siempre que cargue el index.html
         try_files $uri  /index.html;
     }
 }
