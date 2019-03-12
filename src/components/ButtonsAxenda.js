@@ -1,7 +1,6 @@
 /**
  * Componente en el que se definen los botones de navegación de la sección Axenda.
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -26,7 +25,7 @@ class ButtonsAxenda extends React.Component {
     "Decembro"
   ];
 
-  //Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
+  // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
     if (nextMonth > 11) {
@@ -35,15 +34,14 @@ class ButtonsAxenda extends React.Component {
     return nextMonth;
   };
 
-  //Esta funcion es la que muestra el mes actual dentro de los botones de filtrado.
+  // Esta funcion es la que muestra el mes actual dentro de los botones de filtrado.
   // Para utilizarna necesitamos usar -> (handleFilteringActualMonthEventsAxenda) que esta definida y explicada en App.
   handleActualMonthClick = event => {
     this.props.handleFilteringActualMonthEventsAxenda(this.props.eventsKey);
   };
 
-  //Esta funcion es la que muestra el mes siguiente dentro de los botones de filtrado.
+  // Esta funcion es la que muestra el mes siguiente dentro de los botones de filtrado.
   // Para utilizarna necesitamos usar -> (handleFilteringNextMonthEventsAxenda) que esta definida y explicada en App.
-
   handleNextMonthClick = event => {
     this.props.handleFilteringNextMonthEventsAxenda(this.props.eventsKey);
   };
@@ -60,7 +58,7 @@ class ButtonsAxenda extends React.Component {
     this.props.resetVisibility(this.props.eventsKey);
   };
 
-  //Dentro del render vemos 4 botones: <Mes Actual> <Mes Siguiente> <Tercer Mes> y <Mostrar Todos>
+  // Dentro del render vemos 4 botones: <Mes Actual> <Mes Siguiente> <Tercer Mes> y <Mostrar Todos>
   render() {
     const date = new Date();
 

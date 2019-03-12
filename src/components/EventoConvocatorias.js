@@ -3,7 +3,6 @@
  * Están conectados a Convocatorias y por ahí se conectan los datos los cuales están definidos en SectionEventsConvocatorias.
  * De EventoConvocatorias sale EventDetailsConvocatorias.
  */
-
 import React from "react";
 import { navigate } from "@reach/router";
 
@@ -16,7 +15,6 @@ class EventoConvocatorias extends React.Component {
   };
 
   /* En el render hay una imagen, una fecha y un nombre para cada evento. Por último, la función goToEventDetails se pasa a través de un onClick en el botón correspondiente a cada evento, para que al clicar se entre en el detalle */
-
   render() {
     return (
       <ul>

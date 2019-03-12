@@ -1,7 +1,6 @@
 /**
  * Componente general que unifica todas las funcionalidades de la aplicación y las conecta entre si.
  */
-
 import React from "react";
 import { Router } from "@reach/router";
 
@@ -23,8 +22,9 @@ import sampleNovas from "../sample-Novas.json";
 import base from "../base";
 import sampleAxenda from "../sample-Axenda.json";
 
-//App contiene practicamente toda la funcionalidad de nuestra Pagina Web
-// state es donde se guarda toda la información de los eventos dividiendolos en novas, axenda y convocatorias
+// App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
+// state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
+
 
 class App extends React.Component {
   constructor(props) {
@@ -36,10 +36,11 @@ class App extends React.Component {
       convocatorias: {}
     };
   }
-  /*
-  componentDidMount() {
+
+  /*componentDidMount() {
     this.fetchData();
   }
+
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
   fetchData() {
     fetch("https://jsonplaceholder.typicode.com/users")
@@ -58,9 +59,11 @@ class App extends React.Component {
         this.setState({ convocatorias: convocatorias });
       });
   }
-  */
+
+*/
 
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
+
 
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
@@ -122,7 +125,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Esta funcion es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
+  // Esta funcion es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
   handleFilteringNextMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -143,7 +146,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Igual que las dos anteriores pero compara con el tercer mes. 👇
+  // Igual que las dos anteriores pero compara con el tercer mes. 👇
   handleFilteringThirdMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -165,7 +168,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Hace exactamento lo mismo que la funcion (handleFilteringActualMonthEventsAxenda) pero esta vez se usa para los eventos de Novas. 👇
+  // Hace exactamento lo mismo que la funcion (handleFilteringActualMonthEventsAxenda) pero esta vez se usa para los eventos de Novas. 👇
   handleFilteringActualMonthEventsNovas = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -185,7 +188,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Hace exactamento lo mismo que la funcion (handleFilteringNextMonthEventsAxenda) pero esta vez se usa para los eventos de Novas. 👇
+  // Hace exactamento lo mismo que la funcion (handleFilteringNextMonthEventsAxenda) pero esta vez se usa para los eventos de Novas. 👇
   handleFilteringNextMonthEventsNovas = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -206,7 +209,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Hace exactamento lo mismo que la funcion (handleFilteringThirdMonthEventsAxenda) pero esta vez se usa para los eventos de Novas.
+  // Hace exactamento lo mismo que la funcion (handleFilteringThirdMonthEventsAxenda) pero esta vez se usa para los eventos de Novas. 👇
   handleFilteringThirdMonthEventsNovas = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -228,7 +231,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  //Esta funcion es la que resetea el valor de visibilidad (este es el valor que hace que se muestren los eventos en pantalla o no). 👇
+  // Esta funcion es la que resetea el valor de visibilidad (este es el valor que hace que se muestren los eventos en pantalla o no). 👇
   resetVisibility = eventsKey => {
     const eventsToReset = { ...this.state[eventsKey].events };
     const resetedEvents = Object.keys(eventsToReset).map(eventKey => {
@@ -241,7 +244,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
 
-  //Dentro del Render podemos ver toda la informacion que pasamos de App a otros componentes mediante props. Ademas de las rutas que se mostraran en la url. 👇
+  // Dentro del Render podemos ver toda la informacion que pasamos de App a otros componentes mediante props. Ademas de las rutas que se mostraran en la url. 👇
   // El path es la ruta que aparecera en la url de la pagina web.
   render() {
     return (

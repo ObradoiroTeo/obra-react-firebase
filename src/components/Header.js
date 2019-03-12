@@ -1,13 +1,11 @@
 /**
  * Componente que contiene y carga el código html correspondiente al header de la aplicación.
  */
-
 import React from "react";
 import { Link } from "@reach/router";
 
-/* Este componente es la cabecera, en la cual se muestran los logos del concello. Además, en el "nav" están creados los
+/*Este componente es la cabecera, en la cual se muestran los logos del concello. Además, en el "nav" están creados los
 links para acceder a cada una de las secciones de la web */
-
 class Header extends React.Component {
   render() {
     return (

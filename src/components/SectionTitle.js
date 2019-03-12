@@ -1,7 +1,7 @@
 /**
- * Componente común a Axenda, Novas y Convocatorias en el que según el botón mostrará el título correspondiente.
+ * Componente común a Axenda, Novas y Convocatorias en el que según el
+ * botón mostrará el título correspondiente.
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 

@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 /* Fondo */
 body {
   margin: 0;
@@ -31,8 +30,7 @@ code {
   margin: -8px -10px 20px -10px;
   padding-top: 5px;
 }
-
-/* Logo de Teo */
+/* Logo de Teo*/
 .logo-container {
   display: flex;
   flex-direction: row;
@@ -41,13 +39,11 @@ code {
   text-align: left;
   padding: 10px 25px;
 }
-
 /* Div vacío */
 .menu {
   flex: 50%;
 }
-
-/* Botones del header */
+/* Botones del header*/
 .menu-item {
   text-decoration: none;
   color: #448aff;
@@ -80,7 +76,8 @@ code {
   background: linear-gradient(10deg, #eff0f4, #ffffff);
   background-repeat: no-repeat;
 }
-/* Título de la página principal de eventos y demás */
+
+/* Título de la página principal de eventos y demás*/
 .title {
   display: flex;
   width: 20%;
@@ -156,7 +153,6 @@ code {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 /* Caja "botón" de las miniaturas de los eventos */
 .event-reduced {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
@@ -210,7 +206,6 @@ code {
 /* <Events> END*/
 
 /* <EventsDetails> START */
-
 /* Página del evento detallado */
 .event-container {
   display: flex;
@@ -315,7 +310,7 @@ code {
   border-bottom: none;
 }
 /* <Convocatorias> END */
-/* <InfoTeo-Buttons> START */
+/* <InfoTeo-Buttons> START*/
 
 .pager {
   display: flex;

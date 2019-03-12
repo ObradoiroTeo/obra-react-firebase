@@ -1,7 +1,7 @@
 /**
- * Componente conectado directamente a App en el que se conectan todos los componentes relacionados con el botón Axenda.
+ * Compenente conectado directamente a App en el que se conectan todos los
+ * componentes relacionados con el botón Axenda.
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -13,11 +13,11 @@ import Footer from "./Footer";
 
 class Axenda extends React.Component {
   static propTypes = {
-    // axendaEvents: PropTypes.shape({
-    // title: PropTypes.string.isRequired,
-    //events: PropTypes.object.isRequired
+    //axendaEvents: PropTypes.shape({
+    //title: PropTypes.string.isRequired,
+    // events: PropTypes.object.isRequired
     // }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
+    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
     eventsKey: PropTypes.string.isRequired,
     resetVisibility: PropTypes.func.isRequired
   };

@@ -1,7 +1,6 @@
 /**
- * Componente que define cada elemento (li) de la lista (ul) que está definida en SectionEventAxenda.
+ * Componente que define cada elemento (li) de la lista (ul) que esta definida en SeccionEventAxenda.
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
@@ -22,6 +21,7 @@ class EventoAxenda extends React.Component {
     });
   };
 
+  /* En el render hay una imagen, una fecha y un nombre para cada evento. Por último, la función goToEventDetails se pasa a través de un onClick en el botón correspondiente a cada evento, para que al clicar se entre en el detalle */
   render() {
     return (
       <button className="event-reduced" onClick={this.goToEventDetails}>
