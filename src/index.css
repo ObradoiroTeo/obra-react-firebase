@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* Fondo */
 body {
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@ code {
   margin: -8px -10px 20px -10px;
   padding-top: 5px;
 }
-
+/* Logo de Teo*/
 .logo-container {
   display: flex;
   flex-direction: row;
@@ -39,13 +39,12 @@ code {
   text-align: left;
   padding: 10px 25px;
 }
-
+/* Div vacío */
 .menu {
   flex: 50%;
 }
-
+/* Botones del header*/
 .menu-item {
-  display: inline-block;
   text-decoration: none;
   color: #448aff;
   font-weight: 500;
@@ -58,9 +57,6 @@ code {
   border-right: solid 5px #cccccc;
 }
 
-.quarter {
-  flex: 25%;
-}
 .menu-item:hover {
   color: #448aff;
   background-color: #f2f2f2;
@@ -69,46 +65,48 @@ code {
 .menu-item:active {
   color: #1a6eff;
   background-color: #d9d9d9;
-
   transform: translateY(4px);
   border-bottom: none;
 }
 /* <Header> END */
 
 /* <BODY> START*/
+/* Fondo */
 .body-background {
-  background-color: #eff0f4;
+  background: linear-gradient(10deg, #eff0f4, #ffffff);
+  background-repeat: no-repeat;
 }
 
-/*INICIO HACK*/
-
-/* <Eventos> START */
+/* Título de la página principal de eventos y demás*/
 .title {
-  text-align: left;
-  color: white;
-  padding: 5px 0px;
-  margin: -55px 10px;
+  display: flex;
+  width: 20%;
+  color: #448aff;
+  text-shadow: 1px 1px 0 #2c353a;
+  padding-left: 15px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
 }
-.background-title {
-  display: block;
-  width: 100%;
-  margin-top: -20px;
-}
-/* <Eventos> END */
 
 /* <Month-buttons> START*/
 
 .month-buttons-container {
+  width: 45%;
   display: flex;
   justify-content: center;
 }
+
+.title-event-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .month-button {
   font-size: 17px;
-  margin: 10px 20px 40px 20px;
-  display: inline-block;
-  padding: 0.5em 1em;
+  padding: 5px 10px;
+  margin: 15px 10px;
   text-decoration: none;
   border-radius: 4px;
   color: #ffffff;
@@ -122,6 +120,31 @@ code {
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-bottom: none;
 }
+/* Botón de mostrar todos */
+
+.show-all-container {
+  width: 80%;
+  display: flex;
+  justify-content: right;
+}
+.show-all-button {
+  font-size: 17px;
+  padding: 5px 10px;
+  margin: 15px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(10deg, #39cccc, #448aff, #39cccc);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+}
+.show-all-button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
 /* <Month-buttons> END*/
 
 /* <Events> START*/
@@ -131,11 +154,10 @@ code {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+/* Caja "botón" de las miniaturas de los eventos */
 .event-reduced {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
   margin: 5px 10px 50px 10px;
-  /* padding: 5px 10px;*/
   background-color: white;
   color: #003899;
   width: 350px;
@@ -159,7 +181,7 @@ code {
   position: absolute;
   font-size: 18px;
   color: white;
-  background-color: rgba(68, 138, 255, 0.7);
+  background-color: hsla(0, 0%, 13%, 0.7);
   width: 350px;
   margin-top: -36px;
   margin-left: -10px;
@@ -185,19 +207,24 @@ code {
 /* <Events> END*/
 
 /* <EventsDetails> START */
-
+/* Página del evento detallado */
 .event-container {
   display: flex;
   flex-direction: column;
-  height: 420px;
   margin-left: 30px;
   margin-right: 30px;
   background-color: white;
   box-shadow: 10px 10px 25px -5px rgba(0, 0, 0, 0.75);
   padding-bottom: 20px;
 }
+.event-name-date-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .details-name {
   font-size: 22px;
+  font-weight: bold;
   margin-bottom: -5px;
   margin-right: 30px;
   margin-left: 30px;
@@ -218,6 +245,10 @@ code {
   flex: 40%;
   background-color: white;
 }
+.details-img {
+  width: 400px;
+  height: 350px;
+}
 .details-desc {
   margin-left: 50px;
 }
@@ -228,16 +259,129 @@ code {
 
 /* <EventsDetails> END */
 
-/* <Footer> START */
+/* <Convocatorias> START */
+/*()Página Principal de Convocatorias*/
+.convocatoria-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.convocatoria-reduced {
+  box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
+  margin: 5px 10px 50px 10px;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 350px;
+  height: 150px;
+}
+.convocatoria-reduced:active {
+  transform: translateY(4px);
+  box-shadow: 6px 6px 15px -5px rgba(0, 0, 0, 0.68);
+}
+.convocatoria-date {
+  text-align: left;
+  padding-left: 8px;
+  background-color: #003899;
+  margin-right: 220px;
+}
+/*(Página de la Convocatoria detallada)*/
+.lista-pdf {
+  display: flex;
+  flex-direction: column;
+}
+/*(PARA PODER ELIMINAR EL SUBRAYADO, EL CLASS ESTÁ EN EL <a>)*/
+.convocatoria-enlace {
+  text-decoration: none;
+  color: white;
+}
+.enlace {
+  font-size: 17px;
+  padding: 10px 10px;
+  margin: 15px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+}
+.enlace:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+/* <Convocatorias> END */
+/* <InfoTeo-Buttons> START*/
 
-.footer-container {
+.pager {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.pager-button {
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: white;
+}
+.pdf-container {
+  display: flex;
+  justify-content: center;
+}
+/* <InfoTeo-Buttons> END*/
+
+/* <Admin> START*/
+
+.load-buttons-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.load-buttons {
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
+  border-bottom: solid 3px #999999;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.eventdetails-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+/* Admin END */
+
+/* <Footer> START */
+.footer-container {
+  border-top: solid 1px #448aff;
+  background-color: white;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+}
+.footer {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  margin-top: -10px;
-  border-top: solid 1px #448aff;
 }
 .logo-ue {
   width: 13%;
@@ -260,6 +404,7 @@ code {
 }
 /* <Footer> END */
 /* <BODY> END*/
+
 /* <Not Found> START*/
 .notfound-container {
   display: flex;
@@ -304,4 +449,3 @@ code {
 }
 
 /* <Not Found> END*/
-/* FIN HACK*/
