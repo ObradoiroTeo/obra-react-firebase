@@ -285,7 +285,7 @@ class App extends React.Component {
             path="/convocatorias"
             convocatorias={this.state.convocatorias}
           />
-          <InfoTeo path="/infoteo" />
+          <InfoTeo path="/informateo" />
           <Admin
             path="/admin"
             Convocatorias={this.loadSampleConvocatorias}
