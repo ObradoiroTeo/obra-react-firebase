@@ -8,7 +8,7 @@ class IframeConcelloTeo extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.innerHTML = `
     <style>
-    .gatito {
+    .concello {
       background: black;
       border-radius: 5px;
       padding: 8px;
@@ -16,7 +16,7 @@ class IframeConcelloTeo extends HTMLElement {
       height: 800px;
     }
     </style>
-    <embed class='gatito' src='http://ver.movistarplus.es/' />
+    <embed class='concello' src='http://ver.movistarplus.es/' />
     `;
   }
 }

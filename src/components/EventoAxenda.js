@@ -5,7 +5,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /axenda/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
+/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por: /axenda/"el nombre de cada evento". A través del state se cargan los datos relativos a cada evento */
 class EventoAxenda extends React.Component {
   static propTypes = {
     eventDetails: PropTypes.shape({
