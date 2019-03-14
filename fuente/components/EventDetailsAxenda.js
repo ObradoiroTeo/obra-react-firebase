@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -35,13 +34,5 @@ const EventDetailsAxenda = props => (
     <Footer />
   </div>
 );
-
-EventDetailsAxenda.PropTypes = {
-  eventDetails: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    date_event: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired
-  }).isRequired
-};
 
 export default EventDetailsAxenda;

@@ -1,6 +1,5 @@
 import React from "react";
 import EventoNovas from "./EventoNovas";
-import PropTypes from "prop-types";
 
 const SectionEventsNovas = props => (
   <ul className="events-container">
@@ -16,9 +15,5 @@ const SectionEventsNovas = props => (
       ))}
   </ul>
 );
-
-SectionEventsNovas.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsNovas;

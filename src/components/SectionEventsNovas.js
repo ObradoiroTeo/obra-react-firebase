@@ -3,7 +3,6 @@
  */
 import React from "react";
 import EventoNovas from "./EventoNovas";
-import PropTypes from "prop-types";
 
 // En esta funcion hacemos una serie de filtrados para que se muestren unos eventos y otros no en la pagina de Novas. 👇
 // Primero hacemos un filtrado por la fecha usando (actualDate). Definida y explicada en App.
@@ -23,9 +22,5 @@ const SectionEventsNovas = props => (
       ))}
   </ul>
 );
-
-SectionEventsNovas.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsNovas;

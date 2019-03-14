@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -34,13 +33,5 @@ const EventDetailsConvocatorias = props => (
     <Footer />
   </div>
 );
-
-EventDetailsConvocatorias.PropTypes = {
-  eventDetails: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired
-  }).isRequired
-};
 
 export default EventDetailsConvocatorias;

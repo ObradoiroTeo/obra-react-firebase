@@ -1,6 +1,5 @@
 import React from "react";
 import EventoAxenda from "./EventoAxenda";
-import PropTypes from "prop-types";
 
 const SectionEventsAxenda = props => (
   <ul className="events-container">
@@ -16,9 +15,5 @@ const SectionEventsAxenda = props => (
       ))}
   </ul>
 );
-
-SectionEventsAxenda.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsAxenda;

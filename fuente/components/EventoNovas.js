@@ -1,15 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
 class EventoNovas extends React.Component {
-  static propTypes = {
-    eventDetails: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      date: PropTypes.string.isRequired,
-      desc: PropTypes.string.isRequired
-    }).isRequired
-  };
   goToEventDetails = eventKey => {
     navigate(`/novas/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }

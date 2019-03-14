@@ -3,19 +3,11 @@
  * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
  */
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "./Header";
 import Footer from "./Footer";
 import ManejoPdf from "./ManejoPdf";
 
 class EventDetailsConvocatorias extends React.Component {
-  static propTypes = {
-    eventDetails: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      date: PropTypes.string.isRequired,
-      desc: PropTypes.string.isRequired
-    }).isRequired
-  };
   constructor(props) {
     super(props);
     this.state = {

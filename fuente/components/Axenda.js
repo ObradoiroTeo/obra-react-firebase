@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
@@ -8,16 +7,6 @@ import SectionEventsAxenda from "./SectionEventsAxenda";
 import Footer from "./Footer";
 
 class Axenda extends React.Component {
-  static propTypes = {
-    axendaEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      events: PropTypes.object.isRequired
-    }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
-    eventsKey: PropTypes.string.isRequired,
-    resetVisibility: PropTypes.func.isRequired
-  };
-
   componentWillUnmount() {
     this.props.resetVisibility(this.props.eventsKey);
   }

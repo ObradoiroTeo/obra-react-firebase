@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
@@ -8,16 +7,6 @@ import SectionEventsNovas from "./SectionEventsNovas";
 import Footer from "./Footer";
 
 class Novas extends React.Component {
-  static propTypes = {
-    novasEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      events: PropTypes.object.isRequired
-    }).isRequired,
-    handleFilteringNextMonthEvents: PropTypes.func.isRequired,
-    eventsKey: PropTypes.string.isRequired,
-    resetVisibility: PropTypes.func.isRequired
-  };
-
   componentWillUnmount() {
     this.props.resetVisibility(this.props.eventsKey);
   }

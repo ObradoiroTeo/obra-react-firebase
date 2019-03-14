@@ -1,6 +1,5 @@
 import React from "react";
 import EventoConvocatorias from "./EventoConvocatorias";
-import PropTypes from "prop-types";
 
 const SectionEventsConvocatorias = props => (
   <ul className="events-container">
@@ -21,9 +20,5 @@ const SectionEventsConvocatorias = props => (
       ))}
   </ul>
 );
-
-SectionEventsConvocatorias.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsConvocatorias;
