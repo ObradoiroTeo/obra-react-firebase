@@ -1,5 +1,6 @@
 import React from "react";
 
+// En este componente obtenemos los pdfs para despues mostrarlos en <EventDetailsConvocatorias> como una lista.
 class ManejoPdf extends React.Component {
   render() {
     return (

@@ -7,6 +7,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 /* Este componente muestra el nombre (name), la fecha (date_event), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
+
+// Aqui usamos (substring) para que la fecha se nos muestre como Dia-Mes-Año y no nos muestre la hora.
+// Tambien usamos (__html) para que interprete ese contenido como HTML y no como caracteres de control.
 const EventDetailsAxenda = props => (
   <div className="eventdetails-page">
     <div>
