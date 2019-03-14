@@ -11,7 +11,6 @@ import Novas from "./Novas";
 import Convocatorias from "./Convocatorias";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
-import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetailsAxenda from "./EventDetailsAxenda";
 import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
@@ -292,7 +291,7 @@ class App extends React.Component {
             Novas={this.loadSampleNovas}
             Axenda={this.loadSampleAxenda}
           />
-          <Salvapantallas path="/salvapantallas" />
+
           <NotFound default />
           <EventDetailsAxenda
             exact
