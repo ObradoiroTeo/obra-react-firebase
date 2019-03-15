@@ -23,7 +23,7 @@ import sampleNovas from "../sample-Novas.json";
 import base from "../base";
 import sampleAxenda from "../sample-Axenda.json";
 
-// App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
+// App contiene practicamente toda la funcionalidad de nuetra Pagina Web 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
 
 class App extends React.Component {
@@ -76,6 +76,7 @@ class App extends React.Component {
     this.setState({ axenda: sampleAxenda });
   };
 
+  /*Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM. */
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -91,11 +92,12 @@ class App extends React.Component {
     });
   }
 
+  /*ComponentWillUnmount se ejecuta justo antes de que el componente sea destruido o eliminado del DOM, limpiando el componente en su totalidad. En este caso, limpiaría base, que es donde se encuentran cargados los datos de firebase .*/
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
 
-  // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
+  // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
     if (nextMonth > 11) {
@@ -104,7 +106,7 @@ class App extends React.Component {
     return nextMonth;
   };
 
-  // Funcion para filtrar por el mes actual. Obtiene la fecha de hoy y las compara con las de los eventos, si el mes coincide entonces los deja visibles, en caso de no coincidir los desabilita y no los vemos en pantalla. 👇
+  // Funcion para filtrar por el mes actual. Obtiene la fecha de hoy y las compara con las de los eventos, si el mes coincide entonces los deja visibles, en caso de no coincidir los deshabilita y no los vemos en pantalla. 👇
   handleFilteringActualMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -124,7 +126,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  // Esta funcion es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
+  // Esta función es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
   handleFilteringNextMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
