@@ -244,8 +244,13 @@ class App extends React.Component {
   };
 
   /*
-  Dentro del render podemos ver toda la información que pasamos a los diferentes componentes mediante props. Dentro está el Router, donde se encuentra la estructura completa de la App. La primera página es Home y, al mismo nivel, se encuentran Axenda, Novas, Convocatorias e Infoteo, así como los iframes del Concello de Teo y de Somos Teo.
-  En Axenda y Novas tenemos: path ,que es la ruta de la url, axendaEvents y novasEvents, en los que se encuentra toda la información de los eventos correspondientes; las funciones handleFiltering (permiten filtrar los tres meses,resetVisibility, que permite resetear los filtros y eventsKey (pasa todos los eventos). */
+  Dentro del render podemos ver toda la información que pasamos a los diferentes componentes mediante props. Dentro está el Router, donde se encuentra la estructura completa de la App. La primera página es Home y, al mismo nivel, se encuentran Axenda, Novas, Convocatorias e Infoteo, así como los webComponents (bajo el nombre de iFrameSomosTeo e iFrameConcelloTeo) del Concello de Teo y de Somos Teo.
+  En Axenda y Novas tenemos: path ,que es la ruta de la url, axendaEvents y novasEvents, en los que se encuentra toda la información de los eventos correspondientes; las funciones handleFiltering (permiten filtrar los tres meses,resetVisibility, que permite resetear los filtros y eventsKey (pasa todos los eventos). 
+  
+  En InfoTeo solo pasamos un path y en Convocatorias no aplicamos filtros, por lo que solo estará el path y los datos de todas las convocatorias. A la misma altura está el componente Admin, que permite cargar los ficheros de Axenda, Novas y Convocatorias en caso de que no funcionara la url con los JSON. El componente NotFound servirá para mostrar una página de error en el caso de que no se acceda a ninguna de las rutas existentes.
+  
+  Por último, los tres componentes de <eventDetails> permiten acceder al detalle de cada evento. Por ejemplo: entramos en Axenda y accedemos a sectionEventsAxenda, una vez ahí, clicamos en el evento que nos interesa y al entrar estamos mostrando la página de eventDetails correspondiente. Pasa de la misma forma con Novas y Convocatorias.*/
+
   render() {
     return (
       <div className="body-background">
