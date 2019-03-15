@@ -243,8 +243,9 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
 
-  // Dentro del Render podemos ver toda la informacion que pasamos de App a otros componentes mediante props. Ademas de las rutas que se mostraran en la url. 👇
-  // El path es la ruta que aparecera en la url de la pagina web.
+  /*
+  Dentro del render podemos ver toda la información que pasamos a los diferentes componentes mediante props. Dentro está el Router, donde se encuentra la estructura completa de la App. La primera página es Home y, al mismo nivel, se encuentran Axenda, Novas, Convocatorias e Infoteo, así como los iframes del Concello de Teo y de Somos Teo.
+  En Axenda y Novas tenemos: path ,que es la ruta de la url, axendaEvents y novasEvents, en los que se encuentra toda la información de los eventos correspondientes; las funciones handleFiltering (permiten filtrar los tres meses,resetVisibility, que permite resetear los filtros y eventsKey (pasa todos los eventos). */
   render() {
     return (
       <div className="body-background">
