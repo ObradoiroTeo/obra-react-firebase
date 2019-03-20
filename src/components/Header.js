@@ -40,7 +40,7 @@ class Header extends React.Component {
             Admin
           </Link>
           <Link to="/somosteo" className="menu-item">
-            Somos Teo
+            SomosTeo
           </Link>
         </nav>
         <div className="quarter" />
