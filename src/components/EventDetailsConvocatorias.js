@@ -1,6 +1,5 @@
 /**
- * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase y que posteriormente vendrá dada directamente desde una URL.
- * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
+ * Describe los detalles de cada evento,su información está en Firebase y posteriormente en una Url.Conectado con App en donde están los JSON para cargar los datos.
  */
 import React from "react";
 import Header from "./Header";
@@ -18,6 +17,7 @@ class EventDetailsConvocatorias extends React.Component {
   // Aqui usamos (substring) para que la fecha se nos muestre como Dia-Mes-Año y no nos muestre la hora.
   // Tambien usamos (__html) para que interprete ese contenido como HTML y no como caracteres de control.
   // Ademas usamos (pdfs.map) para que se nos apliquen las mismas funciones en todos los pdfs que mostramos.
+
   render() {
     return (
       <div>

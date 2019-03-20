@@ -1,7 +1,5 @@
-/*
-Informa de citaciones,emplazamientos,avisos,edictos,requerimientos que salen de una base de datos como es Firebase posteriormente la información saldrá directamente desde una URL , teniendo además a Firebase como soporte.
-Está conectada  a la App donde está el JSON con toda la información.
-De Convocatorias salen SectionTitleConvocatorias y SectionEventsConvocatorias.
+/*Informa de avisos,citaciones que salen de Firebase y posteriormente de una URL,teniendo a Firebase como soporte.
+Conectada a App donde está la información en los JSON.De Convocatorias salen SectionTitleConvocatorias y SectionEventsConvocatorias.
  
 Componente en el que se definen los botones de navegación de la sección Convocatorias.
 */

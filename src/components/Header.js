@@ -12,6 +12,8 @@ class Header extends React.Component {
       <header className="header-container">
         <div className="quarter">
           <Link to="/concelloteo" className="menu-item">
+
+          <Link to="/concelloteo">
             <img
               src={"/images/logo_pequeno.png"}
               className="logo-container"
@@ -33,8 +35,8 @@ class Header extends React.Component {
           <Link to="/convocatorias" className="menu-item">
             Convocatorias
           </Link>
-          <Link to="/infoteo" className="menu-item">
-            InfoTeo
+          <Link to="/informateo" className="menu-item">
+            InformaTeo
           </Link>
           <Link to="/admin" className="menu-item">
             Admin
