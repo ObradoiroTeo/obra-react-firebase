@@ -58,9 +58,9 @@ Pasos a seguir para ejecutar la app en Server Apache.
 
 Ejecutamos este script en la carpeta del proyecto para crear un deploy de nuestra app.
 
-### `/var/www/html`
+### `/var/www/`
 
-En el directorio /var/www/html al que accedemos por consola o por `otras ubicaciones/equipo` creamos una carpeta `ejemplo: miWeb` para
+En el directorio /var/www/ al que accedemos por consola o por `otras ubicaciones/equipo` creamos una carpeta `ejemplo: miWeb` para
 pegar todos los archivos generados con el build.
 
 ### `sites-available`
@@ -95,7 +95,7 @@ Editar el archivo `sudo nano /etc/apache2/apache2.conf`
 y cambiar en `AllowOverride None` por `AllowOverride All`
 
 ```console
-<Directory /var/www/>
+<Directory /var/www/miWeb>
   Options Indexes FollowSymLinks
   AllowOverride None
   Require all granted
@@ -104,7 +104,7 @@ y cambiar en `AllowOverride None` por `AllowOverride All`
 
 ## `.htaccess`
 
-Nos movemos a la carpeta del proyecto dentro de apache `cd /var/www/html/miWeb` y creamos el archivo `touch .htaccess`
+Nos movemos a la carpeta del proyecto dentro de apache `cd /var/www/miWeb` y creamos el archivo `touch .htaccess`
 
 Lo editamos con `sudo nano .htaccess` y añadimos:
 
