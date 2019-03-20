@@ -19,10 +19,10 @@ import EventDetailsNovas from "./EventDetailsNovas";
 import IFrameConcelloTeo from "./iFrameConcelloTeo";
 import IFrameSomosTeo from "./iFrameSomosTeo";
 
-import sampleConvocatorias from "../sample-Convocatorias.json";
-import sampleNovas from "../sample-Novas.json";
-import base from "../base";
-import sampleAxenda from "../sample-Axenda.json";
+//mport sampleConvocatorias from "../sample-Convocatorias.json";
+//import sampleNovas from "../sample-Novas.json";
+//import base from "../base";
+//import sampleAxenda from "../sample-Axenda.json";
 
 // App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
@@ -38,33 +38,31 @@ class App extends React.Component {
     };
   }
 
-  /*componentDidMount() {
+  componentDidMount() {
     this.fetchData();
   }
 
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
   fetchData() {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/novas.json")
       .then(response => response.json())
       .then(novas => {
         this.setState({ novas: novas });
       });
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/axenda.json")
       .then(response => response.json())
       .then(axenda => {
         this.setState({ axenda: axenda });
       });
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/convocatorias.json")
       .then(response => response.json())
       .then(convocatorias => {
         this.setState({ convocatorias: convocatorias });
       });
   }
 
-*/
-
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
-
+  /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -95,7 +93,7 @@ class App extends React.Component {
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
-
+*/
   // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
@@ -288,9 +286,9 @@ class App extends React.Component {
           <InfoTeo path="/infoteo" />
           <Admin
             path="/admin"
-            Convocatorias={this.loadSampleConvocatorias}
-            Novas={this.loadSampleNovas}
-            Axenda={this.loadSampleAxenda}
+            //Convocatorias={this.loadSampleConvocatorias}
+            //Novas={this.loadSampleNovas}
+            //Axenda={this.loadSampleAxenda}
           />
           <Salvapantallas path="/salvapantallas" />
           <NotFound default />
