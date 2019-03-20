@@ -18,16 +18,14 @@ class EventoConvocatorias extends React.Component {
   render() {
     return (
       <ul>
-        <button className="event-reduced" onClick={this.goToEventDetails}>
-          <img
-            className="event-image"
-            src={this.props.eventDetails.image}
-            alt="imagen"
-          />
-          <p className="event-date">
+        <button
+          className="convocatoria-reduced"
+          onClick={this.goToEventDetails}
+        >
+          <p className="convocatoria-date">
             {this.props.eventDetails.date_fin_convocatoria.substring(0, 10)}
           </p>
-          <p className="event-name">{this.props.eventDetails.name}</p>
+          <p className="convocatoria-name">{this.props.eventDetails.name}</p>
         </button>
       </ul>
     );

@@ -13,27 +13,11 @@ const EventDetailsNovas = props => (
   <div>
     <Header />
     <div className="event-container">
-      <p className="details-name">
-        {props.eventDetails.events[props.location.state.clave].name}
-      </p>
-      <p className="details-date">
-        {props.eventDetails.events[props.location.state.clave].date.substring(
-          0,
-          10
-        )}
-      </p>
+      <p className="details-name">{props.eventDetails.name}</p>
+      <p className="details-date">{props.eventDetails.date}</p>
       <div className="details-container">
-        <img
-          src={props.eventDetails.events[props.location.state.clave].image}
-          alt="img"
-          className="details-img"
-        />
-        <p
-          className="details-desc"
-          dangerouslySetInnerHTML={{
-            __html: props.eventDetails.events[props.location.state.clave].desc
-          }}
-        />
+        <img src={props.eventDetails.image} alt="img" className="details-img" />
+        <p className="details-desc">{props.eventDetails.desc}</p>
       </div>
     </div>
     <div className="empty-hack" />
