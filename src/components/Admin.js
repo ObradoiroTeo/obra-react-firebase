@@ -1,7 +1,7 @@
 /**
- * Componente interno al que accede el administrador por url y desde el que se cargan los ficheros
- * con la información a mostrar en los eventos.
+ * Componente interno al que accede el administrador por url y desde el que se cargan los ficheros con la información a mostrar en los eventos.
  */
+
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";

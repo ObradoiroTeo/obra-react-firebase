@@ -11,6 +11,8 @@ class Header extends React.Component {
     return (
       <header className="header-container">
         <div className="quarter">
+          <Link to="/concelloteo" className="menu-item">
+
           <Link to="/concelloteo">
             <img
               src={"/images/logo_pequeno.png"}

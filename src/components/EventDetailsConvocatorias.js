@@ -1,6 +1,5 @@
 /**
- * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase y que posteriormente vendrá dada directamente desde una URL.
- * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
+ * Describe los detalles de cada evento,su información está en Firebase y posteriormente en una Url.Conectado con App en donde están los JSON para cargar los datos.
  */
 import React from "react";
 import PropTypes from "prop-types";
@@ -22,7 +21,6 @@ class EventDetailsConvocatorias extends React.Component {
       pdfs: this.props.eventDetails.pdfs
     };
   }
-
   render() {
     return (
       <div>
