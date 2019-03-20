@@ -95,7 +95,6 @@ code {
   display: flex;
   justify-content: center;
 }
-
 .title-event-buttons {
   display: flex;
   flex-wrap: nowrap;
@@ -221,7 +220,6 @@ code {
   display: flex;
   flex-direction: column;
 }
-
 .details-name {
   font-size: 22px;
   font-weight: bold;
@@ -331,7 +329,6 @@ code {
   margin-right: 30px;
   margin-bottom: 20px;
 }
-
 .no-underline {
   text-decoration: none;
   color: white;
@@ -387,7 +384,6 @@ code {
   width: 13%;
   height: 13%;
 }
-
 .logo-stgo {
   width: 6%;
   height: 6%;

@@ -24,7 +24,6 @@ class Footer extends React.Component {
             className="logo-teo"
             alt="logo-teo"
           />
-
           <img
             src={"/images/xunta-galicia.jpg"}
             className="logo-xunta"
