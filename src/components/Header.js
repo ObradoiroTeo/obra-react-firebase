@@ -34,11 +34,14 @@ class Header extends React.Component {
             Convocatorias
           </Link>
           <Link to="/infoteo" className="menu-item">
-            InfoTeo
+            InformaTeo
           </Link>
-          <Link to="/admin" className="menu-item">
+          <Link to="/concelloteo" className="menu-item">
+            Concello de Teo
+          </Link>
+          {/*<Link to="/admin" className="menu-item">
             Admin
-          </Link>
+          </Link>*/}
           <Link to="/somosteo" className="menu-item">
             Somos Teo
           </Link>
