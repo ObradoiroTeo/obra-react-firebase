@@ -12,7 +12,7 @@ class IframeSomosTeo extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.innerHTML = `
     <style>
-    .gatito {
+    .somosTeo {
       background: black;
       border-radius: 5px;
       padding: 8px;
@@ -20,7 +20,7 @@ class IframeSomosTeo extends HTMLElement {
       height: 800px;
     }
     </style>
-    <embed class='gatito' src='http://hbo.es' />
+    <embed class='somosTeo' src='http://hbo.es' />
     `;
   }
 }

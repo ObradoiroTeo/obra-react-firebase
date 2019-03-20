@@ -4,7 +4,7 @@
 import React from "react";
 import { navigate } from "@reach/router";
 
-/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /axenda/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
+/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por: /axenda/"el nombre de cada evento". A través del state se cargan los datos relativos a cada evento */
 class EventoAxenda extends React.Component {
   goToEventDetails = eventKey => {
     navigate(`/axenda/${this.props.eventDetails.name}`, {
