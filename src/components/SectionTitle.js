@@ -3,7 +3,6 @@
  * botón mostrará el título correspondiente.
  */
 import React from "react";
-import PropTypes from "prop-types";
 
 //SectionTitle permite mostrar el título de cada sección (Axenda, Novas y Convocatorias), así como la imagen correspondiente.
 const SectionTitle = props => (
@@ -13,9 +12,5 @@ const SectionTitle = props => (
     </div>
   </section>
 );
-
-SectionTitle.propTypes = {
-  title: PropTypes.string.isRequired
-};
 
 export default SectionTitle;

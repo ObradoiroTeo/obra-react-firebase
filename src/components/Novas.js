@@ -3,7 +3,6 @@
  * componentes relacionados con el botón Axenda.
  */
 import React from "react";
-import PropTypes from "prop-types";
 
 import Header from "./Header";
 import SectionTitle from "./SectionTitle";
@@ -12,16 +11,6 @@ import SectionEventsNovas from "./SectionEventsNovas";
 import Footer from "./Footer";
 
 class Novas extends React.Component {
-  static propTypes = {
-    novasEvents: PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      events: PropTypes.object.isRequired
-    }).isRequired,
-    handleFilteringNextMonthEventsNovas: PropTypes.func.isRequired,
-    eventsKey: PropTypes.string.isRequired,
-    resetVisibility: PropTypes.func.isRequired
-  };
-
   //Aquí se utiliza "resetVisibility", la cual llamamos desde App, para poder mostrar nuevamente los eventos de Novas una vez han sido filtrados
   componentWillUnmount() {
     this.props.resetVisibility(this.props.eventsKey);
