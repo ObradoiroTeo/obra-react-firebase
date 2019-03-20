@@ -2,6 +2,7 @@ import Rebase from "re-base";
 import firebase from "firebase/app";
 import "firebase/database";
 
+// Base es el componente donde se guardan las claves para acceder a Firebase. Estas estan ocultas dentro de <.env> (un archivo oculto)
 const config = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,

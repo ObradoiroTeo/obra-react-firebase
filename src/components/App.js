@@ -11,7 +11,6 @@ import Novas from "./Novas";
 import Convocatorias from "./Convocatorias";
 import InfoTeo from "./InfoTeo";
 import Admin from "./Admin";
-import Salvapantallas from "./Salvapantallas";
 import NotFound from "./NotFound";
 import EventDetailsAxenda from "./EventDetailsAxenda";
 import EventDetailsConvocatorias from "./EventDetailsConvocatorias";
@@ -19,12 +18,12 @@ import EventDetailsNovas from "./EventDetailsNovas";
 import IFrameConcelloTeo from "./iFrameConcelloTeo";
 import IFrameSomosTeo from "./iFrameSomosTeo";
 
-import sampleConvocatorias from "../sample-Convocatorias.json";
-import sampleNovas from "../sample-Novas.json";
-import base from "../base";
-import sampleAxenda from "../sample-Axenda.json";
+//import sampleConvocatorias from "../sample-Convocatorias.json";
+//import sampleNovas from "../sample-Novas.json";
+//import base from "../base";
+//import sampleAxenda from "../sample-Axenda.json";
 
-// App contiene practicamente toda la funcionalidad de nuetra Pagina Wed 👇
+// App contiene practicamente toda la funcionalidad de nuetra Pagina Web 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
 
 class App extends React.Component {
@@ -38,33 +37,32 @@ class App extends React.Component {
     };
   }
 
-  /*componentDidMount() {
+  componentDidMount() {
     this.fetchData();
   }
 
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
   fetchData() {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/novas.json")
       .then(response => response.json())
       .then(novas => {
         this.setState({ novas: novas });
       });
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/axenda.json")
       .then(response => response.json())
       .then(axenda => {
         this.setState({ axenda: axenda });
       });
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.formacion1.teo.gal/convocatorias.json")
       .then(response => response.json())
       .then(convocatorias => {
         this.setState({ convocatorias: convocatorias });
       });
   }
 
-*/
-
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
 
+  /*
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -77,6 +75,7 @@ class App extends React.Component {
     this.setState({ axenda: sampleAxenda });
   };
 
+  /*Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM. */
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -92,10 +91,13 @@ class App extends React.Component {
     });
   }
 
+  /*ComponentWillUnmount se ejecuta justo antes de que el componente sea destruido o eliminado del DOM, limpiando el componente en su totalidad. En este caso, limpiaría base, que es donde se encuentran cargados los datos de firebase .*/
   componentWillUnmount() {
     base.removeBinding(this.ref);
   }
 
+  // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
+*/
   // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
@@ -105,7 +107,7 @@ class App extends React.Component {
     return nextMonth;
   };
 
-  // Funcion para filtrar por el mes actual. Obtiene la fecha de hoy y las compara con las de los eventos, si el mes coincide entonces los deja visibles, en caso de no coincidir los desabilita y no los vemos en pantalla. 👇
+  // Funcion para filtrar por el mes actual. Obtiene la fecha de hoy y las compara con las de los eventos, si el mes coincide entonces los deja visibles, en caso de no coincidir los deshabilita y no los vemos en pantalla. 👇
   handleFilteringActualMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -125,7 +127,7 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: filteredEvents });
   };
 
-  // Esta funcion es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
+  // Esta función es igual que la anterior pero en vez de comparar los eventos con el mes actual los compara con el mes siguiente. 👇
   handleFilteringNextMonthEventsAxenda = eventsKey => {
     const actualDate = new Date();
     const actualMonth = actualDate.getMonth();
@@ -244,8 +246,14 @@ class App extends React.Component {
     this.setState({ [`${eventsKey}.events`]: resetedEvents });
   };
 
-  // Dentro del Render podemos ver toda la informacion que pasamos de App a otros componentes mediante props. Ademas de las rutas que se mostraran en la url. 👇
-  // El path es la ruta que aparecera en la url de la pagina web.
+  /*
+  Dentro del render podemos ver toda la información que pasamos a los diferentes componentes mediante props. Dentro está el Router, donde se encuentra la estructura completa de la App. La primera página es Home y, al mismo nivel, se encuentran Axenda, Novas, Convocatorias e Infoteo, así como los webComponents (bajo el nombre de iFrameSomosTeo e iFrameConcelloTeo) del Concello de Teo y de Somos Teo.
+  En Axenda y Novas tenemos: path ,que es la ruta de la url, axendaEvents y novasEvents, en los que se encuentra toda la información de los eventos correspondientes; las funciones handleFiltering (permiten filtrar los tres meses,resetVisibility, que permite resetear los filtros y eventsKey (pasa todos los eventos). 
+  
+  En InfoTeo solo pasamos un path y en Convocatorias no aplicamos filtros, por lo que solo estará el path y los datos de todas las convocatorias. A la misma altura está el componente Admin, que permite cargar los ficheros de Axenda, Novas y Convocatorias en caso de que no funcionara la url con los JSON. El componente NotFound servirá para mostrar una página de error en el caso de que no se acceda a ninguna de las rutas existentes.
+  
+  Por último, los tres componentes de <eventDetails> permiten acceder al detalle de cada evento. Por ejemplo: entramos en Axenda y accedemos a sectionEventsAxenda, una vez ahí, clicamos en el evento que nos interesa y al entrar estamos mostrando la página de eventDetails correspondiente. Pasa de la misma forma con Novas y Convocatorias.*/
+
   render() {
     return (
       <div className="body-background">
@@ -285,14 +293,14 @@ class App extends React.Component {
             path="/convocatorias"
             convocatorias={this.state.convocatorias}
           />
-          <InfoTeo path="/infoteo" />
+          <InfoTeo path="/informateo" />
           <Admin
             path="/admin"
-            Convocatorias={this.loadSampleConvocatorias}
-            Novas={this.loadSampleNovas}
-            Axenda={this.loadSampleAxenda}
+            //Convocatorias={this.loadSampleConvocatorias}
+            //Novas={this.loadSampleNovas}
+            //Axenda={this.loadSampleAxenda}
           />
-          <Salvapantallas path="/salvapantallas" />
+
           <NotFound default />
           <EventDetailsAxenda
             exact
