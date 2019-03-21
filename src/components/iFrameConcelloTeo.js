@@ -16,7 +16,7 @@ class IframeConcelloTeo extends HTMLElement {
       height: 800px;
     }
     </style>
-    <embed class='gatito' src='http://ver.movistarplus.es/' />
+    <embed class='gatito' src='https://www.xunta.gal/portada' />
     `;
   }
 }

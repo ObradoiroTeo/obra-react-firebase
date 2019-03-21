@@ -1,11 +1,8 @@
 /**
- * Define de qué va a ser cada evento y que va a informar.
- * Está conectado a Convocatorias para poder obtener la información oportuna.
- * De SectionEventsConvocatorias sale EventoConvocatorias.
+ * Define de qué va a ser cada evento y que va a informar.Conectado a Convocatorias para poder obtener la información oportuna.Por último SectionEventsConvocatorias sale EventoConvocatorias.
  */
 import React from "react";
 import EventoConvocatorias from "./EventoConvocatorias";
-import PropTypes from "prop-types";
 
 // En esta funcion hacemos una serie de filtrados para que se muestren unos eventos y otros no en la pagina de Convocatorias. 👇
 // Primero hacemos un filtrado por la fecha usando (actualDate). Definida y explicada en App.
@@ -30,9 +27,5 @@ const SectionEventsConvocatorias = props => (
       ))}
   </ul>
 );
-
-SectionEventsConvocatorias.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsConvocatorias;

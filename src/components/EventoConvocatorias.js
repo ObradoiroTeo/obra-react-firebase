@@ -1,7 +1,5 @@
 /**
- * Cada evento  va junto una información ,link y fecha final(para saber hasta cuando está vigente).
- * Están conectados a Convocatorias y por ahí se conectan los datos los cuales están definidos en SectionEventsConvocatorias.
- * De EventoConvocatorias sale EventDetailsConvocatorias.
+ * Cada evento va junto:información,link y fecha final(hasta estar vigente).Conectados a Convocatorias por donde se adquieren los datos que están definidos en SectionEventsConvocatorias.De EventoConvocatorias sale EventDetailsConvocatorias.
  */
 import React from "react";
 import { navigate } from "@reach/router";
