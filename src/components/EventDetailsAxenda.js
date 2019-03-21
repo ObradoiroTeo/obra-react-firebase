@@ -4,7 +4,6 @@
  */
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 
 /* Este componente muestra el nombre (name), la fecha (date_event), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 
@@ -40,9 +39,6 @@ const EventDetailsAxenda = props => (
           />
         </div>
       </div>
-    </div>
-    <div>
-      <Footer />
     </div>
   </div>
 );
