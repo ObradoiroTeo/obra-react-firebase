@@ -3,7 +3,6 @@
  */
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import ManejoPdf from "./ManejoPdf";
 
 class EventDetailsConvocatorias extends React.Component {
@@ -53,7 +52,6 @@ class EventDetailsConvocatorias extends React.Component {
           </div>
         </div>
         <div className="empty-hack" />
-        <Footer />
       </div>
     );
   }

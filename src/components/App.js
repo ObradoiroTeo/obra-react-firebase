@@ -43,17 +43,17 @@ class App extends React.Component {
 
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
   fetchData() {
-    fetch("https://www.formacion1.teo.gal/novas.json")
+    fetch("https://www.formacion1.teo.gal/quiosco/novas.json")
       .then(response => response.json())
       .then(novas => {
         this.setState({ novas: novas });
       });
-    fetch("https://www.formacion1.teo.gal/axenda.json")
+    fetch("https://www.formacion1.teo.gal/quiosco/axenda.json")
       .then(response => response.json())
       .then(axenda => {
         this.setState({ axenda: axenda });
       });
-    fetch("https://www.formacion1.teo.gal/convocatorias.json")
+    fetch("https://www.formacion1.teo.gal/qiosco/convocatorias.json")
       .then(response => response.json())
       .then(convocatorias => {
         this.setState({ convocatorias: convocatorias });

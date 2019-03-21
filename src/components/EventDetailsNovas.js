@@ -4,7 +4,6 @@
  */
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 
 /* Este componente muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 
@@ -22,8 +21,6 @@ const EventDetailsNovas = props => (
       </div>
     </div>
     <div className="empty-hack" />
-
-    <Footer />
   </div>
 );
 
