@@ -28,7 +28,7 @@ class Convocatorias extends React.Component {
         <div>
           <Header />
         </div>
-        <div>
+        <div className="convocatorias-title">
           <SectionTitle title={this.props.convocatorias.title} />
         </div>
         <div>
