@@ -2,14 +2,8 @@
  * Componente en el que se definen los botones de navegación de la sección Axenda.
  */
 import React from "react";
-import PropTypes from "prop-types";
 
 class ButtonsAxenda extends React.Component {
-  static propTypes = {
-    handleFilteringNextMonthEventsAxenda: PropTypes.func.isRequired,
-    eventsKey: PropTypes.string.isRequired
-  };
-
   months = [
     "Xaneiro",
     "Febreiro",
@@ -77,7 +71,8 @@ class ButtonsAxenda extends React.Component {
         <button className="month-button" onClick={this.handleThirdMonthClick}>
           {this.months[month3]}
         </button>
-        <button className="month-button" onClick={this.resetAllItems}>
+
+        <button className="show-all-button" onClick={this.resetAllItems}>
           Mostrar todos
         </button>
       </div>

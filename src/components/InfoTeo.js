@@ -5,7 +5,6 @@
 import React from "react";
 import PDF from "react-pdf-js";
 import Header from "./Header";
-import Footer from "./Footer";
 
 // Dento de esta ventana lo que vemos es el documento de InfoTeo en pdf. 👇
 // Para la paginacion usamos (handlePrevious y handleNext) -> (previousButton y nextButton)
@@ -25,30 +24,30 @@ class InfoTeo extends React.Component {
 
   renderPagination = (page, pages) => {
     let previousButton = (
-      <li className="month-button" onClick={this.handlePrevious}>
+      <li className="pager-button" onClick={this.handlePrevious}>
         <i className="fa fa-arrow-left" /> Anterior
       </li>
     );
     if (page === 1) {
       previousButton = (
-        <li className="month-button">
-          <a href="#pdf">
+        <li className="pager-button">
+          <a href="#pdf" className="no-underline">
             <i className="fa fa-arrow-left" /> Anterior
           </a>
         </li>
       );
     }
     let nextButton = (
-      <li className="month-button" onClick={this.handleNext}>
-        <a href="#pdf">
+      <li className="pager-button" onClick={this.handleNext}>
+        <a href="#pdf" className="no-underline">
           Siguiente <i className="fa fa-arrow-right" />
         </a>
       </li>
     );
     if (page === pages) {
       nextButton = (
-        <li className="month-button">
-          <a href="#pdf">
+        <li className="pager-button">
+          <a href="#pdf" className="no-underline">
             Siguiente <i className="fa fa-arrow-right" />
           </a>
         </li>
@@ -72,14 +71,17 @@ class InfoTeo extends React.Component {
     }
     return (
       <div>
-        <Header />
-        <PDF
-          file="InformaTeo_Novembro_2018.pdf"
-          onDocumentComplete={this.onDocumentComplete}
-          page={this.state.page}
-        />
+        <div>
+          <Header />
+        </div>
+        <div className="pdf-container">
+          <PDF
+            file="InformaTeo_Novembro_2018.pdf"
+            onDocumentComplete={this.onDocumentComplete}
+            page={this.state.page}
+          />
+        </div>
         {pagination}
-        <Footer />
       </div>
     );
   }

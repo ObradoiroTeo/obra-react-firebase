@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-class MeParecioVerUnLindoGatito extends HTMLElement {
+class IframeConcelloTeo extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -16,19 +16,19 @@ class MeParecioVerUnLindoGatito extends HTMLElement {
       height: 800px;
     }
     </style>
-    <embed class='gatito' src='http://ver.movistarplus.es/' />
+    <embed class='gatito' src='https://www.xunta.gal/portada' />
     `;
   }
 }
 
-window.customElements.define("imagen-gatito", MeParecioVerUnLindoGatito);
+window.customElements.define("concello-teo", IframeConcelloTeo);
 
 class Home extends React.Component {
   render() {
     return (
       <>
         <Header />
-        <imagen-gatito />
+        <concello-teo />
         <Footer />
       </>
     );

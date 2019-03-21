@@ -27,7 +27,15 @@ server {
     ## Escucha en el puerto 80 (HTTP)
     listen  8080;
 
+<<<<<<< HEAD
     ## Raíz donde se encuentra la aplicación 
+=======
+<<<<<<< HEAD
+    ## Raíz donde se encuentra la aplicación
+=======
+    ## Raíz donde se encuentra la aplicación 
+>>>>>>> 52e9c77967c52716913ccbe47fe95d0d0a6e3dd2
+>>>>>>> 8117f35034e478cee6e77af9270ee217f3d4ffa3
     root /var/www/dominio.com/build;
 
     ## Orden de prioridad de los archivos index

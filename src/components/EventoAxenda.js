@@ -2,19 +2,10 @@
  * Componente que define cada elemento (li) de la lista (ul) que esta definida en SeccionEventAxenda.
  */
 import React from "react";
-import PropTypes from "prop-types";
 import { navigate } from "@reach/router";
 
-/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /axenda/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
+/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por: /axenda/"el nombre de cada evento". A través del state se cargan los datos relativos a cada evento */
 class EventoAxenda extends React.Component {
-  static propTypes = {
-    eventDetails: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      date: PropTypes.string.isRequired,
-      desc: PropTypes.string.isRequired
-    }).isRequired
-  };
-
   goToEventDetails = eventKey => {
     navigate(`/axenda/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }

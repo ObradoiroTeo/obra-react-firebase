@@ -1,50 +1,62 @@
 /**
- * Describe los detalles de cada uno de los eventos cuya información está guardada en Firebase y que posteriormente vendrá dada directamente desde una URL.
- * Está conectado  con App en donde se cargarían el JSON para poder obtener los datos.
+ * Describe los detalles de cada evento,su información está en Firebase y posteriormente en una Url.Conectado con App en donde están los JSON para cargar los datos.
  */
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "./Header";
-import Footer from "./Footer";
+import ManejoPdf from "./ManejoPdf";
 
-/* Este componente muestra el nombre (name), la fecha (date_fin_convocatoria), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
-const EventDetailsConvocatorias = props => (
-  <div>
-    <Header />
-    <div className="event-container">
-      <p className="details-name">
-        {props.eventDetails.events[props.location.state.clave].name}
-      </p>
-      <p className="details-date">
-        {props.eventDetails.events[
-          props.location.state.clave
-        ].date_fin_convocatoria.substring(0, 10)}
-      </p>
-      <div className="details-container">
-        <img
-          src={props.eventDetails.events[props.location.state.clave].image}
-          alt="img"
-          className="details-img"
-        />
-        <p
-          className="details-desc"
-          dangerouslySetInnerHTML={{
-            __html: props.eventDetails.events[props.location.state.clave].desc
-          }}
-        />
+class EventDetailsConvocatorias extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pdfs: this.props.eventDetails.pdfs
+    };
+  }
+
+  // Aqui usamos (substring) para que la fecha se nos muestre como Dia-Mes-Año y no nos muestre la hora.
+  // Tambien usamos (__html) para que interprete ese contenido como HTML y no como caracteres de control.
+  // Ademas usamos (pdfs.map) para que se nos apliquen las mismas funciones en todos los pdfs que mostramos.
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <div className="event-container">
+          <p className="details-name">
+            {
+              this.props.eventDetails.events[this.props.location.state.clave]
+                .name
+            }
+          </p>
+          <p className="details-date">
+            {this.props.eventDetails.events[
+              this.props.location.state.clave
+            ].date_fin_convocatoria.substring(0, 10)}
+          </p>
+          <div className="details-container">
+            <p className="lista-pdf">
+              {this.props.eventDetails.events[
+                this.props.location.state.clave
+              ].pdfs.map(item => (
+                <div className="enlace">
+                  <ManejoPdf item={item} />
+                </div>
+              ))}
+            </p>
+            <p
+              className="details-desc"
+              dangerouslySetInnerHTML={{
+                __html: this.props.eventDetails.events[
+                  this.props.location.state.clave
+                ].desc
+              }}
+            />
+          </div>
+        </div>
+        <div className="empty-hack" />
       </div>
-    </div>
-    <div className="empty-hack" />
-    <Footer />
-  </div>
-);
-
-EventDetailsConvocatorias.propTypes = {
-  eventDetailsConvocatorias: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired
-  }).isRequired
-};
+    );
+  }
+}
 
 export default EventDetailsConvocatorias;
