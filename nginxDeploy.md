@@ -28,14 +28,20 @@ server {
     listen  8080;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ## Raíz donde se encuentra la aplicación 
 =======
+=======
+>>>>>>> 691d1d3c9ba0f881ede8db02306e45f418cecf37
 <<<<<<< HEAD
     ## Raíz donde se encuentra la aplicación
 =======
     ## Raíz donde se encuentra la aplicación 
 >>>>>>> 52e9c77967c52716913ccbe47fe95d0d0a6e3dd2
+<<<<<<< HEAD
 >>>>>>> 8117f35034e478cee6e77af9270ee217f3d4ffa3
+=======
+>>>>>>> 691d1d3c9ba0f881ede8db02306e45f418cecf37
     root /var/www/dominio.com/build;
 
     ## Orden de prioridad de los archivos index
