@@ -4,7 +4,6 @@
 
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 
 class IframeConcelloTeo extends HTMLElement {
   constructor() {
@@ -33,7 +32,6 @@ class Home extends React.Component {
       <>
         <Header />
         <concello-teo />
-        <Footer />
       </>
     );
   }
