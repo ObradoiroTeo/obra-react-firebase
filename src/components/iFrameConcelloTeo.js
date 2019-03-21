@@ -8,15 +8,15 @@ class IframeConcelloTeo extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.innerHTML = `
     <style>
-    .gatito {
-      background: black;
-      border-radius: 5px;
-      padding: 8px;
+    .concelloTeo {
+      background: #0a4fc2;
+      padding: 5px;
       width: 100%;
       height: 800px;
+      box-sizing: border-box;
     }
     </style>
-    <embed class='gatito' src='https://www.xunta.gal/portada' />
+    <embed class='concelloTeo' src='https://www.xunta.gal/portada' />
     `;
   }
 }
