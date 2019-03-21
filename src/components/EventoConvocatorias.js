@@ -15,17 +15,12 @@ class EventoConvocatorias extends React.Component {
   /* En el render hay una imagen, una fecha y un nombre para cada evento. Por último, la función goToEventDetails se pasa a través de un onClick en el botón correspondiente a cada evento, para que al clicar se entre en el detalle */
   render() {
     return (
-      <ul>
-        <button
-          className="convocatoria-reduced"
-          onClick={this.goToEventDetails}
-        >
-          <p className="convocatoria-date">
-            {this.props.eventDetails.date_fin_convocatoria.substring(0, 10)}
-          </p>
-          <p className="convocatoria-name">{this.props.eventDetails.name}</p>
-        </button>
-      </ul>
+      <button className="convocatoria-reduced" onClick={this.goToEventDetails}>
+        <p className="convocatoria-date">
+          {this.props.eventDetails.date_fin_convocatoria.substring(0, 10)}
+        </p>
+        <p className="convocatoria-name">{this.props.eventDetails.name}</p>
+      </button>
     );
   }
 }

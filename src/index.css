@@ -9,7 +9,7 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
 }
 
 code {
@@ -27,9 +27,10 @@ code {
   background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
   color: white;
   font-family: "Roboto", sans-serif;
-  margin: -8px -10px 20px -10px;
-  padding-top: 5px;
+  margin: -8px -10px 0 -10px;
+  padding: 30px 0;
 }
+
 /* Logo de Teo*/
 .logo-container {
   display: flex;
@@ -37,36 +38,38 @@ code {
   align-items: center;
   flex: 25%;
   text-align: left;
-  padding: 10px 25px;
+  padding: 10px 0 10px 40px;
 }
 /* Div vacío */
 .menu {
   flex: 50%;
 }
+.item {
+  padding: 15px 10px;
+  margin: 10px;
+}
 /* Botones del header*/
 .menu-item {
   text-decoration: none;
-  color: #448aff;
-  font-weight: 500;
+  color: #357df8;
   font-size: 20px;
-  padding: 5px 10px;
-  border-radius: 3px;
-  background-color: white;
+  padding: 15px 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(199, 199, 199);
+  background-color: rgb(255, 255, 255);
   margin: 10px;
-  border-bottom: solid 5px #b3b3b3;
-  border-right: solid 5px #cccccc;
-}
-
-.menu-item:hover {
-  color: #448aff;
-  background-color: #f2f2f2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.5s, color 0.5s;
 }
 
 .menu-item:active {
-  color: #1a6eff;
-  background-color: #d9d9d9;
-  transform: translateY(4px);
-  border-bottom: none;
+  color: #a70606;
+  background-color: #c5e4fd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 /* <Header> END */
 
@@ -78,70 +81,60 @@ code {
 }
 
 /* Título de la página principal de eventos y demás*/
+.title-event-buttons section {
+  width: 35%;
+  text-align: center;
+}
+
 .title {
-  display: flex;
-  width: 20%;
-  color: #448aff;
+  color: #ffffff;
   text-shadow: 1px 1px 0 #2c353a;
-  padding-left: 15px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 /* <Month-buttons> START*/
-
-.month-buttons-container {
-  width: 45%;
+.title-event-buttons,
+.convocatorias-title {
   display: flex;
+  flex-direction: row;
+  background-color: #0a4fc2;
   justify-content: center;
 }
-.title-event-buttons {
+
+.month-buttons-container {
+  width: 65%;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-.month-button {
-  font-size: 17px;
-  padding: 5px 10px;
-  margin: 15px 10px;
-  text-decoration: none;
-  border-radius: 4px;
-  color: #ffffff;
-  background-image: linear-gradient(#448aff 0%, #39cccc 100%);
-  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
-  border-bottom: solid 3px #999999;
-  font-weight: bold;
-}
-.month-button:active {
-  transform: translateY(4px);
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+.month-button,
+.show-all-button {
+  width: 20%;
+  font-size: 18px;
+  border-right: 1px solid rgba(128, 128, 128, 0.596);
+  border-left: 2px solid rgba(128, 128, 128, 0.596);
+  border-top: none;
   border-bottom: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: transparent;
+  transition: color 0.5s;
 }
-/* Botón de mostrar todos */
-
-.show-all-container {
-  width: 80%;
-  display: flex;
-  justify-content: right;
+.month-button:first-child {
+  border-left: 3px solid rgba(128, 128, 128, 0.596);
 }
 .show-all-button {
-  font-size: 17px;
-  padding: 5px 10px;
-  margin: 15px 10px;
-  text-decoration: none;
-  border-radius: 4px;
-  color: #ffffff;
-  background-image: linear-gradient(10deg, #39cccc, #448aff, #39cccc);
-  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.29);
-  border-bottom: solid 3px #999999;
-  font-weight: bold;
+  width: 40%;
 }
+
+.month-button:active,
 .show-all-button:active {
-  transform: translateY(4px);
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-  border-bottom: none;
+  color: #a70606;
+  background-color: #357df8;
+  opacity: 0.8;
 }
 
 /* <Month-buttons> END*/
@@ -156,7 +149,7 @@ code {
 /* Caja "botón" de las miniaturas de los eventos */
 .event-reduced {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
-  margin: 5px 10px 50px 10px;
+  margin: 5px 10px 60px 10px;
   background-color: white;
   color: #003899;
   width: 350px;
@@ -175,8 +168,7 @@ code {
   z-index: -1;
 }
 .event-name {
-  display: flex;
-  align-items: center;
+  text-align: center;
   position: absolute;
   font-size: 18px;
   color: white;
@@ -185,6 +177,7 @@ code {
   margin-top: -36px;
   margin-left: -10px;
   padding: 5px;
+  min-height: 4.3em;
 }
 .event-date {
   position: absolute;
@@ -220,6 +213,7 @@ code {
   display: flex;
   flex-direction: column;
 }
+
 .details-name {
   font-size: 22px;
   font-weight: bold;
@@ -239,9 +233,9 @@ code {
 .details-container {
   display: flex;
   flex-direction: row;
-  padding: 15px;
   flex: 40%;
   background-color: white;
+  margin: 0 35px;
 }
 .details-img {
   width: 400px;
@@ -261,8 +255,11 @@ code {
 /*()Página Principal de Convocatorias*/
 .convocatoria-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-left: -40px;
 }
+
 .convocatoria-reduced {
   box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.68);
   margin: 5px 10px 50px 10px;
@@ -329,6 +326,7 @@ code {
   margin-right: 30px;
   margin-bottom: 20px;
 }
+
 .no-underline {
   text-decoration: none;
   color: white;
@@ -354,6 +352,7 @@ code {
   border-bottom: solid 3px #999999;
   font-weight: bold;
   padding: 10px 30px;
+  margin-top: 50px;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 40px;
@@ -384,6 +383,7 @@ code {
   width: 13%;
   height: 13%;
 }
+
 .logo-stgo {
   width: 6%;
   height: 6%;
