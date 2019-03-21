@@ -12,9 +12,11 @@ class EventDetailsConvocatorias extends React.Component {
       pdfs: this.props.eventDetails.pdfs
     };
   }
+
   // Aqui usamos (substring) para que la fecha se nos muestre como Dia-Mes-Año y no nos muestre la hora.
   // Tambien usamos (__html) para que interprete ese contenido como HTML y no como caracteres de control.
   // Ademas usamos (pdfs.map) para que se nos apliquen las mismas funciones en todos los pdfs que mostramos.
+
   render() {
     return (
       <div>

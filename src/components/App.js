@@ -53,7 +53,7 @@ class App extends React.Component {
       .then(axenda => {
         this.setState({ axenda: axenda });
       });
-    fetch("https://www.formacion1.teo.gal/qiosco/convocatorias.json")
+    fetch("https://www.formacion1.teo.gal/quiosco/convocatorias.json")
       .then(response => response.json())
       .then(convocatorias => {
         this.setState({ convocatorias: convocatorias });
@@ -96,6 +96,8 @@ class App extends React.Component {
   //componentWillUnmount() {
   // base.removeBinding(this.ref);
   //}
+
+  // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
 
   // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {

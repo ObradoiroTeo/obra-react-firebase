@@ -15,7 +15,7 @@ class Novas extends React.Component {
     this.props.resetVisibility(this.props.eventsKey);
   }
 
-  /*Renderiza, igual que en todos los componentes, el Header , así como los componentes SectionTitle y SectionEventsNovas, que muestran el título y la página de Novas al completo. En SectionTitle se pasa "title" para poder mostrar el título y en SectionEventsNovas se pasa "events", que coge toda la información de las Novas (nombre, descripción, imagen, etc.) 
+  /*Renderiza, igual que en todos los componentes, el Header, así como los componentes SectionTitle y SectionEventsNovas, que muestran el título y la página de Novas al completo. En SectionTitle se pasa "title" para poder mostrar el título y en SectionEventsNovas se pasa "events", que coge toda la información de las Novas (nombre, descripción, imagen, etc.) 
   
   Además, le pasa al componente ButtonsNovas las funciones handleFiltering, que se encargan de filtrar los eventos por mes (una para el primero, otra para el segundo y otra para el tercero). También le pasa eventsKey, que es la información de todos los eventos en conjuto, y resetVisibility, para que vuelvan a aparecer todos una vez filtrados
   */
