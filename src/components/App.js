@@ -99,7 +99,7 @@ class App extends React.Component {
 
   // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
 
-  // Esta funcion es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
+  // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
   getNextMonth = actualMonth => {
     let nextMonth = actualMonth + 1;
     if (nextMonth > 11) {

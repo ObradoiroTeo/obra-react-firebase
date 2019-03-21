@@ -45,11 +45,6 @@ Lo editamos con sudo nano .htaccess y añadimos:
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Notas
-
-En la guia uso editor `nano`. Para guardar `control+O` para salir `control+X`
-Para moverte por los directorios usa el Terminal.
-
 ## Montar el Deploy en Apache
 
 Pasos a seguir para ejecutar la app en Server Apache.
@@ -60,8 +55,12 @@ Ejecutamos este script en la carpeta del proyecto para crear un deploy de nuestr
 
 ### `/var/www/`
 
+<<<<<<< HEAD
+En el directorio /var/www/al que accedemos por consola o por `otras ubicaciones/equipo` creamos una carpeta `ejemplo:miWeb` para pegar todos los archivos generados con el build.
+=======
 En el directorio /var/www/ al que accedemos por consola o por `otras ubicaciones/equipo` creamos una carpeta `ejemplo: miWeb` para
 pegar todos los archivos generados con el build.
+>>>>>>> 52e9c77967c52716913ccbe47fe95d0d0a6e3dd2
 
 ### `sites-available`
 
@@ -71,8 +70,7 @@ Creamos una copia de 000-default.conf que se llame miWeb
 `sudo cp 000-default.conf miWeb.conf`
 Accedemos al nuevo archivo con sudo nano y editamos dos lineas:
 
-En la primera `virtualHost:80` cambiar a `:8080`
-Mas abajo en DocumentRoot cambiamos a `/var/www/miWeb`
+- En la primera `virtualHost:80` cambiar a `:8080`
 
 este es el puerto por el que accederemos a nuestro sitio y la dirección donde está.
 
@@ -133,4 +131,11 @@ el servicio de apache `systemctl restart apache2`
 ## Ejecución
 
 Si todo ha ido bien el el navegador escribimos `localhost:8080` y se carga la aplicación desarrollada.
+<<<<<<< HEAD
+
+## Notas
+
+En la guia uso editor nano. Para guardar `control+O` para salir `control+X`
+=======
 >>>>>>> 3cf5bdf05485486cb2180d1abae1aef643efd136
+>>>>>>> 52e9c77967c52716913ccbe47fe95d0d0a6e3dd2

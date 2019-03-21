@@ -11,6 +11,7 @@ class IframeConcelloTeo extends HTMLElement {
     .concelloTeo {
       background: #0a4fc2;
       padding: 5px;
+
       width: 100%;
       height: 800px;
       box-sizing: border-box;
