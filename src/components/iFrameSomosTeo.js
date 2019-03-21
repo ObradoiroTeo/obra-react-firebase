@@ -19,7 +19,7 @@ class IframeSomosTeo extends HTMLElement {
       height: 800px;
     }
     </style>
-    <embed class='somosTeo' src='http://hbo.es' />
+    <embed class='somosTeo' src='https://www.edu.xunta.es/webmail/login.php' />
     `;
   }
 }
