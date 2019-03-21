@@ -20,7 +20,7 @@ import IFrameSomosTeo from "./iFrameSomosTeo";
 
 //import sampleConvocatorias from "../sample-Convocatorias.json";
 //import sampleNovas from "../sample-Novas.json";
-//import base from "../base";
+import base from "../base";
 //import sampleAxenda from "../sample-Axenda.json";
 
 // App contiene practicamente toda la funcionalidad de nuetra Pagina Web 👇
@@ -35,10 +35,6 @@ class App extends React.Component {
       axenda: {},
       convocatorias: {}
     };
-  }
-
-  componentDidMount() {
-    this.fetchData();
   }
 
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
@@ -76,7 +72,7 @@ class App extends React.Component {
   };
 
   /*Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM. */
-  /*
+
   componentDidMount() {
     this.ref = base.syncState(`convocatorias`, {
       context: this,
@@ -90,12 +86,13 @@ class App extends React.Component {
       context: this,
       state: "axenda"
     });
+    this.fetchData();
   }
 
   /*ComponentWillUnmount se ejecuta justo antes de que el componente sea destruido o eliminado del DOM, limpiando el componente en su totalidad. En este caso, limpiaría base, que es donde se encuentran cargados los datos de firebase .*/
-  //componentWillUnmount() {
-  // base.removeBinding(this.ref);
-  //}
+  componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }
 
   // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
 
