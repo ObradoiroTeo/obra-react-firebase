@@ -3,12 +3,12 @@
  *  Al pinchar en el evento cambia la sección eventos por la descripción del evento en sí.
  */
 import React from "react";
-import PropTypes from "prop-types";
 import Header from "./Header";
-import Footer from "./Footer";
 
 /* Este componente muestra el nombre (name), la fecha (date), la imagen (image) y la descripción (desc) de cada uno de los eventos*/
 
+// Aqui usamos (substring) para que la fecha se nos muestre como Dia-Mes-Año y no nos muestre la hora.
+// Tambien usamos (__html) para que interprete ese contenido como HTML y no como caracteres de control.
 const EventDetailsNovas = props => (
   <div>
     <Header />
@@ -21,17 +21,7 @@ const EventDetailsNovas = props => (
       </div>
     </div>
     <div className="empty-hack" />
-
-    <Footer />
   </div>
 );
-
-EventDetailsNovas.propTypes = {
-  eventDetails: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired
-  }).isRequired
-};
 
 export default EventDetailsNovas;
