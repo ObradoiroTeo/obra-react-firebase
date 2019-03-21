@@ -45,9 +45,6 @@ class Header extends React.Component {
           <Link to="/somosteo" className="menu-item">
             Somos Teo
           </Link>
-          <Link to="/somosteo" className="menu-item">
-            SomosTeo
-          </Link>
         </nav>
         <div className="quarter" />
       </header>
