@@ -12,11 +12,11 @@ class IframeSomosTeo extends HTMLElement {
     this.shadowRoot.innerHTML = `
     <style>
     .somosTeo {
-      background: black;
-      border-radius: 5px;
-      padding: 8px;
+      background: #0a4fc2;
+      padding: 5px;
       width: 100%;
       height: 800px;
+      box-sizing: border-box;
     }
     </style>
     <embed class='somosTeo' src='https://www.edu.xunta.es/webmail/login.php' />
