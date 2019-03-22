@@ -27,7 +27,6 @@ code {
   background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
   color: white;
   font-family: "Roboto", sans-serif;
-  margin: -8px -10px 0 -10px;
   padding: 30px 0;
 }
 
@@ -333,7 +332,14 @@ code {
 }
 .pdf-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  background-color: #f2f3f6;
+
+  border: solid 12px #448aff;
+}
+.pdf-container div:first-child {
+  margin: auto;
 }
 /* <InfoTeo-Buttons> END*/
 

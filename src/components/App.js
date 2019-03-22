@@ -37,10 +37,6 @@ class App extends React.Component {
     };
   }
 
-  componentDidMount() {
-    this.fetchData();
-  }
-
   // Esta funcion coge los datos en formato JSON de la url y mete esta informacion en el estado dividiendolos en los tres campos. 👇
   fetchData() {
     fetch("https://www.formacion1.teo.gal/quiosco/novas.json")
@@ -76,9 +72,9 @@ class App extends React.Component {
   };
 
   /*Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM. */
-  /*
+
   componentDidMount() {
-    this.ref = base.syncState(`convocatorias`, {
+    /*this.ref = base.syncState(`convocatorias`, {
       context: this,
       state: "convocatorias"
     });
@@ -89,13 +85,15 @@ class App extends React.Component {
     this.ref = base.syncState(`axenda`, {
       context: this,
       state: "axenda"
-    });
+    });*/
+    this.fetchData();
   }
 
   /*ComponentWillUnmount se ejecuta justo antes de que el componente sea destruido o eliminado del DOM, limpiando el componente en su totalidad. En este caso, limpiaría base, que es donde se encuentran cargados los datos de firebase .*/
-  //componentWillUnmount() {
-  // base.removeBinding(this.ref);
-  //}
+
+  /*componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }*/
 
   // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
 
