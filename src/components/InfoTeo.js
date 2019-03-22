@@ -75,13 +75,15 @@ class InfoTeo extends React.Component {
           <Header />
         </div>
         <div className="pdf-container">
-          <PDF
-            file="InformaTeo_Novembro_2018.pdf"
-            onDocumentComplete={this.onDocumentComplete}
-            page={this.state.page}
-          />
+          <div>
+            <PDF
+              file="/pdf_infoteo/InformaTeo.pdf"
+              onDocumentComplete={this.onDocumentComplete}
+              page={this.state.page}
+            />
+          </div>
+          {pagination}
         </div>
-        {pagination}
       </div>
     );
   }
