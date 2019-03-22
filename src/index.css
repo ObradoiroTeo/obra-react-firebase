@@ -335,6 +335,7 @@ code {
   flex-direction: column;
   justify-content: center;
   background-color: #f2f3f6;
+
   border: solid 12px #448aff;
 }
 .pdf-container div:first-child {
