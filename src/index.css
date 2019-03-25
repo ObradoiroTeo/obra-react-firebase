@@ -16,7 +16,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* Inicio START*/
+.texto-inicio {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 50px;
+  border-top: solid #357df8 1px;
+  border-bottom: solid #357df8 1px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background: linear-gradient(45deg, #c5e4fd, #ffffff, #c5e4fd);
+}
 
+/* Inicio FIN */
 /* <Header> START */
 
 .header-container {
