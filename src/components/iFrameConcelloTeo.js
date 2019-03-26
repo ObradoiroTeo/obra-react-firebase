@@ -17,7 +17,7 @@ class IframeConcelloTeo extends HTMLElement {
       box-sizing: border-box;
     }
     </style>
-    <embed class='concelloTeo' src='https://www.xunta.gal/portada' />
+    <embed class='concelloTeo' src='https://www.formacion1.teo.gal/' />
     `;
   }
 }
