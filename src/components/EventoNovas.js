@@ -1,13 +1,13 @@
 /**
- * Componente que define cada elemento (li) de la lista (ul) que esta definida en SeccionEventAxenda.
+ * Componente que define cada elemento (li) de la lista (ul) que esta definida en SeccionEventNovas.
  */
 import React from "react";
 import { navigate } from "@reach/router";
 
-/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por: /axenda/"el nombre de cada evento". A través del state se cargan los datos relativos a cada evento */
-class EventoAxenda extends React.Component {
+/* La función goToEventDetails permite acceder al detalle de cada evento al clicar sobre él. La dirección está compuesta por /novas/el nombre de cada evento. A través del state se cargan los datos relativos a cada evento */
+class EventoNovas extends React.Component {
   goToEventDetails = eventKey => {
-    navigate(`/axenda/${this.props.eventDetails.name}`, {
+    navigate(`/novas/${this.props.eventDetails.name}`, {
       state: { clave: this.props.indice }
     });
   };
@@ -21,9 +21,7 @@ class EventoAxenda extends React.Component {
           src={this.props.eventDetails.image}
           alt="imagen"
         />
-        <p className="event-date">
-          {this.props.eventDetails.date_event.substring(0, 10)}
-        </p>
+        <p className="event-date">{this.props.eventDetails.date}</p>
 
         <p className="event-name">{this.props.eventDetails.name}</p>
       </button>
@@ -31,4 +29,4 @@ class EventoAxenda extends React.Component {
   }
 }
 
-export default EventoAxenda;
+export default EventoNovas;

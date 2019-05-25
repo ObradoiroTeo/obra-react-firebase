@@ -1,7 +1,13 @@
+/**
+ * Componente que contiene y muestra el conjunto de eventos seleccionados en una lista.
+ */
 import React from "react";
-import Evento from "./Evento";
-import PropTypes from "prop-types";
+import EventoNovas from "./EventoNovas";
 
+// En esta funcion hacemos una serie de filtrados para que se muestren unos eventos y otros no en la pagina de Novas. 👇
+// Primero hacemos un filtrado por la fecha usando (actualDate). Definida y explicada en App.
+// Despues hacemos otro filtrado segun el valor de (visible).
+// Por ultimo usamos un (.map) para aplicar las funciones anteriores a todos los eventos que entran en esta pagina.
 const SectionEventsNovas = props => (
   <ul className="events-container">
     {Object.keys(props.events)
@@ -12,13 +18,9 @@ const SectionEventsNovas = props => (
       })
       .filter(eventKey => props.events[eventKey].visible)
       .map(eventKey => (
-        <Evento key={eventKey} eventDetails={props.events[eventKey]} />
+        <EventoNovas indice={eventKey} eventDetails={props.events[eventKey]} />
       ))}
   </ul>
 );
-
-SectionEventsNovas.propTypes = {
-  events: PropTypes.object.isRequired
-};
 
 export default SectionEventsNovas;
