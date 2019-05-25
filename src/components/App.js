@@ -18,10 +18,10 @@ import EventDetailsNovas from "./EventDetailsNovas";
 import IFrameConcelloTeo from "./iFrameConcelloTeo";
 import IFrameSomosTeo from "./iFrameSomosTeo";
 
-//import sampleConvocatorias from "../sample-Convocatorias.json";
-//import sampleNovas from "../sample-Novas.json";
-//import base from "../base";
-//import sampleAxenda from "../sample-Axenda.json";
+import sampleConvocatorias from "../sample-Convocatorias.json";
+import sampleNovas from "../sample-Novas.json";
+import base from "../base";
+import sampleAxenda from "../sample-Axenda.json";
 
 // App contiene practicamente toda la funcionalidad de nuetra Pagina Web 👇
 // state es donde se guarda toda la informacion de los eventos dividiendolos en novas, axenda y convocatorias
@@ -58,7 +58,7 @@ class App extends React.Component {
 
   // FUNCION DE RESERVA -> En caso de que tengamos problemas con las url de arriba podemos usar estas funciones para la misma funcionalidad. Pero en este caso coge la informacion de (sampleConvocatorias, sampleNovas y sampleAxenda) archivos que tenemos que crear. 👇
 
-  /*
+  
   loadSampleConvocatorias = () => {
     this.setState({ convocatorias: sampleConvocatorias });
   };
@@ -71,10 +71,10 @@ class App extends React.Component {
     this.setState({ axenda: sampleAxenda });
   };
 
-  /*Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM. */
+  /* Cuando se usa componentDidMount el código que retorna la función ya ha sido renderizado en el DOM y en la interfaz. En este caso, se volverá a cargar el state de Convocatorias, Novas y Axenda una vez que el componente ya haya sido montado en el DOM.  */
 
   componentDidMount() {
-    /*this.ref = base.syncState(`convocatorias`, {
+    this.ref = base.syncState(`convocatorias`, {
       context: this,
       state: "convocatorias"
     });
@@ -85,15 +85,15 @@ class App extends React.Component {
     this.ref = base.syncState(`axenda`, {
       context: this,
       state: "axenda"
-    });*/
+    });
     this.fetchData();
   }
 
   /*ComponentWillUnmount se ejecuta justo antes de que el componente sea destruido o eliminado del DOM, limpiando el componente en su totalidad. En este caso, limpiaría base, que es donde se encuentran cargados los datos de firebase .*/
 
-  /*componentWillUnmount() {
+  componentWillUnmount() {
     base.removeBinding(this.ref);
-  }*/
+  }
 
   // Esta función es la que usamos para los botones de filtrado por meses. Se usa para que los botones de los meses se actualicen automaticamente 👇
 
@@ -295,9 +295,9 @@ class App extends React.Component {
           <InfoTeo path="/informateo" />
           <Admin
             path="/admin"
-            //Convocatorias={this.loadSampleConvocatorias}
-            //Novas={this.loadSampleNovas}
-            //Axenda={this.loadSampleAxenda}
+            Convocatorias={this.loadSampleConvocatorias}
+            Novas={this.loadSampleNovas}
+            Axenda={this.loadSampleAxenda}
           />
 
           <NotFound default />

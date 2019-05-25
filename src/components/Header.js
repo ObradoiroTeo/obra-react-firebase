@@ -39,11 +39,11 @@ class Header extends React.Component {
           <Link to="/concelloteo" className="menu-item">
             Concello de Teo
           </Link>
-          {/*<Link to="/admin" className="menu-item">
-            Admin
-          </Link>*/}
           <Link to="/somosteo" className="menu-item">
             Somos Teo
+          </Link>
+          <Link to="/admin" className="menu-item">
+            Admin
           </Link>
         </nav>
         <div className="quarter" />
